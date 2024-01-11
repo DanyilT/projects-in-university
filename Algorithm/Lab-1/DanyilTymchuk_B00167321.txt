@@ -1,0 +1,122 @@
+	// Question 1:
+
+// Program to print the message "Java Programming Rocks"
+
+// Declare variables
+string message
+
+// Set the value of the message variable
+message = "Java Programming \n\n Rocks"		/* NOTE: \n - its the newline character */
+
+// Print the message
+print message
+
+	// Output:
+
+Java Programming 
+
+ Rocks
+
+/* ********************************************************* */
+
+	// Question 2:
+
+// Program to print the answers to the following arithmetic expressions on separate lines
+
+// Declare variables
+// Calculate the results of the expressions
+int result1 = 4 * 4
+int result2 = 3 * 7 + -2 * -8
+double result3 = (2 * 5 - 6) / (4 * 8 - 2 * 3)
+
+// Print the results and the expressions
+print "4 × 4 = " + result1
+print newline
+print "3 × 7 + (-2 × -8) = " + result2
+print newline
+print "((2 × 5) - 6) / ((4 × 8) - (2 × 3)) = " + result3
+
+	// Output:
+
+4 × 4 = 16
+3 × 7+(-2 × -8) = 31
+((2 × 5)-6)/((4 × 8)-(2 ×3)) = 0.5
+
+/* ********************************************************* */
+
+	// Question 3:
+
+// Program to print the values stored in number1 and number2 to the screen on separate lines
+
+// Declare variables
+int number1 = 71
+float number2 = 3.14f
+
+// Print the values of the variables
+print "number1 = " + number1
+print newline
+print "number2 = " + number2
+
+	// Output:
+
+number1 = 71
+number2 = 3.14
+
+/* ********************************************************* */
+
+	// Question 4:
+
+// Program to calculate the employees gross weekly wage and print it to screen
+
+// Declare variables
+float hourlyRate = 9.80f
+int hoursWorked = 42
+double grossWeeklyWage
+
+// Calculate the gross weekly wage
+grossWeeklyWage = hourlyRate * hoursWorked
+
+// Print the gross weekly wage
+println "Hourly rate is " + hourlyRate			/* NOTE: I added 'ln' to 'print' at the end (println) so that the next message is on a new line */
+println "Hours worked is " + hoursWorked		/* NOTE: I added 'ln' to 'print' at the end (println) so that the next message is on a new line */
+println "Gross weekly is " + grossWeeklyWage	/* NOTE: I added 'ln' to 'print' at the end (println) so that the next message is on a new line */
+
+	// Output:
+
+Hourly rate is 9.8
+Hours worked is 42
+Gross weekly is 411.6
+
+/* ********************************************************* */
+
+	// Question 5:
+
+// Function to evaluate f(x)
+
+function f(x):
+  return x * x + 3 * x - 5
+
+// Program to evaluate f(x), where x = 4 and f(x), where x = 6
+
+// Declare variables
+int x1 = 4
+int x2 = 6
+double result1
+double result2
+
+// Evaluate f(x) where x = 4 and x = 6
+result1 = f(x1)
+result2 = f(x2)
+
+// Print the results and the expressions
+print "f(x) = x * x + 3 * x - 5"
+print newline
+print "f(4) = " + result1
+print newline
+print "f(6) = " + result2
+
+	// Output:
+
+f(x) = x * x + 3 * x - 5
+f(4) = 9
+f(6) = 37

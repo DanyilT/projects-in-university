@@ -1,0 +1,93 @@
+					Pseudocode Problems Week 2
+
+------------------------------------------------------------------------
+	// Question 1
+
+// Program to print the quotient and remainder on dividing the constant X by the constant Y
+
+// Declare variables
+const int X = 5
+const int Y = 3
+int quotient
+int remainder
+
+// Calculate the quotient and remainder
+quotient = X / Y
+remainder = X % Y
+
+// Print the result
+PRINT("Quotient (X / Y):" + quotient + "; Remainder (X % Y):" + remainder)
+
+------------------------------------------------------------------------
+	// Question 2
+
+// Program to calculate an employee's gross weekly pay
+
+// Declare variables
+double hours_worked
+double hourly_rate
+double gross_pay
+
+// Get input from user
+PRINT LN("Enter the number of hours worked:")
+hours_worked = USER INPUT
+PRINT LN("Enter the hourly rate of pay:")
+hourly_rate = USER INPUT
+
+// Calculate the gross pay
+gross_pay = hours_worked * hourly_rate
+
+// Print the result
+PRINT("Hours worked:" + hours_worked)
+PRINT("Hourly rate:" + hourly_rate)
+PRINT("The employee's gross weekly pay is:" + gross_pay)
+
+------------------------------------------------------------------------
+	// Question 3
+
+// Program to prompt the user for four integer values and print their average
+
+// Declare variables
+int value1
+int value2
+int value3
+int value4
+double average
+
+// Get input from user
+PRINT LN("Enter the first integer value:")
+value1 = USER INPUT
+PRINT LN("Enter the second integer value:")
+value2 = USER INPUT
+PRINT LN("Enter the third integer value:")
+value3 = USER INPUT
+PRINT LN("Enter the fourth integer value:")
+value4 = USER INPUT
+
+// Calculate the average
+average = (value1 + value2 + value3 + value4) / 4
+
+// Print the result
+PRINT("The average of the four integer values is:" + average)
+
+------------------------------------------------------------------------
+	// Question 4
+
+// Program to calculate the volume of a cylinder
+
+// Declare variables
+double radius
+double height
+double volume
+
+// Get input from user
+PRINT LN("Enter the radius of the cylinder:")
+radius = USER INPUT
+PRINT LN("Enter the height of the cylinder:")
+height = USER INPUT
+
+// Calculate the volume
+volume = 3.14 * radius*radius * height
+
+// Print the result
+PRINT("The volume of the cylinder is:" + volume)

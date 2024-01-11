@@ -1,0 +1,123 @@
+					Pseudocode Problems Week 3
+
+------------------------------------------------------------------------
+		// Problem 1: Evaluate Boolean Expressions
+// No need to declare variables.
+
+// Expression I
+IF (5 - 1 != 3)
+    PRINT ("5 - 1 != 3 is true")
+ELSE
+    PRINT ("5 - 1 != 3 is false")
+END IF
+
+// Expression II
+IF (100 % 50 == 0)
+    PRINT ("100 % 50 == 0 is true")
+ELSE
+    PRINT ("100 % 50 == 0 is false")
+END IF
+
+// Expression III
+IF ((21 + 7) / 4 >= 100)
+    PRINT ("(21 + 7) / 4 >= 100 is true")
+ELSE
+    PRINT ("(21 + 7) / 4 >= 100 is false")
+END IF
+
+------------------------------------------------------------------------
+		// Problem 2: Evaluate Boolean Expressions
+// Declare variables
+INT x
+INT y
+
+// Assign values to x and y
+x = 4
+y = 10
+
+// a) X is an even number
+IF x % 2 == 0
+    PRINT ("x is an even number is true")
+ELSE
+    PRINT ("x is an even number is false")
+END IF
+
+// b) X multiplied by 5 is less than 7 squared
+IF (x * 5) < (7 * 7)
+    PRINT ("x multiplied by 5 is less than 7 squared is true")
+ELSE
+    PRINT ("x multiplied by 5 is less than 7 squared is false")
+END IF
+
+// c) Y minus X is positive
+IF (y - x) > 0
+    PRINT ("y minus x is positive is true")
+ELSE
+    PRINT ("y minus x is positive false")
+END IF
+
+// d) Y cubed is less than 100
+IF (y * y * y) < 100
+    PRINT ("y cubed is less than 100 is true")
+ELSE
+    PRINT ("y cubed is less than 100 false")
+END IF
+
+------------------------------------------------------------------------
+        // Problem 3: Determine PASS or FAIL
+// Declare variable
+INT grade
+
+// Get input from the user
+PRINT ("Enter the student's grade out of 100: ")
+INPUT (grade)
+
+// Check if the grade is 40% or higher
+IF (grade >= 40)
+    PRINT ("PASS")
+ELSE
+    PRINT ("FAIL")
+END IF
+
+------------------------------------------------------------------------
+        // Problem 4: Convert Month Number to Month Name
+// Declare variables
+INT monthNumber
+STRING monthName
+
+// Get input from the user
+PRINT ("Enter a month number (1-12): ")
+INPUT (monthNumber)
+
+// Determine month name based on the month number
+SWITCH monthNumber
+    CASE 1:
+        monthName = "January"
+    CASE 2:
+        monthName = "February"
+    CASE 3:
+        monthName = "March"
+    CASE 4:
+        monthName = "April"
+    CASE 5:
+        monthName = "May"
+    CASE 6:
+        monthName = "June"
+    CASE 7:
+        monthName = "July"
+    CASE 8:
+        monthName = "August"
+    CASE 9:
+        monthName = "September"
+    CASE 10:
+        monthName = "October"
+    CASE 11:
+        monthName = "November"
+    CASE 12:
+        monthName = "December"
+    DEFAULT:
+        monthName = "Invalid month number"
+END SWITCH
+
+// Output the month name
+PRINT ("Month Name: " + monthName)

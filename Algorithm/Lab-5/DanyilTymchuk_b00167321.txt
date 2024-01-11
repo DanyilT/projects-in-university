@@ -1,0 +1,70 @@
+					Pseudocode Problems Week 5
+
+------------------------------------------------------------------------
+		// Problem 1: Evaluate and Print Expressions
+// Declare variables
+INT number
+STRING[] ones, tens, special
+
+// Initialize arrays for ones and tens places
+ones = ["one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+        "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"]
+tens = ["twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"]
+
+// Get input from the user
+PRINT ("Enter an integer between 1 and 100: ")
+INPUT (number)
+
+// Check if the number is within the valid range
+IF (number < 1 || number > 100)
+    PRINT ("Invalid number!")
+ELSE IF (number < 20)
+    PRINT (ones[number - 1])  // Arrays starts from 0 
+ELSE IF (number < 100)
+    // Split the number into tens and ones places
+    INT tensPlace, onesPlace
+    tensPlace = (number / 10)
+    onesPlace = (number % 10)
+
+    // Output the number in words
+    PRINT (tens[tensPlace - 2] + " " + ones[onesPlace - 1]) // Arrays starts from 0 
+ELSE
+    PRINT ("one hundred")
+END IF
+
+------------------------------------------------------------------------
+		// Problem 2: Identify Number as Positive, Negative, or Zero
+// Declare variables
+INT a, b, c
+STRING triangleType
+
+// Get input from the user for the lengths of three sides
+PRINT ("Enter the length of side a: ")
+INPUT (a)
+PRINT ("Enter the length of side b: ")
+INPUT (b)
+PRINT ("Enter the length of side c: ")
+INPUT (c)
+
+// Check if it's a triangle based on the triangle inequality theorem
+IF (a + b > c && a + c > b && b + c > a)
+    // Check if it's an equilateral triangle
+    IF (a = b && b = c)
+        triangleType = ("Equilateral")
+    // Check if it's an isosceles triangle
+    ELSE IF (a = b || a = c || b = c)
+        triangleType = ("Isosceles")
+    // If it's not equilateral or isosceles, it's scalene
+    ELSE
+        triangleType = ("Scalene")
+    END IF
+
+    // Check for right-angled triangle using Pythagorean Theorem
+    IF (a * a + b * b == c * c) || (b * b + c * c == a * a) || (a * a + c * c == b * b)
+        PRINT ("Triangle, " + triangleType + ", right-angled")
+    ELSE
+        PRINT ("Triangle, " + triangleType + ", not right-angled")
+    END IF
+ELSE
+    PRINT ("Not a triangle")
+END IF
