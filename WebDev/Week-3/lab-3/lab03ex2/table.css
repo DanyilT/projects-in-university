@@ -1,0 +1,12 @@
+table {
+    background: #f9e9a8;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+table, th, td {
+    border: 1px black solid;
+}
