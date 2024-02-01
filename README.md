@@ -1,11 +1,10 @@
 # projects-in-university
 TU Dublin - Cyber Security
 
-This repository contains various projects I've worked on during my time at university. The projects are organized by year and subject, showcasing a range of skills and knowledge acquired throughout my studies.
-
 ## Table of Contents
 
 - [Introduction](#introduction)
+  - [Example of work](#Example-of-work)
 - [Year 1](#year-1)
   - [Algorithm](#algorithm)
   - [Computer Architecture](#computer-architecture)
@@ -18,50 +17,46 @@ This repository contains various projects I've worked on during my time at unive
 
 ## Introduction
 
-This repository serves as a comprehensive collection of my academic projects, ranging from foundational programming to advanced topics in computer science and engineering. Each project within this repository demonstrates my commitment to learning and my ability to apply theoretical knowledge to practical challenges.
+This repository serves as a comprehensive collection of my academic projects. The projects are organized by year and subject, showcasing a range of skills and knowledge acquired throughout my studies.
+
+### Example of work
+
+[WebDev Lab3/ex1 products page](/Year1/WebDev/Sem1/Lab3/lab03ex1/)
+What was wanted
+![Project Screenshot](/Year1/WebDev/Sem1/Lab3/lab03ex1/img/Wanted-Result)
+What I made
+![Project Screenshot](/Year1/WebDev/Sem1/Lab3/lab03ex1/img/My-Result)
 
 ## Year 1
 
 ### [Algorithm](/Year1/Algorithm)
 
-Projects and labs focused on algorithms, including various lab exercises and coursework assignments.
+This section includes a collection of lab exercises and coursework assignments focused on algorithm design and analysis. Each project within this category is designed to enhance understanding of various algorithmic strategies, such as sorting, searching, and optimization techniques, and their applications in solving complex computational problems.
 
-- Lab-1
-- Lab-2
-- Lab-3
-- Lab-4
-- Lab-5
-- Lab-6
-- Lad-7
-- CA-1
-- CA-2
+### [Computer Architecture](/Year1/ComputerAchitecture)
 
-### Computer Architecture
+Projects related to computer architecture, including working with Arduino. This area focuses on understanding the hardware aspects of computing systems and how software interacts with hardware.
 
-Projects related to computer architecture, including working with Arduino.
+### [Programming](/Year1/Programming)
 
-- Arduino
+The Programming section is divided by semesters, showcasing a progression in programming skills and concepts learned throughout the year.
 
-### Programming
+#### [Semester 1](/Year1/Programming/Sem1)
 
-Programming projects and assignments divided by semester.
+Projects in this semester introduce fundamental programming concepts using language Java.
 
-#### Semester 1
+#### [Semester 2](/Year1/Programming/Sem2)
 
-Details about projects in Semester 1.
+The second semester advances to more complex topics, such as object-oriented programming and software design principles.
 
-#### Semester 2
+### [Web Development](/Year1/WebDev)
 
-Details about projects in Semester 2.
+Web Development projects are divided into two semesters, reflecting an introductory then advanced exploration into web technologies and frameworks.
 
-### Web Development
+#### [Semester 1](/Year1/WebDev/Sem1)
 
-Web development projects and assignments, showcasing frontend and backend skills.
+The focus is on foundational web technologies, including HTML and CSS.
 
-#### Semester 1
+#### [Semester 2](/Year1/WebDev/Sem2)
 
-Projects focused on foundational web development skills.
-
-#### Semester 2
-
-Advanced web development projects.
+The focus is on JavaScript and more HTML and CSS.
