@@ -1,0 +1,135 @@
+body {
+    background-color: rgba(222, 184, 135, 0.5);
+    font-family: serif;
+}
+
+header {
+    border-radius: 5px;
+    background-color: #e4e4e4;
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+
+header h1#green-heading {
+    color: green;
+    font-weight: 300;
+}
+
+.logo {
+    height: 150px;
+}
+
+.banner {
+    width: 80%;
+}
+
+hr {
+    border: 1px solid blue;
+    margin: 0 20px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+main {
+    background-color: #f2f2f2;
+    margin: 45px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.two-column {
+    display: flex;
+    align-items: center;
+}
+
+.column {
+    margin: 20px;
+}
+
+.left {
+    width: 25%;
+    padding: 10px;
+}
+
+.shop-image {
+    max-width: 100%;
+    display: block;
+    border-radius: 10px;
+    margin: 1;
+}
+
+.right {
+    padding: 10px;
+    background-color: rgba(222, 184, 135, 0.4);
+    border-radius: 10px;
+}
+
+h2.custom-heading {
+    font-size: 2em;
+    background-color: hotpink;
+    color: black;
+    text-align: center;
+    font-style: oblique;
+    text-transform: small-caps;
+    text-decoration: underline;
+}
+
+h2 {
+    color: red;
+}
+
+.paragraphs {
+    color: cyan;
+    font-family: "Times New Roman", Georgia, Serif;
+    text-indent: 50px;
+}
+
+span {
+    font-style: italic;
+}
+
+a:link {
+    color: purple;
+    text-decoration: none;
+}
+
+a:visited {
+    color: green;
+    text-decoration: none;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: blue;
+    text-decoration: none;
+}
+
+footer {
+    border-radius: 5px;
+    background-color: #2c2c2c;
+    color: cyan;
+    text-align: center;
+    padding: 10px;
+}
+
+.small-text {
+    font-size: 0.8em;
+}
