@@ -22,7 +22,7 @@ This repository serves as a comprehensive collection of my academic projects, ra
 
 ## Year 1
 
-### (Algorithm)[/Year1/Algorithm]
+### [Algorithm](/Year1/Algorithm)
 
 Projects and labs focused on algorithms, including various lab exercises and coursework assignments.
 
