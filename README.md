@@ -23,9 +23,9 @@ This repository serves as a comprehensive collection of my academic projects. Th
 
 [WebDev Lab3/ex1 products page](/Year1/WebDev/Sem1/Lab3/lab03ex1/)
 What was wanted
-![Project Screenshot](/Year1/WebDev/Sem1/Lab3/lab03ex1/img/Wanted-Result)
+![Project Screenshot](/Year1/WebDev/Sem1/Lab3/lab03ex1/img/Wanted%20Result)
 What I made
-![Project Screenshot](/Year1/WebDev/Sem1/Lab3/lab03ex1/img/My-Result)
+![Project Screenshot](/Year1/WebDev/Sem1/Lab3/lab03ex1/img/My%20Result)
 
 ## Year 1
 
