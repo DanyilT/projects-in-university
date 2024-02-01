@@ -8,6 +8,9 @@ TU Dublin - Cyber Security
 - [Year 1](#year-1)
   - [Algorithm](#algorithm)
   - [Computer Architecture](#computer-architecture)
+  - [Networking](#networking)
+    - [Semester 1](#semester-1)
+    - [Semester 2](#semester-2)
   - [Programming](#programming)
     - [Semester 1](#semester-1)
     - [Semester 2](#semester-2)
@@ -38,6 +41,16 @@ This section includes a collection of lab exercises and coursework assignments f
 ### [Computer Architecture](/Year1/ComputerAchitecture)
 
 Projects related to computer architecture, including working with Arduino. This area focuses on understanding the hardware aspects of computing systems and how software interacts with hardware.
+
+### [Networking](/Year1/Networking)
+
+#### [Semester 1](/Year1/Networking/Sem1)
+
+I delved into the realm of computer networks with a focus on Packet Tracer Learning. This subject provided hands-on experience with network simulation and configuration, essential for understanding the backbone of internet and intranet connections.
+
+#### [Semester 2](/Year1/Networking/Sem2)
+
+Projects and exercises designed to deepen understanding of how routers work, their configuration, and their role in connecting different network segments. These practical exercises simulate real-world networking scenarios, allowing for a comprehensive learning experience in network topology design and troubleshooting.
 
 ### [Programming](/Year1/Programming)
 
