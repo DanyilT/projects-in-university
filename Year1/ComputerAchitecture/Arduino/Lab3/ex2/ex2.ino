@@ -7,7 +7,7 @@ void setup() {
   Serial.begin(9600);
 
   servoLeft.attach(13); // Attach left signal to pin 13
-  servoRight.attach(12); // Attach left signal to pin 12
+  servoRight.attach(12); // Attach right signal to pin 12
   
   servoLeft.writeMicroseconds(1300); // Pin 13 clockwise
   servoRight.writeMicroseconds(1300); // Pin 12 clockwise
