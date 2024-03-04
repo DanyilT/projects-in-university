@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>АТБ Shopping Cart</title>
+        <link rel="stylesheet" href="shopCart.css">
+        <script src="shopCart.js"></script>
+    </head>
+    <body>
+        <div class="shopping-cart">
+            <header>
+                <h1>АТБ</h1>
+                <p>Not a Sil`po</p>
+            </header>
+            <form id="cart">
+                <table>
+                    <tr>
+                        <th>Item</th>
+                        <th>Qty</th>
+                        <th>Price</th>
+                        <th>Total</th>
+                    </tr>
+                    <tr class="item" data-price="0.70">
+                        <td><img src="img/Donut.webp" alt="Donut">Donut</td>
+                        <td><input type="number" class="qty" value="0" min="0"></td>
+                        <td class="price">&euro; 0.70</td>
+                        <td class="total">&euro; 0</td>
+                    </tr>
+                    <tr class="item" data-price="1">
+                        <td><img src="img/Coca-Cola.webp" alt="Coca-Cola">Coca-Cola 2L (COKE)</td>
+                        <td><input type="number" class="qty" value="0" min="0"></td>
+                        <td class="price">&euro; 1</td>
+                        <td class="total">&euro; 0</td>
+                    </tr>
+                    <tr class="item" data-price="4.50">
+                        <td><img src="img/Romashka.webp" alt="Romashka">Candy Romashka</td>
+                        <td><input type="number" class="qty" value="0" min="0"></td>
+                        <td class="price">&euro; 4.50</td>
+                        <td class="total">&euro; 0</td>
+                    </tr>
+                </table>
+                <div class="totals">
+                    <span>Total</span>
+                    <span id="grandTotal">&euro; 0</span>
+                </div>
+                <button type="reset" class="button button-reset">Reset</button>
+                <button type="submit" class="button button-submit">Submit</button>
+            </form>
+        </div>
+    </body>
+</html>

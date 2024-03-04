@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>jQuery Examples</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            // Make the paragraph disappear
+            $("#disappear").click(function(){
+                $(this).hide();
+            });
+        
+            // Toggle image visibility
+            $("#hideImage").click(function(){
+                $("#imageToToggle").hide();
+            });
+            $("#showImage").click(function(){
+                $("#imageToToggle").show();
+            });
+        
+            // Panel click to reveal more content
+            $(".panel").click(function(){
+                $("#panelContent").slideToggle();
+            });
+        });
+    </script>
+    <style>
+        .panel {
+            text-align: center;
+            background-color: lightgreen;
+            padding: 10px;
+            margin-top: 10px;
+            cursor: pointer;
+        }
+
+        .hidden {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to my Web Site</h1>
+    <p id="disappear">Make me disappear.</p>
+
+    <img id="imageToToggle" src="Trash.png" alt="Unique Image" style="width:100px;"><br>
+    <button id="hideImage">Hide Image</button>
+    <button id="showImage">Show Image</button>
+
+    <footer class="panel">w3Schools jQuery
+        <div id="panelContent" class="hidden">
+            Try out the great jQuery examples on our website.
+        </div>
+    </footer>
+</body>
+</html>
