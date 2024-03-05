@@ -116,14 +116,6 @@ function updateCartDisplay() {
     let shipping = 10; // Default shipping cost
     if (total > 50) {
         shipping = 0; // Free shipping for orders over €50
-
-        // Optionally, display the shipping cost
-        const shippingDisplay = document.querySelector('.shipping-cost');
-        shippingDisplay.textContent = `Shipping: €${shipping.toFixed(2)}`;
-    } else {
-                // Optionally, display the shipping cost
-                const shippingDisplay = document.querySelector('.shipping-cost');
-                shippingDisplay.textContent = `Shipping: €${shipping.toFixed(2)}`;
     }
     // Update the overall total including shipping
     total += shipping;
@@ -132,9 +124,18 @@ function updateCartDisplay() {
 
     // Update the overall total
     const totalPrice = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
-    // document.querySelector('.total-price').textContent = `€${totalPrice.toFixed(2)}`;
-    document.querySelector('.total-price').textContent = `€${total.toFixed(2)}`;
+    // Calculate shipping
+    const shippingCost = totalPrice > 50 ? 0 : 10;
+    const grandTotal = totalPrice + shippingCost;
+    // Display shipping cost with a tooltip
+    const shippingDisplay = document.querySelector('.shipping-cost');
+    shippingDisplay.innerHTML = `Shipping: €${shippingCost} <span class="tooltip-text">Free shipping above €50</span>`;
 
+    // Update total price display to include shipping
+    document.querySelector('.total-price').textContent = `Total: €${grandTotal.toFixed(2)}`;
+
+    // Show shipping info tooltip on hover
+    shippingDisplay.title = "Free shipping for orders over €50";
 }
 
 function viewCart() {
