@@ -146,7 +146,7 @@ button:hover {
     cursor: pointer;
 }
 
-table {
+.cart-popup table {
     width: 100%;
     border-collapse: collapse;
     margin-bottom: 20px;
@@ -154,13 +154,13 @@ table {
     border: 1px solid #ddd;
 }
 
-th, td {
+.cart-popup th, td {
     border: 1px solid #ddd;
     padding: 10px;
     text-align: left;
 }
 
-table img {
+.cart-popup table img {
     width: 50px;
     margin-right: 10px;
     vertical-align: middle;
@@ -196,39 +196,59 @@ table img {
 .cart-bottom {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
-.cart-total {
+.buttons {
+    display: flex;
+    gap: 10px;
+}
+
+.price-section {
+    display: flex;
+    gap: 50px;
+}
+
+.price-section span {
     font-size: 1.2rem;
-    text-align: end;
 }
 
-.cart-popup button {
-    background-color: #5cb85c;
+.clear-btn {
+    background-color: #ddd;
+    color: #333;
+    width: 150px;
+    font-size: 1.2rem;
+}
+
+.clear-btn:hover {
+    background-color: #333;
     color: #fefefe;
-    width: 100%;
+    width: 150px;
 }
 
+.checkout-btn {
+    background-color: blue;
+    color: #fefefe;
+    width: 150px;
+    font-size: 1.2rem;
+}
 
-.cart-popup button:hover {
-    background-color: #5cb85c;
-    opacity: 0.8;
-    width: 100%;
+.checkout-btn:hover {
+    background-color: darkblue;
+    width: 150px;
 }
 
 .tooltip-text {
     visibility: hidden;
     width: 120px;
-    background-color: black;
-    color: #fff;
+    background-color: hsla(0, 0%, 0%, 0.7);
+    color: #fefefe;
     text-align: center;
-    border-radius: 6px;
-    padding: 5px 0;
+    border-radius: 5px;
+    padding: 5px;
     position: absolute;
     z-index: 1;
-    bottom: 100%;
-    left: 50%;
-    margin-left: -60px;
+    bottom: 10%;
 }
 
 .shipping-cost:hover .tooltip-text {

@@ -4,14 +4,14 @@ document.addEventListener('DOMContentLoaded', function() {
     // Opening the cart popup
     var btn = document.getElementById("cart-popup-button");
     var modal = document.getElementById("cart-popup");
-    var span = document.getElementsByClassName("close-cart")[0];
-
+    var close = document.getElementsByClassName("close-cart")[0];
+    
     btn.onclick = function() {
         modal.style.display = "block";
-        updateCartDisplay(); // Make sure to call this function to update cart items
+        updateCartDisplay();
     }
-
-    span.onclick = function() {
+    
+    close.onclick = function() {
         modal.style.display = "none";
     }
 
@@ -24,7 +24,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Load cart from localStorage if it exists
     if (localStorage.getItem('cart')) {
         cart = JSON.parse(localStorage.getItem('cart'));
-        updateCartDisplay(); // Update the cart display with loaded items
+        updateCartDisplay();
     }
 
     // Add to cart functionality
@@ -47,38 +47,17 @@ document.addEventListener('DOMContentLoaded', function() {
                 quantity: 1,
                 imgSrc: productImgSrc
             };
-            addToCart(cartItem); // Assuming you have a function to add items to your cart array/object
-    
-            // Update the display of the cart popup
+
+            addToCart(cartItem);
             updateCartDisplay();
         });
     });
-    document.getElementById('clear-cart-btn').addEventListener('click', function() {
-        cart = []; // Empty the cart array
-        localStorage.setItem('cart', JSON.stringify(cart)); // Update localStorage
-        updateCartDisplay(); // Refresh the cart display
-    });
-    
 });
-function addToCart(item) {
-    // Check if cart already has the item and update quantity if it does
-    let itemIndex = cart.findIndex(cartItem => cartItem.id === item.id);
-    if (itemIndex !== -1) {
-        cart[itemIndex].quantity += 1;
-    } else {
-        cart.push(item);
-    }
-
-    // Save updated cart to localStorage
-    localStorage.setItem('cart', JSON.stringify(cart));
-    updateCartDisplay();
-}
 
 function updateCartDisplay() {
     const cartTableBody = document.querySelector('.cart-items tbody');
-    cartTableBody.innerHTML = ''; // Clear existing cart items
+    cartTableBody.innerHTML = '';
 
-    let total = 0;
     cart.forEach((item, index) => {
         const row = cartTableBody.insertRow();
         
@@ -108,37 +87,53 @@ function updateCartDisplay() {
             localStorage.setItem('cart', JSON.stringify(cart));
             updateCartDisplay();
         });
-
-        total += (item.price * item.quantity);
     });
-
-    // Calculate shipping
-    let shipping = 10; // Default shipping cost
-    if (total > 50) {
-        shipping = 0; // Free shipping for orders over €50
-    }
-    // Update the overall total including shipping
-    total += shipping;
-
-
 
     // Update the overall total
     const totalPrice = cart.reduce((acc, item) => acc + item.price * item.quantity, 0);
+    
     // Calculate shipping
     const shippingCost = totalPrice > 50 ? 0 : 10;
     const grandTotal = totalPrice + shippingCost;
+
     // Display shipping cost with a tooltip
     const shippingDisplay = document.querySelector('.shipping-cost');
-    shippingDisplay.innerHTML = `Shipping: €${shippingCost} <span class="tooltip-text">Free shipping above €50</span>`;
-
-    // Update total price display to include shipping
-    document.querySelector('.total-price').textContent = `Total: €${grandTotal.toFixed(2)}`;
-
+    shippingDisplay.innerHTML = `<b>Shipping:</b> €${shippingCost} <span class="tooltip-text">Free shipping above €50</span>`;
+    
     // Show shipping info tooltip on hover
     shippingDisplay.title = "Free shipping for orders over €50";
+
+    // Update total price display to include shipping
+    document.querySelector('.total-price').innerHTML = `<b>Total:</b> €${grandTotal.toFixed(2)}`;
+    
+    if (cart.length === 0) {
+        document.querySelector('.shipping-cost').textContent = ``;
+        document.querySelector('.total-price').innerHTML = 'Cart is Empty';
+        document.querySelector('.total-price').title = "Free shipping for orders over €50";
+    }
+}
+
+function addToCart(item) {
+    // Check if cart already has the item and update quantity if it does
+    let itemIndex = cart.findIndex(cartItem => cartItem.id === item.id);
+    if (itemIndex !== -1) {
+        cart[itemIndex].quantity += 1;
+    } else {
+        cart.push(item);
+    }
+
+    // Save updated cart to localStorage
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartDisplay();
 }
 
 function viewCart() {
     // Logic to display the cart popup
     document.getElementById('cart-popup').style.display = 'block';
+}
+
+function clearCart() {
+    cart = [];
+    localStorage.setItem('cart', JSON.stringify(cart));
+    updateCartDisplay();
 }
