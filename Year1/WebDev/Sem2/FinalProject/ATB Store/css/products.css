@@ -86,6 +86,7 @@ button {
     background-color: #fefefe;
     color: #333;
     font-size: 1rem;
+    border: none;
 }
 
 button:hover {

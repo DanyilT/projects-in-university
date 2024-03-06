@@ -2,22 +2,34 @@ let cart = [];
 
 document.addEventListener('DOMContentLoaded', function() {
     // Opening the cart popup
-    var btn = document.getElementById("cart-popup-button");
-    var modal = document.getElementById("cart-popup");
-    var close = document.getElementsByClassName("close-cart")[0];
+    var btnCart = document.getElementById("cart-popup-button");
+    var modalCart = document.getElementById("cart-popup");
+    var modalContact = document.getElementById("contact-popup");
+    var closeCart = document.getElementsByClassName("close-cart")[0];
+    var closeContact = document.getElementsByClassName("close-contact")[0];
     
-    btn.onclick = function() {
-        modal.style.display = "block";
+    btnCart.onclick = function() {
+        modalCart.style.display = "block";
         updateCartDisplay();
     }
     
-    close.onclick = function() {
-        modal.style.display = "none";
+    closeCart.onclick = function() {
+        modalCart.style.display = "none";
+    }
+
+    closeContact.onclick = function() {
+        modalContact.style.display = "none";
     }
 
     window.onclick = function(event) {
-        if (event.target == modal) {
-            modal.style.display = "none";
+        if (event.target == modalCart) {
+            modalCart.style.display = "none";
+        }
+    }
+
+    document.getElementById("contact-popup").onclick = function(event) {
+        if (event.target == modalContact) {
+            modalContact.style.display = "none";
         }
     }
 
@@ -47,9 +59,32 @@ document.addEventListener('DOMContentLoaded', function() {
                 quantity: 1,
                 imgSrc: productImgSrc
             };
-
+            
             addToCart(cartItem);
             updateCartDisplay();
+        });
+    });
+
+    $(document).ready(function() {
+        // Form submission with validation
+        $('#contact-form').submit(function(event) {
+            event.preventDefault();
+    
+            var name = $('#name').val();
+            var email = $('#email').val();
+            var address = $('#address').val();
+            var emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    
+            // Basic validation checks
+            if (name === '' || address === '' || !emailRegex.test(email)) {
+                alert('Please ensure all fields are filled correctly.');
+                return;
+            }
+    
+            // Display thank you message
+            alert('Thank you for your order');
+            clearCart();
+            $('#contact-popup').hide();
         });
     });
 });
@@ -136,4 +171,13 @@ function clearCart() {
     cart = [];
     localStorage.setItem('cart', JSON.stringify(cart));
     updateCartDisplay();
+}
+
+function openContactInfoModal() {
+    if (cart.length === 0) {
+        alert('Cart is Empty');
+    } else {
+        document.getElementById('cart-popup').style.display = 'none';
+        document.getElementById('contact-popup').style.display = 'block';
+    }
 }
