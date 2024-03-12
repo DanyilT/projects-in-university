@@ -28,8 +28,44 @@ header nav a:hover {
     color: #ddd;
 }
 
+.hamburger {
+    display: none;
+    font-size: 30px;
+    cursor: pointer;
+}
+
 main {
     background: #fefefe;
+}
+
+.footer-link {
+    grid-area: footer-top;
+}
+
+.footer-contact {
+    grid-area: footer-left;
+}
+
+.footer-address {
+    grid-area: footer-right;
+}
+
+.footer-copy {
+    grid-area: footer-bottom;
+}
+
+footer {
+    display: grid;
+    grid-template-areas:
+        'footer-top footer-top'
+        'footer-left footer-right'
+        'footer-bottom footer-bottom';
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+footer a {
+    color: #fefefe;
 }
 
 .grid {
@@ -259,4 +295,55 @@ button:hover {
 
 .shipping-cost:hover .tooltip-text {
     visibility: visible;
+}
+
+@media (min-width: 769px) {
+    header nav {
+        display: block;
+    }
+}
+
+@media (max-width: 768px) {
+    header nav {
+        display: none;
+    }
+    
+    header nav.active {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hamburger {
+        display: block;
+    }
+
+    footer {
+        grid-template-areas:
+            'footer-top'
+            'footer-left'
+            'footer-right'
+            'footer-bottom';
+        grid-template-columns: 1fr;
+    }
+
+    .cart-bottom {
+        flex-direction: column;
+    }
+
+    .buttons, .price-section {
+        width: 100%;
+        justify-content: center;
+        gap: 10px;
+        padding: 10px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .welcome, .contact, .location {
+        grid-column: auto / auto;
+        grid-row: auto;
+    }
 }
