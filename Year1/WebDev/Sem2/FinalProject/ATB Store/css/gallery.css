@@ -1,6 +1,5 @@
 .ag-format-container {
   width: 600px;
-  height: 750px;
   margin: auto;
 }
 
@@ -68,4 +67,24 @@
 #ei-arrow-left-icon,
 #ei-arrow-right-icon {
   fill: #fefeff;
+}
+
+@media (max-width: 760px) {
+  .ag-format-container {
+    width: 100%;
+  }
+
+  .icon {
+      display: none;
+  }
+
+  .slick-dots {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .slick-dots li {
+    width: 50px;
+  }
 }
