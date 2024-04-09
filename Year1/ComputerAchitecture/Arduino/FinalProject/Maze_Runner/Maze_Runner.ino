@@ -3,8 +3,8 @@
 // Define pins for whiskers, LED, speaker, servos
 const int leftWhiskerPin = 7;
 const int rightWhiskerPin = 5;
-const int leftledPin = 8;
-const int rightledPin = 2;
+const int leftLedPin = 8;
+const int rightLedPin = 2;
 const int speakerPin = 4;
 const int leftServoPin = 13;
 const int rightServoPin = 12;
@@ -13,78 +13,98 @@ const int rightServoPin = 12;
 Servo servoLeft;
 Servo servoRight;
 
+// This variable define when turn right and when turn left
+bool shouldTurnLeft = true;
+
 void setup() {
+  // Initialize whisker pins
   pinMode(leftWhiskerPin, INPUT); // Set left whisker pin to input
   pinMode(rightWhiskerPin, INPUT); // Set right whisker pin to input
   
-  pinMode(leftledPin, OUTPUT); // Left LED indicator -> output
-  pinMode(rightledPin, OUTPUT); // Right LED indicator -> output
+  // Initialize LED pins
+  pinMode(leftLedPin, OUTPUT); // Left LED indicator -> output
+  pinMode(rightLedPin, OUTPUT); // Right LED indicator -> output
 
+  // Attach servos
   servoLeft.attach(leftServoPin); // Attach left signal to pin 13
   servoRight.attach(rightServoPin); // Attach right signal to pin 12
   
-  tone(4, 3000, 1000); // Play tone for 1 second
+  tone(speakerPin, 3000, 1000); // Play tone for 1 second
   delay(1000); // Delay to finish tone
 }
 
 void loop() {
-  byte leftWhisker = digitalRead(leftWhiskerPin); // Copy left result to leftWhisker
-  byte rightWhisker = digitalRead(rightWhiskerPin); // Copy right result to rightWhisker
+  detectAndRespond();
+}
 
-  if (leftWhisker == LOW && rightWhisker == LOW) {
-    // No obstacles detected, move forward
-    moveForward(20);
-  } else if (leftWhisker == HIGH && rightWhisker == HIGH) {
-    turnLeft(600);
-    if (leftWhisker == HIGH || rightWhisker == HIGH) {
-      // If there's still an obstacle after turning left, turn right twice
-      turnRight(600);
-      delay(500); // Short delay to allow for a complete stop before turning again
-      turnRight(600);
+void detectAndRespond() {
+  bool leftWhisker = digitalRead(leftWhiskerPin) == HIGH;
+  bool rightWhisker = digitalRead(rightWhiskerPin) == HIGH;
+
+  if (leftWhisker || rightWhisker) {
+    // Light up the corresponding LED and emit a beep
+    if (leftWhisker) {
+      digitalWrite(leftLedPin, HIGH);
     }
-  } else if (leftWhisker == HIGH) {
-    // Only left whisker detects an obstacle
-    adjustToPerpendicular(true); // True indicates left side
-  } else if (rightWhisker == HIGH) {
-    // Only right whisker detects an obstacle
-    adjustToPerpendicular(false); // False indicates right side
-  }
+    if (rightWhisker) {
+      digitalWrite(rightLedPin, HIGH);
+    }
+    tone(speakerPin, 1000, 200); // Emit a beep
+    delay(200); // Delay to ensure beep is heard
 
-  // if((wLeft == 0) && (wRight == 0)) {
-  //   // If both whiskers 
-  //   digitalWrite(8, HIGH); // Left LED on
-  //   digitalWrite(2, HIGH); // Right LED on
-  //   moveBackward(1000); // Back up 1 second
-  //   turnLeft(800); // Turn left about 120 degrees
-  // } else if(wLeft == 0) {
-  //   // If only left whisker contact
-  //   digitalWrite(8, HIGH); // Left LED on
-  //   digitalWrite(2, LOW); // Right LED off
-  //   moveBackward(1000); // Back up 1 second
-  //   turnRight(400); // Turn right about 60 degrees
-  // } else if(wRight == 0) {
-  //   // If only right whisker contact
-  //   digitalWrite(8, LOW); // Left LED off
-  //   digitalWrite(2, HIGH); // Right LED on
-  //   moveBackward(1000); // Back up 1 second
-  //   turnLeft(400); // Turn right about 60 degrees
-  // } else {
-  //   // Otherwise, no whisker contact
-  //   digitalWrite(8, LOW); // Left LED off
-  //   digitalWrite(2, LOW); // Right LED off
-  //   moveForward(20); // Forward 1/50 of a second
-  // }
+    // Decision making for turning or adjusting
+    if (leftWhisker && rightWhisker) {
+      // If both whiskers detect an obstacle, reverse and turn
+      if (shouldTurnLeft) {
+        reverseWithBeeps(1000); // Reverse with beeps
+        turnLeft(600);
+      } else {
+        // If there's still an obstacle after turning left, turn right twice
+        reverseWithBeeps(1000); // Reverse with beeps
+        turnRight(600);
+        delay(500); // Short delay to allow for a complete stop before turning again
+        reverseWithBeeps(1000); // Reverse with beeps
+        turnRight(600);
+      }
+      shouldTurnLeft = !shouldTurnLeft;
+    } else if (leftWhisker) {
+      // Only left whisker detects, adjust to stand perpendicular or turn
+      adjustToPerpendicular(true);
+    } else if (rightWhisker) {
+      // Only right whisker detects, adjust to stand perpendicular or turn
+      adjustToPerpendicular(false);
+    }
+    
+    // Turn off LEDs after action
+    digitalWrite(leftLedPin, LOW);
+    digitalWrite(rightLedPin, LOW);
+  } else {
+    // If no obstacles, move forward
+    moveForward(20);
+  }
 }
 
 void adjustToPerpendicular(bool isLeftWhisker) {
   if (isLeftWhisker) {
     // Minor turn to the right to adjust
+    reverseWithBeeps(500);
     turnRight(100); // Short delay for slight adjustment
   } else {
     // Minor turn to the left to adjust
+    reverseWithBeeps(500);
     turnLeft(100); // Short delay for slight adjustment
   }
   delay(200); // Adjust based on testing
+}
+
+void reverseWithBeeps(int time) {
+  for (int i = 0; i < time / 200; ++i) {
+    tone(speakerPin, 1000, 100); // Emit a beep
+    delay(100);
+    noTone(speakerPin); // Stop the tone
+    delay(100);
+  }
+  moveBackward(time);
 }
 
 // Forward function
@@ -117,9 +137,4 @@ void turnRight(int time) {
   servoLeft.writeMicroseconds(1700); // Left wheel counterclockwise
   servoRight.writeMicroseconds(1700); // Right wheel counterclockwise
   delay(time); // Maneuver for time ms
-}
-
-void stop() {
-  servoLeft.writeMicroseconds(1500); // Stop servo
-  servoRight.writeMicroseconds(1500); // Stop servo
 }
