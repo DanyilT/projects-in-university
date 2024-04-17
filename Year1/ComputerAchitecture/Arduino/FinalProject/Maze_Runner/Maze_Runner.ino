@@ -1,4 +1,26 @@
-#include <Servo.h> // Include servo library
+/*
+  Created by: Dany
+  Created on 08/04/2024
+*/
+/*
+ * This Arduino program controls a robot equipped with whisker sensors, LEDs, a speaker, and servo motors to navigate obstacles.
+ * The robot uses whisker sensors to detect nearby obstacles.
+ * Depending on the whisker sensor input, the robot either moves forward, adjusts its position, or tries to find a clear path by turning.
+ * 
+ * - The robot moves forward if no obstacles are detected.
+ * - If one whisker sensor detect an obstacle, the robot executes minor adjustments until a clear path is found.
+ * - If both whisker sensors detect an obstacle, the robot executes left and right 90-degree turns until an obstacle is found,when it found and obstacle it starts moving in the opposite direction.
+ * - LEDs and sound signals provide visual and auditory feedback for different actions, enhancing debugging and interaction.
+ * 
+ * The control logic includes:
+ *   - `moveForward()`, `moveBackward()`: Commands to move the robot forward or backward.
+ *   - `turnLeft()`, `turnRight()`: Functions to turn the robot left or right.
+ *   - `adjust()`: Adjusts the robot's direction to avoid obstacles based on whisker input.
+ *   - `tryTurning()`: Tries to find a clear path by turning and moving in alternating directions when both sensors are blocked.
+ *   - `whisker(bool left)`: Returns the state of the left or right whisker sensor to simplify condition checks.
+ */
+
+#include <Servo.h> // Include the Servo library to control servo motors
 
 // Define pins for whiskers, LED, speaker, servos
 const int leftWhiskerPin = 7;
@@ -9,132 +31,174 @@ const int speakerPin = 4;
 const int leftServoPin = 13;
 const int rightServoPin = 12;
 
-// Declare left and right servos
+// Declare servo objects for left and right servos
 Servo servoLeft;
 Servo servoRight;
 
-// This variable define when turn right and when turn left
-bool shouldTurnLeft = true;
-
 void setup() {
-  // Initialize whisker pins
-  pinMode(leftWhiskerPin, INPUT); // Set left whisker pin to input
-  pinMode(rightWhiskerPin, INPUT); // Set right whisker pin to input
+  // Set pin modes for whiskers as input to read whisker states (Initialize whisker pins)
+  pinMode(leftWhiskerPin, INPUT);
+  pinMode(rightWhiskerPin, INPUT);
   
-  // Initialize LED pins
-  pinMode(leftLedPin, OUTPUT); // Left LED indicator -> output
-  pinMode(rightLedPin, OUTPUT); // Right LED indicator -> output
+  // Set pin modes for LEDs as output to indicate status (Initialize LED pins)
+  pinMode(leftLedPin, OUTPUT);
+  pinMode(rightLedPin, OUTPUT);
 
-  // Attach servos
-  servoLeft.attach(leftServoPin); // Attach left signal to pin 13
-  servoRight.attach(rightServoPin); // Attach right signal to pin 12
+  // Attach the servo objects to their respective pins
+  servoLeft.attach(leftServoPin);
+  servoRight.attach(rightServoPin);
   
-  tone(speakerPin, 3000, 1000); // Play tone for 1 second
-  delay(1000); // Delay to finish tone
+  // Play a tone on startup for 1 second to indicate the robot is ready
+  tone(speakerPin, 3000, 1000);
+  delay(1000);
 }
 
 void loop() {
-  detectAndRespond();
-}
-
-void detectAndRespond() {
-  bool leftWhisker = digitalRead(leftWhiskerPin) == HIGH;
-  bool rightWhisker = digitalRead(rightWhiskerPin) == HIGH;
-
-  if (leftWhisker || rightWhisker) {
-    // Light up the corresponding LED and emit a beep
-    if (leftWhisker) {
-      digitalWrite(leftLedPin, HIGH);
-    }
-    if (rightWhisker) {
-      digitalWrite(rightLedPin, HIGH);
-    }
-    tone(speakerPin, 1000, 200); // Emit a beep
-    delay(200); // Delay to ensure beep is heard
-
-    // Decision making for turning or adjusting
-    if (leftWhisker && rightWhisker) {
-      // If both whiskers detect an obstacle, reverse and turn
-      if (shouldTurnLeft) {
-        reverseWithBeeps(1000); // Reverse with beeps
-        turnLeft(600);
-      } else {
-        // If there's still an obstacle after turning left, turn right twice
-        reverseWithBeeps(1000); // Reverse with beeps
-        turnRight(600);
-        delay(500); // Short delay to allow for a complete stop before turning again
-        reverseWithBeeps(1000); // Reverse with beeps
-        turnRight(600);
-      }
-      shouldTurnLeft = !shouldTurnLeft;
-    } else if (leftWhisker) {
-      // Only left whisker detects, adjust to stand perpendicular or turn
-      adjustToPerpendicular(true);
-    } else if (rightWhisker) {
-      // Only right whisker detects, adjust to stand perpendicular or turn
-      adjustToPerpendicular(false);
-    }
-    
-    // Turn off LEDs after action
-    digitalWrite(leftLedPin, LOW);
-    digitalWrite(rightLedPin, LOW);
+  // Check whisker states to decide the robot's movement
+  if (whisker(true) == 0 && whisker(false) == 0) {
+    // Both whiskers detect obstacle, try to find a clear path
+    tryTurning();
+  } else if (whisker(true) == 0 || whisker(false) == 0) {
+    // At least one whisker detects obstacle, adjust the position
+    adjust();
   } else {
     // If no obstacles, move forward
     moveForward(20);
   }
 }
 
-void adjustToPerpendicular(bool isLeftWhisker) {
-  if (isLeftWhisker) {
-    // Minor turn to the right to adjust
-    reverseWithBeeps(500);
-    turnRight(100); // Short delay for slight adjustment
-  } else {
-    // Minor turn to the left to adjust
-    reverseWithBeeps(500);
-    turnLeft(100); // Short delay for slight adjustment
+void tryTurning() {
+  bool leftClear = true;  // Flag to track if left side is clear
+  bool rightClear = true; // Flag to track if right side is clear
+  int distance = 100;     // Initial distance to move forward when checking
+
+  while (true) {
+    // Turn left and check for obstacles
+    turnLeft(1200);
+    moveForward(distance);
+    if (whisker(true) == 0 && whisker(false) == 0) {
+      // Path is not clear
+      leftClear = false;
+    } else if (whisker(true) == 0 || whisker(false) == 0) {
+      // Adjust position if close to an obstacle
+      adjust();
+    }
+
+    // Return to the starting position
+    moveBackward(distance);
+    turnRight(1200);
+    delay(500);
+
+    // Turn right to check other direction
+    turnRight(1200);
+    moveForward(distance);
+    if (whisker(true) == 0 && whisker(false) == 0) {
+      // Path is not clear
+      rightClear = false;
+    } else if (whisker(true) == 0 || whisker(false) == 0) {
+      // Adjust position if close to an obstacle
+      adjust();
+    }
+
+    // Return to the starting position
+    moveBackward(distance);
+    turnLeft(1200);
+    delay(500);
+
+    // Increases the distance
+    distance += 100;
+    
+    // Decide on the next action based on which path was clear
+    if (!leftClear) {
+      // If left is not clear, turn right
+      turnRight(1200);
+      break;
+    } else if (!rightClear) {
+      // If right is not clear, turn left
+      turnLeft(1200);
+      break;
+    }
   }
-  delay(200); // Adjust based on testing
 }
 
-void reverseWithBeeps(int time) {
-  for (int i = 0; i < time / 200; ++i) {
-    tone(speakerPin, 1000, 100); // Emit a beep
-    delay(100);
-    noTone(speakerPin); // Stop the tone
+void adjust() {
+  // Continuously adjust the robot's orientation until a clear path is found
+  while (true) {    
+    if (whisker(true) == 1 && whisker(false) == 1) {
+      // Path is clear
+      break;
+    } else if (whisker(true) == 0 && whisker(false) == 0) {
+      // Maybe stuck
+      moveBackward(100);
+      break;
+    } else if (whisker(true) == 0) {
+      // Minor turn to the right to adjust
+      moveBackward(100);
+      turnRight(100);
+      moveForward(100);
+    }else if (whisker(false) == 0) {
+      // Minor turn to the left to adjust
+      moveBackward(100);
+      turnLeft(100);
+      moveForward(100);
+    }
+    // Short delay for stability
     delay(100);
   }
-  moveBackward(time);
 }
 
 // Forward function
 void moveForward(int time) {
-  servoLeft.writeMicroseconds(1700); // Left wheel counterclockwise
-  servoRight.writeMicroseconds(1300); // Right wheel clockwise
-  delay(time); // Maneuver for time ms
+  servoLeft.writeMicroseconds(1700);
+  servoRight.writeMicroseconds(1300);
+  delay(time);
 }
 
 // Backward function
 void moveBackward(int time) {
- servoLeft.writeMicroseconds(1300); // Left wheel clockwise
- servoRight.writeMicroseconds(1700); // Right wheel counterclockwise
- delay(time); // Maneuver for time ms
+  // Beep while moving backward
+  for (int i = 0; i < time / 200; ++i) {
+    tone(speakerPin, 1000, 100);
+    delay(100);
+    noTone(speakerPin);
+    delay(100);
+  }
+  servoLeft.writeMicroseconds(1400);
+  servoRight.writeMicroseconds(1600);
+  delay(time);
 }
 
-// Left turn function
+// Left turn function with visual and audio signals
 void turnLeft(int time) {
   // This function assumes that a certain time duration corresponds to a 90-degree turn.
-  // We calibrate this time based on your robot's speed and the surface. - [time = 600]
-  servoLeft.writeMicroseconds(1300); // Left wheel clockwise
-  servoRight.writeMicroseconds(1300); // Right wheel clockwise
-  delay(time); // Maneuver for time ms
+  // We calibrate this time based on our robot's speed and the surface. - [time = 1200]
+  digitalWrite(leftLedPin, HIGH);
+  tone(speakerPin, 1000, 200);
+  delay(200);
+
+  servoLeft.writeMicroseconds(1500);
+  servoRight.writeMicroseconds(1300);
+  delay(time);
+
+  digitalWrite(leftLedPin, LOW);
 }
 
-// Right turn function
+// Right turn function with visual and audio signals
 void turnRight(int time) {
   // This function assumes that a certain time duration corresponds to a 90-degree turn.
-  // We calibrate this time based on your robot's speed and the surface. - [time = 600]
-  servoLeft.writeMicroseconds(1700); // Left wheel counterclockwise
-  servoRight.writeMicroseconds(1700); // Right wheel counterclockwise
-  delay(time); // Maneuver for time ms
+  // We calibrate this time based on our robot's speed and the surface. - [time = 1200]
+  digitalWrite(rightLedPin, HIGH);
+  tone(speakerPin, 1000, 200);
+  delay(200);
+
+  servoLeft.writeMicroseconds(1700);
+  servoRight.writeMicroseconds(1500);
+  delay(time);
+
+  digitalWrite(rightLedPin, LOW);
+}
+
+// Function to read whisker input, simplifying the check
+byte whisker(bool left) {
+  return left ? digitalRead(leftWhiskerPin) : digitalRead(rightWhiskerPin);
 }
