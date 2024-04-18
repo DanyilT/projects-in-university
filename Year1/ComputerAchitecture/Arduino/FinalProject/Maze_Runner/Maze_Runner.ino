@@ -23,8 +23,8 @@
 #include <Servo.h> // Include the Servo library to control servo motors
 
 // Define pins for whiskers, LED, speaker, servos
-const int leftWhiskerPin = 7;
-const int rightWhiskerPin = 5;
+const int leftWhiskerPin = 5;
+const int rightWhiskerPin = 7;
 const int leftLedPin = 8;
 const int rightLedPin = 2;
 const int speakerPin = 4;
@@ -63,7 +63,7 @@ void loop() {
     adjust();
   } else {
     // If no obstacles, move forward
-    moveForward(20);
+    moveForward(100);
   }
 }
 
@@ -72,38 +72,33 @@ void tryTurning() {
   bool rightClear = true; // Flag to track if right side is clear
   int distance = 100;     // Initial distance to move forward when checking
 
+  moveBackward(200);
   while (true) {
     // Turn left and check for obstacles
-    turnLeft(1200);
+    turnLeft(900);
     moveForward(distance);
     if (whisker(true) == 0 && whisker(false) == 0) {
       // Path is not clear
       leftClear = false;
-    } else if (whisker(true) == 0 || whisker(false) == 0) {
-      // Adjust position if close to an obstacle
-      adjust();
     }
 
     // Return to the starting position
     moveBackward(distance);
-    turnRight(1200);
-    delay(500);
+    turnRight(900);
+    moveBackward(100);
 
     // Turn right to check other direction
-    turnRight(1200);
+    turnRight(900);
     moveForward(distance);
     if (whisker(true) == 0 && whisker(false) == 0) {
       // Path is not clear
       rightClear = false;
-    } else if (whisker(true) == 0 || whisker(false) == 0) {
-      // Adjust position if close to an obstacle
-      adjust();
     }
-
+    
     // Return to the starting position
     moveBackward(distance);
-    turnLeft(1200);
-    delay(500);
+    turnLeft(900);
+    moveBackward(100);
 
     // Increases the distance
     distance += 100;
@@ -111,11 +106,11 @@ void tryTurning() {
     // Decide on the next action based on which path was clear
     if (!leftClear) {
       // If left is not clear, turn right
-      turnRight(1200);
+      turnRight(900);
       break;
     } else if (!rightClear) {
       // If right is not clear, turn left
-      turnLeft(1200);
+      turnLeft(900);
       break;
     }
   }
@@ -157,14 +152,14 @@ void moveForward(int time) {
 // Backward function
 void moveBackward(int time) {
   // Beep while moving backward
+  servoLeft.writeMicroseconds(1400);
+  servoRight.writeMicroseconds(1600);
   for (int i = 0; i < time / 200; ++i) {
     tone(speakerPin, 1000, 100);
     delay(100);
     noTone(speakerPin);
     delay(100);
   }
-  servoLeft.writeMicroseconds(1400);
-  servoRight.writeMicroseconds(1600);
   delay(time);
 }
 
