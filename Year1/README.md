@@ -37,6 +37,11 @@ What I made:
 
 This section includes a collection of lab exercises and coursework assignments focused on algorithm design and analysis. Each project within this category is designed to enhance understanding of various algorithmic strategies, such as sorting, searching, and optimization techniques, and their applications in solving complex computational problems.
 
+### [Programming](/Year1/Sem1/Fundamentals%20of%20Programming%201)
+
+The Programming section is divided by semesters, showcasing a progression in programming skills and concepts learned throughout the year.
+Projects in this semester introduce fundamental programming concepts using language Java.
+
 ### [Networking](/Year1/Sem1/Networking%20Basics)
 
 I delved into the realm of computer networks with a focus on Packet Tracer Learning. This subject provided hands-on experience with network simulation and configuration, essential for understanding the backbone of internet and intranet connections.
@@ -45,11 +50,6 @@ I delved into the realm of computer networks with a focus on Packet Tracer Learn
 
 Web Development projects are divided into two semesters, reflecting an introductory then advanced exploration into web technologies and frameworks.
 The focus is on foundational web technologies, including HTML and CSS.
-
-### [Programming](/Year1/Sem1/Fundamentals%20of%20Programming%201)
-
-The Programming section is divided by semesters, showcasing a progression in programming skills and concepts learned throughout the year.
-Projects in this semester introduce fundamental programming concepts using language Java.
 
 ## [Semester 2](/Year1/Sem2)
 
@@ -62,7 +62,7 @@ Projects related to computer architecture, including working with Arduino. This 
 The Programming section is divided by semesters, showcasing a progression in programming skills and concepts learned throughout the year.
 The second semester advances to more complex topics, such as object-oriented programming and software design principles.
 
-#### [Networking](/Year1/Sem2/Routers%20and%20Routing%20Basics)
+### [Networking](/Year1/Sem2/Routers%20and%20Routing%20Basics)
 
 Projects and exercises designed to deepen understanding of how routers work, their configuration, and their role in connecting different network segments. These practical exercises simulate real-world networking scenarios, allowing for a comprehensive learning experience in network topology design and troubleshooting.
 
