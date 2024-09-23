@@ -7,7 +7,7 @@ TU Dublin - Cyber Security
 - [Introduction](#introduction)
   - [Example of work](#example-of-work)
 - [Semester 1](#semester-1)
-  - [Algorithm](#algorithm)
+  - [Algorithm](#algorithms)
   - [Networking](#networking)
   - [Programming](#programming)
   - [Web Development](#web-development)
