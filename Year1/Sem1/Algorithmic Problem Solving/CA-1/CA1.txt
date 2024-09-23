@@ -1,0 +1,34 @@
+					Pseudocode Problems CA-1
+
+------------------------------------------------------------------------
+		// Question 1
+// Declare variables
+INT dayNumber
+STRING dayName
+
+// Get input from the user
+PRINT ("Enter a day of the week (1-7): ")
+INPUT (dayNumber)
+
+// Determine day name of the week based on the number
+SWITCH dayNumber
+    CASE 1:
+        dayName = "Monday"
+    CASE 2:
+        dayName = "Tuesday"
+    CASE 3:
+        dayName = "Wednesday"
+    CASE 4:
+        dayName = "Thursday"
+    CASE 5:
+        dayName = "Friday"
+    CASE 6:
+        dayName = "Saturday"
+    CASE 7:
+        dayName = "Sunday"
+    DEFAULT:
+        dayName = "Invalid number"
+END SWITCH
+
+// Output the day name
+PRINT ("Day Name: " + dayName)

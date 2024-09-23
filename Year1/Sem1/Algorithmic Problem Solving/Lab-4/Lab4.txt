@@ -1,0 +1,96 @@
+					Pseudocode Problems Week 4
+
+------------------------------------------------------------------------
+		// Problem 1: Evaluate and Print Expressions
+// Declare Boolean variables
+BOOLEAN expr1Result, expr2Result, expr3Result, expr4Result, expr5Result
+
+// Evaluate and assign results to variables
+expr1Result = (2 * 3 == 6) && (4 < 5)
+expr2Result = (3 > 1) || (5 < 3)
+expr3Result = (1 < 10) && (2 < 10) && (3 < 10)
+expr4Result = !(3 > 10) && (5 != 4)
+expr5Result = (10 >= 10) && (11 >= 10)
+
+// Print results
+PRINT ("Result of Expression 1: " + expr1Result)
+PRINT ("Result of Expression 2: " + expr2Result)
+PRINT ("Result of Expression 3: " + expr3Result)
+PRINT ("Result of Expression 4: " + expr4Result)
+PRINT ("Result of Expression 5: " + expr5Result)
+
+------------------------------------------------------------------------
+		// Problem 2: Identify Number as Positive, Negative, or Zero
+// Declare variables
+INT num
+
+// Get input from the user
+PRINT ("Enter a number: ")
+INPUT (num)
+
+// Determine and print the type of number
+IF (num > 0)
+    (PRINT "The number is positive.")
+ELSE (IF num < 0)
+    (PRINT "The number is negative.")
+ELSE
+    (PRINT "The number is zero.")
+END IF
+
+------------------------------------------------------------------------
+        // Problem 4: Convert Numeric Grade to Alphabetic Grade
+// Declare variables
+INT grade
+STRING alphabeticGrade
+
+// Get input from the user
+PRINT ("Enter the student's grade (0-100): ")
+INPUT (grade)
+
+// Determine the alphabetic grade
+IF (grade >= 1 && grade <= 100)
+    PRINT LN("Number in range!")
+    IF (grade >= 80)
+        alphabeticGrade = "A"
+    ELSE IF (grade >= 70)
+        alphabeticGrade = "B+"
+    ELSE IF (grade >= 60)
+        alphabeticGrade = "B"
+    ELSE IF (grade >= 55)
+        alphabeticGrade = "B-"
+    ELSE IF (grade >= 50)
+        alphabeticGrade = "C+"
+    ELSE IF (grade >= 40)
+        alphabeticGrade = "C"
+    ELSE IF (grade >= 35)
+        alphabeticGrade = "D"
+    ELSE
+        alphabeticGrade = "F"
+    END IF
+ELSE
+    PRINT LN("Not in range!")
+    alphabeticGrade = "null"
+END IF
+
+// Print the alphabetic grade
+PRINT ("Alphabetic Grade: " + alphabeticGrade)
+
+------------------------------------------------------------------------
+        // Problem 5: Determine if Triangle or Not
+// Declare variables
+INT sideA, sideB, sideC
+
+// Get input from the user for the lengths of three sides
+PRINT ("Enter the length of side A: ")
+INPUT (sideA)
+PRINT ("Enter the length of side B: ")
+INPUT (sideB)
+PRINT ("Enter the length of side C: ")
+INPUT (sideC)
+
+// Check if the lengths form a triangle (Triangle Inequality Theorem)
+IF (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA)
+    PRINT ("It is a TRIANGLE.")
+ELSE
+    PRINT ("It is NOT A TRIANGLE.")
+END IF
