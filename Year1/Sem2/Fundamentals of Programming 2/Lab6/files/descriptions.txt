@@ -1,0 +1,7 @@
+Larry Page and Sergey Brin, the co-founders of Google, changed the way we access and use information on the internet.
+Bjarne Stroustrup is a Danish computer scientist, most notable for the invention and development of the C++ programming language.
+Ken Thompson created the Unix operating system and invented the B programming language.
+Grace Hopper was a computer scientist and United States Navy Rear Admiral, born in 1906. She is known for her work on developing the first compiler.
+Margaret Hamilton was director of the Software Engineering Division of the MIT Instrumentation Laboratory, which developed on-board flight software for NASA's Apollo program.
+Hedy Lamarr was an Austrian-American actress and inventor who pioneered the technology that would one day form the basis for today’s WiFi, GPS, and Bluetooth communication systems.
+Guido van Rossum is a Dutch programmer best known as the creator of the Python programming language.
