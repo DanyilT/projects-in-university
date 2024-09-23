@@ -1,0 +1,63 @@
+header {
+    background-color: lightcoral;
+    text-align: center;
+}
+
+nav {
+    display: flex;
+    justify-content: stretch;
+    gap: 1rem;
+}
+
+nav a {
+    flex: 1;
+    padding: 0.5rem 2rem;
+    text-align: center;
+    text-decoration: none;
+    color: green;
+    border: 3px solid black;
+    border-radius: 6px;
+    background-color: lightgray;
+    transition: background-color 0.3s;
+}
+
+nav a:hover {
+    background-color: lightslategray;
+    color: black;
+}
+
+main {
+    display: flex;
+    background-color: lightgray;
+    margin: .6rem;
+    padding: .6rem; 
+}
+
+.flex-item {
+    flex: 1;
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.flex1 {
+    background-color: lightcyan;
+}
+
+.flex2 {
+    background-color: lightcoral;
+    flex: 2;
+}
+
+.flex3 {
+    background-color: lightsteelblue;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: lightcoral;
+    text-align: center;
+}
