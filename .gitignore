@@ -1,7 +1,7 @@
 # ignore
 .DS_Store
 .idea
-/out
+out
 
 # java
 .class
