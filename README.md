@@ -34,3 +34,22 @@ This repository serves as a comprehensive collection of my academic projects. Th
 ### [Year 2](/Year2)
 
 #### [Semester 1](/Year2/Sem1)
+
+
+
+##### Quick commit
+
+```sh
+git add "Year2\Sem1\LAN Switching and Wireless"
+git commit -m "Networking"
+```
+
+```sh
+git add "Year2\Sem1\GUI Programming"
+git commit -m "Programming"
+```
+
+```sh
+git add "Year2\Sem1\Obj Oriented Analysis & Design"
+git commit -m "Programming"
+```
