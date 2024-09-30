@@ -11,6 +11,7 @@ TU Dublin - Cyber Security
   - [Networking](#networking)
   - [Programming](#programming)
   - [Web Development](#web-development)
+  - [Personal and Professional Development](#personal-and-professional-development)
 - [Semester 2](#semester-2)
   - [Computer Architecture](#computer-architecture)
   - [Programming](#programming)
@@ -50,6 +51,11 @@ I delved into the realm of computer networks with a focus on Packet Tracer Learn
 
 Web Development projects are divided into two semesters, reflecting an introductory then advanced exploration into web technologies and frameworks.
 The focus is on foundational web technologies, including HTML and CSS.
+
+### [Personal and Professional Development](/Year1/Sem1/Personal%20and%20Professional%20Development)
+
+Presentation about blockchain. And how to hack a blockchain.
+.Pdf - for easier reading, and .pptx with annotations
 
 ## [Semester 2](/Year1/Sem2)
 
