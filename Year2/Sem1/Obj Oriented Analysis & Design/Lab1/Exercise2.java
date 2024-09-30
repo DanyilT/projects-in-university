@@ -1,4 +1,4 @@
-public class Exercise1 {
+public class Exercise2 {
 	public static void main(String[] args) {
 		Car car1 = new Car("qwerty", "qwerty");
 		Car car2 = new Car("idk", "purple");

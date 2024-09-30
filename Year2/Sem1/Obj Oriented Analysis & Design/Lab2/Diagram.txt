@@ -1,0 +1,31 @@
+# Class Diagram (cd) #
+
++--------------------------+
+|          Book            |
++--------------------------+
+| - title: String          |
+| - price: double          |
++--------------------------+
+| + Book(String, double)   |
+| + getTitle(): String     |
+| + setTitle(String): void |
+| + getPrice(): double     |
+| + setPrice(double): void |
+| + toString(): String     |
++--------------------------+
+
+# Object Diagram (od) #
+
++---------------------+
+|       book1         |
++---------------------+
+| title: "The Restaurant at the end of the Universe" |
+| price: 9.99         |
++---------------------+
+
++---------------------+
+|       book2         |
++---------------------+
+| title: "no title set" |
+| price: 7.7          |
++---------------------+
