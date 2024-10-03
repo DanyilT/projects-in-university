@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.Container;
 
-public class Part3 extends JFrame {
+public class Lab1Part3 extends JFrame {
 
-    public Part3() {
+    public Lab1Part3() {
         // Set the size of the frame
         setSize(500, 100);
 
@@ -45,7 +45,7 @@ public class Part3 extends JFrame {
     }
 
     public static void main(String[] args) {
-        // Create an instance of Part3
-        new Part3();
+        // Create an instance of Lab1Part3
+        new Lab1Part3();
     }
 }

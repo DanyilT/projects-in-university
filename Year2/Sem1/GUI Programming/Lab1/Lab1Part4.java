@@ -1,9 +1,9 @@
 import javax.swing.*;
 import java.awt.*;
 
-public class Part4 extends JFrame {
+public class Lab1Part4 extends JFrame {
 
-    public Part4() {
+    public Lab1Part4() {
         // Set the title of the frame
         setTitle("About Venus");
 
@@ -54,7 +54,7 @@ public class Part4 extends JFrame {
     }
 
     public static void main(String[] args) {
-        // Create an instance of Part4
-        new Part4();
+        // Create an instance of Lab1Part4
+        new Lab1Part4();
     }
 }
