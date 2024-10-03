@@ -16,7 +16,7 @@ public class Lab2Part3 extends JFrame {
         JComboBox<String> comboBox1 = new JComboBox<>(comboBox1Items);
 
         // Create the second JComboBox complete with String info
-        String[] comboBox2Items = {"Shrek", "Shrek 2", "Shrek the Third", "Shrek Forever After", "Puss in Boots", "Shrek 5: You didn't see this chapter?"}; // What is the best DreamWorks movie?
+        String[] comboBox2Items = {"Shrek", "Shrek 2", "Shrek the Third", "Shrek Forever After", "Puss in Boots", "Shrek 5: You didn't see this chapter?"}; // Find the imposter
         JComboBox<String> comboBox2 = new JComboBox<>(comboBox2Items);
 
         // Add the JComboBox’s to the top of the frame one-on-top-of-the-other
