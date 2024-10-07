@@ -9,6 +9,9 @@ public class Student {
         this.name = name;
         this.year = year;
         numStudentObjects++;
+
+        System.out.println("created student" + numStudentObjects);
+        System.out.println("num student objects = " + Student.numStudentObjects);
     }
 
     public String getName() {
