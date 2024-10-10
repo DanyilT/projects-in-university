@@ -79,23 +79,23 @@ public class Lab3Part3 extends JFrame {
                 String selectedItem = (String) favoriteThingsComboBox.getSelectedItem();
                 switch (selectedItem) {
                     case "Favourite Team":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/Favourite Team-stablediffusion.jpg"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/Favourite Team-stablediffusion.png"));
                         imageLabel.setText("");
                         break;
                     case "Dream Car":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Car-stablediffusion.jpg"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Car-stablediffusion.png"));
                         imageLabel.setText("");
                         break;
                     case "Dream Home":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Home-stablediffusion.jpg"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Home-stablediffusion.png"));
                         imageLabel.setText("");
                         break;
                     case "Dream Job":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Job-stablediffusion.jpg"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Job-stablediffusion.png"));
                         imageLabel.setText("");
                         break;
                     case "My Home Town":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/My Home Town-stablediffusion.jpg"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/My Home Town-stablediffusion.png"));
                         imageLabel.setText("");
                         break;
                     default:
