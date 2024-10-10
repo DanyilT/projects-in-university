@@ -21,6 +21,7 @@ public class Lab1Part1 extends JFrame {
 
         // Make the frame visible
         setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close the application when the frame is closed
     }
 
     public static void main(String[] args) {

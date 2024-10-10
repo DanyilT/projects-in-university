@@ -4,6 +4,9 @@ import java.awt.Container;
 public class Lab1Part2 extends JFrame {
 
     public Lab1Part2() {
+        // Set the title of the frame
+        setTitle("Images");
+
         // Set the size of the frame
         setSize(500, 300);
 
@@ -34,6 +37,7 @@ public class Lab1Part2 extends JFrame {
 
         // Make the frame visible
         setVisible(true);
+        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE); // Close the application when the frame is closed
     }
 
     public static void main(String[] args) {
