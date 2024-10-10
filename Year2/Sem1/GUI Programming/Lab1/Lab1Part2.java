@@ -15,12 +15,12 @@ public class Lab1Part2 extends JFrame {
 
         // Create the second JLabel with an image
         JLabel imageLabel = new JLabel("Label with image");
-        ImageIcon icon = new ImageIcon("img/Lab2/venus-de-milo.jpg"); // Path is dependent on where you run the program, if from 'Lab1/' then it should be 'img/venus-de-milo.jpg', if not add 'Lab1/' to the path
+        ImageIcon icon = new ImageIcon("img/Part2/venus-de-milo.jpg"); // Path is dependent on where you run the program, if from 'Lab1/' then it should be 'img/venus-de-milo.jpg', if not add 'Lab1/' to the path
         imageLabel.setIcon(icon);
 
         // Create the third JLabel with a personalized image
         JLabel myImageChoiceLabel = new JLabel("My Image Choice");
-        ImageIcon myIcon = new ImageIcon("img/Lab2/img2.png"); // Path is dependent on where you run the program, if from 'Lab1/' then it should be 'img/img2.png', if not add 'Lab1/' to the path
+        ImageIcon myIcon = new ImageIcon("img/Part2/img2.png"); // Path is dependent on where you run the program, if from 'Lab1/' then it should be 'img/img2.png', if not add 'Lab1/' to the path
         myImageChoiceLabel.setIcon(myIcon);
 
         // Add all labels to the JPanel

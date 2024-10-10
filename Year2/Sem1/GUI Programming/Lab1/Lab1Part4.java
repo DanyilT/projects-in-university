@@ -27,12 +27,12 @@ public class Lab1Part4 extends JFrame {
         // Create a JLabel with a picture and text
         JLabel imageLabel = new JLabel("This is Venus-de-Milo");
         imageLabel.setFont(new Font("Serif", Font.BOLD, 16));
-        ImageIcon imageIcon = new ImageIcon("img/Lab4/venus-de-milo.jpg");
+        ImageIcon imageIcon = new ImageIcon("img/Part4/venus-de-milo.jpg");
         imageLabel.setIcon(imageIcon);
 
         // Create a JButton with text and an icon
         JButton likeButton = new JButton("Like");
-        ImageIcon likeIcon = new ImageIcon("img/Lab4/ThumbUp.png"); // Icon from Iconly.Pro
+        ImageIcon likeIcon = new ImageIcon("img/Part4/ThumbUp.png"); // Icon from Iconly.Pro
         likeButton.setIcon(likeIcon);
 
         // Add all components to the JPanel

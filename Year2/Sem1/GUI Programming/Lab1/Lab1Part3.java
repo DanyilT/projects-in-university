@@ -12,22 +12,22 @@ public class Lab1Part3 extends JFrame {
 
         // Create the Save button with a custom icon
         JButton saveButton = new JButton("Save");
-        ImageIcon saveIcon = new ImageIcon("img/Lab3/Save.png"); // Icon from Iconly.Pro
+        ImageIcon saveIcon = new ImageIcon("img/Part3/Save.png"); // Icon from Iconly.Pro
         saveButton.setIcon(saveIcon);
 
         // Create the Open button with a custom icon
         JButton openButton = new JButton("Open");
-        ImageIcon openIcon = new ImageIcon("img/Lab3/Open.png"); // Icon from Iconly.Pro
+        ImageIcon openIcon = new ImageIcon("img/Part3/Open.png"); // Icon from Iconly.Pro
         openButton.setIcon(openIcon);
 
         // Create the Delete button with a custom icon
         JButton deleteButton = new JButton("Delete");
-        ImageIcon deleteIcon = new ImageIcon("img/Lab3/Delete.png"); // Icon from Iconly.Pro
+        ImageIcon deleteIcon = new ImageIcon("img/Part3/Delete.png"); // Icon from Iconly.Pro
         deleteButton.setIcon(deleteIcon);
 
         // Create the Undo button with a custom icon
         JButton undoButton = new JButton("Undo");
-        ImageIcon undoIcon = new ImageIcon("img/Lab3/Undo.png"); // Icon from Iconly.Pro
+        ImageIcon undoIcon = new ImageIcon("img/Part3/Undo.png"); // Icon from Iconly.Pro
         undoButton.setIcon(undoIcon);
 
         // Add all buttons to the JPanel
