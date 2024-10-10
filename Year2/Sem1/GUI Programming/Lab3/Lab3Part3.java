@@ -79,23 +79,23 @@ public class Lab3Part3 extends JFrame {
                 String selectedItem = (String) favoriteThingsComboBox.getSelectedItem();
                 switch (selectedItem) {
                     case "Favourite Team":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/Favourite Team-stablediffusion.png"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/Favourite Team-stablediffusion.png")); // You can add "Lab3/" to the path, depending on from where you are running the program
                         imageLabel.setText("");
                         break;
                     case "Dream Car":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Car-stablediffusion.png"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Car-stablediffusion.png")); // You can add "Lab3/" to the path, depending on from where you are running the program
                         imageLabel.setText("");
                         break;
                     case "Dream Home":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Home-stablediffusion.png"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Home-stablediffusion.png")); // You can add "Lab3/" to the path, depending on from where you are running the program
                         imageLabel.setText("");
                         break;
                     case "Dream Job":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Job-stablediffusion.png"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/Dream Job-stablediffusion.png")); // You can add "Lab3/" to the path, depending on from where you are running the program
                         imageLabel.setText("");
                         break;
                     case "My Home Town":
-                        imageLabel.setIcon(new ImageIcon("img/Part3/My Home Town-stablediffusion.png"));
+                        imageLabel.setIcon(new ImageIcon("img/Part3/My Home Town-stablediffusion.png")); // You can add "Lab3/" to the path, depending on from where you are running the program
                         imageLabel.setText("");
                         break;
                     default:
