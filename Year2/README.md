@@ -37,3 +37,5 @@ Projects and exercises designed to deepen understanding of LAN switching and wir
 ### [Obj Oriented Analysis & Design](/Year2/Sem1/Obj%20Oriented%20Analysis%20&%20Design)
 
 This section includes a collection of lab exercises and coursework assignments focused on object-oriented analysis and design. Each project within this category is designed to enhance understanding of various object-oriented design principles and their applications in software development.
+
+## Note: Also have to add Databases module
