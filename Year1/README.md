@@ -7,7 +7,7 @@ TU Dublin - Cyber Security
 - [Introduction](#introduction)
   - [Example of work](#example-of-work)
 - [Semester 1](#semester-1)
-  - [Algorithm](#algorithms)
+  - [Algorithms](#algorithms)
   - [Networking](#networking)
   - [Programming](#programming)
   - [Web Development](#web-development)
@@ -40,8 +40,7 @@ This section includes a collection of lab exercises and coursework assignments f
 
 ### [Programming](/Year1/Sem1/Fundamentals%20of%20Programming%201)
 
-The Programming section is divided by semesters, showcasing a progression in programming skills and concepts learned throughout the year.
-Projects in this semester introduce fundamental programming concepts using language Java.
+Projects in this semester introduce fundamental programming concepts using Java.
 
 ### [Networking](/Year1/Sem1/Networking%20Basics)
 
@@ -49,15 +48,13 @@ I delved into the realm of computer networks with a focus on Packet Tracer Learn
 
 ### [Web Development](/Year1/Sem1/Web%20Development%20Fundamentals)
 
-Web Development projects are divided into two semesters, reflecting an introductory then advanced exploration into web technologies and frameworks.
-The focus is on foundational web technologies, including HTML and CSS.
+This section covers the basics of web development, including HTML, CSS, and introductory JavaScript.
 
 ### [Personal and Professional Development](/Year1/Sem1/Personal%20and%20Professional%20Development)
 
-Presentation about blockchain. And how to hack a blockchain.
-.Pdf - for easier reading, and .pptx with annotations
+Presentation about blockchain and how to hack a blockchain. Includes a .pdf for easier reading and a .pptx with annotations.
 
-## [Semester 2](/Year1/Sem2)
+## [Semester 2](/Year1/Sem2/)
 
 ### [Computer Architecture](/Year1/Sem2/Computer%20Achitecture)
 
@@ -65,7 +62,6 @@ Projects related to computer architecture, including working with Arduino. This 
 
 ### [Programming](/Year1/Sem2/Fundamentals%20of%20Programming%202)
 
-The Programming section is divided by semesters, showcasing a progression in programming skills and concepts learned throughout the year.
 The second semester advances to more complex topics, such as object-oriented programming and software design principles.
 
 ### [Networking](/Year1/Sem2/Routers%20and%20Routing%20Basics)
@@ -74,5 +70,4 @@ Projects and exercises designed to deepen understanding of how routers work, the
 
 ### [Web Development](/Year1/Sem2/Web%20Development%20Client-Side)
 
-Web Development projects are divided into two semesters, reflecting an introductory then advanced exploration into web technologies and frameworks.
-The focus is on JavaScript and more HTML and CSS.
+Web Development projects are divided into two semesters, reflecting an introductory then advanced exploration into web technologies and frameworks. The focus is on JavaScript and more HTML and CSS.
