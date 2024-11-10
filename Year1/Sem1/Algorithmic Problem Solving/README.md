@@ -18,11 +18,11 @@ This Module provides an introduction to the fundamental concepts of algorithm de
 
 ## Labs
 
-### [Lab 1](Lab-1): Pseudocode Problems Week 1
+### [Lab 1](Lab1): Pseudocode Problems Week 1
 
 This lab focuses on solving problems using pseudocode. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
-[Tasks](Lab-1/Sem1-Lab1.pdf) | [Solutions](Lab-1/Lab1.txt)
+[Tasks](Lab1/Sem1-Lab1.pdf) | [Solutions](Lab1/Lab1.txt)
 
 #### Questions
 
@@ -57,11 +57,11 @@ This lab focuses on solving problems using pseudocode. The exercises are designe
     x² can be written as (x * x)
     ```
 
-### [Lab 2](Lab-2): Pseudocode Problems Week 2
+### [Lab 2](Lab2): Pseudocode Problems Week 2
 
 This lab continues the exploration of pseudocode problems, focusing on more complex scenarios and mathematical operations.
 
-[Tasks](Lab-2/Sem1-Lab2.pdf) | [Solutions](Lab-2/Lab2.txt)
+[Tasks](Lab2/Sem1-Lab2.pdf) | [Solutions](Lab2/Lab2.txt)
 
 #### Questions
 
@@ -89,16 +89,18 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
 4. Write a Pseudocode program that calculates the volume of a cylinder. Your program should **prompt** the user to enter the **radius** and **height** of the cylinder and should use a combination of **constants** and **variables** to calculate the volume. The following formula should be used to calculate the volume, where V=volume, r=radius and h=height:
     ```
     V = π * r² * h
+    ```
+    ```
     Enter the radius: 2.5
     Enter the height: 11.5
     Volume = 225.6875
     ```
 
-### [Lab 3](Lab-3): Pseudocode Problems Week 3
+### [Lab 3](Lab3): Pseudocode Problems Week 3
 
 This lab introduces more advanced pseudocode problems, focusing on conditional statements and logical expressions.
 
-[Tasks](Lab-3/Sem1-Lab3.pdf) | [Solutions](Lab-3/Lab3.txt)
+[Tasks](Lab3/Sem1-Lab3.pdf) | [Solutions](Lab3/Lab3.txt)
 
 #### Questions
 
@@ -141,11 +143,11 @@ This lab introduces more advanced pseudocode problems, focusing on conditional s
     October
     ```
 
-### [Lab 4](Lab-4): Pseudocode Problems Week 4
+### [Lab 4](Lab4): Pseudocode Problems Week 4
 
 This lab focuses on solving problems using pseudocode, emphasizing conditional statements and logical expressions.
 
-[Tasks](Lab-4/Sem1-Lab4.pdf) | [Solutions](Lab-4/Lab4.txt)
+[Tasks](Lab4/Sem1-Lab4.pdf) | [Solutions](Lab4/Lab4.txt)
 
 #### Questions
 
@@ -190,11 +192,11 @@ This lab focuses on solving problems using pseudocode, emphasizing conditional s
     C is the longest side but (5 + 5 > 10) == false
     ```
 
-### [Lab 5](Lab-5): Pseudocode Problems Week 5
+### [Lab 5](Lab5): Pseudocode Problems Week 5
 
 This lab continues the exploration of pseudocode problems, focusing on more complex scenarios and mathematical operations.
 
-[Tasks](Lab-5/Sem1-Lab5.pdf) | [Solutions](Lab-5/Lab5.txt)
+[Tasks](Lab5/Sem1-Lab5.pdf) | [Solutions](Lab5/Lab5.txt)
 
 #### Questions
 
@@ -217,11 +219,11 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
     Not a triangle
     ```
 
-### [Lab 6](Lab-6): Diagrams and Lists
+### [Lab 6](Lab6): Diagrams and Lists
 
 This lab introduces the use of diagrams and lists as problem-solving tools. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
-[Tasks](Lab-6/Sem1-Lab6.pdf) | [Solutions](Lab-6/Lab6.pdf)
+[Tasks](Lab6/Sem1-Lab6.pdf) | [Solutions](Lab6/Lab6.pdf)
 
 #### Questions
 
@@ -270,11 +272,11 @@ This lab introduces the use of diagrams and lists as problem-solving tools. The 
     3. **ARCHERY PUZZLE**
         - A target shows the numbers 16, 17, 23, 24, 39, and 40. How many arrows does it take to score exactly 100 on this target?
 
-### [Lab 7](Lab-7): Eliminating Possibilities
+### [Lab 7](Lab7): Eliminating Possibilities
 
 This lab focuses on solving problems using the eliminating possibilities method. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
-[Tasks](Lab-7/Sem1-Lab7.pdf) | [Solutions](Lab-7/Lab7.pdf)
+[Tasks](Lab7/Sem1-Lab7.pdf) | [Solutions](Lab7/Lab7.pdf)
 
 #### Questions
 
@@ -326,10 +328,10 @@ This lab focuses on solving problems using the eliminating possibilities method.
 
 ## Continuous Assessment (CA)
 
-### [CA 1](CA-1): Pseudocode Problems
+### [CA 1](CA1): Pseudocode Problems
 
-[Pseudocode](CA-1/CA1.txt) | [Code](CA-1/CA1.java)
+[Pseudocode](CA1/CA1.txt) | [Code](CA1/CA1.java)
 
-### [CA 2](CA-2): List and Diagrams
+### [CA 2](CA2): List and Diagrams
 
-[Solutions](CA-2/CA2.pdf)
+[Solutions](CA2/CA2.pdf)
