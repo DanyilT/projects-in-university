@@ -1,17 +1,17 @@
-# Semester 2
+# Year 1 | Semester 2
 
-## [Computer Architecture](/Year1/Sem2/Computer%20Achitecture)
+## [Computer Architecture](Computer%20Achitecture)
 
-Projects related to computer architecture, including working with Arduino. This area focuses on understanding the hardware aspects of computing systems and how software interacts with hardware.
+This module introduces the basics of computer architecture and the principles of digital logic design. The module covers the fundamental concepts of digital systems, including binary numbers, logic gates, and Boolean algebra. The module also covers the design and implementation of combinational and sequential circuits using logic gates and flip-flops. The module includes practical activities to build and test digital circuits using breadboards and logic gates.
 
-## [Programming](/Year1/Sem2/Fundamentals%20of%20Programming%202)
+## [Fundamentals of Programming 2](Fundamentals%20of%20Programming%202)
 
-The second semester advances to more complex topics, such as object-oriented programming and software design principles.
+This module introduces students to the architecture, components, and operations of routers and switches in a small network. Students learn how to configure a router and a switch for basic functionality. By the end of this module, students will be able to configure and troubleshoot routers and switches and resolve common issues with RIPv1, RIPv2, single-area and multi-area OSPF, virtual LANs, and inter-VLAN routing in both IPv4 and IPv6 networks.
 
-## [Networking](/Year1/Sem2/Routers%20and%20Routing%20Basics)
+## [Routers and Routing Basics](Routers%20and%20Routing%20Basics)
 
-Projects and exercises designed to deepen understanding of how routers work, their configuration, and their role in connecting different network segments. These practical exercises simulate real-world networking scenarios, allowing for a comprehensive learning experience in network topology design and troubleshooting.
+This module introduces students to the architecture, components, and operations of routers and switches in a small network. Students learn how to configure a router and a switch for basic functionality. By the end of this module, students will be able to configure and troubleshoot routers and switches and resolve common issues with RIPv1, RIPv2, single-area and multi-area OSPF, virtual LANs, and inter-VLAN routing in both IPv4 and IPv6 networks.
 
-## [Web Development](/Year1/Sem2/Web%20Development%20Client-Side)
+## [Web Development Client-Side](Web%20Development%20Client-Side)
 
-Web Development projects are divided into two semesters, reflecting an introductory then advanced exploration into web technologies and frameworks. The focus is on JavaScript and more HTML and CSS.
+This module introduces students to the basics of web development, including HTML, CSS, and JavaScript. The module covers the fundamentals of client-side web development, including the structure and design of web pages, the use of CSS for styling, and the use of JavaScript for interactivity. The module includes practical activities to build and test web pages using HTML, CSS, and JavaScript.
