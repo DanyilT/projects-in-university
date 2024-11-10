@@ -2,18 +2,20 @@ import java.util.Random;
 
 public class Question4 {
     public static void main(String[] args) {
-        // Initialize variables
         Random rand = new Random();
-        int[] numbers = new int[100];
-
-        // Initialising the array with random values between 1 – 20
-        for (int i = 0; i < numbers.length; i++) {
-            numbers[i] = rand.nextInt(1, 21);
+        StringBuilder sb = new StringBuilder();
+        String vowels = "aeiou";
+        int vowelCount = 0;
+        
+        for (int i = 0; i < 100; i++) {
+            char c = (char) ('a' + rand.nextInt(26));
+            sb.append(c + " ");
+            if (vowels.indexOf(c) >= 0) {
+                vowelCount++;
+            }
         }
-
-        // Printing all values in the array
-        for (int num : numbers) {
-            System.out.print(num + " ");
-        }
+        
+        System.out.println(sb.toString());
+        System.out.println("Frequency of vowels is: " + vowelCount);
     }
 }

@@ -1,16 +1,28 @@
+import java.util.Scanner;
+
 public class Question4 {
     public static void main(String[] args) {
         // Declare variables
-        float hourlyRate = 9.80f;
-        int hoursWorked = 42;
-        double grossWeeklyWage;
-
-        // Calculate the gross weekly wage
-        grossWeeklyWage = hourlyRate * hoursWorked;
-
-        // Print the gross weekly wage
-        System.out.println("Hourly rate is " + hourlyRate);
-        System.out.println("Hours worked is " + hoursWorked);
-        System.out.println("Gross weekly is " + grossWeeklyWage);
+        double radius;
+        double height;
+        double volume;
+        
+        // Create a Scanner object for user input
+        Scanner input = new Scanner(System.in);
+        
+        // Get input from the user
+        System.out.print("Enter the radius of the cylinder: ");
+        radius = input.nextDouble();
+        System.out.print("Enter the height of the cylinder: ");
+        height = input.nextDouble();
+        
+        // Calculate the volume
+        volume = 3.14 * radius * radius * height; // Using an approximation for π
+        
+        // Print the result
+        System.out.println("The volume of the cylinder is: " + volume);
+        
+        // Close the Scanner
+        input.close();
     }
 }

@@ -1,23 +1,22 @@
-import java.util.Scanner;
-
 public class Question2 {
     public static void main(String[] args) {
-        // Create a Scanner object for user input
-        Scanner scanner = new Scanner(System.in);
+        // Initialize variables
+        int[] dataList = {2, 4, 6, 9, 5, 4, 5, 7, 12, 15, 21, 32, 45, 5, 6, 7, 12};
+        double sum = 0;
 
-        // Prompt the user to enter the number of rows (N)
-        System.out.print("Enter the number of rows (N): ");
-        int N = scanner.nextInt();
-
-        // Use a for loop to print the pattern
-        for (int i = 1; i <= N; i++) {
-            for (int j = 1; j <= i; j++) {
-                System.out.print(i * j + " ");
-            }
-            System.out.println();
+        // Loop 1
+        for (int num : dataList) {
+            sum += num;
         }
+        double mean = sum / dataList.length;
+        System.out.printf("The mean of elements is %.2f\n", mean);
 
-        // Close the scanner
-        scanner.close();
+        System.out.print("Values greater than the mean are: ");
+        // Loop 2
+        for (int num : dataList) {
+            if (num > mean) {
+                System.out.print(num + " ");
+            }
+        }
     }
 }

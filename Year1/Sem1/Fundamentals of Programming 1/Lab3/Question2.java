@@ -1,30 +1,38 @@
-import java.util.Scanner;
-
 public class Question2 {
     public static void main(String[] args) {
         // Declare variables
-        double hours_worked;
-        double hourly_rate;
-        double gross_pay;
-        
-        // Create a Scanner object for user input
-        Scanner input = new Scanner(System.in);
-        
-        // Get input from the user
-        System.out.print("Enter the number of hours worked: ");
-        hours_worked = input.nextDouble();
-        System.out.print("Enter the hourly rate of pay: ");
-        hourly_rate = input.nextDouble();
-        
-        // Calculate the gross pay
-        gross_pay = hours_worked * hourly_rate;
-        
-        // Print the result
-        System.out.println("Hours worked: " + hours_worked);
-        System.out.println("Hourly rate: " + hourly_rate);
-        System.out.println("The employee's gross weekly pay is: " + gross_pay);
-        
-        // Close the Scanner
-        input.close();
+        int x, y;
+
+        // Assign values to x and y
+        x = 4;
+        y = 10;
+
+        // a) X is an even number
+        if (x % 2 == 0) {
+            System.out.println("x is an even number is true");
+        } else {
+            System.out.println("x is an even number is false");
+        }
+
+        // b) X multiplied by 5 is less than 7 squared
+        if (x * 5 < 7 * 7) {
+            System.out.println("x multiplied by 5 is less than 7 squared is true");
+        } else {
+            System.out.println("x multiplied by 5 is less than 7 squared is false");
+        }
+
+        // c) Y minus X is positive
+        if (y - x > 0) {
+            System.out.println("y minus x is positive is true");
+        } else {
+            System.out.println("y minus x is positive is false");
+        }
+
+        // d) Y cubed is less than 100
+        if (y * y * y < 100) {
+            System.out.println("y cubed is less than 100 is true");
+        } else {
+            System.out.println("y cubed is less than 100 is false");
+        }
     }
 }

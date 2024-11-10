@@ -3,60 +3,25 @@ import java.util.Scanner;
 public class Question4 {
     public static void main(String[] args) {
         // Declare variables
-        int monthNumber;
-        String monthName;
+        int sideA, sideB, sideC;
 
         // Create a Scanner object for input
         Scanner scanner = new Scanner(System.in);
 
-        // Get input from the user
-        System.out.print("Enter a month number (1-12): ");
-        monthNumber = scanner.nextInt();
+        // Get input from the user for the lengths of three sides
+        System.out.print("Enter the length of side A: ");
+        sideA = scanner.nextInt();
+        System.out.print("Enter the length of side B: ");
+        sideB = scanner.nextInt();
+        System.out.print("Enter the length of side C: ");
+        sideC = scanner.nextInt();
 
-        // Determine month name based on the month number
-        switch (monthNumber) {
-            case 1:
-                monthName = "January";
-                break;
-            case 2:
-                monthName = "February";
-                break;
-            case 3:
-                monthName = "March";
-                break;
-            case 4:
-                monthName = "April";
-                break;
-            case 5:
-                monthName = "May";
-                break;
-            case 6:
-                monthName = "June";
-                break;
-            case 7:
-                monthName = "July";
-                break;
-            case 8:
-                monthName = "August";
-                break;
-            case 9:
-                monthName = "September";
-                break;
-            case 10:
-                monthName = "October";
-                break;
-            case 11:
-                monthName = "November";
-                break;
-            case 12:
-                monthName = "December";
-                break;
-            default:
-                monthName = "Invalid month number";
+        // Check if the lengths form a triangle (Triangle Inequality Theorem)
+        if (sideA + sideB > sideC && sideA + sideC > sideB && sideB + sideC > sideA) {
+            System.out.println("It is a TRIANGLE.");
+        } else {
+            System.out.println("It is NOT A TRIANGLE.");
         }
-
-        // Output the month name
-        System.out.println("Month Name: " + monthName);
 
         // Close the scanner
         scanner.close();

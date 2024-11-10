@@ -1,18 +1,24 @@
 public class Question1 {
     public static void main(String[] args) {
-        // Declare constants
-        final int X = 5;
-        final int Y = 3;
-        
-        // Declare variables
-        int quotient;
-        int remainder;
-        
-        // Calculate the quotient and remainder
-        quotient = X / Y;
-        remainder = X % Y;
-        
-        // Print the result
-        System.out.println("Quotient (X / Y): " + quotient + "; Remainder (X % Y): " + remainder);
+        // Expression I
+        if (5 - 1 != 3) {
+            System.out.println("5 - 1 != 3 is true");
+        } else {
+            System.out.println("5 - 1 != 3 is false");
+        }
+
+        // Expression II
+        if (100 % 50 == 0) {
+            System.out.println("100 % 50 == 0 is true");
+        } else {
+            System.out.println("100 % 50 == 0 is false");
+        }
+
+        // Expression III
+        if ((21 + 7) / 4 >= 100) {
+            System.out.println("(21 + 7) / 4 >= 100 is true");
+        } else {
+            System.out.println("(21 + 7) / 4 >= 100 is false");
+        }
     }
 }

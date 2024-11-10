@@ -1,12 +1,18 @@
 public class Question1 {
     public static void main(String[] args) {
+        // Declare constants
+        final int X = 5;
+        final int Y = 3;
+        
         // Declare variables
-        String message;
-
-        // Set the value of the message variable
-        message = "Java Programming \n\nRocks";
-
-        // Print the message
-        System.out.println(message);
+        int quotient;
+        int remainder;
+        
+        // Calculate the quotient and remainder
+        quotient = X / Y;
+        remainder = X % Y;
+        
+        // Print the result
+        System.out.println("Quotient (X / Y): " + quotient + "; Remainder (X % Y): " + remainder);
     }
 }

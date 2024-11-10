@@ -1,30 +1,18 @@
-import java.util.Scanner;
-
 public class Question1 {
     public static void main(String[] args) {
-        // Create a Scanner object for user input
-        Scanner scanner = new Scanner(System.in);
-
         // Initialize variables
-        int count = 0;
-        int product = 1;
+        int[] numbers = new int[5];
+        numbers[0] = 20;
+        numbers[1] = 30;
+        numbers[2] = 40;
+        numbers[3] = 50;
+        numbers[4] = 60;
 
-        // Use a while loop to prompt the user to enter 4 integer numbers
-        while (count < 4) {
-            System.out.print("Enter an integer number: ");
-            int number = scanner.nextInt();
-
-            // Update the product
-            product *= number;
-
-            // Increment the count
-            count++;
-        }
-
-        // Print the product of the numbers entered
-        System.out.println("Product of the numbers entered: " + product);
-
-        // Close the scanner
-        scanner.close();
+        // Print the array
+        System.out.printf("numbers[0] = %d\n", numbers[0]);
+        System.out.printf("numbers[1] = %d\n", numbers[1]);
+        System.out.printf("numbers[2] = %d\n", numbers[2]);
+        System.out.printf("numbers[3] = %d\n", numbers[3]);
+        System.out.printf("numbers[4] = %d\n", numbers[4]);
     }
 }

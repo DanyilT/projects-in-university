@@ -1,24 +1,20 @@
 public class Question1 {
     public static void main(String[] args) {
-        // Expression I
-        if (5 - 1 != 3) {
-            System.out.println("5 - 1 != 3 is true");
-        } else {
-            System.out.println("5 - 1 != 3 is false");
-        }
+        // Declare Boolean variables
+        boolean expr1Result, expr2Result, expr3Result, expr4Result, expr5Result;
 
-        // Expression II
-        if (100 % 50 == 0) {
-            System.out.println("100 % 50 == 0 is true");
-        } else {
-            System.out.println("100 % 50 == 0 is false");
-        }
+        // Evaluate and assign results to variables
+        expr1Result = (2 * 3 == 6) && (4 < 5);
+        expr2Result = (3 > 1) || (5 < 3);
+        expr3Result = (1 < 10) && (2 < 10) && (3 < 10);
+        expr4Result = !(3 > 10) && (5 != 4);
+        expr5Result = (10 >= 10) && (11 >= 10);
 
-        // Expression III
-        if ((21 + 7) / 4 >= 100) {
-            System.out.println("(21 + 7) / 4 >= 100 is true");
-        } else {
-            System.out.println("(21 + 7) / 4 >= 100 is false");
-        }
+        // Print results
+        System.out.println("(2 * 3 == 6) && (4 < 5) is " + expr1Result);
+        System.out.println("(3 > 1) || (5 < 3) is " + expr2Result);
+        System.out.println("(1 < 10) && (2 < 10) && (3 < 10) is " + expr3Result);
+        System.out.println("!(3 > 10) && (5 != 4) is " + expr4Result);
+        System.out.println("(10 >= 10) && (11 >= 10) is " + expr5Result);
     }
 }

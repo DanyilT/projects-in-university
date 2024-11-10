@@ -1,20 +1,40 @@
+import java.util.Scanner;
+
 public class Question1 {
     public static void main(String[] args) {
-        // Declare Boolean variables
-        boolean expr1Result, expr2Result, expr3Result, expr4Result, expr5Result;
+        // Declare variables
+        int number;
+        String[] ones, tens;
 
-        // Evaluate and assign results to variables
-        expr1Result = (2 * 3 == 6) && (4 < 5);
-        expr2Result = (3 > 1) || (5 < 3);
-        expr3Result = (1 < 10) && (2 < 10) && (3 < 10);
-        expr4Result = !(3 > 10) && (5 != 4);
-        expr5Result = (10 >= 10) && (11 >= 10);
+        // Initialize arrays for ones and tens places
+        ones = new String[]{"one", "two", "three", "four", "five", "six", "seven", "eight", "nine", "ten",
+                            "eleven", "twelve", "thirteen", "fourteen", "fifteen", "sixteen", "seventeen", "eighteen", "nineteen"};
+        tens = new String[]{"twenty", "thirty", "forty", "fifty", "sixty", "seventy", "eighty", "ninety"};
 
-        // Print results
-        System.out.println("(2 * 3 == 6) && (4 < 5) is " + expr1Result);
-        System.out.println("(3 > 1) || (5 < 3) is " + expr2Result);
-        System.out.println("(1 < 10) && (2 < 10) && (3 < 10) is " + expr3Result);
-        System.out.println("!(3 > 10) && (5 != 4) is " + expr4Result);
-        System.out.println("(10 >= 10) && (11 >= 10) is " + expr5Result);
+        // Create a Scanner object for input
+        Scanner scanner = new Scanner(System.in);
+
+        // Get input from the user
+        System.out.print("Enter an integer between 1 and 100: ");
+        number = scanner.nextInt();
+
+        // Check if the number is within the valid range
+        if (number < 1 || number > 100) {
+            System.out.println("Invalid number!");
+        } else if (number < 20) {
+            System.out.println(ones[number - 1]);  // Arrays start from 0
+        } else if (number < 100) {
+            // Split the number into tens and ones places
+            int tensPlace = number / 10;
+            int onesPlace = number % 10;
+
+            // Output the number in words
+            System.out.println(tens[tensPlace - 2] + " " + ones[onesPlace - 1]);  // Arrays start from 0
+        } else {
+            System.out.println("one hundred");
+        }
+
+        // Close the scanner
+        scanner.close();
     }
 }

@@ -5,29 +5,37 @@ public class Question3 {
         // Create a Scanner object for user input
         Scanner scanner = new Scanner(System.in);
 
-        // Constants
-        double rate = 0.125;      // Annual interest rate (12.5%)
-        int years = 6;            // Number of years
+        // Prompt the user to enter integer numbers with a sentinel of -1
+        System.out.print("Enter integer numbers separated by spaces (enter -1 to stop): ");
 
-        // Prompt the user to enter invest capital amount
-        System.out.print("Enter capital to invest: ");
-        double principal = scanner.nextDouble();
+        // Initialize variables
+        int sumEven = 0;
+        int number;
 
-        // Print table headers
-        System.out.printf("%-10s %-20s %-20s %-20s\n", "Year", "Interest", "Cumulative Interest", "New Capital");
+        // Read a line of space-separated numbers
+        String inputLine = scanner.nextLine();
+        Scanner lineScanner = new Scanner(inputLine);
 
-        // Calculate and print compound interest for each year
-        double cumulativeInterest = 0.0;
-        for (int year = 1; year <= years; year++) {
-            double interest = principal * rate;
-            cumulativeInterest += interest;
-            principal += interest; // Update the principal for the next year
+        // Continue to read integer numbers until the user enters -1
+        while (lineScanner.hasNextInt()) {
+            number = lineScanner.nextInt();
 
-            // Print results for the current year
-            System.out.printf("%-10d $%-19.2f $%-19.2f $%-19.2f\n", year, interest, cumulativeInterest, principal);
+            // Check if the number is even and not equal to -1
+            if (number % 2 == 0 && number != -1) {
+                sumEven += number;
+            }
+
+            // If -1 is encountered, break out of the loop
+            if (number == -1) {
+                break;
+            }
         }
 
-        // Close the scanner
+        // Print the sum of even numbers
+        System.out.println("Sum of even numbers: " + sumEven);
+
+        // Close the scanners
         scanner.close();
+        lineScanner.close();
     }
 }

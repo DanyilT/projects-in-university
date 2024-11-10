@@ -1,21 +1,21 @@
-import java.util.Random;
+import java.util.Scanner;
 
 public class Question4 {
     public static void main(String[] args) {
-        Random rand = new Random();
-        StringBuilder sb = new StringBuilder();
-        String vowels = "aeiou";
-        int vowelCount = 0;
-        
-        for (int i = 0; i < 100; i++) {
-            char c = (char) ('a' + rand.nextInt(26));
-            sb.append(c + " ");
-            if (vowels.indexOf(c) >= 0) {
-                vowelCount++;
-            }
-        }
-        
-        System.out.println(sb.toString());
-        System.out.println("Frequency of vowels is: " + vowelCount);
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter circle radius: ");
+        double radius = scanner.nextDouble();
+        scanner.close();
+
+        System.out.printf("Circumference = %.2f%n", calculateCircumference(radius));
+        System.out.printf("Area = %.2f%n", calculateArea(radius));
+    }
+
+    public static double calculateCircumference(double radius) {
+        return 2 * Math.PI * radius;
+    }
+
+    public static double calculateArea(double radius) {
+        return Math.PI * radius * radius;
     }
 }
