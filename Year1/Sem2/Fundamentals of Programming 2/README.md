@@ -341,7 +341,7 @@ This lab introduces the concept of collections, composition, and inheritance in 
 
 ### [Lab 10](Lab10): Sequential Binary Files
 
-This lab introduces the concept of sequential binary files in Java. The lab covers how to read and write data to binary files using the DataInputStream and DataOutputStream classes. The lab also includes activities for writing and reading the contents of binary files.
+This lab introduces the concept of reading and writing sequential binary files in Java. The lab covers how to create classes to represent employees, write employee data to a binary file, and read employee data from a binary file.
 
 [Tasks](Lab10/Sem2-Lab10.pdf) | [Solutions .java files](Lab10)
 
