@@ -1,5 +1,7 @@
 # Year 1 | Semester 2
 
+This is a collection of projects completed during my second semester at TU Dublin. The projects are organized by subject, showcasing a range of skills and knowledge acquired throughout my studies.
+
 ## [Computer Architecture](Computer%20Achitecture)
 
 This module introduces the basics of computer architecture and the principles of digital logic design. The module covers the fundamental concepts of digital systems, including binary numbers, logic gates, and Boolean algebra. The module also covers the design and implementation of combinational and sequential circuits using logic gates and flip-flops. The module includes practical activities to build and test digital circuits using breadboards and logic gates.
