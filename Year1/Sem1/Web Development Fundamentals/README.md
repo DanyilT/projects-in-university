@@ -1,5 +1,7 @@
 # Web Development Fundamentals
 
+This module covers the basics of web development, including HTML, CSS, and introductory JavaScript. Projects in this category aim to build a strong foundation in creating and styling web pages, as well as adding interactivity through JavaScript.
+
 ## Table of Contents
 
 - [Labs](#labs)
