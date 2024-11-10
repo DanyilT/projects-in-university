@@ -1,73 +1,65 @@
 # University Projects (Year 1)
 
-TU Dublin - Cyber Security
+This is a collection of projects completed during my first year at TU Dublin. The projects are organized by semester and subject, showcasing a range of skills and knowledge acquired throughout my studies.
 
 ## Table of Contents
 
 - [Introduction](#introduction)
-  - [Example of work](#example-of-work)
-- [Semester 1](#semester-1)
-  - [Algorithms](#algorithms)
-  - [Networking](#networking)
-  - [Programming](#programming)
-  - [Web Development](#web-development)
-  - [Personal and Professional Development](#personal-and-professional-development)
-- [Semester 2](#semester-2)
-  - [Computer Architecture](#computer-architecture)
-  - [Programming](#programming)
-  - [Networking](#networking)
-  - [Web Development](#web-development)
+- [Year 1](#year-1)
+  - [Semester 1](#semester-1)
+    - [Algorithmic Problem Solving](#algorithmic-problem-solving)
+    - [Fundamentals of Programming 1](#fundamentals-of-programming-1)
+    - [Networking Basics](#networking-basics)
+    - [Web Development Fundamentals](#web-development-fundamentals)
+    - [Personal and Professional Development](#personal-and-professional-development)
+  - [Semester 2](#semester-2)
+    - [Computer Architecture](#computer-architecture)
+    - [Fundamentals of Programming 2](#fundamentals-of-programming-2)
+    - [Routers and Routing Basics](#routers-and-routing-basics)
+    - [Web Development Client-Side](#web-development-client-side)
 
 ## Introduction
 
 This repository serves as a comprehensive collection of my academic projects. The projects are organized by year and subject, showcasing a range of skills and knowledge acquired throughout my studies.
 
-### Example of work
+## Year 1
 
-[WebDev Lab3/ex1 (products page)](/Year1/Sem1/WebDev/Lab3/ex1/)
+### [Semester 1](Sem1)
 
-What was wanted:
-![Project Screenshot](/Year1/Examples/Sem1/WebDev/Lab3/Wanted%20Result.png)
+#### [Algorithmic Problem Solving](Sem1/Algorithmic%20Problem%20Solving)
 
-What I made:
-![Project Screenshot](/Year1/Examples/Sem1/WebDev/Lab3/My%20Result.png)
+This Module provides an introduction to the fundamental concepts of algorithm design and problem-solving techniques. The course covers a range of topics, including pseudocode, flowcharts, diagrams, lists, and logical reasoning. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and continuous assessments.
 
-## [Semester 1](/Year1/Sem1/)
+#### [Fundamentals of Programming 1](Sem1/Fundamentals%20of%20Programming%201)
 
-### [Algorithms](/Year1/Sem1/Algorithmic%20Problem%20Solving)
+This module introduces the fundamental concepts of programming using Java. The module covers basic syntax, control structures, data types, etc. The module is assessed through a series of lab exercises. Each lab exercise is designed to enhance understanding of various programming concepts and their applications in solving computational problems.
 
-This section includes a collection of lab exercises and coursework assignments focused on algorithm design and analysis. Each project within this category is designed to enhance understanding of various algorithmic strategies, such as sorting, searching, and optimization techniques, and their applications in solving complex computational problems.
+#### [Networking Basics](Sem1/Networking%20Basics)
 
-### [Programming](/Year1/Sem1/Fundamentals%20of%20Programming%201)
+This module provides an introduction to the fundamental concepts of computer networks. The course covers a range of topics, including network devices, protocols, and network configuration. The primary goal is to develop an understanding of computer networks and their applications in real-world scenarios.
 
-Projects in this semester introduce fundamental programming concepts using Java.
+#### [Web Development Fundamentals](Sem1/Web%20Development%20Fundamentals)
 
-### [Networking](/Year1/Sem1/Networking%20Basics)
+This module covers the basics of web development, including HTML, CSS, and introductory JavaScript. Projects in this category aim to build a strong foundation in creating and styling web pages, as well as adding interactivity through JavaScript.
 
-I delved into the realm of computer networks with a focus on Packet Tracer Learning. This subject provided hands-on experience with network simulation and configuration, essential for understanding the backbone of internet and intranet connections.
+#### [Personal and Professional Development](Sem1/Personal%20and%20Professional%20Development)
 
-### [Web Development](/Year1/Sem1/Web%20Development%20Fundamentals)
+This module covers personal and professional development topics, including presentations, communication skills, and teamwork. The module aims to develop students' soft skills and enhance their employability.
 
-This section covers the basics of web development, including HTML, CSS, and introductory JavaScript.
+### [Semester 2](Sem2)
 
-### [Personal and Professional Development](/Year1/Sem1/Personal%20and%20Professional%20Development)
+#### [Computer Architecture](Computer%20Achitecture)
 
-Presentation about blockchain and how to hack a blockchain. Includes a .pdf for easier reading and a .pptx with annotations.
+This module introduces the basics of computer architecture and the principles of digital logic design. The module covers the fundamental concepts of digital systems, including binary numbers, logic gates, and Boolean algebra. The module also covers the design and implementation of combinational and sequential circuits using logic gates and flip-flops. The module includes practical activities to build and test digital circuits using breadboards and logic gates.
 
-## [Semester 2](/Year1/Sem2/)
+#### [Fundamentals of Programming 2](Fundamentals%20of%20Programming%202)
 
-### [Computer Architecture](/Year1/Sem2/Computer%20Achitecture)
+This module introduces students to the architecture, components, and operations of routers and switches in a small network. Students learn how to configure a router and a switch for basic functionality. By the end of this module, students will be able to configure and troubleshoot routers and switches and resolve common issues with RIPv1, RIPv2, single-area and multi-area OSPF, virtual LANs, and inter-VLAN routing in both IPv4 and IPv6 networks.
 
-Projects related to computer architecture, including working with Arduino. This area focuses on understanding the hardware aspects of computing systems and how software interacts with hardware.
+#### [Routers and Routing Basics](Routers%20and%20Routing%20Basics)
 
-### [Programming](/Year1/Sem2/Fundamentals%20of%20Programming%202)
+This module introduces students to the architecture, components, and operations of routers and switches in a small network. Students learn how to configure a router and a switch for basic functionality. By the end of this module, students will be able to configure and troubleshoot routers and switches and resolve common issues with RIPv1, RIPv2, single-area and multi-area OSPF, virtual LANs, and inter-VLAN routing in both IPv4 and IPv6 networks.
 
-The second semester advances to more complex topics, such as object-oriented programming and software design principles.
+#### [Web Development Client-Side](Web%20Development%20Client-Side)
 
-### [Networking](/Year1/Sem2/Routers%20and%20Routing%20Basics)
-
-Projects and exercises designed to deepen understanding of how routers work, their configuration, and their role in connecting different network segments. These practical exercises simulate real-world networking scenarios, allowing for a comprehensive learning experience in network topology design and troubleshooting.
-
-### [Web Development](/Year1/Sem2/Web%20Development%20Client-Side)
-
-Web Development projects are divided into two semesters, reflecting an introductory then advanced exploration into web technologies and frameworks. The focus is on JavaScript and more HTML and CSS.
+This module introduces students to the basics of web development, including HTML, CSS, and JavaScript. The module covers the fundamentals of client-side web development, including the structure and design of web pages, the use of CSS for styling, and the use of JavaScript for interactivity. The module includes practical activities to build and test web pages using HTML, CSS, and JavaScript.
