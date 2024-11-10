@@ -4,7 +4,7 @@ This is a collection of projects completed during my first year at TU Dublin. Th
 
 ## Table of Contents
 
-- [Introduction](#introduction)
+- [Map](#map)
 - [Year 1](#year-1)
   - [Semester 1](#semester-1)
     - [Algorithmic Problem Solving](#algorithmic-problem-solving)
@@ -18,9 +18,20 @@ This is a collection of projects completed during my first year at TU Dublin. Th
     - [Routers and Routing Basics](#routers-and-routing-basics)
     - [Web Development Client-Side](#web-development-client-side)
 
-## Introduction
+## Map
 
-This repository serves as a comprehensive collection of my academic projects. The projects are organized by year and subject, showcasing a range of skills and knowledge acquired throughout my studies.
+> ### [Semester 1](/Year1/Sem1/)
+> - [Algorithmic Problem Solving](/Year1/Sem1/Algorithmic%20Problem%20Solving)
+> - [Fundamentals of Programming 1](/Year1/Sem1/Fundamentals%20of%20Programming%201)
+> - [Networking Basics](/Year1/Sem1/Networking%20Basics)
+> - [Web Development Fundamentals](/Year1/Sem1/Web%20Development%20Fundamentals)
+> - [Personal and Professional Development](/Year1/Sem1/Personal%20and%20Professional%20Development)
+>
+> ### [Semester 2](/Year1/Sem2/)
+> - [Computer Architecture](/Year1/Sem2/Computer%20Achitecture)
+> - [Fundamentals of Programming 2](/Year1/Sem2/Fundamentals%20of%20Programming%202)
+> - [Routers and Routing Basics](/Year1/Sem2/Routers%20and%20Routing%20Basics)
+> - [Web Development Client-Side](/Year1/Sem2/Web%20Development%20Client-Side)
 
 ## Year 1
 
