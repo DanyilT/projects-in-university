@@ -1,5 +1,3 @@
-package Exercise2;
-
 public class Dessert {
     private String name;
     private Boolean needsHeating;

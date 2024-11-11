@@ -1,5 +1,3 @@
-package Exercise1;
-
 public class Main {
     public static void main(String[] args) {
         Phone phone1Iphone11 = new Iphone("Apple", "Iphone 11", "iOS", 64, 12, true);

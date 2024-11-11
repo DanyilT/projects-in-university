@@ -1,5 +1,3 @@
-package Exercise3;
-
 public abstract class Building {
     protected String address;
     protected int sizeMetersSquared;

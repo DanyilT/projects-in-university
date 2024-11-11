@@ -1,5 +1,3 @@
-package Exercise2;
-
 public class House extends Building {
     private int numBedrooms;
     private int numBathrooms;

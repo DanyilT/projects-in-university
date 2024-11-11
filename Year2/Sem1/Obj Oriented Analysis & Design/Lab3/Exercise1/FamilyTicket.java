@@ -1,5 +1,3 @@
-package Exercise1;
-
 public class FamilyTicket {
     private static final int MAX_PEOPLE = 4;
     private String familyName;

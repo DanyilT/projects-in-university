@@ -1,5 +1,3 @@
-package Exercise3;
-
 public class VeryImportantProgram extends ProgramsLibrary {
     @Override
     public void startTheProgram() {

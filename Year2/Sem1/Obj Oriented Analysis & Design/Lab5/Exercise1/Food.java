@@ -1,5 +1,3 @@
-package Exercise1;
-
 public class Food {
     private String name;
     private FreshType freshness;

@@ -1,5 +1,3 @@
-package Exercise1;
-
 public class Iphone extends Phone {
     private Boolean ios15Compatible;
 

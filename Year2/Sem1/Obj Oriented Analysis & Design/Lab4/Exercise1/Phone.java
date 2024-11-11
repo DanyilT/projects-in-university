@@ -1,5 +1,3 @@
-package Exercise1;
-
 public class Phone {
     private String make;
     private String model;

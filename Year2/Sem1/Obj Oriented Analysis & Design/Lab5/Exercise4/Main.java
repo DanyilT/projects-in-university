@@ -1,5 +1,3 @@
-package Exercise4;
-
 public class Main {
     public static void main(String[] args) {
         // Create instance-object of abstract class Building, which is not allowed (abstract classes cannot be instantiated)

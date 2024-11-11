@@ -1,5 +1,3 @@
-package Exercise1;
-
 public class Main {
     public static void main(String[] args) {
         Food food1 = new Food("lettuce", FreshType.FRESH);

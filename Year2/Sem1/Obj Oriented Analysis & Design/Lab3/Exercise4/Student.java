@@ -1,5 +1,3 @@
-package Exercise4;
-
 public class Student {
     private String name;
     private Integer year;

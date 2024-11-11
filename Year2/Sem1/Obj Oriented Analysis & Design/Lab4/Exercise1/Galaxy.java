@@ -1,5 +1,3 @@
-package Exercise1;
-
 public class Galaxy extends Phone {
     private Boolean expandableMemory;
 

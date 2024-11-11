@@ -1,5 +1,3 @@
-package Exercise2;
-
 public class Phone {
     public String phoneNumber;
     public Person owner;

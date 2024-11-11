@@ -1,5 +1,3 @@
-package Exercise2;
-
 public class Main {
     public static void main(String[] args) {
         Dessert dish1 = new Dessert("Eton Mess", false);
