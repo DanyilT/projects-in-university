@@ -1,6 +1,6 @@
 # Web Develenment Client-Side
 
-This module introduces students to the basics of web development, including HTML, CSS, and JavaScript. The module covers the fundamentals of client-side web development, including the structure and design of web pages, the use of CSS for styling, and the use of JavaScript for interactivity. The module includes practical activities to build and test web pages using HTML, CSS, and JavaScript.
+> This module introduces students to the basics of web development, including HTML, CSS, and JavaScript. The module covers the fundamentals of client-side web development, including the structure and design of web pages, the use of CSS for styling, and the use of JavaScript for interactivity. The module includes practical activities to build and test web pages using HTML, CSS, and JavaScript.
 
 ## Table of Contents
 
