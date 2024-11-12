@@ -1,6 +1,6 @@
 # Fundamentals of Programming 1
 
-This module introduces the fundamental concepts of programming using Java. The module covers basic syntax, control structures, data types, etc. The module is assessed through a series of lab exercises. Each lab exercise is designed to enhance understanding of various programming concepts and their applications in solving computational problems.
+> This module introduces the fundamental concepts of programming using Java. The module covers basic syntax, control structures, data types, etc. The module is assessed through a series of lab exercises. Each lab exercise is designed to enhance understanding of various programming concepts and their applications in solving computational problems.
 
 ## Table of Contents
 
