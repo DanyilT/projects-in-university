@@ -31,8 +31,10 @@ hr {
 
 /***** Navigation Bar Centred ******/
 .topnav {
+    display: flex;
+    justify-content: center;
     margin: auto;
-    width: 700px;
+    width: auto;
     overflow: hidden;
 }
 
