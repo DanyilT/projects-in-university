@@ -218,4 +218,4 @@ This is my Personal Portfolio website. I created this website to showcase my ski
 
 Also you can see the website at the following links:
 - [GitHub Pages hosted version](https://danyilt.github.io/WebDev/PersonalPortfolio)
-- [Ntlify hosted version](https://dany-portfolio.netlify.app)
+- [Netlify hosted version](https://dany-portfolio.netlify.app)
