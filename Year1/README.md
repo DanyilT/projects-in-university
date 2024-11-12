@@ -1,6 +1,6 @@
 # University Projects (Year 1)
 
-This is a collection of projects completed during my first year at TU Dublin. The projects are organized by semester and subject, showcasing a range of skills and knowledge acquired throughout my studies.
+> This is a collection of projects completed during my first year at TU Dublin. The projects are organized by semester and subject, showcasing a range of skills and knowledge acquired throughout my studies.
 
 ## Table of Contents
 
