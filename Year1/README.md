@@ -61,11 +61,11 @@ This module covers personal and professional development topics, including prese
 
 #### [Computer Architecture](Computer%20Achitecture)
 
-This module introduces the basics of computer architecture and the principles of digital logic design. The module covers the fundamental concepts of digital systems, including binary numbers, logic gates, and Boolean algebra. The module also covers the design and implementation of combinational and sequential circuits using logic gates and flip-flops. The module includes practical activities to build and test digital circuits using breadboards and logic gates.
+This module introduces the basics of computer architecture and the principles of digital logic design. The module covers the fundamental concepts of digital systems, including binary numbers, logic gates, and Boolean algebra. The module also covers the design and implementation of combinational and sequential circuits using logic gates and flip-flops. The module includes practical activities to build and test digital circuits using breadboards and logic gates. The module also covers the basics of microcontrollers and embedded systems, including the Arduino platform. The module includes practical activities to build and test circuits using the Arduino platform and program microcontrollers to perform various tasks.
 
 #### [Fundamentals of Programming 2](Fundamentals%20of%20Programming%202)
 
-This module introduces students to the architecture, components, and operations of routers and switches in a small network. Students learn how to configure a router and a switch for basic functionality. By the end of this module, students will be able to configure and troubleshoot routers and switches and resolve common issues with RIPv1, RIPv2, single-area and multi-area OSPF, virtual LANs, and inter-VLAN routing in both IPv4 and IPv6 networks.
+This module builds on the concepts introduced in Fundamentals of Programming 1. The module covers more advanced programming topics, including arrays, classes, objects, and file handling. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and final project.
 
 #### [Routers and Routing Basics](Routers%20and%20Routing%20Basics)
 
