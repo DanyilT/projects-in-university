@@ -20,7 +20,7 @@ This module introduces students to the architecture, components, and operations 
 
 This laboratory exercise introduces students to the basic switch configuration.
 
-[Task](Lab1/%20Basic%20Switch%20Configuration.pdf) | [Packet Tracer Solution](Lab1/Basic%20Switch%20Configuration.pkt)
+[Task](Lab1/Basic%20Switch%20Configuration.pdf) | [Packet Tracer Solution](Lab1/Basic%20Switch%20Configuration.pkt)
 
 #### Objectives
 
