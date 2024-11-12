@@ -1,6 +1,6 @@
 # Algorithmic Problem Solving
 
-This Module provides an introduction to the fundamental concepts of algorithm design and problem-solving techniques. The course covers a range of topics, including pseudocode, flowcharts, diagrams, lists, and logical reasoning. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and continuous assessments.
+> This Module provides an introduction to the fundamental concepts of algorithm design and problem-solving techniques. The course covers a range of topics, including pseudocode, flowcharts, diagrams, lists, and logical reasoning. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and continuous assessments.
 
 ## Table of Contents
 
