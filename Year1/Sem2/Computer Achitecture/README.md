@@ -1,6 +1,6 @@
 # Computer Architecture
 
-This module introduces the basics of computer architecture and the principles of digital logic design. The module covers the fundamental concepts of digital systems, including binary numbers, logic gates, and Boolean algebra. The module also covers the design and implementation of combinational and sequential circuits using logic gates and flip-flops. The module includes practical activities to build and test digital circuits using breadboards and logic gates.
+> This module introduces the basics of computer architecture and the principles of digital logic design. The module covers the fundamental concepts of digital systems, including binary numbers, logic gates, and Boolean algebra. The module also covers the design and implementation of combinational and sequential circuits using logic gates and flip-flops. The module includes practical activities to build and test digital circuits using breadboards and logic gates.
 
 ## Table of Contents
 
