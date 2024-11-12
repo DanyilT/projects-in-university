@@ -1,6 +1,6 @@
 # Year 1 | Semester 2
 
-This is a collection of projects completed during my second semester at TU Dublin. The projects are organized by subject, showcasing a range of skills and knowledge acquired throughout my studies.
+> This is a collection of projects completed during my second semester at TU Dublin. The projects are organized by subject, showcasing a range of skills and knowledge acquired throughout my studies.
 
 ## [Computer Architecture](Computer%20Achitecture)
 
