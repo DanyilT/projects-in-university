@@ -22,7 +22,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 [Tasks](Lab1/Sem1-Lab1.pdf) | [Solution](Lab1/index.html)
 
 1. [Create a HTML page called lab01.html](Lab1/lab01.html)
-    - ![Lab 1 Screenshot](/Year1/Img/Sem1/WebDev/Lab1/Screenshot.png)
+    - ![Lab 1 Screenshot](Screenshots/Lab1/Screenshot.png)
     - Download HtmlTemplate from Nowhere
     - Open this file in ~~Brackets~~ and save as lab01.html
     - The title should be “my 1st web page”
@@ -40,7 +40,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 [Tasks](Lab2/Sem1-Lab2.pdf) | [Solution .html files](Lab2)
 
 1. [Create a College Web page](Lab2/lab02ex1.html)
-    - ![Lab 2 Screenshot1](/Year1/Img/Sem1/WebDev/Lab2/Screenshot1.png)
+    - ![Lab 2 Screenshot1](Screenshots/Lab2/Screenshot1.png)
     - Download HtmlTemplate from Nowhere
     - Open this file in ~~Brackets~~ and save as lab02ex1.html
     - Create a folder called images in the lab02 folder
@@ -54,7 +54,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
     - Add an unordered list of 1st year modules on the Computing Course under the H3 heading
 
 2. [Nested Lists](Lab2/lab02ex2.html)
-    - ![Lab 2 Screenshot2](/Year1/Img/Sem1/WebDev/Lab2/Screenshot2.png)
+    - ![Lab 2 Screenshot2](Screenshots/Lab2/Screenshot2.png)
     - Download HtmlTemplate from Nowhere
     - Open this file in ~~Brackets~~ and save as lab02ex2.html
     - The title should be “Lists”
@@ -62,7 +62,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
     - Underneath this create a nested list that shows the band names and 2 albums as per solution below.
 
 3. [Definition Lists](Lab2/lab02ex3.html)
-    - ![Lab 2 Screenshot3](/Year1/Img/Sem1/WebDev/Lab2/Screenshot3.png)
+    - ![Lab 2 Screenshot3](Screenshots/Lab2/Screenshot3.png)
     - Download HtmlTemplate from Nowhere
     - Open this file in ~~Brackets~~ and save as lab02ex3.html
     - The title should be “Definition Lists”
@@ -79,12 +79,12 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 [Tasks](Lab3/Sem1-Lab3.pdf) | [Solution .html & .css files](Lab3)
 
 - Lab 3 (ex1) Sample Submission
-    ![Lab 3 Wanted Result](/Year1/Img/Sem1/WebDev/Lab3/Wanted%20Result.png)
+    ![Lab 3 Wanted Result](Screenshots/Lab3/Wanted%20Result.png)
 - Lab 3 (ex1) My Submission
-    ![Lab 3 My Result](/Year1/Img/Sem1/WebDev/Lab3/My%20Result.png)
+    ![Lab 3 My Result](Screenshots/Lab3/My%20Result.png)
 
 1. [Links](Lab3/ex1/index.html)
-    - ![Lab 3 Screenshot1](/Year1/Img/Sem1/WebDev/Lab3/Screenshot1.png)
+    - ![Lab 3 Screenshot1](Screenshots/Lab3/Screenshot1.png)
     - Create a (skeleton) web page and save it as index.html.
     - Put an appropriate `<title>` on the page
     - Create a heading level 1. – HOME PAGE
@@ -103,7 +103,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
     - Add the same style sheet - index.css to each webpage.
 
 2. [Tables](Lab3/ex2/index.html)
-    - ![Lab 3 Screenshot2](/Year1/Img/Sem1/WebDev/Lab3/Screenshot2.png)
+    - ![Lab 3 Screenshot2](Screenshots/Lab3/Screenshot2.png)
     - Download Html Template from Nowhere
     - Open this file in ~~Brackets~~ and save as lab03ex2.html
     - The title should be “Tables Example”
@@ -119,7 +119,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 [Tasks](Lab4/Sem1-Lab4.pdf) | [Solution .html & .css files](Lab4)
 
 1. [Sport Spider](Lab4/index.html)
-    - ![Lab 4 Screenshot1](/Year1/Img/Sem1/WebDev/Lab4/Screenshot1.png)
+    - ![Lab 4 Screenshot1](Screenshots/Lab4/Screenshot1.png)
     - [**Home Page:**](Lab4/index.html)
     - Download HtmlTemplate from Nowhere
     - Open this file in ~~Brackets~~ and save as index.html
@@ -140,7 +140,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
             - Hover: colour red, underline
             - Active: colour green, no underline
         - The text ‘Republic of Ireland’ and ‘Northern Ireland’ should be in italics
-    - ![Lab 4 Screenshot2](/Year1/Img/Sem1/WebDev/Lab4/Screenshot2.png)
+    - ![Lab 4 Screenshot2](Screenshots/Lab4/Screenshot2.png)
     - [**Contact Page:**](Lab4/contact.html)
     - Headings should be in red
     - Link to the email address ‘sportspider@hotmail.com’
@@ -153,7 +153,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 [Tasks](Lab5/Sem1-Lab5.pdf) | [Solution .html & .css files](Lab5)
 
 1. [Sport Spider](Lab5/index.html)
-    - ![Lab 5 Screenshot](/Year1/Img/Sem1/WebDev/Lab5/Screenshot.png)
+    - ![Lab 5 Screenshot](Screenshots/Lab5/Screenshot.png)
     - [**Home Page:**](Lab5/index.html)
     - Modify the page above and add in structure tags as follows:
     - The header tag should contain the Sports image and the logo “Sports Spider: Set the background to an appropriate colour.
@@ -186,7 +186,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 [Tasks](Lab6/Sem1-Lab6.pdf) | [Solution .html & .css files](Lab6)
 
 1. [Create a Horizontal menu](Lab6/index.html)
-    - ![Lab 6 Screenshot1](/Year1/Img/Sem1/WebDev/Lab6/Screenshot1.png)
+    - ![Lab 6 Screenshot1](Screenshots/Lab6/Screenshot1.png)
     - **Styling the Navigation Bar:**
     - When the link is displayed and unvisited:
         - Change the font colour of the links to pink
@@ -198,7 +198,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
         - Change the font colour to purple
 
 2. [Create a Responsive Navigation Bar](Lab6/index.html)
-    - ![Lab 6 Screenshot2](/Year1/Img/Sem1/WebDev/Lab6/Screenshot2.png)
+    - ![Lab 6 Screenshot2](Screenshots/Lab6/Screenshot2.png)
     - [How To Create a Responsive Top Navigation Menu (w3schools.com)](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 
 ## Final Project
@@ -209,7 +209,7 @@ This is have to be the final project for the module.
 
 This is my Personal Portfolio website. I created this website to showcase my skills and projects, as well as to provide information about myself. The website is built using HTML, CSS, and JavaScript. It includes a home page, an about page, a projects page, and a contact page. The website is fully responsive and works on all devices.
 
-![Personal Portfolio Screenshot](/Year1/Img/Sem1/WebDev/FinalProject/Screenshot.png)
+![Personal Portfolio Screenshot](Screenshots/FinalProject/Screenshot.png)
 
 [Tasks](FinalProject/FinalProject.pdf) | [Solution](FinalProject/Personal%20Portfolio)
 
