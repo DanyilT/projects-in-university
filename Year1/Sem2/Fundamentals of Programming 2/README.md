@@ -1,6 +1,6 @@
 # Fundamentals of Programming 2
 
-> This module builds on the concepts introduced in Fundamentals of Programming 1. The module covers more advanced programming topics, including arrays, classes, objects, and file handling. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and continuous assessments.
+> This module builds on the concepts introduced in Fundamentals of Programming 1. The module covers more advanced programming topics, including arrays, classes, objects, and file handling. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and final project.
 
 ## Table of Contents
 
@@ -15,6 +15,7 @@
     - [Lab 8](#lab-8-more-objects): More Objects
     - [Lab 9](#lab-9-collections-composition--inheritance): Collections, Composition & Inheritance
     - [Lab 10](#lab-10-sequential-binary-files): Sequential Binary Files
+- [Final Project](#final-project)
 
 ## Labs
 
@@ -369,3 +370,14 @@ This lab introduces the concept of reading and writing sequential binary files i
     ```
 
 3. Write a program called [EmployeeReader](Lab10/EmployeeReader.java) that reads the contents of the [employees.dat](Lab10/employees.dat) file into an ArrayList. Your program should then display the contents of the ArrayList to the screen to confirm that the file has been read correctly.
+
+## Final Project
+
+This is have to be the final project for the module.
+
+### [CoffeeShop](https://github.com/DanyilT/Java/tree/main/CoffeeShop)
+
+This project is a simple coffee shop that allows the user to view and order drinks. The project uses Java classes to represent the drinks and the coffee shop menu. The project also includes a console-based user interface for interacting with the coffee shop.
+
+> [!NOTE]
+> It is stored in a [another repository](https://github.com/DanyilT/Java/tree/main/CoffeeShop), so you can click on the link to view the project.
