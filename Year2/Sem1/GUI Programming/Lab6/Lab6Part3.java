@@ -1,4 +1,5 @@
 import javax.swing.*;
+import java.awt.*;
 
 public class Lab6Part3 extends JFrame {
 
@@ -18,7 +19,8 @@ public class Lab6Part3 extends JFrame {
 
     private void startGame() {
         String[] portals = {"Portal 1", "Portal 2", "Portal 3"};
-        int choice = JOptionPane.showOptionDialog(this, "Choose a portal to enter:", "Space Adventure", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, null, portals, portals[0]);
+        ImageIcon customIcon = new ImageIcon(new ImageIcon("img/Part3/Space Adventure Game.png").getImage().getScaledInstance(100, 100, Image.SCALE_SMOOTH));
+        int choice = JOptionPane.showOptionDialog(this, "Choose a portal to enter:", "Space Adventure", JOptionPane.DEFAULT_OPTION, JOptionPane.INFORMATION_MESSAGE, customIcon, portals, portals[0]);
 
         switch (choice) {
             case 0:
@@ -31,7 +33,7 @@ public class Lab6Part3 extends JFrame {
                 path3();
                 break;
             default:
-                JOptionPane.showMessageDialog(this, "No portal chosen. Game over.");
+                JOptionPane.showMessageDialog(this, "No portal chosen.\n Game over!", "Game Over", JOptionPane.INFORMATION_MESSAGE, customIcon);
                 break;
         }
     }

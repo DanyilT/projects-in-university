@@ -30,12 +30,14 @@ public class Lab4Part2 extends JFrame {
         JMenuItem huluItem = new JMenuItem("Hulu");
         JMenuItem disneyPlusItem = new JMenuItem("Disney+");
         JMenuItem amazonPrimeItem = new JMenuItem("Amazon Prime");
+        JMenuItem youtubeItem = new JMenuItem("YouTube");
 
         // Add menu items to the menu
         streamingMenu.add(netflixItem);
         streamingMenu.add(huluItem);
         streamingMenu.add(disneyPlusItem);
         streamingMenu.add(amazonPrimeItem);
+        streamingMenu.add(youtubeItem);
 
         // Add the menu to the menu bar
         menuBar.add(streamingMenu);
@@ -52,6 +54,7 @@ public class Lab4Part2 extends JFrame {
         huluItem.addActionListener(new StreamingServiceActionListener("img/Part2/hulu-Black-digital.png"));
         disneyPlusItem.addActionListener(new StreamingServiceActionListener("img/Part2/disney_logo_march_2024_050fef2e.png"));
         amazonPrimeItem.addActionListener(new StreamingServiceActionListener("img/Part2/prime-logo-rgb-prime-blue-master.png"));
+        youtubeItem.addActionListener(new StreamingServiceActionListener("img/Part2/yt_logo_rgb_light.png"));
 
         // Make the frame visible
         setVisible(true);

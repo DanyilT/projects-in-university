@@ -49,7 +49,7 @@ public class Lab4Part4 extends JFrame {
         // Add the button panel to the center of the main panel
         mainPanel.add(buttonPanel, BorderLayout.CENTER);
 
-       // Create an input field for user input
+        // Create an input field for user input
         inputField = new JTextField();
         mainPanel.add(inputField, BorderLayout.NORTH);
 
@@ -72,11 +72,11 @@ public class Lab4Part4 extends JFrame {
         // Create a menu bar
         JMenuBar menuBar = new JMenuBar();
 
-        // Create a menu
-        JMenu menu = new JMenu("Options");
-        menu.setMnemonic('O'); // Mnemonic
+        // Create the first menu
+        JMenu menuOptions = new JMenu("Options");
+        menuOptions.setMnemonic('O'); // Mnemonic for Options
 
-        // Create menu items
+        // Create menu items for the first menu
         JMenuItem menuItemBalance = new JMenuItem("Check Balance");
         menuItemBalance.setAccelerator(KeyStroke.getKeyStroke('B', Toolkit.getDefaultToolkit().getMenuShortcutKeyMaskEx())); // Accelerator
         JMenuItem menuItemWithdraw = new JMenuItem("Withdraw Cash");
@@ -84,21 +84,40 @@ public class Lab4Part4 extends JFrame {
         JMenuItem menuItemDeposit = new JMenuItem("Deposit Cash");
         menuItemDeposit.setAccelerator(KeyStroke.getKeyStroke('D', Toolkit.getDefaultToolkit().getMenuShortcutKeyMaskEx())); // Accelerator
 
-        // Add menu items to the menu
-        menu.add(menuItemBalance);
-        menu.add(menuItemWithdraw);
-        menu.add(menuItemDeposit);
+        // Add menu items to the first menu
+        menuOptions.add(menuItemBalance);
+        menuOptions.add(menuItemWithdraw);
+        menuOptions.add(menuItemDeposit);
 
-        // Add menu to the menu bar
-        menuBar.add(menu);
+        // Add the first menu to the menu bar
+        menuBar.add(menuOptions);
+
+        // Create the second menu
+        JMenu menuSettings = new JMenu("Settings");
+        menuSettings.setMnemonic('S'); // Mnemonic for Settings
+
+        // Create menu items for the second menu
+        JMenuItem menuItemPreferences = new JMenuItem("Preferences");
+        JMenuItem menuItemAbout = new JMenuItem("About");
+
+        // Add menu items to the second menu
+        menuSettings.add(menuItemPreferences);
+        menuSettings.add(menuItemAbout);
+
+        // Add the second menu to the menu bar
+        menuBar.add(menuSettings);
 
         // Set the menu bar to the frame
         setJMenuBar(menuBar);
 
-        // Add menu item listeners
+        // Add menu item listeners for the first menu
         menuItemBalance.addActionListener(new ButtonActionListener("Balance checked"));
         menuItemWithdraw.addActionListener(new ButtonActionListener("Cash withdrawn"));
         menuItemDeposit.addActionListener(new ButtonActionListener("Cash deposited"));
+
+        // Add menu item listeners for the second menu
+        menuItemPreferences.addActionListener(e -> outputLabel.setText("Preferences selected"));
+        menuItemAbout.addActionListener(e -> outputLabel.setText("About selected"));
 
         // Make the frame visible
         setVisible(true);

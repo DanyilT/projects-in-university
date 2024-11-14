@@ -5,6 +5,8 @@ import java.awt.event.ActionListener;
 
 public class Lab6Part1 extends JFrame {
 
+    private JDesktopPane desktopPane = new JDesktopPane();
+
     public Lab6Part1() {
         // Create the frame
         setTitle("Games Menu");
@@ -12,6 +14,17 @@ public class Lab6Part1 extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
+        // Set the menu bar for the frame
+        setJMenuBar(createMenu());
+
+        // Add the desktop pane to the center of the frame
+        add(desktopPane, BorderLayout.CENTER);
+
+        // Make the frame visible
+        setVisible(true);
+    }
+
+    private JMenuBar createMenu() {
         // Create the menu bar
         JMenuBar menuBar = new JMenuBar();
         JMenu gamesMenu = new JMenu("Games Menu");
@@ -24,11 +37,6 @@ public class Lab6Part1 extends JFrame {
         gamesMenu.add(chessMenuItem);
         gamesMenu.add(snakesMenuItem);
         menuBar.add(gamesMenu);
-        setJMenuBar(menuBar);
-
-        // Create desktop pane to hold internal frames
-        JDesktopPane desktopPane = new JDesktopPane();
-        add(desktopPane, BorderLayout.CENTER);
 
         // Add action listeners to menu items
         chessMenuItem.addActionListener(new ActionListener() {
@@ -45,8 +53,7 @@ public class Lab6Part1 extends JFrame {
             }
         });
 
-        // Make the frame visible
-        setVisible(true);
+        return menuBar;
     }
 
     private void launchGame(JDesktopPane desktopPane, String title, String imagePath) {
