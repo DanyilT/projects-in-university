@@ -1,0 +1,2 @@
+use tudublin;
+SELECT EMPNO, ENAME, JOB FROM EMP;

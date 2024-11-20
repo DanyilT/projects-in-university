@@ -1,0 +1,3 @@
+SELECT ENAME, 
+       DATEDIFF(CURDATE(), HIREDATE) / 365 AS Years_Employed
+FROM EMP;

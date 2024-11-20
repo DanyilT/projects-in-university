@@ -1,0 +1,2 @@
+use tudublin;
+SELECT EMPNO, DEPTNO FROM EMP;

@@ -1,0 +1,3 @@
+SELECT COUNT(*) AS Employees_in_Dept_20
+FROM EMP
+WHERE DEPTNO = 20;

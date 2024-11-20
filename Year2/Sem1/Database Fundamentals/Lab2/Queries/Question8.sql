@@ -1,0 +1,2 @@
+use tudublin;
+SELECT ENAME, SAL FROM EMP WHERE SAL < COMM;
