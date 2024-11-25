@@ -1,9 +1,9 @@
 package people;
 
 public abstract class Person {
-    protected String name;
-    protected String phone;
-    protected String[] address;
+    private String name;
+    private String phone;
+    private String address;
 
     public String getName() {
         return name;
@@ -21,11 +21,24 @@ public abstract class Person {
         this.phone = phone;
     }
 
-    public String[] getAddress() {
+    public String getAddress() {
         return address;
     }
 
-    public void setAddress(String[] address) {
-        this.address = address;
+    public void setAddress(String address) throws EmptyAddressException {
+        if (address.isEmpty()) {
+            throw new EmptyAddressException("occurred");
+        } else {
+            this.address = address;
+        }
+    }
+
+    @Override
+    public String toString() {
+        return "Owner{" +
+                "name='" + name + '\'' +
+                ", phone='" + phone + '\'' +
+                ", address='" + address + '\'' +
+                '}';
     }
 }
