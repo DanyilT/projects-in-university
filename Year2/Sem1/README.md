@@ -20,4 +20,6 @@ Projects and exercises designed to deepen understanding of LAN switching and wir
 
 This section includes a collection of lab exercises and coursework assignments focused on object-oriented analysis and design. Each project within this category is designed to enhance understanding of various object-oriented design principles and their applications in software development.
 
+> [Final Project](https://github.com/DanyilT/Java/tree/main/BlackJack) for this module.
+
 ## Note: Also have to add Databases module
