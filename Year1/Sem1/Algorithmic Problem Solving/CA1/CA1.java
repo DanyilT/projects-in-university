@@ -1,5 +1,5 @@
 /*
-Dany
+Danyil Tymchuk - B00167321
 CA-1 - Group 8
 09/11/2023
 */
