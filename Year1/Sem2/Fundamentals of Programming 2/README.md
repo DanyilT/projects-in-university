@@ -375,9 +375,11 @@ This lab introduces the concept of reading and writing sequential binary files i
 
 This is have to be the final project for the module.
 
-### [CoffeeShop](https://github.com/DanyilT/Java/tree/main/CoffeeShop)
+### [CoffeeShop](FinalProject/Coffee%20Shop)
 
 This project is a simple coffee shop that allows the user to view and order drinks. The project uses Java classes to represent the drinks and the coffee shop menu. The project also includes a console-based user interface for interacting with the coffee shop.
 
+[Tasks](FinalProject/FinalProject.pdf) | [Solutions .java files](FinalProject)
+
 > [!NOTE]
-> It is stored in a [another repository](https://github.com/DanyilT/Java/tree/main/CoffeeShop), so you can click on the link to view the project.
+> It is also stored in another repository [Java/CoffeeShop](https://github.com/DanyilT/Java/tree/main/CoffeeShop), so in that ropo may have a newer version of the project.
