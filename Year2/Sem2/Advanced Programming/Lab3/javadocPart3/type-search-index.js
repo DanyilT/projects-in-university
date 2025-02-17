@@ -1,0 +1,1 @@
+typeSearchIndex = [{"l":"All Classes and Interfaces","u":"allclasses-index.html"},{"p":"Lab3Part3.exception","l":"BalanceBelowLimitException"},{"p":"Lab3Part3","l":"MyNetworkChecker"},{"p":"Lab3Part3.exception","l":"WrongNetworkException"}];updateSearchResults();
