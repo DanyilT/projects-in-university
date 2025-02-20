@@ -1,6 +1,6 @@
 # Algorithmic Problem Solving
 
-> This Module provides an introduction to the fundamental concepts of algorithm design and problem-solving techniques. The course covers a range of topics, including pseudocode, flowcharts, diagrams, lists, and logical reasoning. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and continuous assessments.
+> This Module provides an introduction to the principles of algorithmic problem solving. The module covers the development of algorithms using pseudocode, diagrams and lists. The module also covers the use of conditional statements and logical expressions in algorithm development. The module also covers the use of systematic lists and the elimination of possibilities in problem-solving. The module also covers the use of logic in problem-solving. The module also covers the use of classic problems in problem-solving.
 
 ## Table of Contents
 
@@ -23,6 +23,8 @@
 This lab focuses on solving problems using pseudocode. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
 [Tasks](Lab1/Sem1-Lab1.pdf) | [Solutions](Lab1/Lab1.txt)
+
+![Lab 1 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab1/Screenshot.png)
 
 #### Questions
 
@@ -63,6 +65,8 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
 
 [Tasks](Lab2/Sem1-Lab2.pdf) | [Solutions](Lab2/Lab2.txt)
 
+![Lab 2 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab2/Screenshot.png)
+
 #### Questions
 
 1. Write a Pseudocode program that prints the **quotient** and **remainder** on dividing the constant **X** by the constant **Y**. X should be initialized to **5** and Y should be initialized to **3**. Your program should use two variables called **quotient** and **remainder** to store results and you should use a single PRINT() statement to print the result in the format.
@@ -101,6 +105,8 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
 This lab introduces more advanced pseudocode problems, focusing on conditional statements and logical expressions.
 
 [Tasks](Lab3/Sem1-Lab3.pdf) | [Solutions](Lab3/Lab3.txt)
+
+![Lab 3 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab3/Screenshot.png)
 
 #### Questions
 
@@ -148,6 +154,8 @@ This lab introduces more advanced pseudocode problems, focusing on conditional s
 This lab focuses on solving problems using pseudocode, emphasizing conditional statements and logical expressions.
 
 [Tasks](Lab4/Sem1-Lab4.pdf) | [Solutions](Lab4/Lab4.txt)
+
+![Lab 4 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab4/Screenshot.png)
 
 #### Questions
 
@@ -198,6 +206,8 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
 
 [Tasks](Lab5/Sem1-Lab5.pdf) | [Solutions](Lab5/Lab5.txt)
 
+![Lab 5 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab5/Screenshot.png)
+
 #### Questions
 
 1. Write a Pseudocode program to read an integer value in the range 1..100 and output its value in words. For example, if the input is **45** then the output is **“forty five”**. If the number entered is not within the valid range the program should print “Invalid number!”.
@@ -225,51 +235,40 @@ This lab introduces the use of diagrams and lists as problem-solving tools. The 
 
 [Tasks](Lab6/Sem1-Lab6.pdf) | [Solutions](Lab6/Lab6.pdf)
 
+![Lab 6 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab6/Screenshot.png)
+
 #### Questions
 
 - Diagrams
-
     1. FOLLOW THE BOUNCING BALL
         - A ball rebounds one-half the height from which it is dropped. The ball is dropped from a height of 160m and keeps bouncing. What is the total vertical distance the ball will travel from the moment it is dropped to the moment it hits the floor for the fifth time.
-
     2. WORM JOURNEY
         - A worm is at the bottom of a 12m wall. Every day the worm crawls up 3m, but at night it slips down 2m. How many days does it take the worm to get to the top of the wall.
-
     3. RACE
         - Becky, Ruby, Isabel, Lana, Alma, and Sabrina ran an 800m race. Alma beat Isabel by 7 meters. Sabrina beat Becky by 12 meters. Alma finished 5 meters ahead of Lana but 3 meters behind Sabrina. Ruby finished halfway (distance-wise) between the first and the last women. In what order did the women finish? What were the distances between them?
-
     4. A WHOLE LOT OF SHAKING GOIN’ ON
         - If six people met at a party and all shook hands with one another, how many handshakes would be exchanged?
-
     5. ROCK CLIMBING
         - Amy is just learning how to rock climb. Her instructor takes her to a 13m climbing wall for her first time. She climbs 2.5m in 2 minutes but then slips back 1m in 10 seconds. This pattern repeats until she reaches the top. How long will it take her to reach the very top of the wall?
 
 - Systematic Lists
-
     1. CARDS AND COMICS
         - Paul’s daughter has €6.00 she wants to spend on comic books and superhero cards. Comic books cost 60c each, and deluxe packages of superhero cards cost €1.20 each. List all the ways she can spend all of her money on comic books, superhero cards, or both.
-
     2. TENNIS TOURNAMENT
         - Justin, Julie, Jamie, Matt, Ryan, and Roland are the six players in a round-robin tennis tournament. Each player will play a set against each of the other players. List all the sets that need to be played.
-
     3. FEE CONCERT TICKETS
         - Alex, Blake, Chuck, and Darren all called into a radio show to get free tickets to a concert. List all the possible orders in which their calls could have been received.
-
     4. TWENTY-FOUR
         - How many ways are there to add four positive even numbers to get a sum of 24?
-
     5. FINISHED PRODUCT
         - The product (2 numbers multiplied) of two whole numbers is 360, and their sums (2 numbers added) is less than 100, what are the possibilities for the two numbers?
 
 - Classic Problems
-
     1. THE WEIGHT OF A BRICK
         - If a brick balances with three-quarters of a brick and three-quarters of a kg, then how much does the brick weigh?
-
     2. THE HUNGRY BOOKWORM
         - The four volumes of the ‘world of mathematics’ are sitting side by side on a bookshelf, in order, with volume 1 on the left. A bookworm tunnels through the front cover of volume 1 all the way through the back cover of volume 4. Each book has a front cover and a back cover that each measure 4mm. The pages of each book measure 26mm. How far does the bookworm tunnel? CLUE: The answer is NOT 136mm.
-
-    3. **ARCHERY PUZZLE**
+    3. ARCHERY PUZZLE
         - A target shows the numbers 16, 17, 23, 24, 39, and 40. How many arrows does it take to score exactly 100 on this target?
 
 ### [Lab 7](Lab7): Eliminating Possibilities
@@ -278,41 +277,36 @@ This lab focuses on solving problems using the eliminating possibilities method.
 
 [Tasks](Lab7/Sem1-Lab7.pdf) | [Solutions](Lab7/Lab7.pdf)
 
+![Lab 7 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab7/Screenshot.png)
+
 #### Questions
 
 - Eliminating Possibilities
-
     1. SQUARE ROOTS
         - The square root of 4356 is an integer. Without a calculator, determine what that integer is by eliminating possibilities. Do the same for 8464.
-
     2. HOW MANY LINES?
         - Stu counted the lines of a page in his book. Counting by three gave a remainder of 2, counting by fives also gave a remainder of 2, and counting by sevens gave a remainder of 5. How many lines were on the page?
-
     3. THE THREE SQUARES
         - Three cousins, Bob, Chris, and Phil, were sitting around watching football on TV. The game was so boring that they started talking about how old they were. Bob (The oldest) noticed that they were all between the ages of 11 and 30. Phil noticed that the sum of their ages was 70. Chris (The youngest) pointed out, “if you write the square of each of our ages, all the digits from 1 to 9 will appear exactly once in the digits of the three squares”. How old was each person?
 
 - Logic
-
     1. THE FISHING TRIP
         - Several friends take a fishing trip every year. Each year they have a contest to see who catches the heaviest fish. The loser has to pay for all of the junk food they eat on the trip. Determine each friend’s standings in this year’s contest by using the following clues. By the way, in the tradition of fishing trips, every statement quoted here is a falsehood.
             - Marta: Mickey was first
             - Woody: I beat Sally
             - Sally: Marta beat Woody
             - Mickey: Woody was second
-
     2. VOLLEYBALL TEAM
         - Three friends – Elaine, Kelly, and Shannon – all start for their college volleyball team. Each plays a different position: setter, middle blocker, and outside hitter. Of the three, one is a first year, one a 2nd year, and the other is a 4th year. From the clues below, determine each woman’s position and year in college.
             1. Elaine is not the setter.
             2. Kelly has been in school longer than the middle blocker.
             3. The middle blocker has been in school longer than the outside hitter.
             4. Either Kelly is the setter or Elaine is the middle blocker.
-
     3. ATHLETES
         - Russ, Don, Pamela, and Yvonne are the first names of four friends who all received sports scholarships. Krieger actually has a full scholarship because he is a star in two different sports. Use the clues to determine each person’s full name.
             1. Hicks and Russ play on the same men’s volleyball team.
             2. Drake and Braun have both set women’s records in swimming.
             3. Yvonne and Drake both went to the same high school.
-
     4. EXPERTS
         - Abbie, Bridget, Clare, and Demi are women whose professions are water quality engineer, soil contamination scientist, air pollution consultant, and biological diversity advocate. Match each woman to her expertise using the following four clues.
             1. Bridget’s expertise is not biological diversity.
@@ -321,17 +315,40 @@ This lab focuses on solving problems using the eliminating possibilities method.
             4. Bridget has never met the person who works on air pollution.
 
 - Classic Problems
-
     1. TURKEYS
-        - Among Grandfather’s papers, a bill was found: 72 Turkeys = €_67.9_
+        - Among Grandfather’s papers, a bill was found: 72 Turkeys = *€67.9*
         - The first and last digits of the number that obviously represented the total price of those fowls are replaced here by blanks, for they have faded and are now illegible. What are the two faded digits and what was the price of one turkey?
 
 ## Continuous Assessment (CA)
 
 ### [CA 1](CA1): Pseudocode Problems
 
+This CA focuses on solving problems using pseudocode and implementing it in Java.
+
 [Pseudocode](CA1/CA1.txt) | [Code](CA1/CA1.java)
+
+![CA 1 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/CA1/Screenshot.png)
+
+#### Questions
+
+- Question 1
+    - ![CA 1 Screenshot1](../Screenshots/Algorithmic%20Problem%20Solving/CA1/Screenshot1.png)
+    - Write a Pseudocode program that outputs the day name of the week based on the number entered by the user. The program should prompt the user to enter a number between 1 and 7 and output the corresponding day name. If the user enters a number outside the range, the program should output "Invalid number".
+- Question 2
+    - ![CA 1 Screenshot2](../Screenshots/Algorithmic%20Problem%20Solving/CA1/Screenshot2.png)
+    - Write Java code based on the Pseudocode program in question 1. The program should output the day name of the week based on the number entered by the user. The program should prompt the user to enter a number between 1 and 7 and output the corresponding day name. If the user enters a number outside the range, the program should output "Invalid number".
 
 ### [CA 2](CA2): List and Diagrams
 
+This CA focuses on solving problems using lists and diagrams.
+
 [Solutions](CA2/CA2.pdf)
+
+![CA 2 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/CA2/Screenshot.png)
+
+#### Questions
+
+- Question 1
+    - A rectangle has an area measuring 120 square centimeters. Its length and width are whole numbers of centimeters. List all the possible combinations of length and width? Which possibility gives the smallest perimeter?
+- Question 2
+    - Noel has a number of 10c coins and 5c coins in his pocket. List all the possible ways to make change for 50c.
