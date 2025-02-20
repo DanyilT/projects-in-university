@@ -19,23 +19,28 @@ This laboratory exercise introduces students to the basic Windows command-line n
 
 [Tasks](Lab1/Network%20Introduction.pdf)
 
+![Lab 1 Screenshot](../Screenshots/Networking%20Basics/Lab1/Screenshot.png)
+
 #### Objectives
+
 At the end of this laboratory exercise, students should be able to:
 - Use the basic Windows command-line networking tools to check connectivity.
 
 #### Command-Line Networking Tools
+
 There are a number of Command-Line (or Windows Console) programs included with the Windows operating systems. The following programs used in this module's laboratory exercises are located on the C drive.
 
-| Program       | Description                                                                 |
-|---------------|-----------------------------------------------------------------------------|
-| IPCONFIG.EXE  | Used to view current network configuration.                                 |
-| NET.EXE       | Used to view Microsoft network shared resources.                            |
-| PING.EXE      | Basic connectivity test between two systems running TCP/IP.                 |
-| ARP.EXE       | Uses ARP (Address Resolution Protocol) to provide dynamic mapping from an IP address to the corresponding hardware (MAC) address. |
-| TRACERT.EXE   | Traces the route that IP datagrams follow from one host to another.         |
-| NETSTAT.EXE   | Displays protocol statistics and current TCP/IP network connections.        |
+| Program | Description |
+|---------|-------------|
+| IPCONFIG.EXE | Used to view current network configuration. |
+| NET.EXE | Used to view Microsoft network shared resources. |
+| PING.EXE | Basic connectivity test between two systems running TCP/IP. |
+| ARP.EXE | Uses ARP (Address Resolution Protocol) to provide dynamic mapping from an IP address to the corresponding hardware (MAC) address. |
+| TRACERT.EXE | Traces the route that IP datagrams follow from one host to another. |
+| NETSTAT.EXE | Displays protocol statistics and current TCP/IP network connections. |
 
 #### Exercise 1 – Check Computer Network Configuration
+
 Check the configuration of the network interface card (NIC):
 1. Open the Command Prompt window by clicking into the Search Box at the lower left of the computer screen and type `cmd`, which will cause a command prompt window to appear (Windows users).
 2. Enter the `ipconfig /all` command and note the following:
@@ -47,6 +52,7 @@ Check the configuration of the network interface card (NIC):
    - Default Gateway: 192.168.1.1
 
 #### Windows Networking Tools
+
 1. **Ping**
    - PING is a basic Internet program that lets you verify that a particular Internet address exists and can accept requests.
    - To “ping” is the act of using the ping utility or command. Pinging is diagnostically used to ensure that a host computer, which you are trying to reach, actually operates.
@@ -67,7 +73,6 @@ Check the configuration of the network interface card (NIC):
      - Try to ping Google: `ping www.google.com`
        - Was it successful? `No`
      - Note: Both ping and tracert (see later) use the ICMP protocol. The college firewall blocks all incoming and outgoing ICMP data for security reasons.
-
 2. **Tracert**
    - Tracert traces the route from your PC to a destination PC. It lets us know how many routers the message passes through before it gets to its destination.
    - Command: `tracert www.rte.ie`
@@ -91,11 +96,15 @@ Check the configuration of the network interface card (NIC):
 
 ### Lab 2-6: Idk but for some reason I don't have them
 
+`null`
+
 ### [Lab 7](Lab7): Configure IPv6 Addressing
 
 This laboratory exercise introduces the configuration of IPv6 addressing on a router, servers, and clients.
 
-[Tasks](Lab7/Configure%20IPv6%20Addressing.pdf) | [Packet Tracer Solution](Lab7/Configure%20IPv6%20Addressing.pkt)
+[Tasks](Lab7/Configure%20IPv6%20Addressing.pdf) | [Packet Tracer Solution](Lab7/Configure%20IPv6%20Addressing.pka)
+
+![Lab 7 Screenshot](../Screenshots/Networking%20Basics/Lab7/Screenshot.png)
 
 #### Objectives
 
@@ -108,7 +117,9 @@ This laboratory exercise introduces the configuration of IPv6 addressing on a ro
 
 This laboratory exercise introduces the troubleshooting of default gateway issues on a router, servers, and clients.
 
-[Tasks](Lab8/Troubleshooting%20Default%20Gateway%20Issues.pdf) | [Packet Tracer Solution](Lab8/Troubleshooting%20Default%20Gateway%20Issues.pkt)
+[Tasks](Lab8/Troubleshooting%20Default%20Gateway%20Issues.pdf) | [Packet Tracer Solution](Lab8/Troubleshooting%20Default%20Gateway%20Issues.pka)
+
+![Lab 8 Screenshot](../Screenshots/Networking%20Basics/Lab8/Screenshot.png)
 
 #### Objectives
 
@@ -119,7 +130,9 @@ This laboratory exercise introduces the troubleshooting of default gateway issue
 
 This laboratory exercise introduces the subnetting scenario on a router, servers, and clients.
 
-[Tasks](Lab9/Subnetting%20Scenario.pdf) | [Packet Tracer Solution](Lab9/Subnetting%20Scenario.pkt)
+[Tasks](Lab9/Subnetting%20Scenario.pdf) | [Packet Tracer Solution](Lab9/Subnetting%20Scenario.pka)
+
+![Lab 9 Screenshot](../Screenshots/Networking%20Basics/Lab9/Screenshot.png)
 
 #### Objectives
 
@@ -130,7 +143,9 @@ This laboratory exercise introduces the subnetting scenario on a router, servers
 
 This laboratory exercise introduces the design and implementation of a VLSM addressing scheme on a router, servers, and clients.
 
-[Tasks](Lab10/Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pdf) | [Packet Tracer Solution](Lab10/Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pkt)
+[Tasks](Lab10/Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pdf) | [Packet Tracer Solution](Lab10/Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pka)
+
+![Lab 10 Screenshot](../Screenshots/Networking%20Basics/Lab10/Screenshot.png)
 
 #### Objectives
 
