@@ -3,6 +3,7 @@
 > This module provides an introduction to the fundamental concepts of computer networks. The course covers a range of topics, including network devices, protocols, and network configuration. The primary goal is to develop an understanding of computer networks and their applications in real-world scenarios. The course also includes practical exercises to reinforce the theoretical concepts. IP addressing, subnetting, and network troubleshooting are some of the key topics covered in this module.
 
 ## Table of Contents
+
 - [Labs](#labs)
     - [Lab 1](#lab-1-network-introduction): Network Introduction
     - [Lab 2-6](#lab-2-6-idk-but-for-some-reason-i-dont-have-them): Idk but for some reason I don't have them
