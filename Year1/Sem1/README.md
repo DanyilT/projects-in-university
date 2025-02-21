@@ -21,3 +21,7 @@ This module covers personal and professional development topics, including prese
 ## [Web Development Fundamentals](Web%20Development%20Fundamentals)
 
 This module covers the basics of web development, including HTML, CSS, and introductory JavaScript. Projects in this category aim to build a strong foundation in creating and styling web pages, as well as adding interactivity through JavaScript. The module also covers responsive design and accessibility. The primary goal is to develop an understanding of web development and its applications in real-world scenarios. The course also includes practical exercises to reinforce the theoretical concepts.
+
+## Computer Systems
+
+Didn't save anything for this module.
