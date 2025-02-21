@@ -17,3 +17,7 @@ This module introduces the architecture, components, and operations of routers a
 ## [Web Development Client-Side](Web%20Development%20Client-Side)
 
 This module covers the basics of web development and the fundamentals of client-side web development. HTML, CSS, and JavaScript are the primary technologies used in this module. The module covers the structure and design of web pages, the use of CSS for styling, and the use of JavaScript for interactivity. The module includes practical activities to build and test web pages using HTML, CSS, and JavaScript. The primary goal is to develop an understanding of web development and its applications in real-world scenarios.
+
+## Mathematics for Computing
+
+Didn't save anything for this module.
