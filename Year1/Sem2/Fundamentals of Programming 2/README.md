@@ -1,6 +1,6 @@
 # Fundamentals of Programming 2
 
-> This module builds on the concepts introduced in Fundamentals of Programming 1. The module covers more advanced programming topics, including arrays, classes, objects, and file handling. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and final project.
+> This module builds on the concepts introduced in Fundamentals of Programming 1. The module covers more advanced programming topics, including arrays, classes, objects, and file handling. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and final project. Also have to be the final project for the module: write a code for a Coffee Shop that allows the user to view and order drinks.
 
 ## Table of Contents
 
@@ -408,11 +408,11 @@ This lab introduces the concept of reading and writing sequential binary files i
 
 This is have to be the final project for the module.
 
-### [CoffeeShop](FinalProject/Coffee%20Shop)
+### [CoffeeShop](FinalProject)
 
 This project is a simple coffee shop that allows the user to view and order drinks. The project uses Java classes to represent the drinks and the coffee shop menu. The project also includes a console-based user interface for interacting with the coffee shop.
 
-[Tasks](FinalProject/FinalProject.pdf) | [Solutions .java files](FinalProject)
+[Tasks](FinalProject/FinalProject.pdf) | [Solutions .java files](FinalProject/Coffee%20Shop)
 
 ![Final Project Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/FinalProject/Screenshot.png)
 
