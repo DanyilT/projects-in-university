@@ -209,9 +209,9 @@ This is have to be the final project for the module.
 
 This is my Personal Portfolio website. I created this website to showcase my skills and projects, as well as to provide information about myself. The website is built using HTML, CSS, and JavaScript. It includes a home page, an about page, a projects page, and a contact page. The website is fully responsive and works on all devices.
 
-![Personal Portfolio Screenshot](../Screenshots/Web%20Development%20Fundamentals/FinalProject/Screenshot.png)
-
 [Tasks](FinalProject/FinalProject.pdf) | [Solution](FinalProject/Personal%20Portfolio)
+
+![Personal Portfolio Screenshot](../Screenshots/Web%20Development%20Fundamentals/FinalProject/Screenshot.png)
 
 > [!NOTE]
 > There is may be an older version of the website, because I have done this project in the past and I have updated it since then. You can see an relevant project at this repository [`WebDev/PersonalPortfolio`](https://github.com/DanyilT/WebDev/tree/main/PersonalPortfolio)
