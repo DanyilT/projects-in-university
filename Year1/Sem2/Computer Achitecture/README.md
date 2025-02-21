@@ -19,67 +19,91 @@
 
 This lab introduces the Arduino Uno and the BOE Shield-Bot. How to set up the Arduino Development Environment, write and upload basic sketches, and understand fundamental programming concepts such as functions, variables, and loops. The lab also covers how to make the Shield-Bot perform basic maneuvers and respond to sensor inputs.
 
-[Tasks](Lab1/Sem2-La1.pdf) | [Solutions .ino files](Lab1)
+[Tasks](Lab1/Sem2-Lab1.pdf) | [Solutions .ino files](Lab1)
 
 - [ex1](Lab1/ex1/ex1.ino)
+    - ![Lab 1 Screenshot1](../Screenshots/Computer%20Achitecture/Lab1/Screenshot1.png)
 - [ex2](Lab1/ex2/ex2.ino)
+    - ![Lab 1 Screenshot2](../Screenshots/Computer%20Achitecture/Lab1/Screenshot2.png)
 - [ex3](Lab1/ex3/ex3.ino)
+    - ![Lab 1 Screenshot3](../Screenshots/Computer%20Achitecture/Lab1/Screenshot3.png)
 - [ex4](Lab1/ex4/ex4.ino)
+    - ![Lab 1 Screenshot4](../Screenshots/Computer%20Achitecture/Lab1/Screenshot4.png)
 - [ex5](Lab1/ex5/ex5.ino)
+    - ![Lab 1 Screenshot5](../Screenshots/Computer%20Achitecture/Lab1/Screenshot5.png)
 - [ex6](Lab1/ex6/ex6.ino)
+    - ![Lab 1 Screenshot6](../Screenshots/Computer%20Achitecture/Lab1/Screenshot6.png)
 - [ex7](Lab1/ex7/ex7.ino)
+    - ![Lab 1 Screenshot7](../Screenshots/Computer%20Achitecture/Lab1/Screenshot7.png)
 
 ### [Lab 2](Lab2): Shield, Resistors and LEDs
 
 This lab focuses on using the BOE Shield to build and test circuits with resistors and LEDs. The basics of building circuits, understanding resistor color codes, and making the Arduino interact with these circuits. The lab includes activities for setting up the BOE Shield, building and testing LED indicator lights, and programming the Arduino to control the LEDs.
 
-[Tasks](Lab2/Sem2-La2.pdf) | [Solutions .ino files](Lab2)
+[Tasks](Lab2/Sem2-Lab2.pdf) | [Solutions .ino files](Lab2)
 
 - [ex1](Lab2/ex1/ex1.ino)
+    - ![Lab 2 Screenshot1](../Screenshots/Computer%20Achitecture/Lab2/Screenshot1.png)
 - [ex2](Lab2/ex2/ex2.ino)
+    - ![Lab 2 Screenshot2](../Screenshots/Computer%20Achitecture/Lab2/Screenshot2.png)
 - [ex3](Lab2/ex3/ex3.ino)
+    - ![Lab 2 Screenshot3](../Screenshots/Computer%20Achitecture/Lab2/Screenshot3.png)
 - [ex4](Lab2/ex4/ex4.ino)
+    - ![Lab 2 Screenshot4](../Screenshots/Computer%20Achitecture/Lab2/Screenshot4.png)
 
 ### [Lab 3](Lab3): LED Servo Signal Monitors
 
 This lab covers the use of LEDs to monitor servo signals. How to generate servo control signals using the Arduino, understand the importance of precise timing for servo motor control, and use the Arduino Servo library for more accurate and efficient signal generation. The lab includes activities for setting up and testing servo signals, connecting servos to the BOE Shield, and controlling servo speed and direction.
 
-[Tasks](Lab3/Sem2-La3.pdf) | [Solutions .ino files](Lab3)
+[Tasks](Lab3/Sem2-Lab3.pdf) | [Solutions .ino files](Lab3)
 
 - [ex1](Lab3/ex1/ex1.ino)
+    - ![Lab 3 Screenshot1](../Screenshots/Computer%20Achitecture/Lab3/Screenshot1.png)
 - [ex2](Lab3/ex2/ex2.ino)
+    - ![Lab 3 Screenshot2](../Screenshots/Computer%20Achitecture/Lab3/Screenshot2.png)
 
 ### [Lab 4](Lab4): Attach the BOE Shield to the Chassis
 
 This lab involves attaching the BOE Shield to the chassis and testing the servos to ensure proper electrical connections. How to build a start-reset indicator circuit, program the Arduino to control servo motors, and test servo speed and direction. The lab includes activities for assembling the BOE Shield-Bot, connecting the battery pack, and using a piezospeaker to play some sounds.
 
-[Tasks](Lab4/Sem2-La4.pdf) | [Solutions .ino files](Lab4)
+[Tasks](Lab4/Sem2-Lab4.pdf) | [Solutions .ino files](Lab4)
 
 - [ex1](Lab4/ex1/ex1.ino)
+    - ![Lab 4 Screenshot1](../Screenshots/Computer%20Achitecture/Lab4/Screenshot1.png)
 - [ex2](Lab4/ex2/ex2.ino)
+    - ![Lab 4 Screenshot2](../Screenshots/Computer%20Achitecture/Lab4/Screenshot2.png)
 - [ex3](Lab4/ex3/ex3.ino)
+    - ![Lab 4 Screenshot3](../Screenshots/Computer%20Achitecture/Lab4/Screenshot3.png)
 
 ### [Lab 5](Lab5): Programming Strategies for BOE Shield-Bot
 
 This lab introduces different programming strategies to make the BOE Shield-Bot move. How to control the BOE Shield-Bot's movements, including moving forward, backward, rotating, and pivoting. The lab also covers creating functions for each maneuver to simplify navigation and improve code reusability.
 
-[Tasks](Lab5/Sem2-La5.pdf) | [Solutions .ino files](Lab5)
+[Tasks](Lab5/Sem2-Lab5.pdf) | [Solutions .ino files](Lab5)
 
 - [ex1](Lab5/ex1/ex1.ino)
+    - ![Lab 5 Screenshot1](../Screenshots/Computer%20Achitecture/Lab5/Screenshot1.png)
 - [ex2](Lab5/ex2/ex2.ino)
+    - ![Lab 5 Screenshot2](../Screenshots/Computer%20Achitecture/Lab5/Screenshot2.png)
 - [ex3](Lab5/ex3/ex3.ino)
+    - ![Lab 5 Screenshot3](../Screenshots/Computer%20Achitecture/Lab5/Screenshot3.png)
 - [ex4](Lab5/ex4/ex4.ino)
+    - ![Lab 5 Screenshot4](../Screenshots/Computer%20Achitecture/Lab5/Screenshot4.png)
 - [ex5](Lab5/ex5/ex5.ino)
+    - ![Lab 5 Screenshot5](../Screenshots/Computer%20Achitecture/Lab5/Screenshot5.png)
 
 ### [Lab 6](Lab6): Tactile Navigation with Whiskers
 
 This lab introduces tactile navigation using whisker switches. Build and test whisker circuits, program the BOE Shield-Bot to monitor whisker states, and implement autonomous navigation by touch. The lab includes activities for building whisker circuits, testing whisker inputs, and programming the BOE Shield-Bot to respond to obstacles using whisker inputs.
 
-[Tasks](Lab6/Sem2-La6.pdf) | [Solutions .ino files](Lab6)
+[Tasks](Lab6/Sem2-Lab6.pdf) | [Solutions .ino files](Lab6)
 
 - [ex1](Lab6/ex1/ex1.ino)
+    - ![Lab 6 Screenshot1](../Screenshots/Computer%20Achitecture/Lab6/Screenshot1.png)
 - [ex2](Lab6/ex2/ex2.ino)
+    - ![Lab 6 Screenshot2](../Screenshots/Computer%20Achitecture/Lab6/Screenshot2.png)
 - [ex3](Lab6/ex3/ex3.ino)
+    - ![Lab 6 Screenshot3](../Screenshots/Computer%20Achitecture/Lab6/Screenshot3.png)
 
 ## Final Project
 
@@ -90,3 +114,5 @@ This is have to be the final project for the module.
 This is a code for Arduino Uno Vechile to navigate through a maze. The vehicle is equipped with a servo motor and whisker switches to detect obstacles and navigate around them. The code uses a combination of servo control, whisker input monitoring, and decision-making logic to guide the vehicle through the maze autonomously.
 
 [Tasks](FinalProject/FinalProject.pdf) | [Solutions](FinalProject/Maze_Runner/Maze_Runner.ino)
+
+![Final Project Screenshot](../Screenshots/Computer%20Achitecture/FinalProject/Screenshot.png)
