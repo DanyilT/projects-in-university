@@ -21,13 +21,13 @@ This laboratory exercise is designed to revise the topics covered in the previou
 
 [Tasks](Lab1/Sem2-Lab1.pdf) | [Solutions .html & .css files](Lab1)
 
-1. Create html and css files named [Lab1.html](Lab1/Lab1.html) and [Lab1.css](Lab1/Lab1.css).
-    - ![Lab 1 Screenshot](Screenshots/Lab1/Screenshot.png)
+1. Create html and css files named [index.html](Lab1/index.html) and [styles.css](Lab1/css/styles.css).
+    - ![Lab 1 Screenshot](../Screenshots/Web%20Development%20Client-Side/Lab1/Screenshot.png)
     - Create a web page with flex box, images, links, and a nav bar.
     - Insert a `<main>` in the body of the HTML document.
     - Insert three flex items using `div` tags.
         - The first flex item should have the class `flex1` and include 1 heading “Flex item 1”, followed by 2 paragraphs of text (use Lorem Ipsum).
-        - The second flex item should have the class `flex2` and include 1 heading “Flex item 2”, followed by 1 paragraph of text (use Lorem Ipsum) and the [kingfisher.jpg](Lab1/kingfisher.jpg) image from the images folder.
+        - The second flex item should have the class `flex2` and include 1 heading “Flex item 2”, followed by 1 paragraph of text (use Lorem Ipsum) and the [kingfisher.jpg](Lab1/images/kingfisher.jpg) image from the images folder.
         - The third flex item should have the class `flex3` and include 1 heading “Flex item 3”, followed by 2 paragraphs of text (use Lorem Ipsum).
     - Style the page:
         - Ensure that the image width is set to 100% in the CSS.
@@ -71,7 +71,7 @@ This laboratory exercise is designed to create a basic form and style it using C
 [Tasks](Lab2/Sem2-Lab2.pdf) | [Solutions .html & .css files](Lab2)
 
 1. [contactForm.html](Lab2/contactForm.html)
-    - ![Lab 2 Screenshot](Screenshots/Lab2/Screenshot.png)
+    - ![Lab 2 Screenshot](../Screenshots/Web%20Development%20Client-Side/Lab2/Screenshot.png)
     - Add the following elements:
         - Title: Contact Us
         - H1: Contact Us
@@ -123,7 +123,7 @@ This laboratory exercise is designed to design and create a form for a local res
 [Tasks](Lab3/Sem2-Lab3.pdf) | [Solutions .html & .css files](Lab3)
 
 1. HTML Form [index.html](Lab3/index.html)
-    - ![Lab 3 Screenshot](Screenshots/Lab3/Screenshot.png)
+    - ![Lab 3 Screenshot](../Screenshots/Web%20Development%20Client-Side/Lab3/Screenshot.png)
     - The form should contain the following details to allow the customer to place an order for collection:
         - Customer Name, email, mobile phone number
         - Details about starters, main courses, desserts, children’s menus, and specials User should be allowed to select more than one starter, main course, etc
@@ -147,7 +147,7 @@ This laboratory exercise is designed to design and create a form for a local res
             Thank you for your order, please collect your order at 5pm
             ```
 
-2. CSS Styling [style.css](Lab3/css/style.css)
+2. CSS Styling [styles.css](Lab3/css/styles.css)
     - Image
         - Include an appropriate image as the background image.
     - Fieldsets and Legend
@@ -178,7 +178,7 @@ This laboratory exercise is designed to create a form that validates the user’
 [Tasks](Lab4/Sem2-Lab4.pdf) | [Solutions .html files](Lab4)
 
 1. [console.html](Lab4/console.html)
-    - ![Lab 4 Screenshot1](Screenshots/Lab4/Screenshot1.png)
+    - ![Lab 4 Screenshot1](../Screenshots/Web%20Development%20Client-Side/Lab4/Screenshot1.png)
     - Create a new file called [console.html](Lab4/console.html) with a Title “Arithmetic and Concatenation” and a Header “Tom and Mary”.
     - Use a script tag to embed JavaScript in the body of the document.
     - Create 4 variables – tomLN (value Smith), maryLN (value Jacobs), tomAge (value 30), and maryAge (value 25).
@@ -189,7 +189,7 @@ This laboratory exercise is designed to create a form that validates the user’
         4. Their children will have the last name SmithJacobs
 
 2. [ifstmt.html](Lab4/ifstmt.html)
-    - ![Lab 4 Screenshot2](Screenshots/Lab4/Screenshot2.png)
+    - ![Lab 4 Screenshot2](../Screenshots/Web%20Development%20Client-Side/Lab4/Screenshot2.png)
     - Create a file called [ifstmt.html](Lab4/ifstmt.html).
     - Add a title ‘Grade Check’.
     - Prompt the user to enter a student score and use an if statement to display a grade in the console based on the following criteria:
@@ -201,7 +201,7 @@ This laboratory exercise is designed to create a form that validates the user’
         - If the score is below 40, the grade is 'F'.
 
 3. [forloop.html](Lab4/forloop.html)
-    - ![Lab 4 Screenshot3](Screenshots/Lab4/Screenshot3.png)
+    - ![Lab 4 Screenshot3](../Screenshots/Web%20Development%20Client-Side/Lab4/Screenshot3.png)
     - Ask the user to input two numbers.
     - Using a for loop, calculate the sum of all numbers within the range defined by these two numbers (inclusive).
     - For example, if the user enters numbers 1 and 10 as the 2 numbers.
@@ -215,7 +215,7 @@ This laboratory exercise is designed to use HTML and JavaScript to solve given e
 [Tasks](Lab5/Sem2-Lab5.pdf) | [Solutions .html & .js files](Lab5)
 
 1. [euroToUSD.html](Lab5/euroToUSD.html), [euroToUSD.js](Lab5/js/euroToUSD.js)
-    - ![Lab 5 Screenshot1](Screenshots/Lab5/Screenshot1.png)
+    - ![Lab 5 Screenshot1](../Screenshots/Web%20Development%20Client-Side/Lab5/Screenshot1.png)
     - The purpose of this exercise is to convert Euro into US Dollars.
     - Create a form that will allow the user to enter a Euro amount.
     - Incorporate a 'Convert' button within the form. 
@@ -224,14 +224,14 @@ This laboratory exercise is designed to use HTML and JavaScript to solve given e
     - The conversion rate is 1.09.
 
 2. [euroConverter.html](Lab5/euroConverter.html), [euroConverter.js](Lab5/js/euroConverter.js)
-    - ![Lab 5 Screenshot2](Screenshots/Lab5/Screenshot2.png)
+    - ![Lab 5 Screenshot2](../Screenshots/Web%20Development%20Client-Side/Lab5/Screenshot2.png)
     - Enhance exercise 1 by enabling users to choose the currency for conversion.
         - For instance, if the user opts for GBP and inputs an amount in euros, the corresponding amount in GBP will be presented.
     - Provide users with the option to select from the following currencies: British Pound (GBP), US Dollar (USD), Australian Dollar (AUD), and Japanese Yen (JPY).
     - Retrieve currency rates from Google for accurate conversion.
 
 3. [waterUsage.html](Lab5/waterUsage.html), [waterUsage.js](Lab5/js/waterUsage.js)
-    - ![Lab 5 Screenshot3](Screenshots/Lab5/Screenshot3.png)
+    - ![Lab 5 Screenshot3](../Screenshots/Web%20Development%20Client-Side/Lab5/Screenshot3.png)
     - The purpose of this exercise is to calculate the average water usage per day.
     - Create a form that allows the user to enter two numbers, Litres and No. of days.
     - When the user clicks the calculate button the average water usage is displayed.
@@ -245,7 +245,7 @@ This laboratory exercise is designed to use JavaScript and jQuery to solve given
 [Tasks](Lab6/Sem2-Lab6.pdf) | [Solutions .html & .css & .js files](Lab6)
 
 1. [shopCart.html](Lab6/ex1/shopCart.html), [shopCart.js](Lab6/ex1/js/shopCart.js), [shopCart.css](Lab6/ex1/css/shopCart.css)
-    - ![Lab 6 Screenshot1](Screenshots/Lab6/Screenshot1.png)
+    - ![Lab 6 Screenshot1](../Screenshots/Web%20Development%20Client-Side/Lab6/Screenshot1.png)
     - The purpose of this exercise is to allow the user to purchase various items.
     - The images and prices for each item should be displayed on a form.
     - It should also display the total cost of purchase per item and the overall total.
@@ -279,8 +279,8 @@ This laboratory exercise is designed to use JavaScript and jQuery to solve given
         - Create a second function that is called when the user submits the form.
         - This function displays an alert box which states the amount due.
 
-2. [jQueryexamples.html](Lab6/jQueryexamples.html)
-    - ![Lab 6 Screenshot2](Screenshots/Lab6/Screenshot2.png)
+2. [jQueryexamples.html](Lab6/ex2/jQueryexamples.html)
+    - ![Lab 6 Screenshot2](../Screenshots/Web%20Development%20Client-Side/Lab6/Screenshot2.png)
     - The purpose of this exercise is to demonstrate various jQuery selectors, events, and effects.
     - Use jQuery within one HTML file to achieve the following tasks.
     - Create a HTML file with heading text ‘Welcome to my Web Site’.
@@ -295,16 +295,17 @@ This laboratory exercise is designed to use JavaScript and jQuery to solve given
 
 This is have to be the final project for the module.
 
-### [ATB Market](FinalProject/ATB%20Market)
+### [ATB Market](FinalProject)
 
 This is copy real website [ATB Market](https://www.atbmarket.com). It's not actualy the copy, this is just a parody of the website. The website is made using HTML, CSS, and JavaScript.
 
-![Final Project Screenshot](Screenshots/FinalProject/Screenshot.png)
-
 [Tasks](FinalProject/FinalProject.pdf) | [Solutions .html & .css & .js files](FinalProject/ATB%20Market)
 
+![Final Project Screenshot](../Screenshots/Web%20Development%20Client-Side/FinalProject/Screenshot.png)
+
 > [!NOTE]
-> There is may be an older version of the website, because I have done this project in the past and I have updated it since then. You can see an relevant project at this repository [`WebDev/ATB-Market`](https://github.com/DanyilT/WebDev/tree/main/ATB-Market)
+> Also you can find more my WebDev projects in my [WebDev repository](https://github.com/DanyilT/WebDev) on GitHub, including the [ATB-Market](https://github.com/DanyilT/WebDev/tree/main/ATB-Market) project.
+> There is may be an older version of the website, because I have done this project in the past and I have updated it since then. You can see an relevant project at this repository [`WebDev/ATB-Market`](https://github.com/DanyilT/WebDev/tree/main/ATB-Market) (not this repo), so you can check it out there.
 
 Also you can see the website at the following links:
 - [GitHub Pages hosted version](https://danyilt.github.io/WebDev/ATB-Market)
