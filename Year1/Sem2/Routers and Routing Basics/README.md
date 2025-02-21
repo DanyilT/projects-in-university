@@ -1,6 +1,6 @@
 # Routers and Routing Basics
 
-> This module introduces students to the architecture, components, and operations of routers and switches in a small network. Students learn how to configure a router and a switch for basic functionality. By the end of this module, students will be able to configure and troubleshoot routers and switches and resolve common issues with RIPv1, RIPv2, single-area and multi-area OSPF, virtual LANs, and inter-VLAN routing in both IPv4 and IPv6 networks.
+> This module introduces the architecture, components, and operations of routers and switches in a small network. It covers how to configure a router and a switch for basic functionality. The primary goal is to develop an understanding of networking concepts and partical skills to configure a small network, including the ability to perform basic router and switch configurations. Had some hardware (real routers and switches) labs and Packet Tracer (virtual) labs.
 
 ## Table of Contents
 
@@ -22,6 +22,8 @@ This laboratory exercise introduces students to the basic switch configuration.
 
 [Task](Lab1/Basic%20Switch%20Configuration.pdf) | [Packet Tracer Solution](Lab1/Basic%20Switch%20Configuration.pkt)
 
+![Lab 1 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab1/Screenshot.png)
+
 #### Objectives
 
 1. Cable the Network and Verify the Default Switch Configuration
@@ -42,7 +44,9 @@ This laboratory exercise introduces students to the basic switch configuration.
 
 This laboratory exercise introduces students to the Secure Shell (SSH) protocol.
 
-[Task](Lab2/Configure%20SSH.pdf) | [Packet Tracer Solution](Lab2/Configure%20SSH.pkt)
+[Task](Lab2/Configure%20SSH.pdf) | [Packet Tracer Solution](Lab2/Configure%20SSH.pka)
+
+![Lab 2 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab2/Screenshot.png)
 
 #### Objectives
 
@@ -54,7 +58,9 @@ This laboratory exercise introduces students to the Secure Shell (SSH) protocol.
 
 This laboratory exercise introduces students to the configuration of router interfaces.
 
-[Task](Lab3/Configure%20Router%20Interfaces.pdf) | [Packet Tracer Solution](Lab3/Configure%20Router%20Interfaces.pkt)
+[Task](Lab3/Configure%20Router%20Interfaces.pdf) | [Packet Tracer Solution](Lab3/Configure%20Router%20Interfaces.pka)
+
+![Lab 3 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab3/Screenshot.png)
 
 #### Objectives
 
@@ -65,7 +71,9 @@ This laboratory exercise introduces students to the configuration of router inte
 
 This laboratory exercise introduces students to the configuration of VLANs and trunking.
 
-[Task](Lab4/Implement%20VLANs%20and%20Trunking.pdf) | [Packet Tracer Solution](Lab4/Implement%20VLANs%20and%20Trunking.pkt)
+[Task](Lab4/Implement%20VLANs%20and%20Trunking.pdf) | [Packet Tracer Solution](Lab4/Implement%20VLANs%20and%20Trunking.pka)
+
+![Lab 4 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab4/Screenshot.png)
 
 #### Objectives
 
@@ -81,6 +89,8 @@ This laboratory exercise introduces students to the configuration of router-on-a
 
 [Task](Lab5/Configure%20Router%20on%20Stick%20Inter%20VLAN%20Routing.pdf) | [Second Task](Lab5/Password%20Recovery%20on%20Router%20%20Switch.pdf)
 
+![Lab 5 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab5/Screenshot.png)
+
 #### Objectives
 
 1. Configure Console Passwords on Router & Switch
@@ -94,7 +104,9 @@ This laboratory exercise introduces students to the configuration of router-on-a
 
 This laboratory exercise introduces students to the configuration of DHCPv4.
 
-[Task](Lab6/Configure%20DHCPv4.pdf) | [Packet Tracer Solution](Lab6/Configure%20DHCPv4.pkt)
+[Task](Lab6/Configure%20DHCPv4.pdf) | [Packet Tracer Solution](Lab6/Configure%20DHCPv4.pka)
+
+![Lab 6 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab6/Screenshot.png)
 
 #### Objectives
 
@@ -109,6 +121,8 @@ This laboratory exercise introduces students to the configuration of DHCPv4.
 This laboratory exercise introduces students to the configuration of IPv4 static and default routes.
 
 [Task](Lab7/Configuring%20IPv4%20Static%20and%20Default%20Routes.pdf)
+
+![Lab 7 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab7/Screenshot.png)
 
 #### Objectives
 
@@ -125,6 +139,8 @@ This laboratory exercise introduces students to the configuration of IPv4 static
 This laboratory exercise introduces students to the configuration of IPv6 static and default routes.
 
 [Task](Lab8/Configuring%20IPv6%20Static%20and%20Default%20Routes.pdf)
+
+![Lab 8 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab8/Screenshot.png)
 
 #### Objectives
 
