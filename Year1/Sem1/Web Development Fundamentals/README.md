@@ -214,7 +214,8 @@ This is my Personal Portfolio website. I created this website to showcase my ski
 ![Personal Portfolio Screenshot](../Screenshots/Web%20Development%20Fundamentals/FinalProject/Screenshot.png)
 
 > [!NOTE]
-> There is may be an older version of the website, because I have done this project in the past and I have updated it since then. You can see an relevant project at this repository [`WebDev/PersonalPortfolio`](https://github.com/DanyilT/WebDev/tree/main/PersonalPortfolio)
+> Also you can find more my WebDev projects in my [WebDev repository](https://github.com/DanyilT/WebDev) on GitHub, including the [PersonalPortfolio](https://github.com/DanyilT/WebDev/tree/main/PersonalPortfolio) project.
+> There is may be an older version of the website, because I have done this project in the past and I have updated it since then. You can see an relevant project at this repository [`WebDev/PersonalPortfolio`](https://github.com/DanyilT/WebDev/tree/main/PersonalPortfolio) (not this repo), so you can check it out there.
 
 Also you can see the website at the following links:
 - [GitHub Pages hosted version](https://danyilt.github.io/WebDev/PersonalPortfolio)
