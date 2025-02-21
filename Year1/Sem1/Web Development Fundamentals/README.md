@@ -205,7 +205,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 
 This is have to be the final project for the module.
 
-### [Personal Portfolio](FinalProject/Personal%20Portfolio)
+### [Personal Portfolio](FinalProject)
 
 This is my Personal Portfolio website. I created this website to showcase my skills and projects, as well as to provide information about myself. The website is built using HTML, CSS, and JavaScript. It includes a home page, an about page, a projects page, and a contact page. The website is fully responsive and works on all devices.
 
