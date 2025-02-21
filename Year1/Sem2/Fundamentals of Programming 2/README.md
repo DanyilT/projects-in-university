@@ -21,11 +21,15 @@
 
 ### Lab 1: Idk what's happed to this lab, but I don't have it
 
+`null`
+
 ### [Lab 2](Lab2): Excersise Sheet 2
 
 This lab introduces the concept of arrays and how to manipulate them. The lab covers how to create arrays, populate them with random numbers, and perform various operations on the array elements. The lab also includes activities for sorting arrays, finding the maximum and minimum values, and calculating the average of the array elements.
 
 [Tasks](Lab2/Sem2-Lab2.pdf) | [Solution](Lab2/ProcessArray.java)
+
+![Lab 2 Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/Lab2/Screenshot.png)
 
 #### Questions
 
@@ -66,12 +70,15 @@ This lab introduces the concept of arrays and how to manipulate them. The lab co
             printArray(myData);
         }
         ```
+    - ![Lab 2 Screenshot (same as previus)](../Screenshots/Fundamentals%20of%20Programming%202/Lab2/Screenshot.png)
 
 ### [Lab 3](Lab3): Excersise Sheet 3
 
 This lab introduces the concept of 2D arrays and how to manipulate them. The lab covers how to create 2D arrays, populate them with random numbers, and perform various operations on the array elements. The lab also includes activities for sorting 2D arrays, finding the maximum and minimum values, and calculating the average of the array elements.
 
 [Tasks](Lab3/Sem2-Lab3.pdf) | [Solutions .java files](Lab3)
+
+![Lab 3 Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/Lab3/Screenshot.png)
 
 #### Questions
 
@@ -86,6 +93,7 @@ This lab introduces the concept of 2D arrays and how to manipulate them. The lab
     ===========================================================================================================================
     Totals    14        27        32        30        32        23        31        20        16        14        11        7
     ```
+    - ![Lab 3 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%202/Lab3/Screenshot1.png)
 
 2. Write a Java program called [SumRows.java](Lab3/SumRows.java) that creates a 2D integer array of size 10x12. Your program should initialise the 2D array with random values between 1-20. It should also calculate the row totals for the 2D array and print them in tabular format. Program **use** parameterised **procedures** and **functions** wherever possible to decompose the problem down into smaller parts.
     ```
@@ -101,12 +109,15 @@ This lab introduces the concept of 2D arrays and how to manipulate them. The lab
     9  5  5 11 15 17 12 20 14 18  8  4  = 138
     14  1 16 16  8  4  9  6 18  8  1  3  = 104
     ```
+    - ![Lab 3 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%202/Lab3/Screenshot2.png)
 
 ### [Lab 4](Lab4): Excersise Sheet 4
 
 This lab introduces the concept of searching and sorting algorithms. The lab covers how to implement linear and binary search algorithms to search for a specific value in an array. The lab also includes activities for sorting arrays using the bubble sort algorithm.
 
 [Tasks](Lab4/Sem2-Lab4.pdf) | [Solutions .java files](Lab4)
+
+![Lab 4 Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/Lab4/Screenshot.png)
 
 #### Questions
 
@@ -122,11 +133,13 @@ This lab introduces the concept of searching and sorting algorithms. The lab cov
     cat hat mat bat hat sat
     Rightmost hat found at index 4.
     ```
+    - ![Lab 4 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%202/Lab4/Screenshot1.png)
 
 2. Modify the Binary Search template code from Nowhere to calculate the average number of steps taken when searching a sorted data set that contains 250 random integer values (between 0 – 765). Your calculated average should be approximately the same as the theoretical average binary search time for a data set of size 250.
     ```math
     0(log2(250)) + 1 = 7.96
     ```
+    - ![Lab 4 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%202/Lab4/Screenshot2.png)
 
 ### [Lab 5](Lab5): Excersise Sheet 5
 
@@ -134,9 +147,11 @@ This lab introduces the concept of sorting algorithms and how to measure their p
 
 [Tasks](Lab5/Sem2-Lab5.pdf) | [Solutions .java files](Lab5)
 
+![Lab 5 Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/Lab5/Screenshot.png)
+
 #### Questions
 
-1. Download the [SortExperiment.java](Lab5/SortExperiment.java) file from Nowhere. Read the code and complete the sections marked TODO.
+1. Download the [SortingExperiment.java](Lab5/SortingExperiment.java) file from Nowhere. Read the code and complete the sections marked TODO.
 
 2. Java has an in-built library called **Arrays** that has a method called **sort**. The sort method can be used to sort an integer array as follows:
     ```java
@@ -146,12 +161,15 @@ This lab introduces the concept of sorting algorithms and how to measure their p
     Arrays.sort(myArray);
     ```
     Modify the [SortExperiment.java](Lab5/SortExperiment.java) file to add an additional experiment to test the runtime of the in-built Java Arrays.sort() method.
+    - ![Lab 5 Screenshot (same as previus)](../Screenshots/Fundamentals%20of%20Programming%202/Lab5/Screenshot.png)
 
 ### [Lab 6](Lab6): Excersise Sheet 6
 
 This lab introduces the concept of classes and objects in Java. The lab covers how to create classes, define instance variables, and implement methods to manipulate the class objects. The lab also includes activities for creating classes to represent books and courses.
 
 [Tasks](Lab6/Sem2-Lab6.pdf) | [Solutions .java files](Lab6)
+
+![Lab 6 Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/Lab6/Screenshot.png)
 
 #### Questions
 
@@ -182,6 +200,7 @@ This lab introduces the concept of classes and objects in Java. The lab covers h
     Author: Bram Stoker
     Year: 1897
     ```
+    - ![Lab 6 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%202/Lab6/Screenshot1.png)
 
 2. Write a Java class called [Course](Lab6/TestCourse.java) and a main class called [TestCourse](Lab6/TestCourse.java) that implements and tests the following class diagram. You may only include the instance variables and methods shown in the class diagram. Your program should be called [TestCourse.java](Lab6/TestCourse.java).
     ```
@@ -209,12 +228,15 @@ This lab introduces the concept of classes and objects in Java. The lab covers h
     Faculty: Informatics
     Duration: 2
     ```
+    - ![Lab 6 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%202/Lab6/Screenshot2.png)
 
 ### [Lab 7](Lab7): Excersise Sheet 7
 
 This lab introduces the concept of file handling in Java. The lab covers how to read and write data to files using the FileReader, BufferedReader, FileWriter, and BufferedWriter classes. The lab also includes activities for reading the contents of text files and generating random passwords.
 
 [Tasks](Lab7/Sem2-Lab7.pdf) | [Solutions .java files](Lab7)
+
+![Lab 7 Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/Lab7/Screenshot.png)
 
 #### Questions
 
@@ -231,6 +253,7 @@ This lab introduces the concept of file handling in Java. The lab covers how to 
     Hedy Lamarr - Hedy Lamarr was an Austrian-American actress and inventor who pioneered the technology that would one day form the basis for today?s WiFi, GPS, and Bluetooth communication systems.
     Guido van Rossum - Guido van Rossum is a Dutch programmer best known as the creator of the Python programming language.
     ```
+    - ![Lab 7 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%202/Lab7/Screenshot1.png)
 
 2. Write a function called [generatePassword](Lab7/Question2.java) that generates a random password of length 18 that may contain lowercase, uppercase, digits, and special characters.
     TIP: See lecture 9 from semester 1.
@@ -264,12 +287,15 @@ This lab introduces the concept of file handling in Java. The lab covers how to 
     7:IPy5P}v];!GKte!3
     Z3r)gL{QT%?LkXD4]O
     ```
+    - ![Lab 7 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%202/Lab7/Screenshot2.png)
 
 ### [Lab 8](Lab8): More Objects
 
 This lab introduces the concept of classes and objects in Java. The lab covers how to create classes, define instance variables, and implement methods to manipulate the class objects. The lab also includes activities for creating classes to represent coins and testing the class methods.
 
 [Tasks](Lab8/Sem2-Lab8.pdf) | [Solutions .java files](Lab8)
+
+![Lab 8 Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/Lab8/Screenshot.png)
 
 #### Questions
 
@@ -301,12 +327,15 @@ This lab introduces the concept of classes and objects in Java. The lab covers h
     HEADS HEADS TAILS HEADS HEADS HEADS TAILS HEADS HEADS HEADS HEADS HEADS TAILS TAILS HEADS HEADS HEADS HEADS HEADS HEADS HEADS HEADS HEADS HEADS TAILS TAILS HEADS HEADS HEADS TAILS HEADS TAILS HEADS TAILS TAILS TAILS HEADS TAILS HEADS HEADS HEADS HEADS HEADS HEADS HEADS HEADS TAILS HEADS HEADS HEADS HEADS TAILS HEADS HEADS HEADS HEADS HEADS HEADS HEADS HEADS HEADS TAILS HEADS HEADS TAILS HEADS HEADS HEADS HEADS HEADS HEADS HEADS TAILS HEADS HEADS HEADS HEADS HEADS HEADS HEADS TAILS TAILS HEADS HEADS HEADS HEADS HEADS HEADS HEADS HEADS TAILS HEADS HEADS HEADS TAILS HEADS HEADS HEADS TAILS TAILS
     HEADS=77 TAILS=23
     ```
+    - ![Lab 8 Screenshot (same as previus)](../Screenshots/Fundamentals%20of%20Programming%202/Lab8/Screenshot.png)
 
 ### [Lab 9](Lab9): Collections, Composition & Inheritance
 
 This lab introduces the concept of collections, composition, and inheritance in Java. The lab covers how to create classes that extend other classes and implement interfaces. The lab also includes activities for creating classes to represent people, athletes, and employees.
 
 [Tasks](Lab9/Sem2-Lab9.pdf) | [Solutions .java files](Lab9)
+
+![Lab 9 Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/Lab9/Screenshot.png)
 
 #### Questions
 
@@ -339,12 +368,15 @@ This lab introduces the concept of collections, composition, and inheritance in 
 4. Write a method in the [PersonCollection](Lab9/PersonCollection.java) class to display the contents of the Person ArrayList to screen. Test this method out by calling it in the [main()](Lab9/Main.java) method.
 
 5. Remove “Alex” from the Person ArrayList and display its contents to screen to verify that the item has been removed.
+    - ![Lab 9 Screenshot (same as previus)](../Screenshots/Fundamentals%20of%20Programming%202/Lab9/Screenshot.png)
 
 ### [Lab 10](Lab10): Sequential Binary Files
 
 This lab introduces the concept of reading and writing sequential binary files in Java. The lab covers how to create classes to represent employees, write employee data to a binary file, and read employee data from a binary file.
 
 [Tasks](Lab10/Sem2-Lab10.pdf) | [Solutions .java files](Lab10)
+
+![Lab 10 Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/Lab10/Screenshot.png)
 
 #### Questions
 
@@ -370,6 +402,7 @@ This lab introduces the concept of reading and writing sequential binary files i
     ```
 
 3. Write a program called [EmployeeReader](Lab10/EmployeeReader.java) that reads the contents of the [employees.dat](Lab10/employees.dat) file into an ArrayList. Your program should then display the contents of the ArrayList to the screen to confirm that the file has been read correctly.
+    - ![Lab 10 Screenshot (same as previus)](../Screenshots/Fundamentals%20of%20Programming%202/Lab10/Screenshot.png)
 
 ## Final Project
 
@@ -381,5 +414,8 @@ This project is a simple coffee shop that allows the user to view and order drin
 
 [Tasks](FinalProject/FinalProject.pdf) | [Solutions .java files](FinalProject)
 
+![Final Project Screenshot](../Screenshots/Fundamentals%20of%20Programming%202/FinalProject/Screenshot.png)
+
 > [!NOTE]
-> It is also stored in another repository [Java/CoffeeShop](https://github.com/DanyilT/Java/tree/main/CoffeeShop), so in that ropo may have a newer version of the project.
+> Also you can find more my Java projects in my [Java repository](https://github.com/DanyilT/Java) on GitHub, including the [CoffeeShop](https://github.com/DanyilT/Java/tree/main/CoffeeShop) project.
+> If I maded or will make any changes to the project, I will update it in the [Java/CoffeeShop](https://github.com/DanyilT/Java/tree/main/CoffeeShop) (not in this repo), so you can check it out there.
