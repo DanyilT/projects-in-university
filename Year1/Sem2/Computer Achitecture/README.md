@@ -116,3 +116,6 @@ This is a code for Arduino Uno Vechile to navigate through a maze. The vehicle i
 [Tasks](FinalProject/FinalProject.pdf) | [Solutions](FinalProject/Maze_Runner/Maze_Runner.ino)
 
 ![Final Project Screenshot](../Screenshots/Computer%20Achitecture/FinalProject/Screenshot.png)
+
+> [!NOTE]
+> Also you can find more Arduino projects in my [Arduino repository]https://github.com/DanyilT/Arduino) on GitHub, including the [Maze_Runner](https://github.com/DanyilT/Arduino/tree/main/Maze_Runner) project.
