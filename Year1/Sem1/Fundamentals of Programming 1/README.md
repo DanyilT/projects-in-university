@@ -25,7 +25,7 @@ This lab introduces the basics of Java programming, including setting up the dev
 
 [Tasks](Lab0/Sem1-Lab0.pdf) | [Solutions .java files)](Lab0)
 
-![Lab 0 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab0/Screenshot.png)
+![Lab 0 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab0/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -37,20 +37,20 @@ This lab introduces the basics of Java programming, including setting up the dev
         }
     }
     ```
-    - ![Lab 0 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab0/Screenshot1.png)
+    - ![Lab 0 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab0/Screenshot1.png?raw=true)
 
 2. Write a new Java program called `MyName.java` that prints your name to the screen. Compile and run this program from the command line using the `javac` and `java` commands. Program named as [`MyName.java`](Lab0/MyName.java).
-    - ![Lab 0 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab0/Screenshot2.png)
+    - ![Lab 0 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab0/Screenshot2.png?raw=true)
 
 3. Write a Java program called `NewHope.java` that prints the following text to the screen. Compile and run this program from the command line using the `javac` and `java` commands. Program named as [`NewHope.java`](Lab0/NewHope.java).
     ```
     Episode IV, A NEW HOPE
     It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the DEATH STAR, an armoured space station with enough power to destroy an entire planet.
     ```
-    - ![Lab 0 Screenshot3](../Screenshots/Fundamentals%20of%20Programming%201/Lab0/Screenshot3.png)
+    - ![Lab 0 Screenshot3](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab0/Screenshot3.png?raw=true)
 
 4. Download the `Broken.java` source file from nowhere. Compile the program on the command line using the `javac` command. Open the `Broken.java` file in TextPad and try to fix the errors it contains, compile the code with `javac` to check for errors. When you have fixed all the errors in `Broken.java`, run the program using the `java` command. Program named as [`Broken.java`](Lab0/Broken.java).
-    - ![Lab 0 Screenshot4](../Screenshots/Fundamentals%20of%20Programming%201/Lab0/Screenshot4.png)
+    - ![Lab 0 Screenshot4](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab0/Screenshot4.png?raw=true)
 
 ### [Lab 1](Lab1): Exercise sheet 1
 
@@ -58,7 +58,7 @@ This lab focuses on basic Java programming concepts, including variables, data t
 
 [Tasks](Lab1/Sem1-Lab1.pdf) | [Solutions (.java files)](Lab1)
 
-![Lab 1 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab1/Screenshot.png)
+![Lab 1 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab1/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -67,7 +67,7 @@ This lab focuses on basic Java programming concepts, including variables, data t
     Java Programming
     Rocks
     ```
-    - ![Lab 1 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab1/Screenshot1.png)
+    - ![Lab 1 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab1/Screenshot1.png?raw=true)
 
 2. Write a Java program that prints the answers to the following arithmetic expressions on **separate** lines. Program named as [`Question2.java`](Lab1/Question2.java).
     ```
@@ -75,7 +75,7 @@ This lab focuses on basic Java programming concepts, including variables, data t
     2. 3 x 7 + (-2 x -8) = result
     3. (" × %)'( () × *)'+, = result
     ```
-    - ![Lab 1 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab1/Screenshot2.png)
+    - ![Lab 1 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab1/Screenshot2.png?raw=true)
 
 3. Write a Java program that uses two variables **x** and **y** to store the values **71** and **3.14**. Your program should print the values stored in **x** and **y** to the screen. Program named as [`Question3.java`](Lab1/Question3.java).
     ```
@@ -89,13 +89,13 @@ This lab focuses on basic Java programming concepts, including variables, data t
     Hours worked is 42
     Gross weekly is 411.6
     ```
-    - ![Lab 1 Screenshot4](../Screenshots/Fundamentals%20of%20Programming%201/Lab1/Screenshot4.png)
+    - ![Lab 1 Screenshot4](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab1/Screenshot4.png?raw=true)
 
 5. Given the following function `f(x) = x² + 3x - 5`, write a Java program to evaluate **f(x), where x = 4**. Your program should use a variable called x and print the linear arithmetic expression along with the result. Program named as [`Question5.java`](Lab1/Question5.java).
     ```
     x² can be written as (x * x)
     ```
-    - ![Lab 1 Screenshot5](../Screenshots/Fundamentals%20of%20Programming%201/Lab1/Screenshot5.png)
+    - ![Lab 1 Screenshot5](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab1/Screenshot5.png?raw=true)
 
 ### [Lab 2](Lab2) Exercise sheet 2
 
@@ -103,7 +103,7 @@ This lab focuses on more advanced Java programming concepts, including loops, co
 
 [Tasks](Lab2/Sem1-Lab2.pdf) | [Solutions (.java files)](Lab2)
 
-![Lab 2 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab2/Screenshot.png)
+![Lab 2 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab2/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -144,7 +144,7 @@ This lab focuses on evaluating expressions, declaring variables, and using condi
 
 [Tasks](Lab3/Sem1-Lab3.pdf) | [Solutions (.java files)](Lab3)
 
-![Lab 3 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab3/Screenshot.png)
+![Lab 3 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab3/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -159,7 +159,7 @@ This lab focuses on evaluating expressions, declaring variables, and using condi
     100 % 50 == 0 is true
     (21 + 7) / 4 >= 100 is false
     ```
-    - ![Lab 3 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab3/Screenshot1.png)
+    - ![Lab 3 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab3/Screenshot1.png?raw=true)
 
 2. Write a single Java program that declares two integer variables called x and y. Assign x = 4, y = 10 and write Boolean expressions that represent the statements below. Your program should output the results as shown below. Program named as [`Question2.java`](Lab3/Question2.java).
     ```
@@ -174,21 +174,21 @@ This lab focuses on evaluating expressions, declaring variables, and using condi
     y minus x is positive is true
     y cubed is less than 100 is false
     ```
-    - ![Lab 3 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab3/Screenshot2.png)
+    - ![Lab 3 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab3/Screenshot2.png?raw=true)
 
 3. Write a program to read a student’s grade out of 100 from the keyboard. The program should print one of **PASS** or **FAIL**. A pass is any grade of 40% or higher. Program named as [`Question3.java`](Lab3/Question3.java).
     ```
     Enter grade: 21
     FAILED
     ```
-    - ![Lab 3 Screenshot3](../Screenshots/Fundamentals%20of%20Programming%201/Lab3/Screenshot3.png)
+    - ![Lab 3 Screenshot3](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab3/Screenshot3.png?raw=true)
 
 4. Write a program to read a month number and print its month name. For example, an input of 10 would result in an output of October. Program named as [`Question4.java`](Lab3/Question4.java).
     ```
     Enter month number: 10
     October
     ```
-    - ![Lab 3 Screenshot4](../Screenshots/Fundamentals%20of%20Programming%201/Lab3/Screenshot4.png)
+    - ![Lab 3 Screenshot4](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab3/Screenshot4.png?raw=true)
 
 ### [Lab 4](Lab4): Exercise sheet 4
 
@@ -196,7 +196,7 @@ This lab focuses on evaluating expressions, using conditionals, and reading inpu
 
 [Tasks](Lab4/Sem1-Lab4.pdf) | [Solutions (.java files)](Lab4)
 
-![Lab 4 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab4/Screenshot.png)
+![Lab 4 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab4/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -208,14 +208,14 @@ This lab focuses on evaluating expressions, using conditionals, and reading inpu
     iv. !(3 > 10) && 5 != 4
     v. (10 >= 10) && (11 >= 10)
     ```
-    - ![Lab 4 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab4/Screenshot1.png)
+    - ![Lab 4 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab4/Screenshot1.png?raw=true)
 
 2. Write a program that uses the Scanner to **read an integer** from the keyboard and print one of **positive**, **negative**, or **zero**. Your program should use an **if**, **else if**, and an **else**. Program named as [`Question2.java`](Lab4/Question2.java).
     ```
     Please enter an integer number: 100
     positive
     ```
-    - ![Lab 4 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab4/Screenshot2.png)
+    - ![Lab 4 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab4/Screenshot2.png?raw=true)
 
 3. Write a program that uses the Scanner to read in a student’s grade (0 – 100) and prints the associated alphabetic grade. Use the table below in your answer and use the test cases below. Program named as [`Question3.java`](Lab4/Question3.java).
     ```
@@ -234,7 +234,7 @@ This lab focuses on evaluating expressions, using conditionals, and reading inpu
     Please enter your grade (0-100): 81
     A
     ```
-    - ![Lab 4 Screenshot3](../Screenshots/Fundamentals%20of%20Programming%201/Lab4/Screenshot3.png)
+    - ![Lab 4 Screenshot3](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab4/Screenshot3.png?raw=true)
 
 4. Write a program that uses the Scanner to read the lengths of three sides of a triangle (**A**, **B**, and **C**) and prints one of **TRIANGLE** or **NOT A TRIANGLE**. Program named as [`Question4.java`](Lab4/Question4.java).
     ```
@@ -248,7 +248,7 @@ This lab focuses on evaluating expressions, using conditionals, and reading inpu
     Enter length of line C: 10
     TRIANGLE
     ```
-    - ![Lab 4 Screenshot4](../Screenshots/Fundamentals%20of%20Programming%201/Lab4/Screenshot4.png)
+    - ![Lab 4 Screenshot4](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab4/Screenshot4.png?raw=true)
 
 ### [Lab 5](Lab5): Exercise sheet 5
 
@@ -256,7 +256,7 @@ This lab focuses on reading input values, validating ranges, and determining tri
 
 [Tasks](Lab5/Sem1-Lab5.pdf) | [Solutions (.java files)](Lab5)
 
-![Lab 5 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab5/Screenshot.png)
+![Lab 5 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab5/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -265,7 +265,7 @@ This lab focuses on reading input values, validating ranges, and determining tri
     Please enter a number between 1 - 100: 1
     One
     ```
-    - ![Lab 5 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab5/Screenshot1.png)
+    - ![Lab 5 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab5/Screenshot1.png?raw=true)
 
 2. Write a program that reads the length of any three lines a, b, c and prints one of:
     ```
@@ -278,7 +278,7 @@ This lab focuses on reading input values, validating ranges, and determining tri
     Enter length of line C: 5
     Not a triangle
     ```
-    - ![Lab 5 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab5/Screenshot2.png)
+    - ![Lab 5 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab5/Screenshot2.png?raw=true)
 
 ### [Lab 6](Lab6): Exercise sheet 6
 
@@ -286,7 +286,7 @@ This lab focuses on using loops, generating random numbers, and calculating comp
 
 [Tasks](Lab6/Sem1-Lab6.pdf) | [Solutions (.java files)](Lab6)
 
-![Lab 6 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab6/Screenshot.png)
+![Lab 6 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab6/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -297,7 +297,7 @@ This lab focuses on using loops, generating random numbers, and calculating comp
     Numbers from 50 to 1
     50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
     ```
-    - ![Lab 6 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab6/Screenshot1.png)
+    - ![Lab 6 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab6/Screenshot1.png?raw=true)
 
 2. Write a Java program to generate and print **6 rolls** of an **eight-sided** dice. Use a **for-loop**, printf statements, and the `Math.random()` function in your answer. Your program output should be similar to the following. Program named as [`Question2.java`](Lab6/Question2.java).
     ```
@@ -308,7 +308,7 @@ This lab focuses on using loops, generating random numbers, and calculating comp
     Roll: 5 You got a 8
     Roll: 6 You got a 3
     ```
-    - ![Lab 6 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab6/Screenshot2.png)
+    - ![Lab 6 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab6/Screenshot2.png?raw=true)
 
 3. A sum of money is invested for 6 years at 12.5% compound interest (interest is calculated based on the initial sum plus any previous interest earned). Write a program that will print out the following for each year:
     - interest for the year
@@ -330,7 +330,7 @@ This lab focuses on using loops, generating random numbers, and calculating comp
         YEAR 6
         Interest = 27.03, Cumulative Interest = 123.27, New Capital = 243.27
         ```
-    - ![Lab 6 Screenshot3](../Screenshots/Fundamentals%20of%20Programming%201/Lab6/Screenshot3.png)
+    - ![Lab 6 Screenshot3](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab6/Screenshot3.png?raw=true)
 
 ### [Lab 7](Lab7): Exercise sheet 7
 
@@ -338,7 +338,7 @@ This lab focuses on using loops, reading input, and performing calculations.
 
 [Tasks](Lab7/Sem1-Lab7.pdf) | [Solutions (.java files)](Lab7)
 
-![Lab 7 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab7/Screenshot.png)
+![Lab 7 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab7/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -351,7 +351,7 @@ This lab focuses on using loops, reading input, and performing calculations.
     Enter number: 8
     Product of numbers: 384
     ```
-    - ![Lab 7 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab7/Screenshot1.png)
+    - ![Lab 7 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab7/Screenshot1.png?raw=true)
 
 2. Write a Java program that uses a **for loop** to complete the first N rows of the following output. The number of rows **N** should be read from the keyboard. Use the test case shown below. Program named as [`Question2.java`](Lab7/Question2.java).
     ```
@@ -369,7 +369,7 @@ This lab focuses on using loops, reading input, and performing calculations.
     5 10 15 20 25
     6 12 18 24 30 36
     ```
-    - ![Lab 7 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab7/Screenshot2.png)
+    - ![Lab 7 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab7/Screenshot2.png?raw=true)
 
 3. Write a Java program that continues to read in integer numbers until the user enters the value **-1 (sentinel)**. Your program should **sum** all the **even** values entered and print the result when the loop ends. Use the following program outline as a guide. Program named as [`Question3.java`](Lab7/Question3.java).
     ```
@@ -385,7 +385,7 @@ This lab focuses on using loops, reading input, and performing calculations.
     Enter a list of numbers, sentinel -1: 1 2 3 4 5 6 7 8 9 10 -1
     Sum equals 30
     ```
-    - ![Lab 7 Screenshot3](../Screenshots/Fundamentals%20of%20Programming%201/Lab7/Screenshot3.png)
+    - ![Lab 7 Screenshot3](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab7/Screenshot3.png?raw=true)
 
 ### [Lab 8](Lab8): Exercise sheet 8
 
@@ -393,7 +393,7 @@ This lab focuses on using arrays, loops, and performing calculations on array el
 
 [Tasks](Lab8/Sem1-Lab8.pdf) | [Solutions (.java files)](Lab8)
 
-![Lab 8 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab8/Screenshot.png)
+![Lab 8 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab8/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -413,7 +413,7 @@ This lab focuses on using arrays, loops, and performing calculations on array el
     numbers[3] = 50
     numbers[4] = 60
     ```
-    - ![Lab 8 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab8/Screenshot1.png)
+    - ![Lab 8 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab8/Screenshot1.png?raw=true)
 
 2. Use the data list given below to declare and initialize an integer array. Then write **individual for loops** to solve each of the following. Program named as [`Question2.java`](Lab8/Question2.java).
     ```
@@ -426,14 +426,14 @@ This lab focuses on using arrays, loops, and performing calculations on array el
     ii) Value greater than 11.59
     12 15 21 32 45 12
     ```
-    - ![Lab 8 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab8/Screenshot2.png)
+    - ![Lab 8 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab8/Screenshot2.png?raw=true)
 
 3. Write a program that reads 5 integer values from the keyboard and prints them in reverse order. You should use an **array** and **2 separate for loops** to solve this problem. Program named as [`Question3.java`](Lab8/Question3.java).
     ```
     Enter 5 integer values: 1 2 3 4 5
     Numbers in reverse are: 5 4 3 2 1
     ```
-    - ![Lab 8 Screenshot3](../Screenshots/Fundamentals%20of%20Programming%201/Lab8/Screenshot3.png)
+    - ![Lab 8 Screenshot3](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab8/Screenshot3.png?raw=true)
 
 4. Write a program that declares an integer array of size 100. Write for loops to carry out the following operations. Program named as [`Question4.java`](Lab8/Question4.java).
     ```
@@ -444,7 +444,7 @@ This lab focuses on using arrays, loops, and performing calculations on array el
     Array values are:
     l0 20 2 11 2 3 10 5 99 2 2 15 1 6 1 20 18 1 11 99 4 15 20 3 15 8 10 2 20 19 5 11 l0 19 5 8 5 16 10 20 20 3 19 1 3 8 13 4 11 19 19 5 18 14 15 6 4 16 3 16 20 20 99 317 215 9 13 14 6 18 3 1 5 11 6 3 9 15 59 4 11 2 5 15 18 15 14 18 13 69 8 20 8
     ```
-    - ![Lab 8 Screenshot4](../Screenshots/Fundamentals%20of%20Programming%201/Lab8/Screenshot4.png)
+    - ![Lab 8 Screenshot4](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab8/Screenshot4.png?raw=true)
 
 ### [Lab 9](Lab9): Exercise sheet 9
 
@@ -452,7 +452,7 @@ This lab focuses on using loops, strings, and character operations.
 
 [Tasks](Lab9/Sem1-Lab9.pdf) | [Solutions (.java files)](Lab9)
 
-![Lab 9 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab9/Screenshot.png)
+![Lab 9 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab9/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -460,7 +460,7 @@ This lab focuses on using loops, strings, and character operations.
     ```
     < = > ? @ A B C D E
     ```
-    - ![Lab 9 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab9/Screenshot1.png)
+    - ![Lab 9 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab9/Screenshot1.png?raw=true)
 
 2. Write a program that **reads in** two Strings **s1**, **s2** and prints them in alphabetical order. Program named as [`Question2.java`](Lab9/Question2.java).
     ```
@@ -468,7 +468,7 @@ This lab focuses on using loops, strings, and character operations.
     Please enter string 2: Abba
     Abba Zabba
     ```
-    - ![Lab 9 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab9/Screenshot2.png)
+    - ![Lab 9 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab9/Screenshot2.png?raw=true)
 
 3. Write a program that uses the following String variables to carry out the following. Program named as [`Question3.java`](Lab9/Question3.java).
     ```
@@ -488,14 +488,14 @@ This lab focuses on using loops, strings, and character operations.
     e at index 15
     e at index 22
     ```
-    - ![Lab 9 Screenshot3](../Screenshots/Fundamentals%20of%20Programming%201/Lab9/Screenshot3.png)
+    - ![Lab 9 Screenshot3](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab9/Screenshot3.png?raw=true)
 
 4. Write a program that generates 100 **lowercase** characters and computes the frequency of **vowel** letters ‘a’, ‘e’, ‘i’, ‘o’, ‘u’. Program named as [`Question4.java`](Lab9/Question4.java).
     ```
     n b y o d g b g n i j i m s b a s a y c k u y l c h f v u g h i f m t x a n c r u t j t h t h c w k b v d a o l o b y d t o z k n c p f p a k w f v y p b e f w o o y o c g f r n i s v q q y p c z f c h
     Frequency of vowels is: 20
     ```
-    - ![Lab 9 Screenshot4](../Screenshots/Fundamentals%20of%20Programming%201/Lab9/Screenshot4.png)
+    - ![Lab 9 Screenshot4](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab9/Screenshot4.png?raw=true)
 
 ### [Lab 10](Lab10): Exercise sheet 10
 
@@ -503,7 +503,7 @@ This lab focuses on using procedures, command line arguments, and functions.
 
 [Tasks](Lab10/Sem1-Lab10.pdf) | [Solutions (.java files)](Lab10)
 
-![Lab 10 Screenshot](../Screenshots/Fundamentals%20of%20Programming%201/Lab10/Screenshot.png)
+![Lab 10 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab10/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -518,13 +518,13 @@ This lab focuses on using procedures, command line arguments, and functions.
     *     4) Vent             *
     ***************************
     ```
-    - ![Lab 10 Screenshot1](../Screenshots/Fundamentals%20of%20Programming%201/Lab10/Screenshot1.png)
+    - ![Lab 10 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab10/Screenshot1.png?raw=true)
 
 2. Write a Java program that declares a **procedure** called **printAscii** that displays the printable characters on the ASCII table to the screen. Program named as [`Question2.java`](Lab10/Question2.java).
     ```
     ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~
     ```
-    - ![Lab 10 Screenshot2](../Screenshots/Fundamentals%20of%20Programming%201/Lab10/Screenshot2.png)
+    - ![Lab 10 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab10/Screenshot2.png?raw=true)
 
 3. Write a Java program that converts its command line arguments to uppercase and prints them to the screen. Program named as [`Question3.java`](Lab10/Question3.java).
     ```
@@ -533,7 +533,7 @@ This lab focuses on using procedures, command line arguments, and functions.
     PROGRAMMING
     ROCKS
     ```
-    - ![Lab 10 Screenshot3](../Screenshots/Fundamentals%20of%20Programming%201/Lab10/Screenshot3.png)
+    - ![Lab 10 Screenshot3](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab10/Screenshot3.png?raw=true)
 
 4. Write a Java program that prompts the user to enter the radius of a circle. Your program should calculate the Circumference and Area of the circle using the formulae shown below. Program named as [`Question4.java`](Lab10/Question4.java).
     ```
@@ -545,4 +545,4 @@ This lab focuses on using procedures, command line arguments, and functions.
     Circumference: 62.80
     Area: 314.00
     ```
-    - ![Lab 10 Screenshot4](../Screenshots/Fundamentals%20of%20Programming%201/Lab10/Screenshot4.png)
+    - ![Lab 10 Screenshot4](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Fundamentals%20of%20Programming%201/Lab10/Screenshot4.png?raw=true)

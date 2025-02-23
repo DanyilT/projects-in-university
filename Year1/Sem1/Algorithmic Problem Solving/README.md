@@ -24,7 +24,7 @@ This lab focuses on solving problems using pseudocode. The exercises are designe
 
 [Tasks](Lab1/Sem1-Lab1.pdf) | [Solutions](Lab1/Lab1.txt)
 
-![Lab 1 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab1/Screenshot.png)
+![Lab 1 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/Lab1/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -65,7 +65,7 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
 
 [Tasks](Lab2/Sem1-Lab2.pdf) | [Solutions](Lab2/Lab2.txt)
 
-![Lab 2 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab2/Screenshot.png)
+![Lab 2 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/Lab2/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -106,7 +106,7 @@ This lab introduces more advanced pseudocode problems, focusing on conditional s
 
 [Tasks](Lab3/Sem1-Lab3.pdf) | [Solutions](Lab3/Lab3.txt)
 
-![Lab 3 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab3/Screenshot.png)
+![Lab 3 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/Lab3/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -155,7 +155,7 @@ This lab focuses on solving problems using pseudocode, emphasizing conditional s
 
 [Tasks](Lab4/Sem1-Lab4.pdf) | [Solutions](Lab4/Lab4.txt)
 
-![Lab 4 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab4/Screenshot.png)
+![Lab 4 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/Lab4/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -206,7 +206,7 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
 
 [Tasks](Lab5/Sem1-Lab5.pdf) | [Solutions](Lab5/Lab5.txt)
 
-![Lab 5 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab5/Screenshot.png)
+![Lab 5 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/Lab5/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -235,7 +235,7 @@ This lab introduces the use of diagrams and lists as problem-solving tools. The 
 
 [Tasks](Lab6/Sem1-Lab6.pdf) | [Solutions](Lab6/Lab6.pdf)
 
-![Lab 6 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab6/Screenshot.png)
+![Lab 6 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/Lab6/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -277,7 +277,7 @@ This lab focuses on solving problems using the eliminating possibilities method.
 
 [Tasks](Lab7/Sem1-Lab7.pdf) | [Solutions](Lab7/Lab7.pdf)
 
-![Lab 7 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/Lab7/Screenshot.png)
+![Lab 7 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/Lab7/Screenshot.png?raw=true)
 
 #### Questions
 
@@ -327,15 +327,15 @@ This CA focuses on solving problems using pseudocode and implementing it in Java
 
 [Pseudocode](CA1/CA1.txt) | [Code](CA1/CA1.java)
 
-![CA 1 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/CA1/Screenshot.png)
+![CA 1 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/CA1/Screenshot.png?raw=true)
 
 #### Questions
 
 - Question 1
-    - ![CA 1 Screenshot1](../Screenshots/Algorithmic%20Problem%20Solving/CA1/Screenshot1.png)
+    - ![CA 1 Screenshot1](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/CA1/Screenshot1.png?raw=true)
     - Write a Pseudocode program that outputs the day name of the week based on the number entered by the user. The program should prompt the user to enter a number between 1 and 7 and output the corresponding day name. If the user enters a number outside the range, the program should output "Invalid number".
 - Question 2
-    - ![CA 1 Screenshot2](../Screenshots/Algorithmic%20Problem%20Solving/CA1/Screenshot2.png)
+    - ![CA 1 Screenshot2](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/CA1/Screenshot2.png?raw=true)
     - Write Java code based on the Pseudocode program in question 1. The program should output the day name of the week based on the number entered by the user. The program should prompt the user to enter a number between 1 and 7 and output the corresponding day name. If the user enters a number outside the range, the program should output "Invalid number".
 
 ### [CA 2](CA2): List and Diagrams
@@ -344,7 +344,7 @@ This CA focuses on solving problems using lists and diagrams.
 
 [Solutions](CA2/CA2.pdf)
 
-![CA 2 Screenshot](../Screenshots/Algorithmic%20Problem%20Solving/CA2/Screenshot.png)
+![CA 2 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Algorithmic%20Problem%20Solving/CA2/Screenshot.png?raw=true)
 
 #### Questions
 

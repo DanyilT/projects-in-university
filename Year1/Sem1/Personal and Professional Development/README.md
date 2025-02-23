@@ -18,7 +18,7 @@ I didn't save any labs for this module. I only have the presentation.
 
 Presentation about blockchain and how to hack a blockchain. Includes a .pdf for easier reading and a .pptx with annotations.
 
-![Presentation Screenshots](../Screenshots/Personal%20and%20Professional%20Development/Presentation/Screenshot.png)
+![Presentation Screenshots](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Personal%20and%20Professional%20Development/Presentation/Screenshot.png?raw=true)
 
 - [Blockchain.md](Presentation/Blockchain.md): The markdown file for the presentation. Markdown version of [text only pdf file](Presentation/Blockchain%20(text%20only).pdf).
 - [Blockchain (text only).pdf](Presentation/Blockchain%20(text%20only).pdf): A text-only version of the presentation for easier reading. The text what should be said during the presentation.

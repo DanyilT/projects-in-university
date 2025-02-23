@@ -20,7 +20,7 @@ This laboratory exercise introduces students to the basic Windows command-line n
 
 [Tasks](Lab1/Network%20Introduction.pdf)
 
-![Lab 1 Screenshot](../Screenshots/Networking%20Basics/Lab1/Screenshot.png)
+![Lab 1 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab1/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -105,7 +105,7 @@ This laboratory exercise introduces the configuration of IPv6 addressing on a ro
 
 [Tasks](Lab7/Configure%20IPv6%20Addressing.pdf) | [Packet Tracer Solution](Lab7/Configure%20IPv6%20Addressing.pka)
 
-![Lab 7 Screenshot](../Screenshots/Networking%20Basics/Lab7/Screenshot.png)
+![Lab 7 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab7/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -120,7 +120,7 @@ This laboratory exercise introduces the troubleshooting of default gateway issue
 
 [Tasks](Lab8/Troubleshooting%20Default%20Gateway%20Issues.pdf) | [Packet Tracer Solution](Lab8/Troubleshooting%20Default%20Gateway%20Issues.pka)
 
-![Lab 8 Screenshot](../Screenshots/Networking%20Basics/Lab8/Screenshot.png)
+![Lab 8 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab8/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -133,7 +133,7 @@ This laboratory exercise introduces the subnetting scenario on a router, servers
 
 [Tasks](Lab9/Subnetting%20Scenario.pdf) | [Packet Tracer Solution](Lab9/Subnetting%20Scenario.pka)
 
-![Lab 9 Screenshot](../Screenshots/Networking%20Basics/Lab9/Screenshot.png)
+![Lab 9 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab9/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -146,7 +146,7 @@ This laboratory exercise introduces the design and implementation of a VLSM addr
 
 [Tasks](Lab10/Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pdf) | [Packet Tracer Solution](Lab10/Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pka)
 
-![Lab 10 Screenshot](../Screenshots/Networking%20Basics/Lab10/Screenshot.png)
+![Lab 10 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab10/Screenshot.png?raw=true)
 
 #### Objectives
 
