@@ -22,7 +22,7 @@ This laboratory exercise introduces students to the basic switch configuration.
 
 [Task](Lab1/Basic%20Switch%20Configuration.pdf) | [Packet Tracer Solution](Lab1/Basic%20Switch%20Configuration.pkt)
 
-![Lab 1 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab1/Screenshot.png)
+![Lab 1 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem2/Routers%20and%20Routing%20Basics/Lab1/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -46,7 +46,7 @@ This laboratory exercise introduces students to the Secure Shell (SSH) protocol.
 
 [Task](Lab2/Configure%20SSH.pdf) | [Packet Tracer Solution](Lab2/Configure%20SSH.pka)
 
-![Lab 2 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab2/Screenshot.png)
+![Lab 2 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem2/Routers%20and%20Routing%20Basics/Lab2/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -60,7 +60,7 @@ This laboratory exercise introduces students to the configuration of router inte
 
 [Task](Lab3/Configure%20Router%20Interfaces.pdf) | [Packet Tracer Solution](Lab3/Configure%20Router%20Interfaces.pka)
 
-![Lab 3 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab3/Screenshot.png)
+![Lab 3 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem2/Routers%20and%20Routing%20Basics/Lab3/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -73,7 +73,7 @@ This laboratory exercise introduces students to the configuration of VLANs and t
 
 [Task](Lab4/Implement%20VLANs%20and%20Trunking.pdf) | [Packet Tracer Solution](Lab4/Implement%20VLANs%20and%20Trunking.pka)
 
-![Lab 4 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab4/Screenshot.png)
+![Lab 4 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem2/Routers%20and%20Routing%20Basics/Lab4/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -89,7 +89,7 @@ This laboratory exercise introduces students to the configuration of router-on-a
 
 [Task](Lab5/Configure%20Router%20on%20Stick%20Inter%20VLAN%20Routing.pdf) | [Second Task](Lab5/Password%20Recovery%20on%20Router%20%20Switch.pdf)
 
-![Lab 5 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab5/Screenshot.png)
+![Lab 5 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem2/Routers%20and%20Routing%20Basics/Lab5/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -106,7 +106,7 @@ This laboratory exercise introduces students to the configuration of DHCPv4.
 
 [Task](Lab6/Configure%20DHCPv4.pdf) | [Packet Tracer Solution](Lab6/Configure%20DHCPv4.pka)
 
-![Lab 6 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab6/Screenshot.png)
+![Lab 6 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem2/Routers%20and%20Routing%20Basics/Lab6/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -122,7 +122,7 @@ This laboratory exercise introduces students to the configuration of IPv4 static
 
 [Task](Lab7/Configuring%20IPv4%20Static%20and%20Default%20Routes.pdf)
 
-![Lab 7 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab7/Screenshot.png)
+![Lab 7 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem2/Routers%20and%20Routing%20Basics/Lab7/Screenshot.png?raw=true)
 
 #### Objectives
 
@@ -140,7 +140,7 @@ This laboratory exercise introduces students to the configuration of IPv6 static
 
 [Task](Lab8/Configuring%20IPv6%20Static%20and%20Default%20Routes.pdf)
 
-![Lab 8 Screenshot](../Screenshots/Routers%20and%20Routing%20Basics/Lab8/Screenshot.png)
+![Lab 8 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem2/Routers%20and%20Routing%20Basics/Lab8/Screenshot.png?raw=true)
 
 #### Objectives
 
