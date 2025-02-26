@@ -1,7 +1,10 @@
 package Lab4Part4;
 
+import javax.sound.sampled.*;
 import javax.swing.*;
 import java.awt.*;
+import java.awt.event.*;
+import java.io.File;
 import java.util.*;
 
 public class Lab4Part4 extends JFrame {
@@ -15,15 +18,21 @@ public class Lab4Part4 extends JFrame {
 
         // Set up the frame
         setTitle(bundle.getString("frame.title"));
-        setSize(600, 300);
+        setSize(600, 400);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
         setLayout(new GridLayout(4, 1));
 
         // Create object buttons
-        catButton = new JButton(bundle.getString("button.cat"));
-        carButton = new JButton(bundle.getString("button.car"));
-        cityButton = new JButton(bundle.getString("button.city"));
+        if (new File("../Lab4Part1/img/").exists() && new File("../Lab4Part1/sound/").exists()) {
+            catButton = createButton(bundle.getString("button.cat"), "../Lab4Part1/img/cat.png", "../Lab4Part1/sound/cat.wav"); // img - AI generated with Stable Diffusion | sound - "cat meow by tuberatanka -- https://freesound.org/s/110011/ -- License: Creative Commons 0"
+            carButton = createButton(bundle.getString("button.car"), "../Lab4Part1/img/car.png", "../Lab4Part1/sound/car.wav"); // img - AI generated with Stable Diffusion | sound - "Car Horn by yfjesse -- https://freesound.org/s/734253/ -- License: Creative Commons 0"
+            cityButton = createButton(bundle.getString("button.city"), "../Lab4Part1/img/city.png", "../Lab4Part1/sound/city.wav"); // img - AI generated with Stable Diffusion | sound - "rain_heavy_traffic_04.wav by ania635 -- https://freesound.org/s/691532/ -- License: Creative Commons 0"
+        } else {
+            catButton = new JButton(bundle.getString("button.cat"));
+            carButton = new JButton(bundle.getString("button.car"));
+            cityButton = new JButton(bundle.getString("button.city"));
+        }
 
         // Add object buttons to the frame
         add(catButton);
@@ -46,6 +55,32 @@ public class Lab4Part4 extends JFrame {
         langPanel.add(langButtonUk);
         langPanel.add(langButtonGa);
         add(langPanel);
+    }
+
+    private JButton createButton(String text, String imagePath, String soundPath) {
+        ImageIcon icon = new ImageIcon(imagePath);
+        Image image = icon.getImage().getScaledInstance(-1, 50, Image.SCALE_SMOOTH);
+        JButton button = new JButton(text, new ImageIcon(image));
+        button.setHorizontalTextPosition(SwingConstants.CENTER);
+        button.setVerticalTextPosition(SwingConstants.BOTTOM);
+        button.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                playSound(soundPath);
+            }
+        });
+        return button;
+    }
+
+    private void playSound(String soundPath) {
+        try {
+            AudioInputStream audioInputStream = AudioSystem.getAudioInputStream(new File(soundPath).getAbsoluteFile());
+            Clip clip = AudioSystem.getClip();
+            clip.open(audioInputStream);
+            clip.start();
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
     }
 
     private void switchLanguage(Locale locale) {
