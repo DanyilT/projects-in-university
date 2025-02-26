@@ -4,11 +4,10 @@ body {
   background-color: #eee;
 }
 
-.alert
-
-{
-	 background-color: F23208;
+.alert {
+  background-color: #F23208;
 }
+
 .button {
   background-color: #088BD3;
   border: none;
