@@ -1,32 +1,25 @@
-<!-- Part 6: Connect to the Database -->
+<!-- Part 6: Create Registration Form & Save Registration Data to Database -->
 <?php
 require_once ('../src/DBconnect.php');
 session_start();
 
-/* Check if login form has been submitted */
-/* isset — Determine if a variable is declared and is different than NULL */
-if (isset($_POST['Submit'])) {
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $Username = $_POST['Username'];
     $Password = $_POST['Password'];
     // Part 6: Server-Side Validation
-    if (empty($_POST['Username']) || empty($_POST['Password'])) {
+    if (empty($Username) || empty($Password)) {
         echo "Both fields are required.";
     } else {
-        /* Check if the form's username and password matches */
-        // Database connection
-        $statement = $connection->prepare("SELECT password FROM users WHERE username = :username");
+        $hashed_password = password_hash($Password, PASSWORD_DEFAULT);
+        $statement = $connection->prepare("INSERT INTO users (username, password) VALUES (:username, :password)");
         $statement->bindValue(':username', $Username);
-        $statement->execute();
-        $user = $statement->fetch(PDO::FETCH_ASSOC);
-
-        if ($user && password_verify($Password, $user['password'])) {
-            /* Success: Set session variables and redirect to protected page */
-            $_SESSION['Username'] = $Username; // store Username to the session
-            $_SESSION['Active'] = true; // remember we can call a session what
-            header("location: index.php"); /* 'header() is used to redirect the browser */
-            exit; // we’ve just used header() to redirect to another page but we must terminate all current code so that it doesn’t run when we redirect
-        } else
-            echo 'Incorrect Username or Password';
+        $statement->bindValue(':password', $hashed_password);
+        if ($statement->execute()) {
+            echo "Registration successful.";
+            header("location: login.php");
+        } else {
+            echo "Error: " . $statement->errorInfo()[2];
+        }
     }
 }
 ?>
@@ -39,7 +32,7 @@ if (isset($_POST['Submit'])) {
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="../css/stylesheet.css">
     <link rel="stylesheet" type="text/css" href="../css/signin.css">
-    <title>Sign in</title>
+    <title>Register</title>
 </head>
 <body>
     <div class="container">
@@ -57,18 +50,17 @@ if (isset($_POST['Submit'])) {
             <h3 class="text-muted">PHP Login exercise - Home page</h3>
         </div>
 
-        <form id="loginForm" onsubmit="return validateLoginForm()" action="" method="post" name="Login_Form" class="form-signin">
-            <h2 class="form-signin-heading">Please sign in</h2>
+        <form id="registrationForm" onsubmit="return validateRegistrationForm()" action="" method="post" name="Login_Form" class="form-signin">
+            <h2 class="form-signin-heading">Please register</h2>
             <label for="inputUsername" >Username</label>
             <input name="Username" type="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
             <label for="inputPassword">Password</label>
             <input name="Password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
-            <div class="checkbox"><label><input type="checkbox" value="remember-me">Remember me</label></div>
-            <button name="Submit" value="Login" class="button" type="submit">Sign in</button>
+            <button name="Submit" value="Login" class="button" type="submit">Register</button>
         </form>
         <script>
             // Part 6: Client-Side Validation
-            function validateLoginForm() {
+            function validateRegistrationForm() {
                 var username = document.getElementById('inputUsername').value;
                 var password = document.getElementById('inputPassword').value;
                 if (username === '' || password === '') {
