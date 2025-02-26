@@ -172,7 +172,7 @@ public class Lab3Part4 extends JFrame {
         // CREATE DATABASE AdvancedProgramming_Lab3Part4;
         private static final String URL = "jdbc:mysql://localhost:3306/AdvancedProgramming_Lab3Part4";
         private static final String USER = "root";
-        private static final String PASSWORD = "qwerty";
+        private static final String PASSWORD = "root";
 
         /**
          * Get connection to the database.
