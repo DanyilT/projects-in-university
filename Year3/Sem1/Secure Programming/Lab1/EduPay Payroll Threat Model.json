@@ -1,0 +1,913 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "EduPay Payroll Threat Model",
+    "owner": "Dany",
+    "description": "Secure Programming Lab1",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.5.0",
+        "cells": [
+          {
+            "position": {
+              "x": 450,
+              "y": 40
+            },
+            "size": {
+              "width": 680,
+              "height": 500
+            },
+            "attrs": {
+              "label": {
+                "text": "EduPay Internal Network / Trusted Zone"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "id": "d4346872-60d8-4001-93c7-e6214db2033f",
+            "zIndex": -1,
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "EduPay Internal Network / Trusted Zone",
+              "description": "separates users’ browsers (public Internet) from EduPay’s internal infrastructure",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 70,
+              "y": 430
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Staff Member"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1904acb8-1603-4482-b128-56bd86e28d53"
+                },
+                {
+                  "group": "right",
+                  "id": "833d5e24-899a-4c1c-aa8c-ef9e2c7cc380"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7611ceb1-02db-46e0-8b22-af96bd2aa04f"
+                },
+                {
+                  "group": "left",
+                  "id": "9dd8f0f8-a224-453d-9d07-5187417d53aa"
+                }
+              ]
+            },
+            "id": "dc2519ac-e044-41ff-b222-c1de52969009",
+            "zIndex": 1,
+            "data": {
+              "type": "tm.Actor",
+              "name": "Staff Member",
+              "description": "external user who registers, logs in, and views or updates personal payroll data",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": true,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 570,
+              "y": 430
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "HR Administrator"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1904acb8-1603-4482-b128-56bd86e28d53"
+                },
+                {
+                  "group": "right",
+                  "id": "833d5e24-899a-4c1c-aa8c-ef9e2c7cc380"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7611ceb1-02db-46e0-8b22-af96bd2aa04f"
+                },
+                {
+                  "group": "left",
+                  "id": "9dd8f0f8-a224-453d-9d07-5187417d53aa"
+                }
+              ]
+            },
+            "id": "f8bf672d-70d1-45d4-ac5f-315e9d2c17b8",
+            "zIndex": 2,
+            "data": {
+              "type": "tm.Actor",
+              "name": "HR Administrator",
+              "description": "internal employee responsible for verifying staff details and managing payroll data",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "providesAuthentication": true,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 546.25,
+              "y": 130
+            },
+            "size": {
+              "width": 160,
+              "height": 160
+            },
+            "attrs": {
+              "text": {
+                "text": "Payroll Web Application"
+              },
+              "body": {
+                "stroke": "#333333",
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "4886b7f2-38f5-4dfd-a7c3-d7cbd4f9af29"
+                },
+                {
+                  "group": "right",
+                  "id": "4061f1f5-c46d-4f4e-a52b-daf0ae177355"
+                },
+                {
+                  "group": "bottom",
+                  "id": "49bc1e43-aeed-4a6a-bee4-56ce425709ef"
+                },
+                {
+                  "group": "left",
+                  "id": "7f2b9742-08f2-44de-89ac-cfc0552f06ec"
+                }
+              ]
+            },
+            "id": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+            "zIndex": 3,
+            "data": {
+              "type": "tm.Process",
+              "name": "Payroll Web Application",
+              "description": "main component handling authentication, communication with databases, and data delivery to users via the web portal",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": true,
+              "isWebApplication": true,
+              "privilegeLevel": "Normal User Privileges/System-level",
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 970,
+              "y": 110
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Payroll Database"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6d0ca1be-ba61-4df7-bb53-efb83a85b6e9"
+                },
+                {
+                  "group": "right",
+                  "id": "6c6d8b9a-5b1a-499d-a640-a67d5dd5f6ed"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9c61cc24-7722-4713-b0a4-e1f090841e96"
+                },
+                {
+                  "group": "left",
+                  "id": "0b49f289-f946-44f9-b6ed-400ae241e2d8"
+                }
+              ]
+            },
+            "id": "5bc14999-e971-4a28-9ee4-27eaa92a2719",
+            "zIndex": 4,
+            "data": {
+              "type": "tm.Store",
+              "name": "Payroll Database",
+              "description": "secure database storing staff personal details, bank account info, tax numbers, payslips, and authentication credentials",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": true,
+              "isSigned": true,
+              "storesCredentials": true,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 970,
+              "y": 250
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "HR System Database"
+              },
+              "topLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "strokeWidth": 1.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6d0ca1be-ba61-4df7-bb53-efb83a85b6e9"
+                },
+                {
+                  "group": "right",
+                  "id": "6c6d8b9a-5b1a-499d-a640-a67d5dd5f6ed"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9c61cc24-7722-4713-b0a4-e1f090841e96"
+                },
+                {
+                  "group": "left",
+                  "id": "0b49f289-f946-44f9-b6ed-400ae241e2d8"
+                }
+              ]
+            },
+            "id": "a314278d-121f-400f-b080-2f13ed48ab12",
+            "zIndex": 5,
+            "data": {
+              "type": "tm.Store",
+              "name": "HR System Database",
+              "description": "existing internal HR database used to verify employee information during registration and updates",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isALog": false,
+              "isEncrypted": true,
+              "isSigned": true,
+              "storesCredentials": true,
+              "storesInventory": false,
+              "threats": []
+            }
+          },
+          {
+            "position": {
+              "x": 80,
+              "y": 70
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "External Network / Internet"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "id": "e88b10d9-21da-4328-af80-37b4300f9ab0",
+            "zIndex": 6,
+            "data": {
+              "type": "tm.Text",
+              "name": "External Network / Internet",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Registration/Login Request",
+              "description": "user submits registration or login data (username, password, personal info)",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": []
+            },
+            "labels": [
+              "Registration/Login Request"
+            ],
+            "id": "389321f0-8f15-4e3a-bdb4-4f0710ced3c4",
+            "source": {
+              "cell": "dc2519ac-e044-41ff-b222-c1de52969009",
+              "port": "833d5e24-899a-4c1c-aa8c-ef9e2c7cc380"
+            },
+            "target": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "7f2b9742-08f2-44de-89ac-cfc0552f06ec"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Payslip/Tax Form Display",
+              "description": "authenticated staff requests payslip or tax forms; the system retrieves and sends the requested documents",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": []
+            },
+            "labels": [
+              "Payslip/Tax Form Display"
+            ],
+            "id": "017c4f9a-1817-46bc-a458-e930330f2199",
+            "source": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "7f2b9742-08f2-44de-89ac-cfc0552f06ec"
+            },
+            "target": {
+              "cell": "dc2519ac-e044-41ff-b222-c1de52969009",
+              "port": "833d5e24-899a-4c1c-aa8c-ef9e2c7cc380"
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store/Retrieve Payroll Data",
+              "description": "the web app retrieves or updates records (payslips, tax info, personal details)",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "Secure DB Connection",
+              "threats": []
+            },
+            "labels": [
+              "Store/Retrieve Payroll Data"
+            ],
+            "id": "4252b181-fd56-4376-bf1e-391ea550b10a",
+            "source": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "4061f1f5-c46d-4f4e-a52b-daf0ae177355"
+            },
+            "target": {
+              "cell": "5bc14999-e971-4a28-9ee4-27eaa92a2719",
+              "port": "0b49f289-f946-44f9-b6ed-400ae241e2d8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validate Employee Information",
+              "description": "portal verifies staff information against HR records during registration or updates",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "Secure Internal API or Direct DB Query",
+              "threats": []
+            },
+            "labels": [
+              "Validate Employee Information"
+            ],
+            "id": "57517e9c-4df3-49ba-87b9-dcac48c10d33",
+            "source": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "4061f1f5-c46d-4f4e-a52b-daf0ae177355"
+            },
+            "target": {
+              "cell": "a314278d-121f-400f-b080-2f13ed48ab12",
+              "port": "0b49f289-f946-44f9-b6ed-400ae241e2d8"
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "#333333",
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Manage Staff Records / Approve Updates",
+              "description": "HR Admin manages user data, reviews updates, and verifies payroll information",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": false,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": []
+            },
+            "labels": [
+              "Manage Staff Records / Approve Updates"
+            ],
+            "id": "b6067dbb-c6ea-48c8-ad53-ad57a8d51d98",
+            "source": {
+              "cell": "f8bf672d-70d1-45d4-ac5f-315e9d2c17b8",
+              "port": "1904acb8-1603-4482-b128-56bd86e28d53"
+            },
+            "target": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "49bc1e43-aeed-4a6a-bee4-56ce425709ef"
+            },
+            "vertices": []
+          }
+        ]
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 0
+  }
+}
