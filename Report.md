@@ -401,6 +401,5 @@
           git clone https://gist.github.com/9d8fbceddbd05b0fe4c7948e5e624c26.git Prime_and_Prejudice
           ```
     - **Files:**
-        - [mathematical_solver.py](./Prime_and_Prejudice/mathematical_solver.py)
-        - [my_mathematical_pseudoprime.txt](./Prime_and_Prejudice/my_mathematical_pseudoprime.txt)
+        - [solution.py](./Prime_and_Prejudice/solution.py)
 - **Points:** `⭐️200`
