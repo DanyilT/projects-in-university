@@ -1,0 +1,1440 @@
+{
+  "version": "2.5.0",
+  "summary": {
+    "title": "EduPay Payroll Threat Model",
+    "owner": "Dany",
+    "description": "Secure Programming Lab1",
+    "id": 0
+  },
+  "detail": {
+    "contributors": [],
+    "diagrams": [
+      {
+        "id": 0,
+        "title": "New STRIDE diagram",
+        "diagramType": "STRIDE",
+        "placeholder": "New STRIDE diagram description",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "version": "2.5.0",
+        "cells": [
+          {
+            "position": {
+              "x": 450,
+              "y": 40
+            },
+            "size": {
+              "width": 680,
+              "height": 500
+            },
+            "attrs": {
+              "label": {
+                "text": "EduPay Internal Network / Trusted Zone"
+              }
+            },
+            "visible": true,
+            "shape": "trust-boundary-box",
+            "zIndex": -1,
+            "id": "d4346872-60d8-4001-93c7-e6214db2033f",
+            "data": {
+              "type": "tm.BoundaryBox",
+              "name": "EduPay Internal Network / Trusted Zone",
+              "description": "separates users’ browsers (public Internet) from EduPay’s internal infrastructure",
+              "isTrustBoundary": true,
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "position": {
+              "x": 70,
+              "y": 430
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Staff Member"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 1,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1904acb8-1603-4482-b128-56bd86e28d53"
+                },
+                {
+                  "group": "right",
+                  "id": "833d5e24-899a-4c1c-aa8c-ef9e2c7cc380"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7611ceb1-02db-46e0-8b22-af96bd2aa04f"
+                },
+                {
+                  "group": "left",
+                  "id": "9dd8f0f8-a224-453d-9d07-5187417d53aa"
+                }
+              ]
+            },
+            "id": "dc2519ac-e044-41ff-b222-c1de52969009",
+            "data": {
+              "type": "tm.Actor",
+              "name": "Staff Member",
+              "description": "external user who registers, logs in, and views or updates personal payroll data",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": true,
+              "threats": [
+                {
+                  "id": "c83efff3-0b3b-4f2f-8967-9358d0ef14d5",
+                  "title": "CAPTCHA defeat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #9:\nAutomation is used in an attempt to analyse and determination the answers to CAPTCHA tests and related puzzles",
+                  "mitigation": "Defences include guarding against automation, unguessable CAPTCHA and proper enforcement of behavioral workflow",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 27,
+                  "score": ""
+                },
+                {
+                  "id": "3cb91903-edd9-4230-9644-e456914fc4d6",
+                  "title": "Credential stuffing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #8:\nLists of stolen authentication credentials are tested against the application’s authentication mechanisms to identify whether users have re-used the same login credentials",
+                  "mitigation": "Defences against Credential Stuffing are described in the OWASP Credential Stuffing Prevention Cheat Sheet, Multi-Factor Authentication being a primary counter-measure",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 28,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 570,
+              "y": 430
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "HR Administrator"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "actor",
+            "zIndex": 2,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "1904acb8-1603-4482-b128-56bd86e28d53"
+                },
+                {
+                  "group": "right",
+                  "id": "833d5e24-899a-4c1c-aa8c-ef9e2c7cc380"
+                },
+                {
+                  "group": "bottom",
+                  "id": "7611ceb1-02db-46e0-8b22-af96bd2aa04f"
+                },
+                {
+                  "group": "left",
+                  "id": "9dd8f0f8-a224-453d-9d07-5187417d53aa"
+                }
+              ]
+            },
+            "id": "f8bf672d-70d1-45d4-ac5f-315e9d2c17b8",
+            "data": {
+              "type": "tm.Actor",
+              "name": "HR Administrator",
+              "description": "internal employee responsible for verifying staff details and managing payroll data",
+              "isTrustBoundary": false,
+              "outOfScope": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "providesAuthentication": true,
+              "threats": [
+                {
+                  "id": "bdde06f3-9299-4ac5-86d9-7dfee58915dd",
+                  "title": "CAPTCHA defeat",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #9:\nAutomation is used in an attempt to analyse and determination the answers to CAPTCHA tests and related puzzles",
+                  "mitigation": "Defences include guarding against automation, unguessable CAPTCHA and proper enforcement of behavioral workflow",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 25,
+                  "score": ""
+                },
+                {
+                  "id": "8d2ef462-e2cf-4b09-afb6-e4ca01472d77",
+                  "title": "Credential stuffing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #8:\nLists of stolen authentication credentials are tested against the application’s authentication mechanisms to identify whether users have re-used the same login credentials",
+                  "mitigation": "Defences against Credential Stuffing are described in the OWASP Credential Stuffing Prevention Cheat Sheet, Multi-Factor Authentication being a primary counter-measure",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 26,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "repudiation": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 546.25,
+              "y": 130
+            },
+            "size": {
+              "width": 160,
+              "height": 160
+            },
+            "attrs": {
+              "text": {
+                "text": "Payroll Web Application"
+              },
+              "body": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "process",
+            "zIndex": 3,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "4886b7f2-38f5-4dfd-a7c3-d7cbd4f9af29"
+                },
+                {
+                  "group": "right",
+                  "id": "4061f1f5-c46d-4f4e-a52b-daf0ae177355"
+                },
+                {
+                  "group": "bottom",
+                  "id": "49bc1e43-aeed-4a6a-bee4-56ce425709ef"
+                },
+                {
+                  "group": "left",
+                  "id": "7f2b9742-08f2-44de-89ac-cfc0552f06ec"
+                }
+              ]
+            },
+            "id": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+            "data": {
+              "type": "tm.Process",
+              "name": "Payroll Web Application",
+              "description": "main component handling authentication, communication with databases, and data delivery to users via the web portal",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "handlesCardPayment": false,
+              "handlesGoodsOrServices": true,
+              "isWebApplication": true,
+              "privilegeLevel": "Normal User Privileges/System-level",
+              "threats": [
+                {
+                  "id": "06c62fe0-5828-4d4e-8078-212dbaef322b",
+                  "title": "Least privilege",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "If a process is comprimised and under control of a malicious actor, horizontal/lateral elevation of privilege can be used to comprimise other processes",
+                  "mitigation": "Processes should run with least privilege that is practical, to minimise the impact of horizontal elevation of privilege",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 1,
+                  "score": ""
+                },
+                {
+                  "id": "817a2b3e-8fd9-410c-b215-3155fcfaf35b",
+                  "title": "Expedition",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Tampering",
+                  "description": "See OWASP Automated Threat #6:\nUsing speed to violate explicit or implicit assumptions about the application’s normal use to achieve unfair individual gain",
+                  "mitigation": "Defences include providing enforcement of behavioral workflow and anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 2,
+                  "score": ""
+                },
+                {
+                  "id": "4820c487-0099-4756-93e0-c29a3be7c76e",
+                  "title": "Vulnerability scanning",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #14:\nSystematic enumeration and examination in order to find weaknesses and points where a security vulnerability might exist",
+                  "mitigation": "Defence includes providing anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 3,
+                  "score": ""
+                },
+                {
+                  "id": "1814d5e8-b733-43ac-9ad4-9b6af1ea6dfa",
+                  "title": "Denial of Service",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #15:\nUsage may resemble legitimate application usage but leads to exhaustion of resources",
+                  "mitigation": "Mitigation or prevention such as providing backoff, resource management and avoiding forced deadlock",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 4,
+                  "score": ""
+                },
+                {
+                  "id": "3fef6800-2b2e-4490-ac68-78b023249c45",
+                  "title": "Footprinting",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #18:\nInformation gathering with the objective of learning as much as possible about the composition, configuration and security mechanisms of the application",
+                  "mitigation": "Defences include shutting down unnecessary services/ports and excluding information that could identify and compromise security of the organisation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 5,
+                  "score": ""
+                },
+                {
+                  "id": "e85d128c-d02b-4017-891e-6c50ea960cc7",
+                  "title": "Footprinting",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #5:\nMass acquisition of goods or services using the application in a manner that a normal user would be unable to undertake manually",
+                  "mitigation": "Defences against this automated threat include control of interaction frequency, enforcement of a single unique a action and enforcement of behavioral workflow",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 6,
+                  "score": ""
+                },
+                {
+                  "id": "68cf9dc3-44e9-4b9b-b51b-8a5e69eceb83",
+                  "title": "Sniping",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #13:\nAutomated exploitation of system latencies in the form of timing attacks",
+                  "mitigation": "Defences include anti-automation and prevention of abuse of functionality",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 7,
+                  "score": ""
+                },
+                {
+                  "id": "e99a28eb-1615-4b4b-84d6-f42fd9f781d0",
+                  "title": "Denial of inventory",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #21:\nSelection and deliberate holding of items from a limited inventory or stock such that other users are unable to buy/pay/confirm the items",
+                  "mitigation": "Defences include control of interaction frequency and anti-automation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 8,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "spoofing": 0,
+                "tampering": 1,
+                "repudiation": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0,
+                "elevationOfPrivilege": 5
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 970,
+              "y": 110
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "Payroll Database"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 4,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6d0ca1be-ba61-4df7-bb53-efb83a85b6e9"
+                },
+                {
+                  "group": "right",
+                  "id": "6c6d8b9a-5b1a-499d-a640-a67d5dd5f6ed"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9c61cc24-7722-4713-b0a4-e1f090841e96"
+                },
+                {
+                  "group": "left",
+                  "id": "0b49f289-f946-44f9-b6ed-400ae241e2d8"
+                }
+              ]
+            },
+            "id": "5bc14999-e971-4a28-9ee4-27eaa92a2719",
+            "data": {
+              "type": "tm.Store",
+              "name": "Payroll Database",
+              "description": "secure database storing staff personal details, bank account info, tax numbers, payslips, and authentication credentials",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": true,
+              "isSigned": true,
+              "storesCredentials": true,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "5300ade9-765f-44a7-92fb-44b02ed53237",
+                  "title": "Scraping",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #11:\nCollecting accessible data and/or processed output from the application",
+                  "mitigation": "Detect fake or compromised accounts, ensure information is accessible only with authentication and authorisation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 9,
+                  "score": ""
+                },
+                {
+                  "id": "b616b30d-ad44-4953-9c5d-29649a95e03e",
+                  "title": "Skewing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #16:\nAutomated repeated clicking or requesting or submitting content, affecting application based metrics such as counts, and measures of frequency and/or rate",
+                  "mitigation": "Defences include control of interaction frequency or proper enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 10,
+                  "score": ""
+                },
+                {
+                  "id": "d0534011-3413-4635-aebc-292dca43e4a1",
+                  "title": "Spamming",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #17:\nStoring malicious such as malware, Iframe distribution, photographs & videos, advertisements, referrer spam and tracking/surveillance code",
+                  "mitigation": "Defences include detecting embedded malicious code, controling interaction frequency and enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 11,
+                  "score": ""
+                },
+                {
+                  "id": "95f32111-f8d4-4e5a-8b42-e384ecf8cf4e",
+                  "title": "Credential cracking",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #7:\nBrute force, dictionary and guessing attacks used against authentication processes of the application to identify valid account credentials",
+                  "mitigation": "Defences include restriction of excessive authentication attempts, control of interaction frequency and enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 12,
+                  "score": ""
+                },
+                {
+                  "id": "a521f25f-5af7-4cdf-be73-97484c2a4571",
+                  "title": "Account creation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #19:\nBulk account creation, and sometimes profile population, by using the application’s account signup processes",
+                  "mitigation": "Defences include control of interaction frequency, enforcement of a single unique a action and enforcement of behavioral workflow",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 13,
+                  "score": ""
+                },
+                {
+                  "id": "158be4a5-0de0-4099-a83b-7fe01f4a8513",
+                  "title": "Account aggregation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "See OWASP Automated Threat #20:\nCompilation of credentials and information from multiple application accounts into another system",
+                  "mitigation": "Defences include control of interaction frequency and prevention of abuse of functionality",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 14,
+                  "score": ""
+                },
+                {
+                  "id": "d477c22b-48bb-4c5c-9dc4-90694e9f0934",
+                  "title": "Vulnerable encryption algorithms",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Out of date encryption algorithms are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography for all signatures and encryption",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 15,
+                  "score": ""
+                },
+                {
+                  "id": "13d20c31-b572-44dc-a0b4-adfe6f8ce3d2",
+                  "title": "Vulnerable cryptography",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Out of date cryptographic techniques are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptographic methods for checksums, signatures and certificates",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 16,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 4,
+                "denialOfService": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 970,
+              "y": 250
+            },
+            "size": {
+              "width": 120,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "HR System Database"
+              },
+              "topLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              },
+              "bottomLine": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "strokeDasharray": null
+              }
+            },
+            "visible": true,
+            "shape": "store",
+            "zIndex": 5,
+            "ports": {
+              "groups": {
+                "top": {
+                  "position": "top",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "right": {
+                  "position": "right",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "bottom": {
+                  "position": "bottom",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                },
+                "left": {
+                  "position": "left",
+                  "attrs": {
+                    "circle": {
+                      "r": 4,
+                      "magnet": true,
+                      "stroke": "#5F95FF",
+                      "strokeWidth": 1,
+                      "fill": "#fff",
+                      "style": {
+                        "visibility": "hidden"
+                      }
+                    }
+                  }
+                }
+              },
+              "items": [
+                {
+                  "group": "top",
+                  "id": "6d0ca1be-ba61-4df7-bb53-efb83a85b6e9"
+                },
+                {
+                  "group": "right",
+                  "id": "6c6d8b9a-5b1a-499d-a640-a67d5dd5f6ed"
+                },
+                {
+                  "group": "bottom",
+                  "id": "9c61cc24-7722-4713-b0a4-e1f090841e96"
+                },
+                {
+                  "group": "left",
+                  "id": "0b49f289-f946-44f9-b6ed-400ae241e2d8"
+                }
+              ]
+            },
+            "id": "a314278d-121f-400f-b080-2f13ed48ab12",
+            "data": {
+              "type": "tm.Store",
+              "name": "HR System Database",
+              "description": "existing internal HR database used to verify employee information during registration and updates",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isALog": false,
+              "isEncrypted": true,
+              "isSigned": true,
+              "storesCredentials": true,
+              "storesInventory": false,
+              "threats": [
+                {
+                  "id": "4d25c636-4f1f-483d-9b6e-5e315392a308",
+                  "title": "Scraping",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #11:\nCollecting accessible data and/or processed output from the application",
+                  "mitigation": "Detect fake or compromised accounts, ensure information is accessible only with authentication and authorisation",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 17,
+                  "score": ""
+                },
+                {
+                  "id": "26c7d315-50c3-46e9-b956-859b6ef105e0",
+                  "title": "Skewing",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #16:\nAutomated repeated clicking or requesting or submitting content, affecting application based metrics such as counts, and measures of frequency and/or rate",
+                  "mitigation": "Defences include control of interaction frequency or proper enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 18,
+                  "score": ""
+                },
+                {
+                  "id": "4c0312b6-39d6-429b-90ac-ef722b3916a9",
+                  "title": "Spamming",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #17:\nStoring malicious such as malware, Iframe distribution, photographs & videos, advertisements, referrer spam and tracking/surveillance code",
+                  "mitigation": "Defences include detecting embedded malicious code, controling interaction frequency and enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 19,
+                  "score": ""
+                },
+                {
+                  "id": "461173ce-0b8b-487d-b648-2f941812b3a2",
+                  "title": "Credential cracking",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #7:\nBrute force, dictionary and guessing attacks used against authentication processes of the application to identify valid account credentials",
+                  "mitigation": "Defences include restriction of excessive authentication attempts, control of interaction frequency and enforcement of a single unique action",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 20,
+                  "score": ""
+                },
+                {
+                  "id": "cf12abd9-a67a-444b-8941-40d912f5da53",
+                  "title": "Account creation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Elevation of privilege",
+                  "description": "See OWASP Automated Threat #19:\nBulk account creation, and sometimes profile population, by using the application’s account signup processes",
+                  "mitigation": "Defences include control of interaction frequency, enforcement of a single unique a action and enforcement of behavioral workflow",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 21,
+                  "score": ""
+                },
+                {
+                  "id": "0ae64c98-ccc6-41f0-9a57-c0d22b4e1165",
+                  "title": "Account aggregation",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Spoofing",
+                  "description": "See OWASP Automated Threat #20:\nCompilation of credentials and information from multiple application accounts into another system",
+                  "mitigation": "Defences include control of interaction frequency and prevention of abuse of functionality",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 22,
+                  "score": ""
+                },
+                {
+                  "id": "04eba942-9652-4082-b8d8-b582996fafe1",
+                  "title": "Vulnerable encryption algorithms",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Out of date encryption algorithms are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography for all signatures and encryption",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 23,
+                  "score": ""
+                },
+                {
+                  "id": "2fb53ced-59e8-4f97-9b91-38a2cec3762c",
+                  "title": "Vulnerable cryptography",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Out of date cryptographic techniques are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptographic methods for checksums, signatures and certificates",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 24,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "repudiation": 0,
+                "informationDisclosure": 4,
+                "denialOfService": 0
+              }
+            }
+          },
+          {
+            "position": {
+              "x": 80,
+              "y": 70
+            },
+            "size": {
+              "width": 112.5,
+              "height": 60
+            },
+            "attrs": {
+              "text": {
+                "text": "External Network / Internet"
+              }
+            },
+            "visible": true,
+            "shape": "td-text-block",
+            "zIndex": 6,
+            "id": "e88b10d9-21da-4328-af80-37b4300f9ab0",
+            "data": {
+              "type": "tm.Text",
+              "name": "External Network / Internet",
+              "hasOpenThreats": false
+            }
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": ""
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Registration/Login Request",
+              "description": "user submits registration or login data (username, password, personal info)",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": false,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "caa8e27e-2092-4b27-aa96-1844a2c30a6c",
+                  "title": "Vulnerable transport protocol",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Older transport protocols are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography and transport protocols",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 29,
+                  "score": ""
+                },
+                {
+                  "id": "485d2a6d-809f-4977-b30c-abb85b11a1ef",
+                  "title": "Fingerprinting",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #4:\nSpecific requests are sent to the application eliciting information in order to profile the application",
+                  "mitigation": "Defence includes restricting what information is provided, for example version numbers and package details",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 30,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Registration/Login Request"
+            ],
+            "id": "389321f0-8f15-4e3a-bdb4-4f0710ced3c4",
+            "source": {
+              "cell": "dc2519ac-e044-41ff-b222-c1de52969009",
+              "port": "833d5e24-899a-4c1c-aa8c-ef9e2c7cc380"
+            },
+            "target": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "7f2b9742-08f2-44de-89ac-cfc0552f06ec"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Payslip/Tax Form Display",
+              "description": "authenticated staff requests payslip or tax forms; the system retrieves and sends the requested documents",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": true,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "7952353f-65f9-4c26-9da1-ef7641bb96f9",
+                  "title": "Vulnerable transport protocol",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Older transport protocols are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography and transport protocols",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 31,
+                  "score": ""
+                },
+                {
+                  "id": "fa771b57-6a78-4814-bf09-fc08919bb6ce",
+                  "title": "Fingerprinting",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "See OWASP Automated Threat #4:\nSpecific requests are sent to the application eliciting information in order to profile the application",
+                  "mitigation": "Defence includes restricting what information is provided, for example version numbers and package details",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 32,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 2,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Payslip/Tax Form Display"
+            ],
+            "id": "017c4f9a-1817-46bc-a458-e930330f2199",
+            "source": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "7f2b9742-08f2-44de-89ac-cfc0552f06ec"
+            },
+            "target": {
+              "cell": "dc2519ac-e044-41ff-b222-c1de52969009",
+              "port": "833d5e24-899a-4c1c-aa8c-ef9e2c7cc380"
+            },
+            "vertices": [
+              {
+                "x": 360,
+                "y": 440
+              }
+            ]
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Manage Staff Records / Approve Updates",
+              "description": "HR Admin manages user data, reviews updates, and verifies payroll information",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "HTTPS",
+              "threats": [
+                {
+                  "id": "aa9d80be-29df-4cdc-bb45-66c96bb16cf4",
+                  "title": "Vulnerable transport protocol",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Older transport protocols are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography and transport protocols",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 33,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Manage Staff Records / Approve Updates"
+            ],
+            "id": "b6067dbb-c6ea-48c8-ad53-ad57a8d51d98",
+            "source": {
+              "cell": "f8bf672d-70d1-45d4-ac5f-315e9d2c17b8",
+              "port": "1904acb8-1603-4482-b128-56bd86e28d53"
+            },
+            "target": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "49bc1e43-aeed-4a6a-bee4-56ce425709ef"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Store/Retrieve Payroll Data",
+              "description": "the web app retrieves or updates records (payslips, tax info, personal details)",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "Secure DB Connection",
+              "threats": [
+                {
+                  "id": "8c9006a9-7f57-4226-a50b-e0828e10dffd",
+                  "title": "Vulnerable transport protocol",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Older transport protocols are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography and transport protocols",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 34,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Store/Retrieve Payroll Data"
+            ],
+            "id": "4252b181-fd56-4376-bf1e-391ea550b10a",
+            "source": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "4061f1f5-c46d-4f4e-a52b-daf0ae177355"
+            },
+            "target": {
+              "cell": "5bc14999-e971-4a28-9ee4-27eaa92a2719",
+              "port": "0b49f289-f946-44f9-b6ed-400ae241e2d8"
+            },
+            "vertices": []
+          },
+          {
+            "shape": "flow",
+            "attrs": {
+              "line": {
+                "stroke": "red",
+                "strokeWidth": 2.5,
+                "targetMarker": {
+                  "name": "block"
+                },
+                "sourceMarker": {
+                  "name": "block"
+                },
+                "strokeDasharray": null
+              }
+            },
+            "width": 200,
+            "height": 100,
+            "zIndex": 10,
+            "connector": "smooth",
+            "data": {
+              "type": "tm.Flow",
+              "name": "Validate Employee Information",
+              "description": "portal verifies staff information against HR records during registration or updates",
+              "outOfScope": false,
+              "isTrustBoundary": false,
+              "reasonOutOfScope": "",
+              "hasOpenThreats": true,
+              "isBidirectional": true,
+              "isEncrypted": true,
+              "isPublicNetwork": false,
+              "protocol": "Secure Internal API or Direct DB Query",
+              "threats": [
+                {
+                  "id": "3cc3dcc4-b0c0-492c-aa1f-29afd8277482",
+                  "title": "Vulnerable transport protocol",
+                  "status": "Open",
+                  "severity": "TBD",
+                  "type": "Information disclosure",
+                  "description": "Older transport protocols are vulnerable and have known vulnerabilities",
+                  "mitigation": "Use up to date cryptography and transport protocols",
+                  "modelType": "STRIDE",
+                  "new": false,
+                  "number": 35,
+                  "score": ""
+                }
+              ],
+              "threatFrequency": {
+                "tampering": 0,
+                "informationDisclosure": 1,
+                "denialOfService": 0
+              }
+            },
+            "labels": [
+              "Validate Employee Information"
+            ],
+            "id": "57517e9c-4df3-49ba-87b9-dcac48c10d33",
+            "source": {
+              "cell": "6c32e4e6-c650-4e1b-90b8-7252aee795c5",
+              "port": "4061f1f5-c46d-4f4e-a52b-daf0ae177355"
+            },
+            "target": {
+              "cell": "a314278d-121f-400f-b080-2f13ed48ab12",
+              "port": "0b49f289-f946-44f9-b6ed-400ae241e2d8"
+            }
+          }
+        ]
+      }
+    ],
+    "diagramTop": 1,
+    "reviewer": "",
+    "threatTop": 35
+  }
+}
