@@ -1,0 +1,6 @@
+sem01/personal_and_professional_development/assessment/01/ -- Blockchain Presentation
+sem01/web_development_fundamentals/assessment/01/ -- Personal Portfolio		[project]
+sem01/algorithmic_problem_solving/assessment/01/ & /02/ -- CA1, CA2 - Pseudocode, code, alghorithms
+sem02/computer_architecture/assessment/01/ -- Maze Runner (Arduino)			[project]
+sem02/web_development_client_side/assessment/01/ -- ATB Market				[project]
+sem02/fundamentals_of_programming_2/assessment/01 -- Coffee Shop			[project]
