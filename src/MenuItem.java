@@ -1,7 +1,7 @@
 /*
 Created by: Dany
 Created on 12/03/2024 : 17:12
-This is program to
+This is program to manage the inventory of the coffee shop
 */
 
 public class MenuItem {

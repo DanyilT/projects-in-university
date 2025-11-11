@@ -1,7 +1,7 @@
 /*
 Created by: Dany
 Created on 12/03/2024 : 18:17
-This is program to
+This is program to manage the transactions of the coffee shop
 */
 
 import java.time.LocalDateTime;

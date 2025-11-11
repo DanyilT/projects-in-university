@@ -1,14 +1,15 @@
 /*
 Created by: Dany
 Created on 12/03/2024 : 18:17
-This is program to
+This is program to manage the transactions of the coffee shop
 */
 
 import java.io.*;
 import java.util.*;
 
 public class TransactionManager {
-    private static final String TRANSACTION_FILE_PATH = "csv/transactions.csv";
+    // If run via terminal, the path should be "../data/inventory.csv", but if run via IDE, the path should be "data/inventory.csv" or set Working Directory to "CoffeeShop"
+    private static final String TRANSACTION_FILE_PATH = "../data/transactions.csv";
 
     // Method to append transactions to the transactions file
     public static void saveTransactions(List<Transaction> transactions) {
