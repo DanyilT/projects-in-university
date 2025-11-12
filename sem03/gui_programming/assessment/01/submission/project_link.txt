@@ -1,0 +1,9 @@
+Project Branch (GitHub):
+https://github.com/DanyilT/projects-in-university/tree/assessment/year02/module-gui_programming/household-cooker-and-mouse-events
+
+Branch Name:
+assessment/year02/module-gui_programming/household-cooker-and-mouse-events
+
+Description:
+This link points to the full Final Assessment for the GUI Programming module (Year 2, Sem 1). 
+The branch contains the implementation files, project assets, and the README for this standalone project.

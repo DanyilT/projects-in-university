@@ -1,0 +1,9 @@
+Project Branch (GitHub):
+https://github.com/DanyilT/projects-in-university/tree/project/year02/module-object_oriented_analysis_and_design/blackjack
+
+Branch Name:
+project/year02/module-object_oriented_analysis_and_design/blackjack
+
+Description:
+This link points to the full Blackjack project for the Object-Oriented Analysis and Design module (Year 2, Sem 1). 
+The branch contains the implementation files, project assets, and the README for this standalone project.
