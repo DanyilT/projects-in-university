@@ -4,3 +4,13 @@ sem01/algorithmic_problem_solving/assessment/01/ & /02/ -- CA1, CA2 - Pseudocode
 sem02/computer_architecture/assessment/01/ -- Maze Runner (Arduino)			[project]
 sem02/web_development_client_side/assessment/01/ -- ATB Market				[project]
 sem02/fundamentals_of_programming_2/assessment/01 -- Coffee Shop			[project]
+sem03/gui_programming/assessment/01 -- HouseholdCooker & MouseEvents		[assessment]
+sem03/database_fundamentals/assessment/01 -- Database Fundamental Project	[project]
+sem03/object_oriented_analysis_and_design/assessment/01 & /02/ -- CA1, CA2 - Write OOP programs at the lab
+sem03/object_oriented_analysis_and_design/assessment/03 -- BlackJack		[project]
+sem03/interactive_multimedia/assessment/01 -- https://github.com/DanyilT/IMM-Project/tree/beta	[project]
+sem04/advanced_programming/assessment/01 -- Musical Instruments GUI			[assessment]
+sem04/operating_systems/assessment/01 -- Dining Philosophers’ Problem Team Project Report
+sem04/web_development_server_side/assessment/01 -- https://github.com/DanyilT/WebDev-Project	[project]
+sem04/software_engineering_and_testing/assessment/01 & /02/ & /03/ & /04/ -- Testiong the WebDev Project
+sem04/it_business_management/01 & /02/ -- Case Study, Research Report and Reflection
