@@ -1,0 +1,154 @@
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logConstructor
+INFO: 
+
+----Machine and version details----
+
+instruments.Drums
+Ran from: C:\Users\danyt\Projects\projects-in-university\Year2\Sem2\Advanced Programming\FinalProject
+Ran by: danyt
+OS Details:Windows 11 amd64
+Java details:23 C:\Users\danyt\.jdks\openjdk-23-1
+
+----Assignment Summary Details---- 
+
+Total Constructors = 1
+Total Fields = 0
+Total Methods = 1
+
+ ----FULL METHOD DETAILS---- 
+
+TOTAL METHODS = 1
+
+***METHOD 1
+public void playSound No-parameters
+
+ ----FULL FIELDS DETAILS----
+
+TOTAL COUNT=0
+
+----FULL CONSTRUCTOR(S) DETAILS----
+
+TOTAL COUNT=1
+***CONSTRUCTOR 1
+instruments.Drums No-parameters
+
+----LIST OF RECENT METHOD CALLS---
+
+ Constructor call 
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:44 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:45 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:45 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:45 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 6:59:45 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 6:59:45 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+

@@ -1,0 +1,1034 @@
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+
+----Machine and version details----
+
+java.lang.Class
+Ran from: C:\Users\danyt\Projects\projects-in-university\Year2\Sem2\Advanced Programming\FinalProject
+Ran by: danyt
+OS Details:Windows 11 amd64
+Java details:23 C:\Users\danyt\.jdks\openjdk-23-1
+
+----Assignment Summary Details---- 
+
+Total Constructors = 1
+Total Fields = 21
+Total Methods = 172
+
+ ----FULL METHOD DETAILS---- 
+
+TOTAL METHODS = 172
+
+***METHOD 1
+public java.lang.String getName No-parameters
+***METHOD 2
+private void checkPackageAccess 
+Parameter 1 is type java.lang.SecurityManager
+Parameter 2 is type java.lang.ClassLoader
+Parameter 3 is type boolean
+***METHOD 3
+private java.lang.Class forName 
+Parameter 1 is type java.lang.String
+Parameter 2 is type java.lang.Class
+***METHOD 4
+public java.lang.Class forName 
+Parameter 1 is type java.lang.String
+Parameter 2 is type boolean
+Parameter 3 is type java.lang.ClassLoader
+***METHOD 5
+private java.lang.Class forName 
+Parameter 1 is type java.lang.String
+Parameter 2 is type boolean
+Parameter 3 is type java.lang.ClassLoader
+Parameter 4 is type java.lang.Class
+***METHOD 6
+public java.lang.Class forName 
+Parameter 1 is type java.lang.Module
+Parameter 2 is type java.lang.String
+***METHOD 7
+private java.lang.Class forName 
+Parameter 1 is type java.lang.Module
+Parameter 2 is type java.lang.String
+Parameter 3 is type java.lang.Class
+***METHOD 8
+public java.lang.Class forName 
+Parameter 1 is type java.lang.String
+***METHOD 9
+private java.lang.Class forName0 
+Parameter 1 is type java.lang.String
+Parameter 2 is type boolean
+Parameter 3 is type java.lang.ClassLoader
+Parameter 4 is type java.lang.Class
+***METHOD 10
+public java.lang.String toString No-parameters
+***METHOD 11
+public java.lang.Module getModule No-parameters
+***METHOD 12
+public java.security.ProtectionDomain getProtectionDomain No-parameters
+***METHOD 13
+public boolean isAssignableFrom 
+Parameter 1 is type java.lang.Class
+***METHOD 14
+public boolean isInstance 
+Parameter 1 is type java.lang.Object
+***METHOD 15
+public int getModifiers No-parameters
+***METHOD 16
+public boolean isInterface No-parameters
+***METHOD 17
+public boolean isArray No-parameters
+***METHOD 18
+public boolean isPrimitive No-parameters
+***METHOD 19
+public boolean isHidden No-parameters
+***METHOD 20
+public java.lang.Class getSuperclass No-parameters
+***METHOD 21
+public java.lang.Object cast 
+Parameter 1 is type java.lang.Object
+***METHOD 22
+public java.lang.invoke.TypeDescriptor.OfField componentType No-parameters
+***METHOD 23
+public java.lang.Class componentType No-parameters
+***METHOD 24
+package java.lang.ClassLoader getClassLoader0 No-parameters
+***METHOD 25
+public java.util.Optional describeConstable No-parameters
+***METHOD 26
+public java.lang.Class getComponentType No-parameters
+***METHOD 27
+private void addSealingInfo 
+Parameter 1 is type int
+Parameter 2 is type java.lang.StringBuilder
+***METHOD 28
+public boolean isAnnotation No-parameters
+***METHOD 29
+public boolean isEnum No-parameters
+***METHOD 30
+public boolean isRecord No-parameters
+***METHOD 31
+public java.lang.reflect.TypeVariable[] getTypeParameters No-parameters
+***METHOD 32
+public boolean isSealed No-parameters
+***METHOD 33
+private boolean hasSealedAncestor 
+Parameter 1 is type java.lang.Class
+***METHOD 34
+private java.lang.Class[] getInterfaces 
+Parameter 1 is type boolean
+***METHOD 35
+public java.lang.Class[] getInterfaces No-parameters
+***METHOD 36
+public java.lang.ClassLoader getClassLoader No-parameters
+***METHOD 37
+private void checkMemberAccess 
+Parameter 1 is type java.lang.SecurityManager
+Parameter 2 is type int
+Parameter 3 is type java.lang.Class
+Parameter 4 is type boolean
+***METHOD 38
+private jdk.internal.reflect.ReflectionFactory getReflectionFactory No-parameters
+***METHOD 39
+private java.lang.reflect.Constructor getConstructor0 
+Parameter 1 is type  Array of java.lang.Class;
+Parameter 2 is type int
+***METHOD 40
+public java.lang.Object newInstance No-parameters
+***METHOD 41
+private java.lang.String initClassName No-parameters
+***METHOD 42
+private sun.reflect.generics.repository.ClassRepository getGenericInfo No-parameters
+***METHOD 43
+private java.lang.Class elementType No-parameters
+***METHOD 44
+private java.lang.Class.ReflectionData reflectionData No-parameters
+***METHOD 45
+private java.lang.Class[] getInterfaces0 No-parameters
+***METHOD 46
+public boolean isMemberClass No-parameters
+***METHOD 47
+public boolean isLocalClass No-parameters
+***METHOD 48
+public boolean isAnonymousClass No-parameters
+***METHOD 49
+private int getClassAccessFlagsRaw No-parameters
+***METHOD 50
+private java.lang.Class.EnclosingMethodInfo getEnclosingMethodInfo No-parameters
+***METHOD 51
+private sun.reflect.generics.factory.GenericsFactory getFactory No-parameters
+***METHOD 52
+private java.lang.Class toClass 
+Parameter 1 is type java.lang.reflect.Type
+***METHOD 53
+public java.lang.Class getEnclosingClass No-parameters
+***METHOD 54
+private java.lang.reflect.Method[] privateGetDeclaredMethods 
+Parameter 1 is type boolean
+***METHOD 55
+private boolean arrayContentsEq 
+Parameter 1 is type  Array of java.lang.Object;
+Parameter 2 is type  Array of java.lang.Object;
+***METHOD 56
+private java.lang.Object[] getEnclosingMethod0 No-parameters
+***METHOD 57
+public java.lang.Class arrayType No-parameters
+***METHOD 58
+public java.lang.invoke.TypeDescriptor.OfField arrayType No-parameters
+***METHOD 59
+private java.lang.reflect.Constructor[] privateGetDeclaredConstructors 
+Parameter 1 is type boolean
+***METHOD 60
+private java.lang.Class getDeclaringClass0 No-parameters
+***METHOD 61
+private java.lang.String getSimpleName0 No-parameters
+***METHOD 62
+public java.lang.String getSimpleName No-parameters
+***METHOD 63
+private java.lang.String getSimpleBinaryName No-parameters
+***METHOD 64
+private java.lang.String getCanonicalName0 No-parameters
+***METHOD 65
+public java.lang.String getCanonicalName No-parameters
+***METHOD 66
+private boolean isLocalOrAnonymousClass No-parameters
+***METHOD 67
+private java.lang.String getSimpleBinaryName0 No-parameters
+***METHOD 68
+private boolean isTopLevelClass No-parameters
+***METHOD 69
+private boolean hasEnclosingMethodInfo No-parameters
+***METHOD 70
+private java.lang.reflect.Field[] privateGetPublicFields No-parameters
+***METHOD 71
+private java.lang.reflect.Field[] copyFields 
+Parameter 1 is type  Array of java.lang.reflect.Field;
+***METHOD 72
+private java.lang.reflect.Method[] privateGetPublicMethods No-parameters
+***METHOD 73
+private java.lang.reflect.Method[] copyMethods 
+Parameter 1 is type  Array of java.lang.reflect.Method;
+***METHOD 74
+private java.lang.reflect.Constructor[] copyConstructors 
+Parameter 1 is type  Array of java.lang.reflect.Constructor;
+***METHOD 75
+private java.lang.reflect.Field getField0 
+Parameter 1 is type java.lang.String
+***METHOD 76
+private java.lang.reflect.Method getMethod0 
+Parameter 1 is type java.lang.String
+Parameter 2 is type  Array of java.lang.Class;
+***METHOD 77
+private java.lang.String methodToString 
+Parameter 1 is type java.lang.String
+Parameter 2 is type  Array of java.lang.Class;
+***METHOD 78
+private java.lang.Class[] getDeclaredClasses0 No-parameters
+***METHOD 79
+private java.lang.reflect.Field[] privateGetDeclaredFields 
+Parameter 1 is type boolean
+***METHOD 80
+private java.lang.reflect.RecordComponent[] getRecordComponents0 No-parameters
+***METHOD 81
+private java.lang.reflect.Field searchFields 
+Parameter 1 is type  Array of java.lang.reflect.Field;
+Parameter 2 is type java.lang.String
+***METHOD 82
+private java.lang.reflect.Method searchMethods 
+Parameter 1 is type  Array of java.lang.reflect.Method;
+Parameter 2 is type java.lang.String
+Parameter 3 is type  Array of java.lang.Class;
+***METHOD 83
+private java.lang.PublicMethods.MethodList getMethodsRecursive 
+Parameter 1 is type java.lang.String
+Parameter 2 is type  Array of java.lang.Class;
+Parameter 3 is type boolean
+Parameter 4 is type boolean
+***METHOD 84
+private java.lang.String resolveName 
+Parameter 1 is type java.lang.String
+***METHOD 85
+private boolean isOpenToCaller 
+Parameter 1 is type java.lang.String
+Parameter 2 is type java.lang.Class
+***METHOD 86
+public java.io.InputStream getResourceAsStream 
+Parameter 1 is type java.lang.String
+***METHOD 87
+public java.net.URL getResource 
+Parameter 1 is type java.lang.String
+***METHOD 88
+package java.security.ProtectionDomain protectionDomain No-parameters
+***METHOD 89
+private java.security.ProtectionDomain getProtectionDomain0 No-parameters
+***METHOD 90
+public java.lang.String getPackageName No-parameters
+***METHOD 91
+private java.lang.Class.ReflectionData newReflectionData 
+Parameter 1 is type java.lang.ref.SoftReference
+Parameter 2 is type int
+***METHOD 92
+private java.lang.String getGenericSignature0 No-parameters
+***METHOD 93
+package byte[] getExecutableTypeAnnotationBytes 
+Parameter 1 is type java.lang.reflect.Executable
+***METHOD 94
+private java.lang.reflect.Field[] getDeclaredFields0 
+Parameter 1 is type boolean
+***METHOD 95
+private void addAll 
+Parameter 1 is type java.util.Collection
+Parameter 2 is type  Array of java.lang.reflect.Field;
+***METHOD 96
+private java.lang.reflect.Constructor[] getDeclaredConstructors0 
+Parameter 1 is type boolean
+***METHOD 97
+private java.lang.reflect.Method[] getDeclaredMethods0 
+Parameter 1 is type boolean
+***METHOD 98
+private boolean desiredAssertionStatus0 
+Parameter 1 is type java.lang.Class
+***METHOD 99
+public boolean desiredAssertionStatus No-parameters
+***METHOD 100
+private boolean isRecord0 No-parameters
+***METHOD 101
+package java.lang.Object[] getEnumConstantsShared No-parameters
+***METHOD 102
+public java.lang.reflect.Method getMethod 
+Parameter 1 is type java.lang.String
+Parameter 2 is type Vararg of type[Ljava.lang.Class;
+***METHOD 103
+package java.util.Map enumConstantDirectory No-parameters
+***METHOD 104
+private java.lang.String cannotCastMsg 
+Parameter 1 is type java.lang.Object
+***METHOD 105
+private java.lang.Class.AnnotationData annotationData No-parameters
+***METHOD 106
+public boolean isAnnotationPresent 
+Parameter 1 is type java.lang.Class
+***METHOD 107
+private java.lang.Class.AnnotationData createAnnotationData 
+Parameter 1 is type int
+***METHOD 108
+package byte[] getRawAnnotations No-parameters
+***METHOD 109
+package jdk.internal.reflect.ConstantPool getConstantPool No-parameters
+***METHOD 110
+package boolean casAnnotationType 
+Parameter 1 is type sun.reflect.annotation.AnnotationType
+Parameter 2 is type sun.reflect.annotation.AnnotationType
+***METHOD 111
+package byte[] getRawTypeAnnotations No-parameters
+***METHOD 112
+private java.lang.Class getNestHost0 No-parameters
+***METHOD 113
+public java.lang.Class getNestHost No-parameters
+***METHOD 114
+private java.lang.Class[] getNestMembers0 No-parameters
+***METHOD 115
+public java.lang.String descriptorString No-parameters
+***METHOD 116
+private java.lang.Class[] getPermittedSubclasses0 No-parameters
+***METHOD 117
+private void checkPackageAccessForPermittedSubclasses 
+Parameter 1 is type java.lang.SecurityManager
+Parameter 2 is type java.lang.ClassLoader
+Parameter 3 is type  Array of java.lang.Class;
+***METHOD 118
+public java.lang.Class[] getPermittedSubclasses No-parameters
+***METHOD 119
+private int getClassFileVersion0 No-parameters
+***METHOD 120
+private int getClassAccessFlagsRaw0 No-parameters
+***METHOD 121
+private boolean isDirectSubType 
+Parameter 1 is type java.lang.Class
+***METHOD 122
+private void registerNatives No-parameters
+***METHOD 123
+public java.lang.String toGenericString No-parameters
+***METHOD 124
+package java.lang.String typeVarBounds 
+Parameter 1 is type java.lang.reflect.TypeVariable
+***METHOD 125
+public java.lang.Class forPrimitiveName 
+Parameter 1 is type java.lang.String
+***METHOD 126
+public boolean isSynthetic No-parameters
+***METHOD 127
+package java.lang.Object getClassData No-parameters
+***METHOD 128
+public java.lang.reflect.Type getGenericSuperclass No-parameters
+***METHOD 129
+public java.lang.Package getPackage No-parameters
+***METHOD 130
+public java.lang.reflect.Type[] getGenericInterfaces No-parameters
+***METHOD 131
+public java.util.Set accessFlags No-parameters
+***METHOD 132
+public java.lang.Object[] getSigners No-parameters
+***METHOD 133
+package void setSigners 
+Parameter 1 is type  Array of java.lang.Object;
+***METHOD 134
+public java.lang.reflect.Method getEnclosingMethod No-parameters
+***METHOD 135
+public java.lang.reflect.Constructor getEnclosingConstructor No-parameters
+***METHOD 136
+public java.lang.Class getDeclaringClass No-parameters
+***METHOD 137
+public java.lang.String getTypeName No-parameters
+***METHOD 138
+public java.lang.Class[] getClasses No-parameters
+***METHOD 139
+public java.lang.reflect.Field[] getFields No-parameters
+***METHOD 140
+public java.lang.reflect.Method[] getMethods No-parameters
+***METHOD 141
+public java.lang.reflect.Constructor[] getConstructors No-parameters
+***METHOD 142
+public java.lang.reflect.Field getField 
+Parameter 1 is type java.lang.String
+***METHOD 143
+public java.lang.reflect.Constructor getConstructor 
+Parameter 1 is type Vararg of type[Ljava.lang.Class;
+***METHOD 144
+public java.lang.Class[] getDeclaredClasses No-parameters
+***METHOD 145
+public java.lang.reflect.Field[] getDeclaredFields No-parameters
+***METHOD 146
+public java.lang.reflect.RecordComponent[] getRecordComponents No-parameters
+***METHOD 147
+public java.lang.reflect.Method[] getDeclaredMethods No-parameters
+***METHOD 148
+public java.lang.reflect.Constructor[] getDeclaredConstructors No-parameters
+***METHOD 149
+public java.lang.reflect.Field getDeclaredField 
+Parameter 1 is type java.lang.String
+***METHOD 150
+public java.lang.reflect.Method getDeclaredMethod 
+Parameter 1 is type java.lang.String
+Parameter 2 is type Vararg of type[Ljava.lang.Class;
+***METHOD 151
+package java.util.List getDeclaredPublicMethods 
+Parameter 1 is type java.lang.String
+Parameter 2 is type Vararg of type[Ljava.lang.Class;
+***METHOD 152
+package java.lang.reflect.Method findMethod 
+Parameter 1 is type boolean
+Parameter 2 is type java.lang.String
+Parameter 3 is type Vararg of type[Ljava.lang.Class;
+***METHOD 153
+public java.lang.reflect.Constructor getDeclaredConstructor 
+Parameter 1 is type Vararg of type[Ljava.lang.Class;
+***METHOD 154
+package java.lang.Class getPrimitiveClass 
+Parameter 1 is type java.lang.String
+***METHOD 155
+public java.lang.Object[] getEnumConstants No-parameters
+***METHOD 156
+public java.lang.Class asSubclass 
+Parameter 1 is type java.lang.Class
+***METHOD 157
+public java.lang.annotation.Annotation getAnnotation 
+Parameter 1 is type java.lang.Class
+***METHOD 158
+public java.lang.annotation.Annotation[] getAnnotationsByType 
+Parameter 1 is type java.lang.Class
+***METHOD 159
+public java.lang.annotation.Annotation[] getAnnotations No-parameters
+***METHOD 160
+public java.lang.annotation.Annotation getDeclaredAnnotation 
+Parameter 1 is type java.lang.Class
+***METHOD 161
+public java.lang.annotation.Annotation[] getDeclaredAnnotationsByType 
+Parameter 1 is type java.lang.Class
+***METHOD 162
+public java.lang.annotation.Annotation[] getDeclaredAnnotations No-parameters
+***METHOD 163
+package sun.reflect.annotation.AnnotationType getAnnotationType No-parameters
+***METHOD 164
+package java.util.Map getDeclaredAnnotationMap No-parameters
+***METHOD 165
+public java.lang.reflect.AnnotatedType getAnnotatedSuperclass No-parameters
+***METHOD 166
+public java.lang.reflect.AnnotatedType[] getAnnotatedInterfaces No-parameters
+***METHOD 167
+public boolean isNestmateOf 
+Parameter 1 is type java.lang.Class
+***METHOD 168
+public java.lang.Class[] getNestMembers No-parameters
+***METHOD 169
+private int getClassFileVersion No-parameters
+***METHOD 170
+private java.lang.Class[] lambda$getPermittedSubclasses$2 
+Parameter 1 is type int
+***METHOD 171
+private boolean lambda$getPermittedSubclasses$1 
+Parameter 1 is type java.lang.Class
+***METHOD 172
+private java.lang.String lambda$methodToString$0 
+Parameter 1 is type java.lang.Class
+
+ ----FULL FIELDS DETAILS----
+
+TOTAL COUNT=21
+***FIELD 1
+private int ANNOTATION
+***FIELD 2
+private int ENUM
+***FIELD 3
+private int SYNTHETIC
+***FIELD 4
+private java.lang.reflect.Constructor cachedConstructor
+***FIELD 5
+private java.lang.String name
+***FIELD 6
+private java.lang.Module module
+***FIELD 7
+private java.lang.String packageName
+***FIELD 8
+private java.lang.Class componentType
+***FIELD 9
+private java.security.ProtectionDomain allPermDomain
+***FIELD 10
+private java.lang.ref.SoftReference reflectionData
+***FIELD 11
+private int classRedefinedCount
+***FIELD 12
+private sun.reflect.generics.repository.ClassRepository genericInfo
+***FIELD 13
+private java.lang.Class[] EMPTY_CLASS_ARRAY
+***FIELD 14
+private long serialVersionUID
+***FIELD 15
+private java.io.ObjectStreamField[] serialPersistentFields
+***FIELD 16
+private jdk.internal.reflect.ReflectionFactory reflectionFactory
+***FIELD 17
+private java.lang.Object[] enumConstants
+***FIELD 18
+private java.util.Map enumConstantDirectory
+***FIELD 19
+private java.lang.Class.AnnotationData annotationData
+***FIELD 20
+private sun.reflect.annotation.AnnotationType annotationType
+***FIELD 21
+package java.lang.ClassValue.ClassValueMap classValueMap
+
+----FULL CONSTRUCTOR(S) DETAILS----
+
+TOTAL COUNT=0
+----LIST OF RECENT METHOD CALLS---
+
+Method entry
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:48:59 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:02 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:03 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:06 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logConstructor
+INFO: 
+ Constructor call 
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:10 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodEntry
+INFO: 
+Method entry
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
+Apr 03, 2025 10:49:12 PM logging.AssignmentLogger logMethodExit
+INFO: 
+Method exit
+
