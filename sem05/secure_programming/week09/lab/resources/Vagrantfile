@@ -1,0 +1,40 @@
+# -*- mode: ruby -*-
+# vi: set ft=ruby :
+
+Vagrant.configure("2") do |config|
+  # Expose services on localhost
+  config.vm.network "forwarded_port", guest: 80,   host: 8080, auto_correct: true
+  config.vm.network "forwarded_port", guest: 1080, host: 1080, auto_correct: true
+  config.vm.network "forwarded_port", guest: 8100, host: 8100, auto_correct: true
+
+  # Mount secrets folder from repo root
+  config.vm.synced_folder "../secrets/", "/secrets"
+
+  # Provision
+  config.vm.provision :shell, path: "bootstrap.sh"
+  config.vm.provision "shell", run: "always", path: "reboot-provision.sh"
+
+  # Optional: VirtualBox
+  config.vm.provider "virtualbox" do |vb, override|
+    override.vm.box = "ubuntu/focal64"
+    vb.name = "coffeeshop"
+    # vb.memory = 4096
+    # vb.cpus = 2
+  end
+
+  # Default (cross-platform): Docker
+  config.vm.provider "docker" do |d, override|
+    d.build_dir       = "."      # build from ./Dockerfile (this folder)
+    d.remains_running = true
+    d.has_ssh         = true
+    d.privileged      = true
+    d.ports           = ["8080:80", "1080:1080", "8100:8100"]
+
+    # SSH for vagrant
+    override.ssh.username   = "vagrant"
+    override.ssh.password   = "vagrant"
+    override.ssh.insert_key = false
+  end
+
+  config.vm.boot_timeout = 600
+end
