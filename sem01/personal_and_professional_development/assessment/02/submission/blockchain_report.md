@@ -1,4 +1,6 @@
 # Blockchain
+> [!NOTE]
+> This is the copy of my [report](./blockchain_report.pdf) about _"Hucking"_ in **Blockchain technology** for the "Personal and Professional Development" module's assessment, but in markdown format.
 
 ## Table of Contents
 
@@ -90,11 +92,11 @@ The blockchain community is super important. Everyone needs to keep their eyes p
 Finally, I would like to say that no system is 100% secure, but blockchain technology wants to provide unlimited freedom and decentralization, as well as a large part of security. Don’t forget the importance of great security. because without it there will be no life for any project.
 
 > #### The main thesis
->“No matter how advanced the system is, anything can be hacked”
+> “No matter how advanced the system is, anything can be hacked”
 
 ## References
 
-[In .pdf file](Blockchain.pdf)
+[In .pdf file](./blockchain_report.pdf)
 
 ## Copyright
 
