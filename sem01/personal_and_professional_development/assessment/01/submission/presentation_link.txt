@@ -1,0 +1,2 @@
+github: https://github.com/DanyilT/projects-in-university/tree/presentation/year01/module-personal_and_professional_development/blockchain-report-and-presentation/presentation
+branch: presentation/year01/module-personal_and_professional_development/blockchain-report-and-presentation

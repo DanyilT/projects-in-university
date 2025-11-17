@@ -1,34 +1,42 @@
 # Networking Basics
+**Module:** Networking Basics `COMP H1015`  
+**Lectorer:** Conn Cremin  
+**Duration:** Semester 1 (Year 1)  
+**Date:** September - December 2023
 
 > This module provides an introduction to the fundamental concepts of computer networks. The course covers a range of topics, including network devices, protocols, and network configuration. The primary goal is to develop an understanding of computer networks and their applications in real-world scenarios. The course also includes practical exercises to reinforce the theoretical concepts. IP addressing, subnetting, and network troubleshooting are some of the key topics covered in this module.
 
+## Grades Breakdown
+| **Assessment Type** | **Weighting** |
+|---------------------|---------------|
+| Weekly labs (weeks 1-11) | idk |
+| CA 1 — MSQ test (week 9) | idk |
+| Probaly something else... | idk |
+
 ## Table of Contents
+- [Weeks](#weeks)
+    - [Week 1](#week-1-lab-1-network-introduction): Network Introduction
+    - [Week 2-6](#week-2-6-idk-but-for-some-reason-i-dont-have-them): Idk but for some reason I don't have them
+    - [Week 7](#week-7-review-week): Review Week
+    - [Week 8](#week-8-lab-7-configure-ipv6-addressing): Configure IPv6 Addressing
+    - [Week 9](#week-9-lab-8-troubleshooting-default-gateway-issues): Troubleshooting Default Gateway Issues
+    - [Week 10](#week-10-lab-9-subnetting-scenario-1): Subnetting Scenario
+    - [Week 11](#week-11-lab-10-designing-and-implementing-a-vlsm-addressing-scheme): Designing and Implementing a VLSM Addressing Scheme
 
-- [Labs](#labs)
-    - [Lab 1](#lab-1-network-introduction): Network Introduction
-    - [Lab 2-6](#lab-2-6-idk-but-for-some-reason-i-dont-have-them): Idk but for some reason I don't have them
-    - [Lab 7](#lab-7-configure-ipv6-addressing): Configure IPv6 Addressing
-    - [Lab 8](#lab-8-troubleshooting-default-gateway-issues): Troubleshooting Default Gateway Issues
-    - [Lab 9](#lab-9-subnetting-scenario): Subnetting Scenario
-    - [Lab 10](#lab-10-designing-and-implementing-a-vlsm-addressing-scheme): Designing and Implementing a VLSM Addressing Scheme
+## Weeks
 
-## Labs
-
-### [Lab 1](Lab1): Network Introduction
+### [Week 1 (Lab 1)](./week01/lab/): Network Introduction
+[Task](./week01/lab/networking_basics_week01_lab_network_introduction.pdf)
 
 This laboratory exercise introduces students to the basic Windows command-line networking tools to check connectivity.
 
-[Tasks](Lab1/Network%20Introduction.pdf)
-
-![Lab 1 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab1/Screenshot.png?raw=true)
+![Week 1, Lab 1 Screenshot](./_screenshots/week01/screenshot.png)
 
 #### Objectives
-
 At the end of this laboratory exercise, students should be able to:
 - Use the basic Windows command-line networking tools to check connectivity.
 
 #### Command-Line Networking Tools
-
 There are a number of Command-Line (or Windows Console) programs included with the Windows operating systems. The following programs used in this module's laboratory exercises are located on the C drive.
 
 | Program | Description |
@@ -41,7 +49,6 @@ There are a number of Command-Line (or Windows Console) programs included with t
 | NETSTAT.EXE | Displays protocol statistics and current TCP/IP network connections. |
 
 #### Exercise 1 – Check Computer Network Configuration
-
 Check the configuration of the network interface card (NIC):
 1. Open the Command Prompt window by clicking into the Search Box at the lower left of the computer screen and type `cmd`, which will cause a command prompt window to appear (Windows users).
 2. Enter the `ipconfig /all` command and note the following:
@@ -53,7 +60,6 @@ Check the configuration of the network interface card (NIC):
    - Default Gateway: 192.168.1.1
 
 #### Windows Networking Tools
-
 1. **Ping**
    - PING is a basic Internet program that lets you verify that a particular Internet address exists and can accept requests.
    - To “ping” is the act of using the ping utility or command. Pinging is diagnostically used to ensure that a host computer, which you are trying to reach, actually operates.
@@ -95,61 +101,55 @@ Check the configuration of the network interface card (NIC):
          - How many routers does the message pass through to get to home? `20`
          - Can you identify any cities or countries it passed through? `Dublin, Ireland; London, United Kingdom; Sydney, Australia`
 
-### Lab 2-6: Idk but for some reason I don't have them
-
+### Week 2-6: Idk but for some reason I don't have them
 `null`
 
-### [Lab 7](Lab7): Configure IPv6 Addressing
+### Week 7: Review Week
+> No lectures and labs this week.
+
+### [Week 8 (Lab 7)](./week08/lab/): Configure IPv6 Addressing
+[Task](./week08/lab/networking_basics_week08_lab_configure_ipv6_addressing.pdf) | [Packet Tracer Solution (.pka)](./week08/lab/solution/networking_basics_week08_lab_configure_ipv6_addressing.pka)
 
 This laboratory exercise introduces the configuration of IPv6 addressing on a router, servers, and clients.
 
-[Tasks](Lab7/Configure%20IPv6%20Addressing.pdf) | [Packet Tracer Solution](Lab7/Configure%20IPv6%20Addressing.pka)
-
-![Lab 7 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab7/Screenshot.png?raw=true)
+![Week 8, Lab 7 Screenshot](./_screenshots/week08/screenshot.png)
 
 #### Objectives
-
 1. Configure IPv6 Addressing on the Router
 2. Configure IPv6 Addressing on Servers
 3. Configure IPv6 Addressing on Clients
 4. Test and Verify Network Connectivity
 
-### [Lab 8](Lab8): Troubleshooting Default Gateway Issues
+### [Week 9 (Lab 8)](./week09/lab/): Troubleshooting Default Gateway Issues
+[Task](./week09/lab/networking_basics_week09_lab_troubleshooting_default_gateway_issues.pdf) | [Packet Tracer Solution (.pka)](./week09/lab/solution/networking_basics_week09_lab_troubleshooting_default_gateway_issues.pka)
 
 This laboratory exercise introduces the troubleshooting of default gateway issues on a router, servers, and clients.
 
-[Tasks](Lab8/Troubleshooting%20Default%20Gateway%20Issues.pdf) | [Packet Tracer Solution](Lab8/Troubleshooting%20Default%20Gateway%20Issues.pka)
-
-![Lab 8 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab8/Screenshot.png?raw=true)
+![Week 9, Lab 8 Screenshot](./_screenshots/week09/screenshot.png)
 
 #### Objectives
-
 1. Verify Network Documentation and Isolate Problems
 2. Implement, Verify, and Document Solutions
 
-### [Lab 9](Lab9): Subnetting Scenario
+### [Week 10 (Lab 9)](./week10/lab/): Subnetting Scenario 1
+[Task](./week10/lab/networking_basics_week10_lab_subnetting_scenario_1.pdf) | [Packet Tracer Solution (.pka)](./week10/lab/solution/networking_basics_week10_lab_subnetting_scenario_1.pka)
 
 This laboratory exercise introduces the subnetting scenario on a router, servers, and clients.
 
-[Tasks](Lab9/Subnetting%20Scenario.pdf) | [Packet Tracer Solution](Lab9/Subnetting%20Scenario.pka)
-
-![Lab 9 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab9/Screenshot.png?raw=true)
+![Week 10, Lab 9 Screenshot](./_screenshots/week10/screenshot.png)
 
 #### Objectives
-
 1. Design an IP Addressing Scheme
 2. Assign IP Addresses to Network Devices and Verify Connectivity
 
-### [Lab 10](Lab10): Designing and Implementing a VLSM Addressing Scheme
+### [Week 11 (Lab 10)](./week11/lab/): Designing and Implementing a VLSM Addressing Scheme
+[Task](./week11/lab/networking_basics_week11_lab_designing_and_implementing_a_vlsm_addressing_scheme.pdf) | [Packet Tracer Solution (.pka)](./week11/lab/solution/networking_basics_week11_lab_designing_and_implementing_a_vlsm_addressing_scheme.pka)
 
 This laboratory exercise introduces the design and implementation of a VLSM addressing scheme on a router, servers, and clients.
 
-[Tasks](Lab10/Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pdf) | [Packet Tracer Solution](Lab10/Designing%20and%20Implementing%20a%20VLSM%20Addressing%20Scheme.pka)
-
-![Lab 10 Screenshot](https://github.com/DanyilT/projects-in-university/blob/img/Year1/Sem1/Networking%20Basics/Lab10/Screenshot.png?raw=true)
+![Week 11, Lab 10 Screenshot](./_screenshots/week11/screenshot.png)
 
 #### Objectives
-
 1. Examine the Network Requirements
 2. Design the VLSM Addressing Scheme
 3. Assign IP Addresses to Devices and Verify Connectivity

@@ -1,0 +1,2 @@
+github: https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test/02/solution
+branch: test/year01/module-algorithmic_problem_solving/in-lab-practical-test
