@@ -1,9 +1,2 @@
-Project Branch (GitHub):
-https://github.com/DanyilT/projects-in-university/tree/project/year01/module-web_development_client_side/atb-market
-
-Branch Name:
-project/year01/module-web_development_client_side/atb-market
-
-Description:
-This link points to the full ATB Market project for the Web Development Client-Side module (Year 1, Sem 2). 
-The branch contains the implementation files, project assets, and the README for this standalone project.
+github: https://github.com/DanyilT/projects-in-university/tree/project/year01/module-web_development_client_side/atb-market
+branch: project/year01/module-web_development_client_side/atb-market

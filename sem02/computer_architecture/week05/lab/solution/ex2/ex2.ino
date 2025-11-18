@@ -1,24 +1,24 @@
 #include <Servo.h> // Include servo library
 
-// Declare left and right servos
-Servo servoLeft;
-Servo servoRight;
+Servo servoLeft; // Declare left servo signal
+Servo servoRight; // Declare right servo signal
 
 void setup() {
-  tone(4, 3000, 1000); // Play tone for 1 second
-  delay(1000); // Delay to finish tone
+  Serial.begin(9600);
 
   servoLeft.attach(13); // Attach left signal to pin 13
   servoRight.attach(12); // Attach right signal to pin 12
+  
+  servoLeft.writeMicroseconds(1300); // Pin 13 clockwise
+  servoRight.writeMicroseconds(1300); // Pin 12 clockwise
+  delay(3000); // ..for 3 seconds
 
-  // Full speed forward
-  servoLeft.writeMicroseconds(1700); // Left wheel counterclockwise
-  servoRight.writeMicroseconds(1300); // Right wheel clockwise
-  delay(10000); // ...for 10 seconds
+  servoLeft.writeMicroseconds(1700); // Pin 13 counterclockwise
+  servoRight.writeMicroseconds(1700); // Pin 12 counterclockwise
+  delay(3000); // ..for 3 seconds
 
-  // Stop sending servo signals
-  servoLeft.detach();
-  servoRight.detach();
+  servoLeft.writeMicroseconds(1500); // Pin 13 stay still
+  servoRight.writeMicroseconds(1500); // Pin 12 stay still
 }
 
 void loop() {

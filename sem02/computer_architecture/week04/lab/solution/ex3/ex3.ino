@@ -1,38 +1,40 @@
-#include "pitches.h"
-
-// Notes in the melody:
-int melody[] = {
-  NOTE_E5, NOTE_D5, NOTE_FS4, NOTE_GS4,
-  NOTE_CS5, NOTE_B4, NOTE_D4, NOTE_E4,
-  NOTE_B4, NOTE_A4, NOTE_CS4, NOTE_E4,
-  NOTE_A4
-};
-
-// Note durations: 4 = quarter note, 8 = eighth note, etc.:
-int noteDurations[] = {
-  8, 8, 8, 8,
-  8, 8, 4, 8,
-  8, 8, 8, 8,
-  4
-};
-
 void setup() {
-  // iterate over the notes of the melody:
-  for (int thisNote = 0; thisNote < 13; thisNote++) {
-
-    // to calculate the note duration, take one second divided by the note type.
-    // e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
-    int noteDuration = 1000 / noteDurations[thisNote];
-    tone(4, melody[thisNote], noteDuration);
-
-    // to distinguish the notes, set a minimum time between them.
-    // the note's duration + 30% seems to work well:
-    int pauseBetweenNotes = noteDuration * 1.30;
-    delay(pauseBetweenNotes);
-    // stop the tone playing:
-    noTone(4);
-  }
+  Serial.begin(9600);
+  pinMode(13, OUTPUT);
+  // Set digital pin 13 -> output
+  pinMode(12, OUTPUT);
+  // Set digital pin 12 -> output
 }
 
 void loop() {
+  // Pin 13 - 3 short
+  for(int i=0; i<3; i++) {
+    digitalWrite(13, HIGH);
+    delay(100); // ..for 0.1 seconds
+    // Pin 13 = 5 V, LED emits light
+    digitalWrite(13, LOW);
+    delay(200); // ..for 0.2 seconds
+    // Pin 13 = 0 V, LED no light
+  }
+  delay(800);  // ..for 0.8 seconds
+  // Pin 12 - 3 long
+  for(int i=0; i<3; i++) {
+    digitalWrite(12, HIGH);
+    delay(500); // ..for 0.5 seconds
+    // Pin 12 = 5 V, LED emits light
+    digitalWrite(12, LOW);
+    delay(500); // ..for 0.5 seconds
+    // Pin 12 = 0 V, LED no light
+  }
+  delay(300); // ..for 0.3 seconds
+  // Pin 13 - 3 short
+  for(int i=0; i<3; i++) {
+    digitalWrite(13, HIGH);
+    delay(100); // ..for 0.1 seconds
+    // Pin 13 = 5 V, LED emits light
+    digitalWrite(13, LOW);
+    delay(200); // ..for 0.2 seconds
+    // Pin 13 = 0 V, LED no light
+  }
+  delay(1000); // ..for 1 seconds
 }

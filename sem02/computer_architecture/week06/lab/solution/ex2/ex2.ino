@@ -1,37 +1,31 @@
+#include <Servo.h> // Include servo library
+
+Servo servoLeft; // Declare left servo signal
+Servo servoRight; // Declare right servo signal
+
 void setup() {
-  pinMode(7, INPUT); // Set right whisker pin to input
-  pinMode(5, INPUT); // Set left whisker pin to input
-  pinMode(8, OUTPUT); // Left LED indicator -> output
-  pinMode(2, OUTPUT); // Right LED indicator -> output
+  Serial.begin(9600);
 
   tone(4, 3000, 1000); // Play tone for 1 second
   delay(1000); // Delay to finish tone
 
-  Serial.begin(9600); // Set serial data rate to 9600
+  servoLeft.attach(13); // Attach left signal to pin 13
 }
 
 void loop() {
-  byte wLeft = digitalRead(5); // Copy left result to wLeft
-  byte wRight = digitalRead(7); // Copy right result to wRight
+  // Loop counts with pulseWidth from 1300 to 1700 in increments of 20.
+  for(int pulseWidth = 1300; pulseWidth <= 1700; pulseWidth += 20) {
+    Serial.print("pulseWidth = "); // Display pulseWidth value
+    Serial.println(pulseWidth);
+    Serial.println("Press a key and click"); // User prompt
+    Serial.println("Send to start servo...");
+    
+    while(Serial.available() == 0); // Wait for character
+    Serial.read(); // Clear character
+    Serial.println("Running...");
+    servoLeft.writeMicroseconds(pulseWidth); // Pin 13 servo speed=pulse
+    delay(6000); // ..for 6 seconds
 
-  if(wLeft == 0) {
-    // If left whisker contact
-    digitalWrite(8, HIGH); // Left LED on
-  } else {
-    // If no left whisker contact
-    digitalWrite(8, LOW); // Left LED off
+    servoLeft.writeMicroseconds(1500); // Pin 13 servo speed = stop
   }
-
-  if(wRight == 0) {
-    // If right whisker contact
-    digitalWrite(2, HIGH); // Right LED on
-  } else {
-    // If no right whisker contact
-    digitalWrite(2, LOW); // Right LED off
-  }
-
-  Serial.print(wLeft); // Display wLeft
-  Serial.println(wRight); // Display wRight
-
-  delay(50); // Pause for 50 ms
 }

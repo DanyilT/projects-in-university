@@ -1,9 +1,2 @@
-Project Branch (GitHub):
-https://github.com/DanyilT/projects-in-university/tree/project/year01/module-fundamentals_of_programming_2/coffee_shop
-
-Branch Name:
-project/year01/module-fundamentals_of_programming_2/coffee_shop
-
-Description:
-This link points to the full Coffee Shop project for the Fundamentals of Programming 2 module (Year 1, Sem 2). 
-The branch contains the implementation files, project assets, and the README for this standalone project.
+github: https://github.com/DanyilT/projects-in-university/tree/project/year01/module-fundamentals_of_programming_2/coffee_shop
+branch: project/year01/module-fundamentals_of_programming_2/coffee_shop

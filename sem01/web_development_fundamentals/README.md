@@ -2,7 +2,8 @@
 **Module:** Web Development Fundamentals `COMP H1026`  
 **Lectorer:** Orla McMahon  
 **Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023
+**Date:** September - December 2023  
+**Credits:** 5 ECTS
 
 > This module covers the basics of web development, including HTML, CSS, and introductory JavaScript. Projects in this category aim to build a strong foundation in creating and styling web pages, as well as adding interactivity through JavaScript. The module also covers responsive design and accessibility. The primary goal is to develop an understanding of web development and its applications in real-world scenarios. The course also includes practical exercises to reinforce the theoretical concepts.
 
@@ -25,6 +26,7 @@
     - [Week 8 (Lab 6)](#week-8-lab-6-horizontal-and-responsive-navigation-bar): Horizontal and Responsive Navigation Bar
     - [Week 10 (CA 1)](#week-10-ca-1-mcq-test): MCQ Test
 - [Project](#project)
+    - [Personal Portfolio](#personal-portfolio)
 
 ## Weeks
 
@@ -52,7 +54,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 
 This laboratory exercise introduces students to the basic HTML tags and how to create a simple web page.
 1. Create a College Web page [`lab02ex1.html`](./week03/lab/solution/lab02ex1.html)
-    - ![Week 3, Lab 2 screenshot_1](./_screenshots/week03/screenshot_1.png)
+    ![Week 3, Lab 2 screenshot_1](./_screenshots/week03/screenshot_1.png)
     - Download HtmlTemplate from Nowhere
     - Open this file in ~~Brackets~~ and save as `lab02ex1.html`
     - Create a folder called images in the lab02 folder
@@ -72,7 +74,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
     - Create an ordered list of two of your favourite bands
     - Underneath this create a nested list that shows the band names and 2 albums as per solution below.
 3. Definition Lists [`lab02ex3.html`](./week03/lab/solution/lab02ex3.html)
-    - ![Week 3, Lab 2 screenshot_3](./_screenshots/week03/screenshot_3.png)
+    ![Week 3, Lab 2 screenshot_3](./_screenshots/week03/screenshot_3.png)
     - Download HtmlTemplate from Nowhere
     - Open this file in ~~Brackets~~ and save as `lab02ex3.html`
     - The title should be “Definition Lists”
@@ -120,7 +122,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
     - Copy and paste the contents of your document into the HTML validator at `https://html5.validator.nu` and ensure there are no errors in your code.
 
 ### [Week 5 (Lab 4)](./week05/lab/): Colors, Text, Links
-[Brief](./week05/lab/web_development_fundamentals_week05_lab.pdf) | [Solution .html & .css](./week05/lab/solution/)
+[Brief](./week05/lab/web_development_fundamentals_week05_lab.pdf) | [Solution (.html & .css)](./week05/lab/solution/)
 
 This laboratory exercise introduces students to the basic HTML tags and how to create a simple web page.
 1. Sport Spider [`index.html`](./week05/lab/solution/index.html)
@@ -153,7 +155,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
         - ‘Back to home page’ should bring the user back to the home page
 
 ### [Week 6 (Lab 5)](./week06/lab/): ID, Class, Div, Span, Page Structure
-[Brief](./week06/lab/web_development_fundamentals_week06_lab.pdf) | [Solution .html & .css](./week06/lab/solution/)
+[Brief](./week06/lab/web_development_fundamentals_week06_lab.pdf) | [Solution (.html & .css)](./week06/lab/solution/)
 
 This laboratory exercise introduces students to the basic HTML tags and how to create a simple web page.
 1. Sport Spider [`index.html`](./week06/lab/solution/index.html)
@@ -187,7 +189,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 > No lectures and labs this week.
 
 ### [Week 8, Lab 6](./week08/lab/): Horizontal and Responsive Navigation Bar
-[Brief](./week08/lab/web_development_fundamentals_week08_lab.pdf) | [Solution .html & .css & .js](./week08/lab/solution/)
+[Brief](./week08/lab/web_development_fundamentals_week08_lab.pdf) | [Solution (.html & .css & .js)](./week08/lab/solution/)
 
 This laboratory exercise introduces students to the basic HTML tags and how to create a simple web page.
 1. Create a Horizontal menu [`index.html`](./week08/lab/solution/index.html)
@@ -215,8 +217,9 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 ## Project
 This is have to be the final project for the module.
 
-### [Personal Portfolio](FinalProject)
+### [Personal Portfolio](./assessment/01/)
 **Deadline:** Sunday, December 10, 2023
+
 > [!IMPORTANT]  
 > The project is located on [`project/year01/module-web_development_fundamentals/personal-portfolio`](https://github.com/DanyilT/projects-in-university/tree/project/year01/module-web_development_fundamentals/personal-portfolio) branch.  
 > Please switch to this branch to see the project files.  

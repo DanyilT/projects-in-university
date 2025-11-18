@@ -2,7 +2,8 @@
 **Module:** Personal and Professional Development `COMP H1033`  
 **Lectorer:** Maria Brennan  
 **Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023
+**Date:** September - December 2023  
+**Credits:** 5 ECTS
 
 > This module covers personal and professional development topics, including presentations, communication skills, and teamwork. The module aims to develop students' soft skills and enhance their employability. Main project was to create and deliver a presentation on a topic of choice. Btw, this module is absolute trash. 🗿
 

@@ -2,7 +2,8 @@
 **Module:** Networking Basics `COMP H1015`  
 **Lectorer:** Conn Cremin  
 **Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023
+**Date:** September - December 2023  
+**Credits:** 5 ECTS
 
 > This module provides an introduction to the fundamental concepts of computer networks. The course covers a range of topics, including network devices, protocols, and network configuration. The primary goal is to develop an understanding of computer networks and their applications in real-world scenarios. The course also includes practical exercises to reinforce the theoretical concepts. IP addressing, subnetting, and network troubleshooting are some of the key topics covered in this module.
 

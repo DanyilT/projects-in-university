@@ -1,77 +1,38 @@
-#include <Servo.h> // Include servo library
+#include "pitches.h"
 
-// Declare left and right servos
-Servo servoLeft;
-Servo servoRight;
+// Notes in the melody:
+int melody[] = {
+  NOTE_E5, NOTE_D5, NOTE_FS4, NOTE_GS4,
+  NOTE_CS5, NOTE_B4, NOTE_D4, NOTE_E4,
+  NOTE_B4, NOTE_A4, NOTE_CS4, NOTE_E4,
+  NOTE_A4
+};
+
+// Note durations: 4 = quarter note, 8 = eighth note, etc.:
+int noteDurations[] = {
+  8, 8, 8, 8,
+  8, 8, 4, 8,
+  8, 8, 8, 8,
+  4
+};
 
 void setup() {
-  pinMode(5, INPUT); // Set right whisker pin to input
-  pinMode(7, INPUT); // Set left whisker pin to input
-  
-  pinMode(8, OUTPUT); // Left LED indicator -> output
-  pinMode(2, OUTPUT); // Right LED indicator -> output
+  // iterate over the notes of the melody:
+  for (int thisNote = 0; thisNote < 13; thisNote++) {
 
-  tone(4, 3000, 1000); // Play tone for 1 second
-  delay(1000); // Delay to finish tone
+    // to calculate the note duration, take one second divided by the note type.
+    // e.g. quarter note = 1000 / 4, eighth note = 1000/8, etc.
+    int noteDuration = 1000 / noteDurations[thisNote];
+    tone(4, melody[thisNote], noteDuration);
 
-  servoLeft.attach(13); // Attach left signal to pin 13
-  servoRight.attach(12); // Attach right signal to pin 12
-}
-
-void loop() {
-  byte wLeft = digitalRead(5); // Copy left result to wLeft
-  byte wRight = digitalRead(7); // Copy right result to wRight
-
-  if((wLeft == 0) && (wRight == 0)) {
-    // If both whiskers 
-    digitalWrite(8, HIGH); // Left LED on
-    digitalWrite(2, HIGH); // Right LED on
-    backward(1000); // Back up 1 second
-    turnLeft(800); // Turn left about 120 degrees
-  } else if(wLeft == 0) {
-    // If only left whisker contact
-    digitalWrite(8, HIGH); // Left LED on
-    digitalWrite(2, LOW); // Right LED off
-    backward(1000); // Back up 1 second
-    turnRight(400); // Turn right about 60 degrees
-  } else if(wRight == 0) {
-    // If only right whisker contact
-    digitalWrite(8, LOW); // Left LED off
-    digitalWrite(2, HIGH); // Right LED on
-    backward(1000); // Back up 1 second
-    turnLeft(400); // Turn right about 60 degrees
-  } else {
-    // Otherwise, no whisker contact
-    digitalWrite(8, LOW); // Left LED off
-    digitalWrite(2, LOW); // Right LED off
-    forward(20); // Forward 1/50 of a second
+    // to distinguish the notes, set a minimum time between them.
+    // the note's duration + 30% seems to work well:
+    int pauseBetweenNotes = noteDuration * 1.30;
+    delay(pauseBetweenNotes);
+    // stop the tone playing:
+    noTone(4);
   }
 }
 
-// Forward function
-void forward(int time) {
-  servoLeft.writeMicroseconds(1700); // Left wheel counterclockwise
-  servoRight.writeMicroseconds(1300); // Right wheel clockwise
-  delay(time); // Maneuver for time ms
-}
-
-// Left turn function
-void turnLeft(int time) {
-  servoLeft.writeMicroseconds(1300); // Left wheel clockwise
-  servoRight.writeMicroseconds(1300); // Right wheel clockwise
-  delay(time); // Maneuver for time ms
-}
-
-// Right turn function
-void turnRight(int time) {
-  servoLeft.writeMicroseconds(1700); // Left wheel counterclockwise
-  servoRight.writeMicroseconds(1700); // Right wheel counterclockwise
-  delay(time); // Maneuver for time ms
-}
-
-// Backward function
-void backward(int time) {
- servoLeft.writeMicroseconds(1300); // Left wheel clockwise
- servoRight.writeMicroseconds(1700); // Right wheel counterclockwise
- delay(time); // Maneuver for time ms
+void loop() {
 }

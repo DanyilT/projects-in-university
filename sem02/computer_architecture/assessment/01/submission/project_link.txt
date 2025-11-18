@@ -1,10 +1,2 @@
-Project Branch (GitHub):
-https://github.com/DanyilT/projects-in-university/tree/project/year01/module-computer_architecture/maze-runner
-
-Branch Name:
-project/year01/module-computer_architecture/maze-runner
-
-Description:
-This link points to the Maze Runner Arduino project created for the Year 1, Semester 2 Computer Architecture assessment. 
-This branch contains my Arduino code (.ino) and README describing the project. 
-Note: this version of the bot did not successfully complete the maze, but implements the required sensor, LED, and audio logic.
+github: https://github.com/DanyilT/projects-in-university/tree/project/year01/module-computer_architecture/maze-runner
+branch: project/year01/module-computer_architecture/maze-runner

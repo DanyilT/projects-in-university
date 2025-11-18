@@ -2,7 +2,8 @@
 **Module:** Fundamentals of Programming 1 `COMP 1032`  
 **Lectorer:** Stephen Sheridan  
 **Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023
+**Date:** September - December 2023  
+**Credits:** 5 ECTS
 
 > This module introduces the fundamental concepts of programming using Java. The module covers basic syntax, control structures, data types, etc. The module is assessed through a series of lab exercises. Each lab exercise is designed to enhance understanding of various programming concepts and their applications in solving computational problems. The labs include practical tasks such as writing simple programs, using loops and conditionals, working with arrays, and performing calculations. By completing these exercises, students will gain hands-on experience and develop problem-solving skills essential for programming.
 
@@ -16,22 +17,22 @@
 
 ## Table of Contents
 - [Weeks](#weeks)
-    - [Week 0](#week-0-exercise-sheet-0): Exercise sheet 0
-    - [Week 1](#week-1-exercise-sheet-1): Exercise sheet 1
-    - [Week 2](#week-2-exercise-sheet-2): Exercise sheet 2
-    - [Week 3](#week-3-exercise-sheet-3): Exercise sheet 3
-    - [Week 4](#week-4-exercise-sheet-4): Exercise sheet 4
-    - [Week 5](#week-5-exercise-sheet-5): Exercise sheet 5
-    - [Week 6](#week-6-exercise-sheet-6): Exercise sheet 6
-    - [Week 7](#week-7-exercise-sheet-7): Exercise sheet 7
-    - [Week 8](#week-8-exercise-sheet-8): Exercise sheet 8
-    - [Week 9](#week-9-exercise-sheet-9): Exercise sheet 9
-    - [Week 10](#week-10-exercise-sheet-10): Exercise sheet 10
+    - [Week 0](#week-0-lab-0-exercise-sheet-0): Exercise sheet 0
+    - [Week 1](#week-1-lab-1-exercise-sheet-1): Exercise sheet 1
+    - [Week 2](#week-2-lab-2-exercise-sheet-2): Exercise sheet 2
+    - [Week 3](#week-3-lab-3-exercise-sheet-3): Exercise sheet 3
+    - [Week 4](#week-4-lab-4-exercise-sheet-4): Exercise sheet 4
+    - [Week 5](#week-5-lab-5-exercise-sheet-5): Exercise sheet 5
+    - [Week 6](#week-6-lab-6-exercise-sheet-6): Exercise sheet 6
+    - [Week 7](#week-7-lab-7-exercise-sheet-7): Exercise sheet 7
+    - [Week 8](#week-8-lab-8-exercise-sheet-8): Exercise sheet 8
+    - [Week 9](#week-9-lab-9-exercise-sheet-9): Exercise sheet 9
+    - [Week 10](#week-10-lab-10-exercise-sheet-10): Exercise sheet 10
 
 ## Labs
 
-### [Week 0](./week00/): Exercise sheet 0
-[Task](./week00/lab/fundamentals_of_programming_1_week00_lab.pdf) | [Solution (.java files)](./week00/lab/solution/)
+### [Week 0 (Lab 0)](./week00/lab/): Exercise sheet 0
+[Task](./week00/lab/fundamentals_of_programming_1_week00_lab.pdf) | [Solution (.java)](./week00/lab/solution/)
 
 This lab introduces the basics of Java programming, including setting up the development environment, writing simple programs, and understanding the compilation and execution process.
 
@@ -58,7 +59,7 @@ This lab introduces the basics of Java programming, including setting up the dev
 4. Download the `Broken.java` source file from nowhere. Compile the program on the command line using the `javac` command. Open the `Broken.java` file in TextPad and try to fix the errors it contains, compile the code with `javac` to check for errors. When you have fixed all the errors in `Broken.java`, run the program using the `java` command. Program named as [`Broken.java`](./week00/lab/solution/Broken.java).
     ![Week 0, Lab 0 screenshot_4](./_screenshots/week00/screenshot_4.png)
 
-### [Week 1](./week01/): Exercise sheet 1
+### [Week 1 (Lab 1)](./week01/lab/): Exercise sheet 1
 [Task](./week01/lab/fundamentals_of_programming_1_week01_lab.pdf) | [Solution (.java files)](./week01/lab/solution/)
 
 This lab focuses on basic Java programming concepts, including variables, data types, arithmetic operations, and input/output operations.
@@ -98,7 +99,7 @@ This lab focuses on basic Java programming concepts, including variables, data t
     ```
     ![Week 1, Lab 1 screenshot_5](./_screenshots/week01/screenshot_5.png)
 
-### [Week 2](./week02/): Exercise sheet 2
+### [Week 2 (Lab 2)](./week02/lab/): Exercise sheet 2
 [Task](./week02/lab/fundamentals_of_programming_1_week02_lab.pdf) | [Solution (.java files)](./week02/lab/solution/)
 
 This lab focuses on more advanced Java programming concepts, including loops, conditionals, and methods.
@@ -138,7 +139,7 @@ This lab focuses on more advanced Java programming concepts, including loops, co
     ```
     ![Week 2, Lab 2 screenshot_4](./_screenshots/week02/screenshot_4.png)
 
-### [Week 3](./week03/): Exercise sheet 3
+### [Week 3 (Lab 3)](./week03/lab/): Exercise sheet 3
 [Task](./week03/lab/fundamentals_of_programming_1_week03_lab.pdf) | [Solution (.java files)](./week03/lab/solution/)
 
 This lab focuses on evaluating expressions, declaring variables, and using conditional statements.
@@ -185,7 +186,7 @@ This lab focuses on evaluating expressions, declaring variables, and using condi
     ```
     ![Week 3, Lab 3 screenshot_4](./_screenshots/week03/screenshot_4.png)
 
-### [Week 4](./week04/): Exercise sheet 4
+### [Week 4 (Lab 4)](./week04/lab/): Exercise sheet 4
 [Task](./week04/lab/fundamentals_of_programming_1_week04_lab.pdf) | [Solution (.java files)](./week04/lab/solution/)
 
 This lab focuses on evaluating expressions, using conditionals, and reading input from the keyboard.
@@ -240,7 +241,7 @@ This lab focuses on evaluating expressions, using conditionals, and reading inpu
     ```
     ![Week 4, Lab 4 screenshot_4](./_screenshots/week04/screenshot_4.png)
 
-### [Week 5](./week05): Exercise sheet 5
+### [Week 5 (Lab 5)](./week05/lab/): Exercise sheet 5
 [Task](./week05/lab/fundamentals_of_programming_1_week05_lab.pdf) | [Solution (.java files)](./week05/lab/solution/)
 
 This lab focuses on reading input values, validating ranges, and determining triangle properties.
@@ -267,7 +268,7 @@ This lab focuses on reading input values, validating ranges, and determining tri
     ```
     ![Week 5, Lab 5 screenshot_2](./_screenshots/week05/screenshot_2.png)
 
-### [Week 6](./week06): Exercise sheet 6
+### [Week 6 (Lab 6)](./week06/lab/): Exercise sheet 6
 [Task](./week06/lab/fundamentals_of_programming_1_week06_lab.pdf) | [Solution (.java files)](./week06/lab/solution/)
 
 This lab focuses on using loops, generating random numbers, and calculating compound interest.
@@ -315,7 +316,7 @@ This lab focuses on using loops, generating random numbers, and calculating comp
         ```
     ![Week 6, Lab 6 screenshot_3](./_screenshots/week06/screenshot_3.png)
 
-### [Week 7](./week07): Exercise sheet 7
+### [Week 7 (Lab 7)](./week07/lab/): Exercise sheet 7
 [Task](./week07/lab/fundamentals_of_programming_1_week07_lab.pdf) | [Solution (.java files)](./week07/lab/solution/)
 
 This lab focuses on using loops, reading input, and performing calculations.
@@ -366,7 +367,7 @@ This lab focuses on using loops, reading input, and performing calculations.
     ```
     ![Week 7, Lab 7 screenshot_3](./_screenshots/week07/screenshot_3.png)
 
-### [Week 8](./week08): Exercise sheet 8
+### [Week 8 (Lab 8)](./week08/lab/): Exercise sheet 8
 [Task](./week08/lab/fundamentals_of_programming_1_week08_lab.pdf) | [Solution (.java files)](./week08/lab/solution/)
 
 This lab focuses on using arrays, loops, and performing calculations on array elements.
@@ -420,7 +421,7 @@ This lab focuses on using arrays, loops, and performing calculations on array el
     ```
     ![Week 8, Lab 8 screenshot_4](./_screenshots/week08/screenshot_4.png)
 
-### [Week 9](./week09): Exercise sheet 9
+### [Week 9 (Lab 9)](./week09/lab/): Exercise sheet 9
 [Task](./week09/lab/fundamentals_of_programming_1_week09_lab.pdf) | [Solution (.java files)](./week09/lab/solution/)
 
 This lab focuses on using loops, strings, and character operations.
@@ -466,7 +467,7 @@ This lab focuses on using loops, strings, and character operations.
     ```
     ![Week 9, Lab 9 screenshot_4](./_screenshots/week09/screenshot_4.png)
 
-### [Week 10](./week10): Exercise sheet 10
+### [Week 10 (Lab 10)](./week10/lab/): Exercise sheet 10
 [Task](./week10/lab/fundamentals_of_programming_1_week10_lab.pdf) | [Solution (.java files)](./week10/lab/solution/)
 
 This lab focuses on using procedures, command line arguments, and functions.

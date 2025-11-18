@@ -2,7 +2,8 @@
 **Module:** Computer Systems `COMP H1013`  
 **Lectorer:** Gregory South  
 **Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023
+**Date:** September - December 2023  
+**Credits:** 5 ECTS
 
 > [!CAUTION]  
 > I didn't manage to save any materials for this module.

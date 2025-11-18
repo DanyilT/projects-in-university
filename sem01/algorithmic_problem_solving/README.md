@@ -2,7 +2,8 @@
 **Module:** Algorithmic Problem Solving `COMP H1034`  
 **Lectorer:** Noel Carey  
 **Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023
+**Date:** September - December 2023  
+**Credits:** 5 ECTS
 
 > This Module provides an introduction to the principles of algorithmic problem solving. The module covers the development of algorithms using pseudocode, diagrams and lists. The module also covers the use of conditional statements and logical expressions in algorithm development. The module also covers the use of systematic lists and the elimination of possibilities in problem-solving. The module also covers the use of logic in problem-solving. The module also covers the use of classic problems in problem-solving.
 
@@ -15,23 +16,23 @@
 
 ## Table of Contents
 - [Weeks](#weeks)
-    - [Week 1](#week-1-pseudocode-problems-week-1): Pseudocode Problems Week 1
-    - [Week 2](#week-2-pseudocode-problems-week-2): Pseudocode Problems Week 2
-    - [Week 3](#week-3-pseudocode-problems-week-3): Pseudocode Problems Week 3
-    - [Week 4](#week-4-pseudocode-problems-week-4): Pseudocode Problems Week 4
-    - [Week 5](#week-5-pseudocode-problems-week-5): Pseudocode Problems Week 5
-    - [Week 6](#week-6-ca-1-in-lab-test-pseudocode-problems): CA 1 (In lab test): Pseudocode Problems
-    - [Week 8](#week-8-diagrams-and-lists): Diagrams and Lists
-    - [Week 9](#week-9-eliminating-possibilities): Eliminating Possibilities
-    - [Week 10](#week-10-ca-2-in-lab-test-lists-and-diagrams): CA 2 (In lab test): Lists and Diagrams
+    - [Week 1](#week-1-lab-1-pseudocode-problems-week-1): Pseudocode Problems Week 1
+    - [Week 2](#week-2-lab-2-pseudocode-problems-week-2): Pseudocode Problems Week 2
+    - [Week 3](#week-3-lab-3-pseudocode-problems-week-3): Pseudocode Problems Week 3
+    - [Week 4](#week-4-lab-4-pseudocode-problems-week-4): Pseudocode Problems Week 4
+    - [Week 5](#week-5-lab-5-pseudocode-problems-week-5): Pseudocode Problems Week 5
+    - [Week 6](#week-6-ca-1-in-lab-practical-test-pseudocode-problems): CA 1 (In lab practical test): Pseudocode Problems
+    - [Week 8](#week-8-lab-8-diagrams-and-lists): Diagrams and Lists
+    - [Week 9](#week-9-lab-9-eliminating-possibilities): Eliminating Possibilities
+    - [Week 10](#week-10-ca-2-in-lab-practical-test-diagrams-and-lists): CA 2 (In lab practical test): Lists and Diagrams
 - [Continuous Assessment (CA)](#continuous-assessment-ca)
     - [CA 1](#ca-1-pseudocode-problems): Pseudocode Problems
     - [CA 2](#ca-2-diagrams-and-lists): Diagrams and Lists
 
 ## Weeks
 
-### [Week 1](./week01): Pseudocode Problems Week 1
-[Task](./week01/lab/algorithmic_problem_solving_week01_lab.pdf) | [Solution](./week01/lab/solution/algorithmic_problem_solving_week01_lab_solution.txt)
+### [Week 1 (Lab 1)](./week01/lab/): Pseudocode Problems Week 1
+[Task](./week01/lab/algorithmic_problem_solving_week01_lab.pdf) | [Solution (.txt)](./week01/lab/solution/algorithmic_problem_solving_week01_lab_solution.txt)
 
 This week lab focuses on solving problems using pseudocode. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
@@ -65,8 +66,8 @@ This week lab focuses on solving problems using pseudocode. The exercises are de
     x² can be written as (x * x)
     ```
 
-### [Week 2](./week02/): Pseudocode Problems Week 2
-[Task](./week02/lab/algorithmic_problem_solving_week02_lab.pdf) | [Solution](./week02/lab/solution/algorithmic_problem_solving_week02_lab_solution.txt)
+### [Week 2 (Lab 2)](./week02/lab/): Pseudocode Problems Week 2
+[Task](./week02/lab/algorithmic_problem_solving_week02_lab.pdf) | [Solution (.txt)](./week02/lab/solution/algorithmic_problem_solving_week02_lab_solution.txt)
 
 This lab continues the exploration of pseudocode problems, focusing on more complex scenarios and mathematical operations.
 
@@ -101,8 +102,8 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
     Volume = 225.6875
     ```
 
-### [Week 3](./week03/): Pseudocode Problems Week 3
-[Task](./week03/lab/algorithmic_problem_solving_week03_lab.pdf) | [Solution](./week03/lab/solution/algorithmic_problem_solving_week03_lab_solution.txt)
+### [Week 3 (Lab 3)](./week03/lab/): Pseudocode Problems Week 3
+[Task](./week03/lab/algorithmic_problem_solving_week03_lab.pdf) | [Solution (.txt)](./week03/lab/solution/algorithmic_problem_solving_week03_lab_solution.txt)
 
 This lab introduces more advanced pseudocode problems, focusing on conditional statements and logical expressions.
 
@@ -145,8 +146,8 @@ This lab introduces more advanced pseudocode problems, focusing on conditional s
     October
     ```
 
-### [Week 4](./week04/): Pseudocode Problems Week 4
-[Task](./week04/lab/algorithmic_problem_solving_week04_lab.pdf) | [Solution](./week04/lab/solution/algorithmic_problem_solving_week04_lab_solution.txt)
+### [Week 4 (Lab 4)](./week04/lab/): Pseudocode Problems Week 4
+[Task](./week04/lab/algorithmic_problem_solving_week04_lab.pdf) | [Solution (.txt)](./week04/lab/solution/algorithmic_problem_solving_week04_lab_solution.txt)
 
 This lab focuses on solving problems using pseudocode, emphasizing conditional statements and logical expressions.
 
@@ -191,8 +192,8 @@ This lab focuses on solving problems using pseudocode, emphasizing conditional s
     C is the longest side but (5 + 5 > 10) == false
     ```
 
-### [Week 5](./week05/): Pseudocode Problems Week 5
-[Task](./week05/lab/algorithmic_problem_solving_week05_lab.pdf) | [Solution](./week05/lab/solution/algorithmic_problem_solving_week05_lab_solution.txt)
+### [Week 5 (Lab 5)](./week05/lab/): Pseudocode Problems Week 5
+[Task](./week05/lab/algorithmic_problem_solving_week05_lab.pdf) | [Solution (.txt)](./week05/lab/solution/algorithmic_problem_solving_week05_lab_solution.txt)
 
 This lab continues the exploration of pseudocode problems, focusing on more complex scenarios and mathematical operations.
 
@@ -217,15 +218,15 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
     Not a triangle
     ```
 
-### Week 6: [CA 1  (In lab test)](#ca-1-pseudocode-problems): Pseudocode Problems
+### Week 6 ([CA 1 (In lab practical test)](#ca-1-pseudocode-problems)): Pseudocode Problems
 > There was the CA 1 test during this week. See [CA 1](./assessment/01/) for details.  
 > Look at the [Continuous Assessment (CA)](#continuous-assessment-ca) section below for more information, [CA 1](#ca-1-pseudocode-problems).
 
-### [Week 7](./week07/): Review Week
+### Week 7: Review Week
 > No lab this week. Use this week to review previous weeks' labs and prepare for upcoming assessments.
 
-### [Week 8](./week08/): Diagrams and Lists
-[Task](./week08/lab/algorithmic_problem_solving_week08_lab.pdf) | [Solution](./week08/lab/solution/algorithmic_problem_solving_week08_lab_solution.pdf)
+### [Week 8 (Lab 6)](./week08/lab/): Diagrams and Lists
+[Task](./week08/lab/algorithmic_problem_solving_week08_lab.pdf) | [Solution (.pdf)](./week08/lab/solution/algorithmic_problem_solving_week08_lab_solution.pdf)
 
 This lab introduces the use of diagrams and lists as problem-solving tools. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
@@ -262,8 +263,8 @@ This lab introduces the use of diagrams and lists as problem-solving tools. The 
     3. ARCHERY PUZZLE
         - A target shows the numbers 16, 17, 23, 24, 39, and 40. How many arrows does it take to score exactly 100 on this target?
 
-### [Week 9](week09): Eliminating Possibilities
-[Task](./week09/lab/algorithmic_problem_solving_week09_lab.pdf) | [Solution](./week09/lab/solution/algorithmic_problem_solving_week09_lab_solution.pdf)
+### [Week 9 (Lab 7)](week09/lab/): Eliminating Possibilities
+[Task](./week09/lab/algorithmic_problem_solving_week09_lab.pdf) | [Solution (.pdf)](./week09/lab/solution/algorithmic_problem_solving_week09_lab_solution.pdf)
 
 This lab focuses on solving problems using the eliminating possibilities method. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
@@ -306,7 +307,7 @@ This lab focuses on solving problems using the eliminating possibilities method.
         - Among Grandfather’s papers, a bill was found: 72 Turkeys = *€67.9*
         - The first and last digits of the number that obviously represented the total price of those fowls are replaced here by blanks, for they have faded and are now illegible. What are the two faded digits and what was the price of one turkey?
 
-### Week 10: [CA 2 (In lab test)](#ca-2-diagrams-and-lists): Diagrams and Lists
+### Week 10 ([CA 2 (In lab practical test)](#ca-2-diagrams-and-lists)): Diagrams and Lists
 > There was the CA 2 test during this week. See [CA 2](./assessment/02/) for details.  
 > Look at the [Continuous Assessment (CA)](#continuous-assessment-ca) section below for more information, [CA 2](#ca-2-diagrams-and-lists).
 
