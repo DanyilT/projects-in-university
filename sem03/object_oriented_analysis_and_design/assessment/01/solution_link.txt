@@ -1,0 +1,2 @@
+github: https://github.com/DanyilT/projects-in-university/tree/test/year02/module-object_oriented_analysis_and_design/in-lab-practical-test/01/solution
+branch: test/year02/module-object_oriented_analysis_and_design/in-lab-practical-test

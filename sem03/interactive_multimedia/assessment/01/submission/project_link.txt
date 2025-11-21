@@ -1,1 +1,4 @@
-https://github.com/DanyilT/IMM-Project/tree/beta
+github: https://github.com/DanyilT/IMM-Project
+
+alpha:  https://github.com/DanyilT/IMM-Project/tree/alpha
+beta:   https://github.com/DanyilT/IMM-Project/tree/beta

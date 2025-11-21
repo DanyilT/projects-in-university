@@ -1,16 +1,16 @@
-sem01/personal_and_professional_development/assessment/01/              -- Blockchain Presentation                          [presentation]
-sem01/web_development_fundamentals/assessment/01/                       -- Personal Portfolio		                        [project]
-sem01/algorithmic_problem_solving/assessment/01/ & 02/                  -- CA1 - pseudocode+code, CA2 - alghorithms (in lab test) [test]
-sem02/computer_architecture/assessment/01/                              -- Maze Runner (Arduino)			                [project]
-sem02/web_development_client_side/assessment/01/                        -- ATB Market				                        [project]
-sem02/fundamentals_of_programming_2/assessment/01                       -- Coffee Shop			                            [project]
-sem03/gui_programming/assessment/01                                     -- HouseholdCooker & MouseEvents		            [assessment]
-sem03/database_fundamentals/assessment/01                               -- Database Fundamental Project	                    [project]
-sem03/object_oriented_analysis_and_design/assessment/01 & 02/           -- [CA1, CA2] - Write OOP programs at the lab (in lab test) [test]
-sem03/object_oriented_analysis_and_design/assessment/03                 -- BlackJack		                                [project]
-sem03/interactive_multimedia/assessment/01                              -- https://github.com/DanyilT/IMM-Project/tree/beta [project]
-sem04/advanced_programming/assessment/01                                -- Musical Instruments GUI			                [assessment]
-sem04/operating_systems/assessment/01                                   -- Dining Philosophers’ Problem Team Project Report [report/presentation]
-sem04/web_development_server_side/assessment/01                         -- https://github.com/DanyilT/WebDev-Project	    [project]
+sem01/personal_and_professional_development/assessment/01/              -- Blockchain Presentation                          [presentation]              presentation/year01/module-personal_and_professional_development/blockchain-report-and-presentation
+sem01/web_development_fundamentals/assessment/01/                       -- Personal Portfolio		                        [project]                   project/year01/module-web_development_fundamentals/personal-portfolio
+sem01/algorithmic_problem_solving/assessment/01/ & 02/                  -- CA1 - pseudocode+code, CA2 - alghorithms (in lab test) [test]                test/year01/module-algorithmic_problem_solving/in-lab-practical-test
+sem02/computer_architecture/assessment/01/                              -- Maze Runner (Arduino)			                [project]                   project/year01/module-computer_architecture/maze-runner
+sem02/web_development_client_side/assessment/01/                        -- ATB Market				                        [project]                   project/year01/module-web_development_client_side/atb-market
+sem02/fundamentals_of_programming_2/assessment/01                       -- Coffee Shop			                            [project]                   project/year01/module-fundamentals_of_programming_2/coffee-shop
+sem03/gui_programming/assessment/01                                     -- HouseholdCooker & MouseEvents		            [assessment]                assessment/year02/module-gui_programming/household-cooker-and-mouse-events
+sem03/database_fundamentals/assessment/01                               -- Database Fundamental Project	                    [project]                   project/year02/module-database_fundamentals/develop-database-system-for-university-office
+sem03/object_oriented_analysis_and_design/assessment/01 & 02/           -- [CA1, CA2] - Write OOP programs at the lab (in lab test) [test]              test/year02/module-object_oriented_analysis_and_design/in-lab-practical-test
+sem03/object_oriented_analysis_and_design/assessment/03                 -- BlackJack		                                [project]                   project/year02/module-object_oriented_analysis_and_design/blackjack
+sem03/interactive_multimedia/assessment/01                              -- WebGL Game                                       [project]                   https://github.com/DanyilT/IMM-Project/tree/beta
+sem04/advanced_programming/assessment/01                                -- Musical Instruments GUI			                [assessment]                assessment/year02/module-advanced_programming/musical-instruments-gui
+sem04/operating_systems/assessment/01                                   -- Dining Philosophers’ Problem Team Project Report [report/presentation]       report/year02/module-operating_systems/dining-philosophers-problem
+sem04/web_development_server_side/assessment/01                         -- QWERTY – The Social Network                      [project]                   https://github.com/DanyilT/WebDev-Project
 sem04/software_engineering_and_testing/assessment/01 & 02/ & 03/ & 04/  -- Testiong the WebDev Project                      [report]
 sem04/it_business_management/01 & 02/                                   -- Case Study, Research Report and Reflection       [report]
