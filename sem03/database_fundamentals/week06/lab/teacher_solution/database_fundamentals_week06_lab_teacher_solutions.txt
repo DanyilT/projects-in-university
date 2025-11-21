@@ -1,0 +1,59 @@
+#Query 1 
+SELECT empno, ename
+FROM emp
+WHERE ename LIKE'b%' AND job NOT IN('clerk','president','manager');
+
+#Query 2
+SELECT ename, sal, (sal *12) AS 'Annual Salary'
+FROM emp;
+
+#Query 3
+SELECT ename, job, deptno, hiredate
+FROM emp
+ORDER BY ename;
+
+#Query 4
+SELECT CURDATE();
+
+#QUERY 5
+SELECT ename, FLOOR((DATEDIFF(curdate(),hiredate)/365)) AS 'Years Employed'
+FROM emp;
+
+#Query 6
+SELECT sum(sal)
+FROM emp;
+
+#Query 7
+SELECT min(sal) AS 'MINIMUM Salary'
+FROM emp;
+
+#Query 8
+SELECT min(sal) AS 'MINIMUM Salary', max(sal) AS 'MAXIMUM Salary', avg(sal) AS 'AVERAGE Salary'
+FROM emp
+WHERE job = 'Salesman';
+
+#Query 9
+SELECT count(DISTINCT mgr) AS 'Number of Manager'
+FROM emp; 
+
+#Query 11
+SELECT count(DISTINCT empno)
+FROM emp;
+
+#Query 12
+SELECT count(*)
+FROM emp
+WHERE deptno = 20;
+
+
+
+#Qeury 4
+SELECT ename, job, deptno, hiredate
+FROM emp
+ORDER BY deptno, ename;
+
+
+
+
+
+
