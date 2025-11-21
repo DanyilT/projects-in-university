@@ -1,0 +1,31 @@
+Hi all,
+
+There's a change to the schedule this coming Friday (21st).
+
+Ciarán Cotter is returning to host a Bug Bounty hands-on lab, where you'll get to hunt for security bugs through the Bord Gáis bug bounty programme. This is a great opportunity for you to learn some real-world bug bounty/ ethical hacking skills from a very skilled & experienced professional.
+
+Your attendance/ participation will be graded as part of your lab assessment for Secure Programming.
+
+The labs will take place in A11 and will last approximately 2-2.5 hours. I have combined you into groups of 2 as follows:
+
+Group 1 and Group  3: 11 - 1.30pm
+Group 2 and Group 4: 2 - 4.30pm
+
+Please install and familiarise yourselves with the following tools as you will be using them:
+	Install the Project Discovery Tool Manager (PDTM) found here: https://github.com/projectdiscovery/pdtm 
+	Then using PDTM, the following should be installed (by running pdtm -i <tool name>):
+		Subfinder
+		Naabu
+		HTTPX
+		URLFinder
+	Install Caido: https://caido.io/ - you can get FULL ACCESS to the Pro version as a student.
+
+The rough plan of the workshop is to use these tools to dissect Bord Gáis's scope.
+
+Please note, there will be no lecture on Friday to facilitate the labs.
+
+
+Best regards,
+
+
+Stephen
