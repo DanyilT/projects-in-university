@@ -1,2 +1,2 @@
-github: https://github.com/DanyilT/projects-in-university/tree/assessment/year02/module-operating_systems/dining-philosophers-problem
+github: https://github.com/DanyilT/projects-in-university/tree/report/year02/module-operating_systems/dining-philosophers-problem
 branch: report/year02/module-operating_systems/dining-philosophers-problem
