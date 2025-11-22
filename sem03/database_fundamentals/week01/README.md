@@ -2,14 +2,15 @@
 **Semester:** 03  
 **Module:** Database Fundamentals
 
-This folder contains all work completed during **Week 01** of the **Database Fundamentals** module.  
-Each week may include the lab, resources, notes, and screenshots depending on the content of the module.
+This folder contains all work completed during Week 01 of the Database Fundamentals module
 
 ## 📁 Week Folder Structure
 ```
 week01/
 ├── lab/
 │   ├── resources/
+│   │   ├── CreateTablesForMySQL.sql
+│   │   └── sql_server_and_workbench.pdf
 │   └── solution/
 │       ├── queries/
 │       └── database_fundamentals_week01_lab_solution.pdf
@@ -40,17 +41,19 @@ This week's lab focuses on:
 
 ✔ **My Solution:**  
 [`lab/solution/database_fundamentals_week01_lab_solution.pdf`](./lab/solution/database_fundamentals_week01_lab_solution.pdf)
-> or [`lab/solution/`](./lab/solution/) for code / mixed content solutions.
 
 🗃 **Resources:**  
 [`lab/resources/`](./lab/resources/)
-> *(Database setup files and lab resources)*
+- [`CreateTablesForMySQL.sql`](./lab/resources/CreateTablesForMySQL.sql) — SQL table creation script
+- [`sql_server_and_workbench.pdf`](./lab/resources/sql_server_and_workbench.pdf) — MySQL Server and Workbench setup guide
 
 ## 📁 Lab Folder Structure
 ```
 lab/
 ├── database_fundamentals_week01_lab.pdf
 ├── resources/
+│   ├── CreateTablesForMySQL.sql
+│   └── sql_server_and_workbench.pdf
 └── solution/
     ├── database_fundamentals_week01_lab_solution.pdf
     └── queries/
