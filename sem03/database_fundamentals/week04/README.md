@@ -29,6 +29,8 @@ week04/
 ![Lab Screenshot](../_screenshots/week04/screenshot.png)
 > | ![Screenshot 1](../_screenshots/week04/screenshot_1.png) | ![Screenshot 2](../_screenshots/week04/screenshot_2.png) | ![Screenshot 3](../_screenshots/week04/screenshot_3.png) |
 > | - | - | - |
+> 
+> [View all 4 screenshots](../_screenshots/week04/)
 
 **Lab Brief:**  
 This week's lab focuses on:

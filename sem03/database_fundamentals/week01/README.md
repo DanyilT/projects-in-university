@@ -28,6 +28,8 @@ week01/
 ![Lab Screenshot](../_screenshots/week01/screenshot.png)
 > | ![SQL Screenshot](../_screenshots/week01/screenshot_sql.png) |
 > | - |
+> 
+> [View all 2 screenshots](../_screenshots/week01/)
 
 **Lab Brief:**  
 This week's lab focuses on:

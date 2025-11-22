@@ -30,6 +30,8 @@ week03/
 ![Lab Screenshot](../_screenshots/week03/screenshot.png)
 > | ![Screenshot 1](../_screenshots/week02/screenshot_1.png) | ![Screenshot 2](../_screenshots/week02/screenshot_2.png) |
 > | - | - |
+> 
+> [View all 3 screenshots](../_screenshots/week03/)
 
 **Lab Brief:**  
 This week's lab focuses on:
