@@ -21,10 +21,11 @@ week01/
 
 ---
 
-# 🧪 Lab 01 — Introduction to Database and SQL
+# 💾 Lab 01 — Introduction to Database and SQL
 > 📸 **Lab Screenshot**  
 ![Lab Screenshot](../_screenshots/week01/screenshot.png)
-![SQL Screenshot](../_screenshots/week01/screenshot_sql.png)
+> | ![SQL Screenshot](../_screenshots/week01/screenshot_sql.png) |
+> | - |
 
 **Lab Brief:**  
 This week's lab focuses on:
@@ -54,4 +55,4 @@ lab/
 
 ---
 
-_✍️ Copy Dany_
+_✍️ Copy Dany
