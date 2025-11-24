@@ -578,5 +578,15 @@ if __name__ == "__main__":
     solution, key = main()
 ```
 
+### Usage Instructions
+1. Save the script as `many_time_pad_solver.py`
+2. Run: `python3 many_time_pad_solver.py`
+3. Review initial frequency analysis results
+4. Enter interactive mode (type `y`)
+5. Use commands to refine the key:
+   - `g 0 Known plaintext text` - Apply known plaintext
+   - `t N` - Switch to message N
+   - `done` - Finish and view final results
+
 ## Copyright
 > This report and the accompanying code are the original work of the Danyil Tymchuk for the Secure Communications module at TUDublin. All rights reserved. 2025.
