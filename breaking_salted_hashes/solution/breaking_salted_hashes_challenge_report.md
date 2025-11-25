@@ -6,6 +6,18 @@
 
 ---
 
+## Result of the Challenge
+| Username | Hash | Salt | Password | Length | Type | Method |
+|----------|------|------|----------|--------|------|--------|
+| Tomtom   | c277243d2d39de474f3070d5c673ed492cea1b9e | 00234 | 98076   | 5 | Digits (?d)        | Salt discovery |
+| security | 7a1d64ffa965a52b420570aa4f4c6aa450870fea | 00234 | 112212  | 6 | Digits (?d)    | Direct brute force |
+| superman | 3450fd71d9702d3a7b835a1536a9ad2650eff209 | 00234 | qwerty  | 6 | Alphanumeric (?l?d)   | Brute force |
+| JillC    | 0f295b9e67f362f1be3cd7d0b30d4f4007f88a0e | 00234 | Apple   | 5 | Alphanumeric (?u?l?d) | Brute force |
+| Sparky   | d71b12c1eb8bf31ca6d19344e2504b0d2916635e | 00234 | Q2e4SX  | 6 | Alphanumeric (?u?l?d) | Brute force |
+| Mark123  | 335bcd081c21b75a3866262fc45545c880786054 | 00234 | Mark123 | 7 | Alphanumeric (?u?l?d) | Brute force |
+
+---
+
 ## Table of Contents
 1. [Executive Summary](#executive-summary)
 2. [Theoretical Background](#theoretical-background)

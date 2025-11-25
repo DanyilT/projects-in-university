@@ -6,6 +6,15 @@
 
 ---
 
+## Result of the Challenge
+| **Decrypted Message** | `"Why do elephants have big ears?"` |
+|-----------------------|-------------------------------------|
+
+**Number of Encoding Iterations:** *68*
+> *intercepted.txt → decrypted.txt*
+
+---
+
 ## Table of Contents
 1. [Executive Summary](#executive-summary)
 2. [Challenge Description](#challenge-description)

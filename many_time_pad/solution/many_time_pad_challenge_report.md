@@ -6,6 +6,25 @@
 
 ---
 
+## Result of the Challenge
+| Message | Decrypted Plaintext |
+|---------|---------------------|
+| 1       | Technological progress has barely provided us with more efficient means for going backwards |
+| 2       | The Internet is the most important single development in the history of human communication since the invention of call waiting |
+| 3       | I am sorry to say that there is too much point to the wisecrack that life is extinct on other planets because their scientists were more advanced than ours |
+| 4       | The world is very different now For man holds in his mortal hands the power to abolish all forms of human poverty and all forms of human life John F Kennedy |
+| 5       | All of the books in the world contain no more information than is broadcast as video in a single large American city in a single year Not all bits have equal value |
+| 6       | Champagne if you are seeking the truth is better than a lie detector It encourages a man to be expansive even reckless while lie detectors are only a challenge to tell lies successfully |
+| 7       | Building technical systems involves a lot of hard work and specialized knowledge languages and protocols coding and debugging testing and refactoring |
+| 8       | Its impossible to move to live to operate at any level without leaving traces bits seemingly meaningless fragments of personal information |
+| 9       | One machine can do the work of fifty ordinary men No machine can do the work of one extraordinary man |
+| 10      | I used to think that cyberspace was fifty years away What I thought was fifty years away was only ten years away And what I thought was ten years away it was already here I just wasnt aware of it yet |
+| 11      | We are the children of a technological age We have found streamlined ways of doing much of our routine work Printing is no longer the only way of reproducing books Reading them however has not changed |
+| 12      | Style used to be an interaction between the human soul and tools that were limiting In the digital era it will have to come from the soul alone |
+| 13      | The Web as I envisaged it we have not seen it yet The future is still so much bigger than the past Tim Berners-Lee |
+
+---
+
 ## Table of Contents
 1. [Executive Summary](#executive-summary)
 2. [Theoretical Background](#theoretical-background)

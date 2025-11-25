@@ -6,6 +6,18 @@
 
 ---
 
+## Result of the Challenge
+| Description | Image |
+|-------------|-------|
+| Recovered image showing "Tro11d" text | ![Recovered image showing "Tro11d" text](./code/ecb_pattern_viewer/aes_frequency.png) |
+
+**Other image variants generated during the challenge:**
+| ![Pattern-based visualization](./code/ecb_pattern_viewer/aes_pattern.png) | ![Frequency-based visualization](./code/ecb_pattern_viewer/aes_frequency.png) | ![Direct encrypted view](./code/ecb_pattern_viewer/aes_direct.png) | ![Simple block mapping](./code/ecb_pattern_viewer/aes_simple.png) |
+|:----:|:----:|:----:|:----:|
+| Pattern-based visualization (aes_pattern.png) | Frequency-based visualization (aes_frequency.png) | Direct encrypted view (aes_direct.png) | Simple block mapping (aes_simple.png) |
+
+---
+
 ## Table of Contents
 1. [Executive Summary](#executive-summary)
 2. [Theoretical Background](#theoretical-background)
