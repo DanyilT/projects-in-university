@@ -350,7 +350,7 @@ Modern cryptographic protocols must ensure:
 ## Appendix: Source Code
 
 ### Complete Python Implementation
-> [many_time_pad_solver.py](./code/many_time_pad_solver.py)
+> [`many_time_pad_solver.py`](./code/many_time_pad_solver.py)
 ```python
 #!/usr/bin/env python3
 """

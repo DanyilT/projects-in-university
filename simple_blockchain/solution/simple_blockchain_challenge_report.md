@@ -227,7 +227,7 @@ for seed in potential_seeds:
 ### Execution Output
 | Execution of solution code | Verification command output |
 |:---:|:---:|
-| ![Screenshot: Execution of solution code](screenshots/screenshot_hash_chain_solution.png) | ![Screenshot: Verification command output](screenshots/screenshot_verification_command_output.png) |
+| ![Screenshot: Execution of solution code](./screenshots/screenshot_hash_chain_solution.png) | ![Screenshot: Verification command output](./screenshots/screenshot_verification_command_output.png) |
 
 ```bash
 $ python3 hash_chain_solution.py --save  # `--save` - will save solution into solution.txt 

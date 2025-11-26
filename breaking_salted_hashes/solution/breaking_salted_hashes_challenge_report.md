@@ -556,7 +556,7 @@ c277243d2d39de474f3070d5c673ed492cea1b9e:00234:Q2e4SX
 ## Appendix: Source Code
 
 ### Hashcat Salt Finder Script
-[hashcat_salt_finder.py](./code/hashcat_salt_finder.py)
+[`hashcat_salt_finder.py`](./code/hashcat_salt_finder.py)
 ```python
 #!/usr/bin/env python3
 """

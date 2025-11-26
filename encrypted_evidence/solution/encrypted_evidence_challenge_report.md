@@ -549,7 +549,7 @@ This challenge demonstrated that even complex-appearing encryption can be fundam
 ## Appendix: Source Code
 
 ### Complete Decryption Tool
-[decryptme.py](./code/decryptme.py)
+[`decryptme.py`](./code/decryptme.py)
 ```python
 #!/usr/bin/env python3
 """
@@ -679,7 +679,7 @@ if __name__ == "__main__":
 ```
 
 ### Original (Damaged) Encryption Program
-[encryptme.py](../encryptme.py)
+[`encryptme.py`](../encryptme.py)
 ```python
 # This is the program we believe was used to encode the intercepted message.
 # some of the retrieved program was damaged (show as &&&&)

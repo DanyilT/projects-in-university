@@ -575,7 +575,7 @@ Secure Mode: C[i] = Encrypt(P[i] ^ C[i-1], K)  (CBC example)
 ## Appendix: Source Code
 
 ### Main Recovery Script
-> [aes_ecb_image_recovery.py](./code/aes_ecb_image_recovery.py)
+> [`aes_ecb_image_recovery.py`](./code/aes_ecb_image_recovery.py)
 ```python
 #!/usr/bin/env python3
 """
@@ -967,7 +967,7 @@ if __name__ == "__main__":
 ```
 
 ### Pattern Viewer
-> [ecb_pattern_viewer.py](./code/ecb_pattern_viewer.py)
+> [`ecb_pattern_viewer.py`](./code/ecb_pattern_viewer.py)
 ```python
 #!/usr/bin/env python3
 """
@@ -1288,7 +1288,7 @@ if __name__ == "__main__":
 ```
 
 ### Block Analyzer
-> [ecb_block_analyzer.py](./code/ecb_block_analyzer.py)
+> [`ecb_block_analyzer.py`](./code/ecb_block_analyzer.py)
 ```python
 #!/usr/bin/env python3
 """
