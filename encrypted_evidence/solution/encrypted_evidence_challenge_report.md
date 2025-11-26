@@ -52,12 +52,12 @@ The Garda intercepted an encrypted message from a suspect's computer just before
 4. Recover the original message
 
 ### Provided Materials
-**1. encryptme.py** - Partially damaged encryption program
+1. **encryptme.py** - Partially damaged encryption program
 - Written in Python
 - Contains three encoding functions (step1, step2, step3)
 - Missing data: original secret message and iteration count
 - Damaged sections marked with `&&&&`
-**2. intercepted.txt** - Encrypted ciphertext
+2. **intercepted.txt** - Encrypted ciphertext
 - Size: ~7,900 characters
 - Format: Unknown (to be determined)
 - No metadata or headers
@@ -128,6 +128,7 @@ def step2(s):
   - Padding with `=` for alignment
   - Output length: ~133% of input length
 - **Not encryption:** Publicly reversible encoding
+
 **Reverse Operation:**
 ```python
 reverse_step2(s) = b64decode(s)
@@ -157,6 +158,7 @@ def step3(plaintext, shift=4):
   w → a (wraps around)
   ```
 - **Unaffected:** Uppercase, digits, special characters
+
 **Reverse Operation:**
 - Shift back by 4 (or forward by 22)
 ```python
@@ -242,10 +244,12 @@ This continues until we eventually reach the original '2' marker.
 - Document input/output behavior
 - Identify reversibility
 - Test with sample inputs
+
 **Step 2: Understand the make_secret logic**
 - Trace through the iteration process
 - Understand the step number prepending
 - Identify the '2' marker significance
+
 **Step 3: Develop decryption strategy**
 - Work backwards from the output
 - Use step numbers as a guide
@@ -453,6 +457,7 @@ Why do elephants have big ears?
 - Randomized step selection
 - Large ciphertext expansion makes analysis difficult
 - Step numbers are embedded, not separate
+
 **Weaknesses:**
 - **Step numbers are included in ciphertext** (fatal flaw!)
   - Provides complete roadmap for decryption
@@ -464,6 +469,7 @@ Why do elephants have big ears?
   - Step3: Caesar cipher is trivially breakable
 - **No authentication:** Cannot verify message integrity
 - **Deterministic:** Same input always produces different output (due to randomness), but pattern is reversible
+
 **Verdict:** *Security by obscurity, not cryptographic security*
 
 The encryption relies entirely on hiding the algorithm. Once the program is recovered (as in this case), decryption is trivial. The embedded step numbers eliminate any security that might have existed. 
@@ -515,6 +521,7 @@ This challenge demonstrated that even complex-appearing encryption can be fundam
    - Multiple weak methods remain weak
    - Each layer must be cryptographically sound
    - Defense in depth applies to security, not broken crypto
+
 **Practical Skills Developed:**
 - Reverse engineering partially damaged code
 - Understanding encoding vs. encryption

@@ -23,7 +23,6 @@
 ---
 
 ## Table of Contents
-
 1. [Executive Summary](#executive-summary)
 2. [Challenge Description](#challenge-description)
 3. [Technical Background](#technical-background)
@@ -31,8 +30,8 @@
 5. [WPA Cracking Implementation](#wpa-cracking-implementation)
 6. [Decryption Process](#decryption-process)
 7. [Traffic Analysis and Secret Extraction](#traffic-analysis-and-secret-extraction)
-8. [Complete Command Reference](#complete-command-reference)
-9. [Conclusion](#conclusion)
+8. [Conclusion](#conclusion)
+9. [Appendix: Command Reference](#appendix-command-reference)
 
 ---
 
@@ -70,6 +69,7 @@ Decrypt a provided packet capture of encrypted wireless traffic. Recover necessa
 3. **Encryption:**
    - WPA: TKIP (Temporal Key Integrity Protocol)
    - WPA2: CCMP-AES (Counter Mode with CBC-MAC Protocol)
+
 **Attack Vector:**
 - Capture 4-way handshake
 - Brute force PSK using wordlist
@@ -133,6 +133,7 @@ The ESSID `iriss_wifi` provides intelligence:
 - Likely related to "IRISS" organization/conference
 - Common pattern: organization_wifi
 - Suggests potentially weak password (convenience over security)
+
 **Strategy Decision:**
 - Try common passwords first
 - Network name suggests: iriss, password, admin variations
@@ -500,6 +501,7 @@ Successfully completed all objectives using industry-standard tools:
 2. **Weak password** - "internet" is #346 in common password list
 3. **No additional protections** - No MAC filtering, no enterprise authentication
 4. **Plaintext IRC** - Secret transmitted without encryption beyond WiFi layer
+
 **Defense Mechanisms That Could Have Prevented This:**
 1. **Strong passphrase**
 2. **WPA3:** Uses SAE (Simultaneous Authentication of Equals)
@@ -512,6 +514,7 @@ Successfully completed all objectives using industry-standard tools:
 - Try targeted wordlists first (faster)
 - Protocol analysis reveals more than just looking for keywords
 - DNS queries provide intelligence about user behavior
+
 **For Defenders (Network Administrators):**
 - WiFi password strength is paramount
 - "internet" as password for "iriss_wifi" is unacceptable
@@ -527,6 +530,7 @@ This challenge demonstrates real penetration testing methodology:
 3. **Exploitation** - Dictionary attack, decryption
 4. **Post-Exploitation** - Traffic analysis, data extraction
 5. **Reporting** - Document findings and remediation
+
 **Similar Real-World Scenarios:**
 - Corporate WiFi audit
 - Hotel/conference WiFi security assessment
@@ -552,45 +556,37 @@ This entire procedure can be replicated by:
 ## Appendix: Command Reference
 
 ### Complete Command Reference — Summary of All Commands Used
-
-**1. Initial Analysis:**
+1. **Initial Analysis:**
 ```bash
 aircrack-ng wireless.cap
 ```
-
-**2. Download Wordlist:**
+2. **Download Wordlist:**
 ```bash
 curl -L -O https://github.com/brannondorsey/naive-hashcat/releases/download/data/rockyou.txt
 ```
-
-**3. Crack WPA Password:**
+3. **Crack WPA Password:**
 ```bash
 aircrack-ng -w rockyou.txt -e "iriss_wifi" wireless.cap
 ```
-
-**4. Decrypt Capture:**
+4. **Decrypt Capture:**
 ```bash
 airdecap-ng -e "iriss_wifi" -p "internet" wireless.cap
 ```
-
-**5. DNS Analysis:**
+5. **DNS Analysis:**
 ```bash
 tshark -r wireless-dec.cap -Y dns -T fields -e dns.qry.name
 ```
-
-**6. Extract HTTP Objects:**
+6. **Extract HTTP Objects:**
 ```bash
 mkdir extracted_files
 tshark -r wireless-dec.cap --export-objects http,extracted_files/
 ls extracted_files/
 ```
-
-**7. Examine Search Queries:**
+7. **Examine Search Queries:**
 ```bash
 cat extracted_files/search* | strings
 ```
-
-**8. Extract IRC Traffic:**
+8. **Extract IRC Traffic:**
 ```bash
 # Extract IRC protocol field directly
 tshark -r wireless-dec.cap -Y 'irc' -T fields -e irc.request -e irc.response
@@ -601,13 +597,11 @@ tshark -r wireless-dec.cap -Y 'irc' -V | grep -A2 "Internet Relay Chat"
 # Extract raw TCP payload data
 tshark -r wireless-dec.cap -Y 'tcp.port == 6667 and tcp.len > 0' -T fields -e tcp.payload | xxd -r -p | strings
 ```
-
-**9. PRIVMSG Extraction:**
+9. **PRIVMSG Extraction:**
 ```bash
 tshark -r wireless-dec.cap -Y 'tcp contains "PRIVMSG"' -x
 ```
-
-**10. Verify with Hex View (Search for "KEY"):**
+10.  **Verify with Hex View (Search for "KEY"):**
 ```bash
 tshark -r wireless-dec.cap -Y 'tcp contains "PRIVMSG" and tcp contains "KEY"' -x
 ```
