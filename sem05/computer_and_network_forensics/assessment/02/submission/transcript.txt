@@ -1,0 +1,41 @@
+Stegomalware Presentation Transcript
+
+# Case Studies
+We have made two researches about two real-world case scenarios: Stegoloader and ClikFix
+This examples demonstrates that this type of malware is extremely difficult to detect, because the traditional antivirus blind for this. they are looking for known paterns in a file if look suspicious – mark as a virus, but if there is no actual pattern visible – this file is safe (but it's not)
+
+## Case Study 1
+The main idea abou Stegoloader is that it's hide the main executable code inside legitimate-looking PNG image
+It basically an information stealer virus type, but it also can download additional malware or piracy software on infected device after it' stole all important information
+
+It has two core modules: deployment and main modules. Deployment module is pre-installed – this module checking if it is "safe" to deploy the main module (if not it's shut itself down). It is checking if the mouse is moving (to check if isn't it test environment) and looking for programs that can detect his actions – if found some unwanted programs it is killing this programs.
+The main module is actually decide wich additional module to run.
+
+For example it has 'Pony Password Stealer' additional module – collect user's credentials information from different services that are using FTP or SSH protocols
+
+## AdGholas
+There is  big field of possibilities, for example AdGholas buying ads banner space on a website and post an infected image on the website and then embedded JavaScript executed on the page – reroute large number of user to exploit kit
+
+# Primary Research
+We made two experiments: Append and Embedded methods.
+We are used EICAR string. This file is a test file for a antiviruses, if the antivirus detect this character sequence in the file it is mark this file as a virus.
+
+## Append Method 
+Append method demonstrates how the jpeg images works – it is rendering the image before it gets to FF D9 bytes, everything after is not rendering (and we are going to append our test file after these bytes)
+We can use these commands to append
+
+Analisis
+There is no visual impact (because we are appending after FF D9)
+But if are gonna look at the image in a text editor or in her editor we can see our eicar test file at the end of the file
+
+## Embedded Methods
+Using steganographhy tool (stegohide) we can encrypt eicar test file inside that image.
+Using this command
+
+Analisis
+There is no visual differences for a naked eye
+We cannot find this string using search or hex editor.
+But we can use entropy test to figure out is there is something in it. But because jpeg is a compressed format it initially has big entropy so there is no big entropy difference.
+
+VirusTotal
+Using VirusTotal testing our infected file: we can see there is 9/61 engines detect eicar test file inside Appended file and 0/61 inside Embedded
