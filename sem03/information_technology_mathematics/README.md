@@ -1,8 +1,50 @@
-Overview
-Information
-Technology Maths
-COMPH2026: 2024-
-25
+# Information Technology Mathematics
 
-Welcome to IT Maths!
-Over the next 12 academic weeks, we will cover differentiation, integration, probability, statistics, matrices, graphs and trees, induction, and recursion. For recommended texts on these subjects please see the student handbook for your course.
+**Module:** Information Technology Mathematics (`COMP H2026`)  
+**Semester:** 3 (Year 2), folder `sem03`  
+**Lecturer:** Laura Keyes  
+**Date:** September - December 2024  
+**Credits:** 5 ECTS  
+**Matching project branch:** none
+
+## What this module is for
+
+Information Technology Mathematics covers the mathematics used in computing: graphs and trees (weeks 1 and 2), statistics (weeks 3 and 4), probability (weeks 5 and 6), matrices (weeks 8 and 9), differentiation (week 10), integration and recursion (week 11) and a revision lecture (week 12). Each topic has a lecture and a tutorial sheet. The written tutorial work is captured with Office Lens and uploaded to Brightspace, and the lecturer's sample solutions are posted after each tutorial. Week 7 was a reading week with practice quizzes. The 2024-25 teaching plan gives weekly tutorial work 10%, quizzes 30% and an end-of-semester exam 60%, and CA 1, a 90-minute test in week 8, is 20%. This folder has the tutorial sheets with the lecturer's sample solutions and worked notes, the lecture review questions, reference sheets for matrices and differentiation, the module descriptor, the lecture and tutorial outline, and the teaching plan. The handwritten tutorial work, the quizzes and the exam are not in the repository.
+
+## Grades Breakdown
+
+| Assessment Type | Weighting |
+|---|---|
+| Weekly Tutorial Work | 10% |
+| Quizzes | 30% |
+| End-of-Semester Exam | 60% |
+
+CA 1, the 90-minute test in week 8, is 20%; the teaching plan lists the quizzes as 30%.
+
+## All weeks
+
+| Week | Title | Files | Screenshot |
+|---|---|---|---|
+| [Week 1](week01/) | Tutorial 1: graphs | [`lab/information_technology_mathematics_week01_lab_graphs.pdf`](week01/lab/information_technology_mathematics_week01_lab_graphs.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week01_lab_graphs_sample_solution.pdf`](week01/lab/teacher_solution/information_technology_mathematics_week01_lab_graphs_sample_solution.pdf) | — |
+| [Week 2](week02/) | Tutorial 2: trees | [`lab/information_technology_mathematics_week02_lab_trees.pdf`](week02/lab/information_technology_mathematics_week02_lab_trees.pdf)<br>[`lab/resources/information_technology_mathematics_week02_lab_trees_q8_diagram.png`](week02/lab/resources/information_technology_mathematics_week02_lab_trees_q8_diagram.png)<br>[`lab/teacher_solution/information_technology_mathematics_week02_lab_trees_sample_solution.pdf`](week02/lab/teacher_solution/information_technology_mathematics_week02_lab_trees_sample_solution.pdf)<br>[`resources/lecture_review_questions_trees.pdf`](week02/resources/lecture_review_questions_trees.pdf) | — |
+| [Week 3](week03/) | Tutorial 3: statistics, part 1 | [`lab/information_technology_mathematics_week03_lab_statistics_part_1.pdf`](week03/lab/information_technology_mathematics_week03_lab_statistics_part_1.pdf)<br>[`lab/information_technology_mathematics_week03_lab_statistics_part_1_overview.pdf`](week03/lab/information_technology_mathematics_week03_lab_statistics_part_1_overview.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week03_lab_statistics_part_1_sample_solution.pdf`](week03/lab/teacher_solution/information_technology_mathematics_week03_lab_statistics_part_1_sample_solution.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week03_lab_statistics_part_1_sample_solution_q6.pdf`](week03/lab/teacher_solution/information_technology_mathematics_week03_lab_statistics_part_1_sample_solution_q6.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week03_lab_statistics_part_1_sample_solution_q7.pdf`](week03/lab/teacher_solution/information_technology_mathematics_week03_lab_statistics_part_1_sample_solution_q7.pdf) | — |
+| [Week 4](week04/) | Tutorial 4: statistics, part 2 | [`lab/information_technology_mathematics_week04_lab_statistics_part_2.pdf`](week04/lab/information_technology_mathematics_week04_lab_statistics_part_2.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week04_lab_statistics_part_2_sample_solution_section_a.pdf`](week04/lab/teacher_solution/information_technology_mathematics_week04_lab_statistics_part_2_sample_solution_section_a.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week04_lab_statistics_part_2_sample_solution_section_b.pdf`](week04/lab/teacher_solution/information_technology_mathematics_week04_lab_statistics_part_2_sample_solution_section_b.pdf) | — |
+| [Week 5](week05/) | Tutorial 5: probability | [`lab/information_technology_mathematics_week05_lab_probability.pdf`](week05/lab/information_technology_mathematics_week05_lab_probability.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week05_lab_probability_sample_solution_part_1.pdf`](week05/lab/teacher_solution/information_technology_mathematics_week05_lab_probability_sample_solution_part_1.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week05_lab_probability_sample_solution_part_2.pdf`](week05/lab/teacher_solution/information_technology_mathematics_week05_lab_probability_sample_solution_part_2.pdf) | — |
+| Week 6 | Probability, part 2 (lecture only) | None. Lecture only; tutorial 5 is in week 5. | — |
+| Week 7 | Reading week and practice quizzes | None. Reading week with practice quizzes. | — |
+| [Week 8](week08/) | Tutorial 6: matrices, part 1, and CA 1 | [`lab/information_technology_mathematics_week08_lab_matrices_part_1.pdf`](week08/lab/information_technology_mathematics_week08_lab_matrices_part_1.pdf)<br>[`lab/information_technology_mathematics_week08_lab_matrices_part_1_overview.pdf`](week08/lab/information_technology_mathematics_week08_lab_matrices_part_1_overview.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week08_lab_matrices_sample_solution_part_1.pdf`](week08/lab/teacher_solution/information_technology_mathematics_week08_lab_matrices_sample_solution_part_1.pdf) | — |
+| [Week 9](week09/) | Tutorial 8: matrices, part 2 | [`lab/information_technology_mathematics_week09_lab_matrices_part_2.pdf`](week09/lab/information_technology_mathematics_week09_lab_matrices_part_2.pdf)<br>[`lab/information_technology_mathematics_week09_lab_matrices_part_2_overview.pdf`](week09/lab/information_technology_mathematics_week09_lab_matrices_part_2_overview.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week09_lab_matrices_sample_solution_part_1.pdf`](week09/lab/teacher_solution/information_technology_mathematics_week09_lab_matrices_sample_solution_part_1.pdf)<br>[`resources/last_week_recap_matrices_part_1.pdf`](week09/resources/last_week_recap_matrices_part_1.pdf)<br>[`resources/matrix_multiplication.pdf`](week09/resources/matrix_multiplication.pdf)<br>[`resources/inverse_2x2.pdf`](week09/resources/inverse_2x2.pdf)<br>[`resources/minor_matrix.pdf`](week09/resources/minor_matrix.pdf)<br>[`resources/determinant_3x3.pdf`](week09/resources/determinant_3x3.pdf)<br>[`resources/determinant_3x3_short_cut_example_1.pdf`](week09/resources/determinant_3x3_short_cut_example_1.pdf)<br>[`resources/determinant_3x3_short_cut_example_2.pdf`](week09/resources/determinant_3x3_short_cut_example_2.pdf)<br>[`resources/inverse_3x3.pdf`](week09/resources/inverse_3x3.pdf) | — |
+| [Week 10](week10/) | Tutorial 9: differentiation | [`lab/information_technology_mathematics_week10_lab_differentiation.pdf`](week10/lab/information_technology_mathematics_week10_lab_differentiation.pdf)<br>[`lab/information_technology_mathematics_week10_lab_differentiation_part_2_overview.pdf`](week10/lab/information_technology_mathematics_week10_lab_differentiation_part_2_overview.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week10_lab_differentiation_sample_solution_q1-q9.pdf`](week10/lab/teacher_solution/information_technology_mathematics_week10_lab_differentiation_sample_solution_q1-q9.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week10_lab_differentiation_sample_solution_q10-q14.pdf`](week10/lab/teacher_solution/information_technology_mathematics_week10_lab_differentiation_sample_solution_q10-q14.pdf)<br>[`resources/max_min_point_of_inflection.pdf`](week10/resources/max_min_point_of_inflection.pdf) | — |
+| [Week 11](week11/) | Tutorials 10 and 11: integration and recursion | [`lab/information_technology_mathematics_week11_lab_integration.pdf`](week11/lab/information_technology_mathematics_week11_lab_integration.pdf)<br>[`lab/information_technology_mathematics_week11_lab_recusion.pdf`](week11/lab/information_technology_mathematics_week11_lab_recusion.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week11_lab_integration_sample_solution.pdf`](week11/lab/teacher_solution/information_technology_mathematics_week11_lab_integration_sample_solution.pdf)<br>[`lab/teacher_solution/information_technology_mathematics_week11_lab_recusion_sample_solution.pdf`](week11/lab/teacher_solution/information_technology_mathematics_week11_lab_recusion_sample_solution.pdf)<br>[`resources/itegration_lecture_exercises.pdf`](week11/resources/itegration_lecture_exercises.pdf) | — |
+| Week 12 | Exam preparation (revision lecture) | None. Revision lecture. | — |
+| Week 13 | Module review and exam preparation | None. The plan lists a module review in week 13. | — |
+
+## Assessments and other files
+
+No assessment files are kept: the quizzes, CA 1 and the exam are not in the repository. The files below are the module documents.
+
+| File | What it contains |
+|---|---|
+| [`resources/information_technology_mathematics.pdf`](resources/information_technology_mathematics.pdf) | The module descriptor (3 pages): COMP H2026, 5 ECTS, NFQ level 6; the learning outcomes (recursion, differentiation and integration, matrices, statistics, probability, graphs and trees); the indicative content; and the assessment breakdown (coursework 30%, final exam 70%). |
+| [`resources/information_technology_mathematics_outline.pdf`](resources/information_technology_mathematics_outline.pdf) | The lecture and tutorial plan (1 page), by week from 16 September: the theory topic of each week and its tutorial, with the practical portfolio at 10% and the tests at 30%. |
+| [`resources/teaching_plan.pdf`](resources/teaching_plan.pdf) | The teaching plan from the first lecture (1 page): how the tutorials run (uploading the work with Office Lens, attendance and quizzes) and the assessment: weekly tutorial work 10%, quizzes 30% and the end-of-semester exam 60%. |

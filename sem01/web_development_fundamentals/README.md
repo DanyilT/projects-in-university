@@ -1,20 +1,48 @@
 # Web Development Fundamentals
-**Module:** Web Development Fundamentals `COMP H1026`  
-**Lectorer:** Orla McMahon  
-**Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023  
-**Credits:** 5 ECTS
 
-> This module covers the basics of web development, including HTML, CSS, and introductory JavaScript. Projects in this category aim to build a strong foundation in creating and styling web pages, as well as adding interactivity through JavaScript. The module also covers responsive design and accessibility. The primary goal is to develop an understanding of web development and its applications in real-world scenarios. The course also includes practical exercises to reinforce the theoretical concepts.
+**Module:** Web Development Fundamentals (`COMP H1026`)  
+**Semester:** 1 (Year 1), folder `sem01`  
+**Lecturer:** Orla McMahon  
+**Date:** September - December 2023  
+**Credits:** 5 ECTS  
+**Matching project branch:** [`project/year01/module-web_development_fundamentals/personal-portfolio`](https://github.com/DanyilT/projects-in-university/tree/project/year01/module-web_development_fundamentals/personal-portfolio) (the Assignment 2 personal portfolio; this folder links to it)
+
+## What this module is for
+
+Web Development Fundamentals is an introduction to building web pages with HTML and CSS. The labs cover page structure, headings, images, lists, tables and links, colours and fonts, the id, class, div and span selectors, and a responsive navigation bar (weeks 2 to 6 and 8). Week 1 introduces the module, week 7 is a review week, and week 10 is the MCQ test (Assignment 1, 20%), which is not in the repository. Assignment 2 (50%) is a themed website of at least nine pages. The project in this folder is a personal portfolio, whose files are on the project branch linked above. This folder has the lab sheets, the solutions and screenshots.
 
 ## Grades Breakdown
-| **Assessment Type** | **Weighting** |
-|---------------------|---------------|
+
+| Assessment Type | Weighting |
+|---|---|
 | Weekly Labs | 30% |
 | Assignment 1 (MCQ Test) | 20% |
 | Assignment 2 (Project) | 50% |
 
-## Table of Contents
+## All weeks
+
+| Week | Title | Files | Screenshot |
+|---|---|---|---|
+| Week 1 | Introduction week | None. | — |
+| [Week 2](week02/) | Lab 1: first HTML page | [`lab/web_development_fundamentals_week02_lab.pdf`](week02/lab/web_development_fundamentals_week02_lab.pdf)<br>[`lab/solution/lab01.html`](week02/lab/solution/lab01.html)<br>[`lab/solution/css/style.css`](week02/lab/solution/css/style.css)<br>[`lab/solution/images/student.png`](week02/lab/solution/images/student.png) | <img src=".screenshots/week02/screenshot.png" width="160" alt="Week 2 screenshot"> |
+| [Week 3](week03/) | Lab 2: college page, lists and definition lists | [`lab/web_development_fundamentals_week03_lab.pdf`](week03/lab/web_development_fundamentals_week03_lab.pdf)<br>[`lab/solution/images/TUDublin.png`](week03/lab/solution/images/TUDublin.png)<br>[`lab/solution/lab02ex1.html`](week03/lab/solution/lab02ex1.html)<br>[`lab/solution/lab02ex2.html`](week03/lab/solution/lab02ex2.html)<br>[`lab/solution/lab02ex3.html`](week03/lab/solution/lab02ex3.html) | <img src=".screenshots/week03/screenshot_1.png" width="160" alt="Week 3 screenshot"> |
+| [Week 4](week04/) | Lab 3: linked pages, bookmarks and a table | [`lab/web_development_fundamentals_week04_lab.pdf`](week04/lab/web_development_fundamentals_week04_lab.pdf)<br>[`lab/solution/ex1/index.html`](week04/lab/solution/ex1/index.html)<br>[`lab/solution/ex1/products.html`](week04/lab/solution/ex1/products.html)<br>[`lab/solution/ex1/stores.html`](week04/lab/solution/ex1/stores.html)<br>[`lab/solution/ex1/contact.html`](week04/lab/solution/ex1/contact.html)<br>[`lab/solution/ex1/index.css`](week04/lab/solution/ex1/index.css)<br>[`lab/solution/ex1/images/logo.svg`](week04/lab/solution/ex1/images/logo.svg)<br>[`lab/solution/ex1/images/products/Buckwheat.webp`](week04/lab/solution/ex1/images/products/Buckwheat.webp)<br>[`lab/solution/ex1/images/products/Candy.webp`](week04/lab/solution/ex1/images/products/Candy.webp)<br>[`lab/solution/ex1/images/products/Coca-Cola.webp`](week04/lab/solution/ex1/images/products/Coca-Cola.webp)<br>[`lab/solution/ex1/images/products/Coffee.webp`](week04/lab/solution/ex1/images/products/Coffee.webp)<br>[`lab/solution/ex1/images/products/Cookies.webp`](week04/lab/solution/ex1/images/products/Cookies.webp)<br>[`lab/solution/ex1/images/products/Donut.webp`](week04/lab/solution/ex1/images/products/Donut.webp)<br>[`lab/solution/ex1/images/products/DonutB.webp`](week04/lab/solution/ex1/images/products/DonutB.webp)<br>[`lab/solution/ex1/images/products/Mandarin.webp`](week04/lab/solution/ex1/images/products/Mandarin.webp)<br>[`lab/solution/ex1/images/products/Pepper.webp`](week04/lab/solution/ex1/images/products/Pepper.webp)<br>[`lab/solution/ex1/images/products/Romashka.webp`](week04/lab/solution/ex1/images/products/Romashka.webp)<br>[`lab/solution/ex1/images/products/Wafers.webp`](week04/lab/solution/ex1/images/products/Wafers.webp)<br>[`lab/solution/ex1/images/products/Water.webp`](week04/lab/solution/ex1/images/products/Water.webp)<br>[`lab/solution/ex2/lab03ex2.html`](week04/lab/solution/ex2/lab03ex2.html)<br>[`lab/solution/ex2/table.css`](week04/lab/solution/ex2/table.css) | <img src=".screenshots/week04/screenshot_1.png" width="160" alt="Week 4 screenshot"> |
+| [Week 5](week05/) | Lab 4: Sport Spider pages and styles | [`lab/web_development_fundamentals_week05_lab.pdf`](week05/lab/web_development_fundamentals_week05_lab.pdf)<br>[`lab/solution/index.html`](week05/lab/solution/index.html)<br>[`lab/solution/contact.html`](week05/lab/solution/contact.html)<br>[`lab/solution/css/sport.css`](week05/lab/solution/css/sport.css)<br>[`lab/solution/images/banner.jpg`](week05/lab/solution/images/banner.jpg)<br>[`lab/solution/images/sport.png`](week05/lab/solution/images/sport.png) | <img src=".screenshots/week05/screenshot_1.png" width="160" alt="Week 5 screenshot"> |
+| [Week 6](week06/) | Lab 5: page structure and styling | [`lab/web_development_fundamentals_week06_lab.pdf`](week06/lab/web_development_fundamentals_week06_lab.pdf)<br>[`lab/solution/index.html`](week06/lab/solution/index.html)<br>[`lab/solution/contact.html`](week06/lab/solution/contact.html)<br>[`lab/solution/css/sport.css`](week06/lab/solution/css/sport.css)<br>[`lab/solution/images/banner.jpg`](week06/lab/solution/images/banner.jpg)<br>[`lab/solution/images/shop.jpg`](week06/lab/solution/images/shop.jpg)<br>[`lab/solution/images/sport.png`](week06/lab/solution/images/sport.png) | <img src=".screenshots/week06/screenshot.png" width="160" alt="Week 6 screenshot"> |
+| Week 7 | Review week | None. | — |
+| [Week 8](week08/) | Lab 6: navigation bar and responsive menu | [`lab/web_development_fundamentals_week08_lab.pdf`](week08/lab/web_development_fundamentals_week08_lab.pdf)<br>[`lab/solution/index.html`](week08/lab/solution/index.html)<br>[`lab/solution/about.html`](week08/lab/solution/about.html)<br>[`lab/solution/contact.html`](week08/lab/solution/contact.html)<br>[`lab/solution/gallery.html`](week08/lab/solution/gallery.html)<br>[`lab/solution/order.html`](week08/lab/solution/order.html)<br>[`lab/solution/css/nav.css`](week08/lab/solution/css/nav.css)<br>[`lab/solution/script.js`](week08/lab/solution/script.js)<br>[`lab/solution/images/banner.jpg`](week08/lab/solution/images/banner.jpg)<br>[`lab/solution/images/shop.jpg`](week08/lab/solution/images/shop.jpg)<br>[`lab/solution/images/sport.png`](week08/lab/solution/images/sport.png) | <img src=".screenshots/week08/screenshot_1.png" width="160" alt="Week 8 screenshot"> |
+| Week 10 | CA 1: MCQ test (Assignment 1, 20%) | None. | — |
+
+## Assessments and other files
+
+| File | What it contains |
+|---|---|
+| [`assessment/01/web_development_fundamentals_assessment.pdf`](assessment/01/) | Assignment 2 brief (7 pages, 50%): a themed website of at least nine pages (home, site map, contact, characters or staff, and merchandise), with a flexbox home page, a nested-list site map and a wireframe. It lists five themes: hobby, holiday destination, local company, charity and TV series. |
+| [`assessment/01/submission/project_link.txt`](assessment/01/submission/project_link.txt) | Two lines: a GitHub link to the portfolio project on its branch, and the branch name. |
+
+---
+
+## Weeks
 - [Weeks](#weeks)
     - [Week 1](#week-1-introduction-week): Introduction Week
     - [Week 2 (Lab 1)](#week-2-lab-1-1st-html-page): 1st HTML Page
@@ -28,7 +56,6 @@
 - [Project](#project)
     - [Personal Portfolio](#personal-portfolio)
 
-## Weeks
 
 ### Week 1: Introduction Week
 > Introduction to the module, overview of web development technologies, and setting up the development environment.
@@ -38,15 +65,15 @@
 
 This laboratory exercise introduces students to the basic HTML tags and how to create a simple web page.
 1. Create a HTML page called [`lab01.html`](./week02/lab/solution/lab01.html)
-    ![Week 2, Lab 1 screenshot](./_screenshots/week02/screenshot.png)
-    - Download HtmlTemplate from Nowhere
+    ![Week 2, Lab 1 screenshot](./.screenshots/week02/screenshot.png)
+    - Download HtmlTemplate from Moodle
     - Open this file in ~~Brackets~~ and save as `lab01.html`
     - The title should be “my 1st web page”
     - Create a H1 heading and add your name
     - Create a H2 heading and add “Hobbies”
     - Underneath the H2 heading use the `<p>` tag to describe some hobbies
     - Create a folder called images in the lab01 folder
-    - Download the image called student.jpg to the images folder from Nowhere
+    - Download the image called student.jpg to the images folder from Moodle
     - Add an image “student.jpg” to your file
 
 ### [Week 3 (Lab 2)](./week03/lab/): Headings, Images, Lists
@@ -54,12 +81,12 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 
 This laboratory exercise introduces students to the basic HTML tags and how to create a simple web page.
 1. Create a College Web page [`lab02ex1.html`](./week03/lab/solution/lab02ex1.html)
-    ![Week 3, Lab 2 screenshot_1](./_screenshots/week03/screenshot_1.png)
-    - Download HtmlTemplate from Nowhere
+    ![Week 3, Lab 2 screenshot_1](./.screenshots/week03/screenshot_1.png)
+    - Download HtmlTemplate from Moodle
     - Open this file in ~~Brackets~~ and save as `lab02ex1.html`
     - Create a folder called images in the lab02 folder
-    - Download the image called “TUDublin” from Nowhere to the images folder
-    - Add an image “tudublin.png?raw=true” to your file
+    - Download the image called “TUDublin” from Moodle to the images folder
+    - Add an image “tudublin.png” to your file
     - Create a H1 heading and add “TU Dublin Blanchardstown Campus”
     - Create a H2 heading and add “Computing Course”
     - Use the paragraph tags to provide a description about the course.
@@ -67,15 +94,15 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
     - Create a H3 heading and add “1st Year Modules”
     - Add an unordered list of 1st year modules on the Computing Course under the H3 heading
 2. Nested Lists [`lab02ex2.html`](./week03/lab/solution/lab02ex2.html)
-    ![Week 3, Lab 2 screenshot_2](./_screenshots/week03/screenshot_2.png)
-    - Download HtmlTemplate from Nowhere
+    ![Week 3, Lab 2 screenshot_2](./.screenshots/week03/screenshot_2.png)
+    - Download HtmlTemplate from Moodle
     - Open this file in ~~Brackets~~ and save as `lab02ex2.html`
     - The title should be “Lists”
     - Create an ordered list of two of your favourite bands
     - Underneath this create a nested list that shows the band names and 2 albums as per solution below.
 3. Definition Lists [`lab02ex3.html`](./week03/lab/solution/lab02ex3.html)
-    ![Week 3, Lab 2 screenshot_3](./_screenshots/week03/screenshot_3.png)
-    - Download HtmlTemplate from Nowhere
+    ![Week 3, Lab 2 screenshot_3](./.screenshots/week03/screenshot_3.png)
+    - Download HtmlTemplate from Moodle
     - Open this file in ~~Brackets~~ and save as `lab02ex3.html`
     - The title should be “Definition Lists”
     - Create a definition list of the courses in a restaurant
@@ -91,10 +118,10 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 
 | Lab 3 (ex1) Sample Submission | Lab 3 (ex1) My Submission | 
 |---------------------|-----------------|
-| ![Week 4, Lab 3 screenshot_1_wanted_result](./_screenshots/week04/screenshot_1_wanted_result.png) | ![Week 4, Lab 3 screenshot_1_my_result](./_screenshots/week04/screenshot_1_my_result.png) |
+| ![Week 4, Lab 3 screenshot_1_wanted_result](./.screenshots/week04/screenshot_1_wanted_result.png) | ![Week 4, Lab 3 screenshot_1_my_result](./.screenshots/week04/screenshot_1_my_result.png) |
 
 1. Links [`index.html`](./week04/lab/solution/ex1/index.html)
-    ![Week 4, Lab 3 screenshot_1](./_screenshots/week04/screenshot_1.png)
+    ![Week 4, Lab 3 screenshot_1](./.screenshots/week04/screenshot_1.png)
     - Create a (skeleton) web page and save it as `index.html`.
     - Put an appropriate `<title>` on the page
     - Create a heading level 1. – HOME PAGE
@@ -112,8 +139,8 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
     - On the CONTACT page – create an email link and provide your email address so that when clicked the ‘email to’ page is displayed.
     - Add the same style sheet - index.css to each webpage.
 2. Tables [`lab03ex2.html`](./week04/lab/solution/ex2/lab03ex2.html) & [`table.css`](./week04/lab/solution/ex2/table.css)
-    ![Week 4, Lab 3 screenshot_2](./_screenshots/week04/screenshot_2.png)
-    - Download Html Template from Nowhere
+    ![Week 4, Lab 3 screenshot_2](./.screenshots/week04/screenshot_2.png)
+    - Download Html Template from Moodle
     - Open this file in ~~Brackets~~ and save as `lab03ex2.html`
     - The title should be “Tables Example”
     - In the head, link the `lab03ex2.html` document to the `table.css` stylesheet
@@ -124,11 +151,11 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 ### [Week 5 (Lab 4)](./week05/lab/): Colors, Text, Links
 [Brief](./week05/lab/web_development_fundamentals_week05_lab.pdf) | [Solution (.html & .css)](./week05/lab/solution/)
 
-This laboratory exercise introduces students to the basic HTML tags and how to create a simple web page.
+This laboratory exercise introduces students to CSS colours, fonts, text styles and link styles by building two Sport Spider pages.
 1. Sport Spider [`index.html`](./week05/lab/solution/index.html)
-    ![Week 5, Lab 4 screenshot_1](./_screenshots/week05/screenshot_1.png)
+    ![Week 5, Lab 4 screenshot_1](./.screenshots/week05/screenshot_1.png)
     - **Home Page:** [`index.html`](./week05/lab/solution/index.html)
-        - Download HtmlTemplate from Nowhere
+        - Download HtmlTemplate from Moodle
         - Open this file in ~~Brackets~~ and save as `index.html`
         - The title should be “Sport Spider”
         - Create a folder called images in the lab04 folder
@@ -148,7 +175,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
                 - Active: colour green, no underline
             - The text ‘Republic of Ireland’ and ‘Northern Ireland’ should be in italics
             - 
-    ![Week 5, Lab 4 screenshot_2](./_screenshots/week05/screenshot_2.png)
+    ![Week 5, Lab 4 screenshot_2](./.screenshots/week05/screenshot_2.png)
     - **Contact Page:** [`contact.html`](./week05/lab/solution/contact.html)
         - Headings should be in red
         - Link to the email address ‘sportspider@hotmail.com’
@@ -157,9 +184,9 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 ### [Week 6 (Lab 5)](./week06/lab/): ID, Class, Div, Span, Page Structure
 [Brief](./week06/lab/web_development_fundamentals_week06_lab.pdf) | [Solution (.html & .css)](./week06/lab/solution/)
 
-This laboratory exercise introduces students to the basic HTML tags and how to create a simple web page.
+This laboratory exercise adds page structure (header, main, footer and nav tags) and the id, class, div and span selectors to the Sport Spider page.
 1. Sport Spider [`index.html`](./week06/lab/solution/index.html)
-    ![Week 6, Lab 5 screenshot](./_screenshots/week06/screenshot.png)
+    ![Week 6, Lab 5 screenshot](./.screenshots/week06/screenshot.png)
     - **Home Page:** [`index.html`](./week06/lab/solution/index.html)
         - Modify the page above and add in structure tags as follows:
         - The header tag should contain the Sports image and the logo “Sports Spider: Set the background to an appropriate colour.
@@ -191,9 +218,9 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
 ### [Week 8, Lab 6](./week08/lab/): Horizontal and Responsive Navigation Bar
 [Brief](./week08/lab/web_development_fundamentals_week08_lab.pdf) | [Solution (.html & .css & .js)](./week08/lab/solution/)
 
-This laboratory exercise introduces students to the basic HTML tags and how to create a simple web page.
+This laboratory exercise creates a horizontal navigation bar and a responsive navigation bar with a hamburger menu.
 1. Create a Horizontal menu [`index.html`](./week08/lab/solution/index.html)
-    ![Week 8, Lab 6 screenshot_1](./_screenshots/week08/screenshot_1.png)
+    ![Week 8, Lab 6 screenshot_1](./.screenshots/week08/screenshot_1.png)
     - **Styling the Navigation Bar:**
         - When the link is displayed and unvisited:
             - Change the font colour of the links to pink
@@ -204,7 +231,7 @@ This laboratory exercise introduces students to the basic HTML tags and how to c
             - Change the background colour to pink
             - Change the font colour to purple
 2. Create a Responsive Navigation Bar [`index.html`](./week08/lab/solution/index.html)
-    ![Week 8, Lab 6 screenshot_2](./_screenshots/week08/screenshot_2.png)
+    ![Week 8, Lab 6 screenshot_2](./.screenshots/week08/screenshot_2.png)
     - [How To Create a Responsive Top Navigation Menu (w3schools.com)](https://www.w3schools.com/howto/howto_js_topnav_responsive.asp)
 
 ### Week 10 (CA 1): MCQ Test
@@ -229,7 +256,10 @@ This is have to be the final project for the module.
 
 This is my Personal Portfolio website. I created this website to showcase my skills and projects, as well as to provide information about myself. The website is built using HTML, CSS, and JavaScript. It includes a home page, an about page, a projects page, and a contact page. The website is fully responsive and works on all devices.
 
-![Personal Portfolio screenshot](./_screenshots/assessment/01/screenshot.png)
+> [!WARNING]
+> The brief asks for a themed website of at least nine pages (home, site map, contact, characters or staff, and merchandise) on one of five themes: hobby, holiday destination, local company, charity and TV series. The project is a personal portfolio, which is not one of the five themes, and it has four pages: home, about, projects and contact.
+
+![Personal Portfolio screenshot](./.screenshots/assessment/01/screenshot.png)
 
 > [!TIP]  
 > You can visit this website project at the following links:  

@@ -1,20 +1,43 @@
 # Networking Basics
-**Module:** Networking Basics `COMP H1015`  
-**Lectorer:** Conn Cremin  
-**Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023  
-**Credits:** 5 ECTS
 
-> This module provides an introduction to the fundamental concepts of computer networks. The course covers a range of topics, including network devices, protocols, and network configuration. The primary goal is to develop an understanding of computer networks and their applications in real-world scenarios. The course also includes practical exercises to reinforce the theoretical concepts. IP addressing, subnetting, and network troubleshooting are some of the key topics covered in this module.
+**Module:** Networking Basics (`COMP H1015`)  
+**Semester:** 1 (Year 1), folder `sem01`  
+**Lecturer:** Conn Cremin  
+**Date:** September - December 2023  
+**Credits:** 5 ECTS  
+**Matching project branch:** none
+
+## What this module is for
+
+Networking Basics is an introduction to how computers reach each other. Week 1 is a Windows lab on the command-line tools (ipconfig, ping and tracert). Weeks 8 to 11 are Cisco Packet Tracer activities on IPv6 addressing, troubleshooting default gateways, subnetting and a VLSM addressing scheme. Week 7 is a review week. The materials for weeks 2 to 6 are not in the repository. This folder has the lab sheets and screenshots for weeks 1 and 8 to 11, and the Packet Tracer solution files for weeks 8 to 11. Where a solution has a wrong answer, a warning block under the week description says so.
 
 ## Grades Breakdown
-| **Assessment Type** | **Weighting** |
-|---------------------|---------------|
+
+| Assessment Type | Weighting |
+|---|---|
 | Weekly labs (weeks 1-11) | idk |
 | CA 1 — MSQ test (week 9) | idk |
 | Probaly something else... | idk |
 
-## Table of Contents
+## All weeks
+
+| Week | Title | Files | Screenshot |
+|---|---|---|---|
+| [Week 1](week01/) | Lab 1: Windows network tools | [`lab/networking_basics_week01_lab_network_introduction.pdf`](week01/lab/networking_basics_week01_lab_network_introduction.pdf) | <img src=".screenshots/week01/screenshot.png" width="160" alt="Week 1 screenshot"> |
+| Week 2 | Materials not kept | None. | — |
+| Week 3 | Materials not kept | None. | — |
+| Week 4 | Materials not kept | None. | — |
+| Week 5 | Materials not kept | None. | — |
+| Week 6 | Materials not kept | None. | — |
+| Week 7 | Review week | None. | — |
+| [Week 8](week08/) | Packet Tracer: IPv6 addressing | [`lab/networking_basics_week08_lab_configure_ipv6_addressing.pdf`](week08/lab/networking_basics_week08_lab_configure_ipv6_addressing.pdf)<br>[`lab/solution/networking_basics_week08_lab_configure_ipv6_addressing.pka`](week08/lab/solution/networking_basics_week08_lab_configure_ipv6_addressing.pka) | <img src=".screenshots/week08/screenshot.png" width="160" alt="Week 8 screenshot"> |
+| [Week 9](week09/) | Packet Tracer: default gateway troubleshooting | [`lab/networking_basics_week09_lab_troubleshooting_default_gateway_issues.pdf`](week09/lab/networking_basics_week09_lab_troubleshooting_default_gateway_issues.pdf)<br>[`lab/solution/networking_basics_week09_lab_troubleshooting_default_gateway_issues.pka`](week09/lab/solution/networking_basics_week09_lab_troubleshooting_default_gateway_issues.pka)<br>CA 1, MSQ test, was also in this week; no files. | <img src=".screenshots/week09/screenshot.png" width="160" alt="Week 9 screenshot"> |
+| [Week 10](week10/) | Packet Tracer: subnetting scenario 1 | [`lab/networking_basics_week10_lab_subnetting_scenario_1.pdf`](week10/lab/networking_basics_week10_lab_subnetting_scenario_1.pdf)<br>[`lab/solution/networking_basics_week10_lab_subnetting_scenario_1.pka`](week10/lab/solution/networking_basics_week10_lab_subnetting_scenario_1.pka) | <img src=".screenshots/week10/screenshot.png" width="160" alt="Week 10 screenshot"> |
+| [Week 11](week11/) | Packet Tracer: VLSM addressing scheme | [`lab/networking_basics_week11_lab_designing_and_implementing_a_vlsm_addressing_scheme.pdf`](week11/lab/networking_basics_week11_lab_designing_and_implementing_a_vlsm_addressing_scheme.pdf)<br>[`lab/solution/networking_basics_week11_lab_designing_and_implementing_a_vlsm_addressing_scheme.pka`](week11/lab/solution/networking_basics_week11_lab_designing_and_implementing_a_vlsm_addressing_scheme.pka) | <img src=".screenshots/week11/screenshot.png" width="160" alt="Week 11 screenshot"> |
+
+---
+
+## Weeks
 - [Weeks](#weeks)
     - [Week 1](#week-1-lab-1-network-introduction): Network Introduction
     - [Week 2-6](#week-2-6-idk-but-for-some-reason-i-dont-have-them): Idk but for some reason I don't have them
@@ -24,14 +47,12 @@
     - [Week 10](#week-10-lab-9-subnetting-scenario-1): Subnetting Scenario
     - [Week 11](#week-11-lab-10-designing-and-implementing-a-vlsm-addressing-scheme): Designing and Implementing a VLSM Addressing Scheme
 
-## Weeks
-
 ### [Week 1 (Lab 1)](./week01/lab/): Network Introduction
 [Task](./week01/lab/networking_basics_week01_lab_network_introduction.pdf)
 
 This laboratory exercise introduces students to the basic Windows command-line networking tools to check connectivity.
 
-![Week 1, Lab 1 Screenshot](./_screenshots/week01/screenshot.png)
+![Week 1, Lab 1 Screenshot](./.screenshots/week01/screenshot.png)
 
 #### Objectives
 At the end of this laboratory exercise, students should be able to:
@@ -113,7 +134,7 @@ Check the configuration of the network interface card (NIC):
 
 This laboratory exercise introduces the configuration of IPv6 addressing on a router, servers, and clients.
 
-![Week 8, Lab 7 Screenshot](./_screenshots/week08/screenshot.png)
+![Week 8, Lab 7 Screenshot](./.screenshots/week08/screenshot.png)
 
 #### Objectives
 1. Configure IPv6 Addressing on the Router
@@ -124,9 +145,9 @@ This laboratory exercise introduces the configuration of IPv6 addressing on a ro
 ### [Week 9 (Lab 8)](./week09/lab/): Troubleshooting Default Gateway Issues
 [Task](./week09/lab/networking_basics_week09_lab_troubleshooting_default_gateway_issues.pdf) | [Packet Tracer Solution (.pka)](./week09/lab/solution/networking_basics_week09_lab_troubleshooting_default_gateway_issues.pka)
 
-This laboratory exercise introduces the troubleshooting of default gateway issues on a router, servers, and clients.
+This laboratory exercise introduces the troubleshooting of default gateway issues on a router, switches, and PCs.
 
-![Week 9, Lab 8 Screenshot](./_screenshots/week09/screenshot.png)
+![Week 9, Lab 8 Screenshot](./.screenshots/week09/screenshot.png)
 
 #### Objectives
 1. Verify Network Documentation and Isolate Problems
@@ -135,9 +156,9 @@ This laboratory exercise introduces the troubleshooting of default gateway issue
 ### [Week 10 (Lab 9)](./week10/lab/): Subnetting Scenario 1
 [Task](./week10/lab/networking_basics_week10_lab_subnetting_scenario_1.pdf) | [Packet Tracer Solution (.pka)](./week10/lab/solution/networking_basics_week10_lab_subnetting_scenario_1.pka)
 
-This laboratory exercise introduces the subnetting scenario on a router, servers, and clients.
+This laboratory exercise introduces the subnetting scenario on routers, switches, and PCs.
 
-![Week 10, Lab 9 Screenshot](./_screenshots/week10/screenshot.png)
+![Week 10, Lab 9 Screenshot](./.screenshots/week10/screenshot.png)
 
 #### Objectives
 1. Design an IP Addressing Scheme
@@ -146,9 +167,9 @@ This laboratory exercise introduces the subnetting scenario on a router, servers
 ### [Week 11 (Lab 10)](./week11/lab/): Designing and Implementing a VLSM Addressing Scheme
 [Task](./week11/lab/networking_basics_week11_lab_designing_and_implementing_a_vlsm_addressing_scheme.pdf) | [Packet Tracer Solution (.pka)](./week11/lab/solution/networking_basics_week11_lab_designing_and_implementing_a_vlsm_addressing_scheme.pka)
 
-This laboratory exercise introduces the design and implementation of a VLSM addressing scheme on a router, servers, and clients.
+This laboratory exercise introduces the design and implementation of a VLSM addressing scheme on routers, switches, and workstations.
 
-![Week 11, Lab 10 Screenshot](./_screenshots/week11/screenshot.png)
+![Week 11, Lab 10 Screenshot](./.screenshots/week11/screenshot.png)
 
 #### Objectives
 1. Examine the Network Requirements

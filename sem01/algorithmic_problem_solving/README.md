@@ -1,20 +1,49 @@
 # Algorithmic Problem Solving
-**Module:** Algorithmic Problem Solving `COMP H1034`  
-**Lectorer:** Noel Carey  
-**Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023  
-**Credits:** 5 ECTS
 
-> This Module provides an introduction to the principles of algorithmic problem solving. The module covers the development of algorithms using pseudocode, diagrams and lists. The module also covers the use of conditional statements and logical expressions in algorithm development. The module also covers the use of systematic lists and the elimination of possibilities in problem-solving. The module also covers the use of logic in problem-solving. The module also covers the use of classic problems in problem-solving.
+**Module:** Algorithmic Problem Solving (`COMP H1034`)  
+**Semester:** 1 (Year 1), folder `sem01`  
+**Lecturer:** Noel Carey  
+**Date:** September - December 2023  
+**Credits:** 5 ECTS  
+**Matching project branch:** [`test/year01/module-algorithmic_problem_solving/in-lab-practical-test`](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test) (holds the CA 1 and CA 2 solutions in [`01/solution/`](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test/01/solution/) and [`02/solution/`](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test/02/solution/))
+
+## What this module is for
+
+Algorithmic Problem Solving covers working out a solution before writing any code. The labs go through pseudocode (output, arithmetic, variables, input, conditions, Boolean expressions, grades and triangles), then diagrams, systematic lists, the eliminate-possibilities method and logic puzzles. Weeks 1 to 5 are pseudocode labs, week 6 is the CA 1 in-lab practical test (pseudocode, then the same program in Java), week 7 is a review week with no lab, weeks 8 and 9 are the labs on diagrams and lists and on eliminating possibilities and logic, and week 10 is the CA 2 in-lab practical test (diagrams and lists). This folder has the lab sheets and the solutions for weeks 1 to 5, 8 and 9. The solutions for both tests are on the branch named above. Where a solution has wrong answers, a warning block under the week description says so.
 
 ## Grades Breakdown
-| **Assessment Type** | **Weighting** |
-|---------------------|---------------|
+
+| Assessment Type | Weighting |
+|---|---|
 | Weekly Participation & Engagement (weekly labs) | 20% |
 | CA 1 (In lab test) | 20% |
 | CA 2 (In lab test) | 40% |
 
-## Table of Contents
+## All weeks
+
+| Week | Title | Files | Screenshot |
+|---|---|---|---|
+| [Week 1](week01/) | Pseudocode: printing, arithmetic, variables and f(x) | [`lab/algorithmic_problem_solving_week01_lab.pdf`](week01/lab/algorithmic_problem_solving_week01_lab.pdf)<br>[`lab/solution/algorithmic_problem_solving_week01_lab_solution.txt`](week01/lab/solution/algorithmic_problem_solving_week01_lab_solution.txt) | <img src=".screenshots/week01/screenshot.png" width="160" alt="Week 1 screenshot"> |
+| [Week 2](week02/) | Pseudocode: quotient, remainder, pay, averages and volume | [`lab/algorithmic_problem_solving_week02_lab.pdf`](week02/lab/algorithmic_problem_solving_week02_lab.pdf)<br>[`lab/solution/algorithmic_problem_solving_week02_lab_solution.txt`](week02/lab/solution/algorithmic_problem_solving_week02_lab_solution.txt) | <img src=".screenshots/week02/screenshot.png" width="160" alt="Week 2 screenshot"> |
+| [Week 3](week03/) | Pseudocode: Boolean expressions, PASS or FAIL and month names | [`lab/algorithmic_problem_solving_week03_lab.pdf`](week03/lab/algorithmic_problem_solving_week03_lab.pdf)<br>[`lab/solution/algorithmic_problem_solving_week03_lab_solution.txt`](week03/lab/solution/algorithmic_problem_solving_week03_lab_solution.txt) | <img src=".screenshots/week03/screenshot.png" width="160" alt="Week 3 screenshot"> |
+| [Week 4](week04/) | Pseudocode: Boolean expressions, signs, grades and triangles | [`lab/algorithmic_problem_solving_week04_lab.pdf`](week04/lab/algorithmic_problem_solving_week04_lab.pdf)<br>[`lab/solution/algorithmic_problem_solving_week04_lab_solution.txt`](week04/lab/solution/algorithmic_problem_solving_week04_lab_solution.txt) | <img src=".screenshots/week04/screenshot.png" width="160" alt="Week 4 screenshot"> |
+| [Week 5](week05/) | Pseudocode: numbers in words and triangle types | [`lab/algorithmic_problem_solving_week05_lab.pdf`](week05/lab/algorithmic_problem_solving_week05_lab.pdf)<br>[`lab/solution/algorithmic_problem_solving_week05_lab_solution.txt`](week05/lab/solution/algorithmic_problem_solving_week05_lab_solution.txt) | <img src=".screenshots/week05/screenshot.png" width="160" alt="Week 5 screenshot"> |
+| Week 6 | CA 1: in-lab practical test | None. | — |
+| Week 7 | Review week | None. | — |
+| [Week 8](week08/) | Diagrams and lists | [`lab/algorithmic_problem_solving_week08_lab.pdf`](week08/lab/algorithmic_problem_solving_week08_lab.pdf)<br>[`lab/solution/algorithmic_problem_solving_week08_lab_report.pdf`](week08/lab/solution/algorithmic_problem_solving_week08_lab_report.pdf) | <img src=".screenshots/week08/screenshot.png" width="160" alt="Week 8 screenshot"> |
+| [Week 9](week09/) | Practical: eliminate possibilities and logic | [`lab/algorithmic_problem_solving_week09_lab.pdf`](week09/lab/algorithmic_problem_solving_week09_lab.pdf)<br>[`lab/solution/algorithmic_problem_solving_week09_lab_report.pdf`](week09/lab/solution/algorithmic_problem_solving_week09_lab_report.pdf) | <img src=".screenshots/week09/screenshot.png" width="160" alt="Week 9 screenshot"> |
+| Week 10 | CA 2: in-lab practical test | None. | — |
+
+## Assessments and other files
+
+| File | What it contains |
+|---|---|
+| [`assessment/01/solution_link.txt`](assessment/01/solution_link.txt) | Two lines: the GitHub link to the CA 1 solution folder, and the name of the branch it is on. |
+| [`assessment/02/solution_link.txt`](assessment/02/solution_link.txt) | Two lines: the GitHub link to the CA 2 solution folder, and the name of the branch it is on. |
+
+---
+
+## Weeks
 - [Weeks](#weeks)
     - [Week 1](#week-1-lab-1-pseudocode-problems-week-1): Pseudocode Problems Week 1
     - [Week 2](#week-2-lab-2-pseudocode-problems-week-2): Pseudocode Problems Week 2
@@ -22,21 +51,19 @@
     - [Week 4](#week-4-lab-4-pseudocode-problems-week-4): Pseudocode Problems Week 4
     - [Week 5](#week-5-lab-5-pseudocode-problems-week-5): Pseudocode Problems Week 5
     - [Week 6](#week-6-ca-1-in-lab-practical-test-pseudocode-problems): CA 1 (In lab practical test): Pseudocode Problems
-    - [Week 8](#week-8-lab-8-diagrams-and-lists): Diagrams and Lists
-    - [Week 9](#week-9-lab-9-eliminating-possibilities): Eliminating Possibilities
+    - [Week 8](#week-8-lab-6-diagrams-and-lists): Diagrams and Lists
+    - [Week 9](#week-9-lab-7-eliminating-possibilities-and-logic): Eliminating Possibilities and Logic
     - [Week 10](#week-10-ca-2-in-lab-practical-test-diagrams-and-lists): CA 2 (In lab practical test): Lists and Diagrams
 - [Continuous Assessment (CA)](#continuous-assessment-ca)
     - [CA 1](#ca-1-pseudocode-problems): Pseudocode Problems
     - [CA 2](#ca-2-diagrams-and-lists): Diagrams and Lists
-
-## Weeks
 
 ### [Week 1 (Lab 1)](./week01/lab/): Pseudocode Problems Week 1
 [Task](./week01/lab/algorithmic_problem_solving_week01_lab.pdf) | [Solution (.txt)](./week01/lab/solution/algorithmic_problem_solving_week01_lab_solution.txt)
 
 This week lab focuses on solving problems using pseudocode. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
-![Week 1, Lab 1 screenshot](./_screenshots/week01/screenshot.png)
+![Week 1, Lab 1 screenshot](./.screenshots/week01/screenshot.png)
 
 #### Questions
 1. Write a Pseudocode program that produces the output shown below.
@@ -71,7 +98,7 @@ This week lab focuses on solving problems using pseudocode. The exercises are de
 
 This lab continues the exploration of pseudocode problems, focusing on more complex scenarios and mathematical operations.
 
-![Week 2, Lab 2 screenshot](./_screenshots/week02/screenshot.png)
+![Week 2, Lab 2 screenshot](./.screenshots/week02/screenshot.png)
 
 #### Questions
 1. Write a Pseudocode program that prints the **quotient** and **remainder** on dividing the constant **X** by the constant **Y**. X should be initialized to **5** and Y should be initialized to **3**. Your program should use two variables called **quotient** and **remainder** to store results and you should use a single PRINT() statement to print the result in the format.
@@ -107,7 +134,7 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
 
 This lab introduces more advanced pseudocode problems, focusing on conditional statements and logical expressions.
 
-![Week 3, Lab 3 screenshot](./_screenshots/week03/screenshot.png)
+![Week 3, Lab 3 screenshot](./.screenshots/week03/screenshot.png)
 
 #### Questions
 1. Write a single Java program that evaluates the **truth** or **falsity** of the following expressions using **PRINT()** statements as shown in the program output below.
@@ -151,7 +178,7 @@ This lab introduces more advanced pseudocode problems, focusing on conditional s
 
 This lab focuses on solving problems using pseudocode, emphasizing conditional statements and logical expressions.
 
-![Week 4, Lab 4 screenshot](./_screenshots/week04/screenshot.png)
+![Week 4, Lab 4 screenshot](./.screenshots/week04/screenshot.png)
 
 #### Questions
 1. Write a Java program that evaluates and prints the **truth** or **falsity** of the following expressions; **you should assign the outcome of each expression to a Boolean variable**.
@@ -197,7 +224,7 @@ This lab focuses on solving problems using pseudocode, emphasizing conditional s
 
 This lab continues the exploration of pseudocode problems, focusing on more complex scenarios and mathematical operations.
 
-![Week 5, Lab 5 screenshot](./_screenshots/week05/screenshot.png)
+![Week 5, Lab 5 screenshot](./.screenshots/week05/screenshot.png)
 
 #### Questions
 1. Write a Pseudocode program to read an integer value in the range 1..100 and output its value in words. For example, if the input is **45** then the output is **“forty five”**. If the number entered is not within the valid range the program should print “Invalid number!”.
@@ -226,11 +253,11 @@ This lab continues the exploration of pseudocode problems, focusing on more comp
 > No lab this week. Use this week to review previous weeks' labs and prepare for upcoming assessments.
 
 ### [Week 8 (Lab 6)](./week08/lab/): Diagrams and Lists
-[Task](./week08/lab/algorithmic_problem_solving_week08_lab.pdf) | [Solution (.pdf)](./week08/lab/solution/algorithmic_problem_solving_week08_lab_solution.pdf)
+[Task](./week08/lab/algorithmic_problem_solving_week08_lab.pdf) | [Solution (.pdf)](./week08/lab/solution/algorithmic_problem_solving_week08_lab_report.pdf)
 
 This lab introduces the use of diagrams and lists as problem-solving tools. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
-![Week 8, Lab 6 screenshot](./_screenshots/week08/screenshot.png)
+![Week 8, Lab 6 screenshot](./.screenshots/week08/screenshot.png)
 
 #### Questions
 - Diagrams
@@ -263,12 +290,12 @@ This lab introduces the use of diagrams and lists as problem-solving tools. The 
     3. ARCHERY PUZZLE
         - A target shows the numbers 16, 17, 23, 24, 39, and 40. How many arrows does it take to score exactly 100 on this target?
 
-### [Week 9 (Lab 7)](week09/lab/): Eliminating Possibilities
-[Task](./week09/lab/algorithmic_problem_solving_week09_lab.pdf) | [Solution (.pdf)](./week09/lab/solution/algorithmic_problem_solving_week09_lab_solution.pdf)
+### [Week 9 (Lab 7)](week09/lab/): Eliminating Possibilities and Logic
+[Task](./week09/lab/algorithmic_problem_solving_week09_lab.pdf) | [Solution (.pdf)](./week09/lab/solution/algorithmic_problem_solving_week09_lab_report.pdf)
 
-This lab focuses on solving problems using the eliminating possibilities method. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
+This lab focuses on solving problems by eliminating possibilities and with logic puzzles. The exercises are designed to help understand the logic and structure of algorithms without getting bogged down by syntax.
 
-![Week 9, Lab 7 screenshot](./_screenshots/week09/screenshot.png)
+![Week 9, Lab 7 screenshot](./.screenshots/week09/screenshot.png)
 
 #### Questions
 - Eliminating Possibilities
@@ -319,23 +346,23 @@ This lab focuses on solving problems using the eliminating possibilities method.
 > The in-lab test solution can be found on [`test/year01/module-algorithmic_problem_solving/in-lab-practical-test`](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test) branch.  
 > There is a links to the solution and code below.
 
-[Solution](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test/01/solution/) | [pseudocode.txt](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test/01/solution/pseudocode.txt) | [code.java](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test/01/solution/code.java)
+[Solution](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test/01/solution/) | [pseudocode.txt](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test/01/solution/pseudocode.txt) | [question1.java](https://github.com/DanyilT/projects-in-university/tree/test/year01/module-algorithmic_problem_solving/in-lab-practical-test/01/solution/question1.java)
 
 > [!WARNING]  
 > I didn't manage to get the assessment paper, but based on my notes and screenshots, here is what I could gather.
 
 This CA focuses on solving problems using pseudocode and implementing it in Java.
 
-**Note:** There was only one question with two parts: pseudocode and Java code.
+**Note:** The test had two parts: pseudocode and Java code.
 
-![Week 6, CA 1 screenshot](./_screenshots/assessment/01/screenshot.png)
+![Week 6, CA 1 screenshot](./.screenshots/assessment/01/screenshot.png)
 
 #### Questions
 - Question 1
-    ![Week 6, CA 1 screenshot_1](./_screenshots/assessment/01/screenshot_1.png)
+    ![Week 6, CA 1 screenshot_1](./.screenshots/assessment/01/screenshot_1.png)
     - Write a Pseudocode program that outputs the day name of the week based on the number entered by the user. The program should prompt the user to enter a number between 1 and 7 and output the corresponding day name. If the user enters a number outside the range, the program should output "Invalid number".
 - Question 2
-    ![Week 6, CA 1 screenshot_2](./_screenshots/assessment/01/screenshot_2.png)
+    ![Week 6, CA 1 screenshot_2](./.screenshots/assessment/01/screenshot_2.png)
     - Write Java code based on the Pseudocode program in question 1. The program should output the day name of the week based on the number entered by the user. The program should prompt the user to enter a number between 1 and 7 and output the corresponding day name. If the user enters a number outside the range, the program should output "Invalid number".
 
 ### [CA 2](./assessment/02/): Diagrams and Lists
@@ -352,7 +379,7 @@ This CA focuses on solving problems using lists and diagrams.
 
 **Note:** There were two questions related to lists and diagrams.
 
-![Week 10, CA 2 screenshot](./_screenshots/assessment/02/screenshot.png)
+![Week 10, CA 2 screenshot](./.screenshots/assessment/02/screenshot.png)
 
 #### Questions
 - Question 1

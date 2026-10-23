@@ -1,46 +1,75 @@
 # Fundamentals of Programming 2
-**Module:** Fundamentals of Programming 2 `COMP H1031`  
-**Lectorer:** Stephen Sheridan  
-**Duration:** Semester 2 (Year 1)  
-**Date:** January - May 2024  
-**Credits:** 5 ECTS
 
-> This module builds on the concepts introduced in Fundamentals of Programming 1. The module covers more advanced programming topics, including arrays, classes, objects, and file handling. The primary goal is to develop problem-solving skills and enhance logical thinking through practical exercises and a final project. The final project for the module involves writing code for a Coffee Shop application that allows the user to view and order drinks.
+**Module:** Fundamentals of Programming 2 (`COMP H1031`)  
+**Semester:** 2 (Year 1), folder `sem02`  
+**Lecturer:** Stephen Sheridan  
+**Date:** January - May 2024  
+**Credits:** 5 ECTS  
+**Matching project branch:** [`project/year01/module-fundamentals_of_programming_2/coffee-shop`](https://github.com/DanyilT/projects-in-university/tree/project/year01/module-fundamentals_of_programming_2/coffee-shop) (the Coffee Shop project)
+
+## What this module is for
+
+Fundamentals of Programming 2 is a second Java module. It goes from arrays and two-dimensional arrays, through searching and sorting, to classes and objects, file handling, collections, inheritance and binary files. The weekly exercise sheets (weeks 2 to 7) are worth 5% each, and the Coffee Shop mini-project is worth 40%. Weeks 8 to 10 are formative worksheets, which the grades table does not list. This folder has the solutions for weeks 2 to 10. The week 1 lab and the week 11 MCQ test are not in the repository. Where a solution has a bug or does not follow the sheet, a warning block under the week description says so.
 
 ## Grades Breakdown
-| **Assessment Type** | **Weighting** | **Total** |
-|---------------------|---------------|-----------|
+
+| Assessment Type | Weighting | Total |
+|---|---|---|
 | Weekly Worksheets (2-7) | 5% | 30% |
 | MCQ (Week 11) | idk | idk |
 | Project | 40% | 40% |
 
-## Table of Contents
+## All weeks
+
+| Week | Title | Files | Screenshot |
+|---|---|---|---|
+| Week 1 | Lab not kept | None. | — |
+| [Week 2](week02/) | Exercise sheet 2: arrays | [`lab/fundamentals_of_programming_2_week02_lab.pdf`](week02/lab/fundamentals_of_programming_2_week02_lab.pdf)<br>[`lab/solution/ProcessArray.java`](week02/lab/solution/ProcessArray.java) | <img src=".screenshots/week02/screenshot.png" width="160" alt="Week 2 screenshot"> |
+| [Week 3](week03/) | Exercise sheet 3: 2D arrays | [`lab/fundamentals_of_programming_2_week03_lab.pdf`](week03/lab/fundamentals_of_programming_2_week03_lab.pdf)<br>[`lab/solution/CarSales.java`](week03/lab/solution/CarSales.java)<br>[`lab/solution/SumRows.java`](week03/lab/solution/SumRows.java) | <img src=".screenshots/week03/screenshot.png" width="160" alt="Week 3 screenshot"> |
+| [Week 4](week04/) | Exercise sheet 4: searching | [`lab/fundamentals_of_programming_2_week04_lab.pdf`](week04/lab/fundamentals_of_programming_2_week04_lab.pdf)<br>[`lab/solution/LinearSearch.java`](week04/lab/solution/LinearSearch.java)<br>[`lab/solution/BinaryExperiment.java`](week04/lab/solution/BinaryExperiment.java) | <img src=".screenshots/week04/screenshot.png" width="160" alt="Week 4 screenshot"> |
+| [Week 5](week05/) | Exercise sheet 5: sorting and timing | [`lab/fundamentals_of_programming_2_week05_lab.pdf`](week05/lab/fundamentals_of_programming_2_week05_lab.pdf)<br>[`lab/solution/SortingExperiment.java`](week05/lab/solution/SortingExperiment.java) | <img src=".screenshots/week05/screenshot.png" width="160" alt="Week 5 screenshot"> |
+| [Week 6](week06/) | Exercise sheet 6: classes and objects | [`lab/fundamentals_of_programming_2_week06_lab.pdf`](week06/lab/fundamentals_of_programming_2_week06_lab.pdf)<br>[`lab/solution/TestBook.java`](week06/lab/solution/TestBook.java)<br>[`lab/solution/TestCourse.java`](week06/lab/solution/TestCourse.java) | <img src=".screenshots/week06/screenshot.png" width="160" alt="Week 6 screenshot"> |
+| [Week 7](week07/) | Exercise sheet 7: file handling | [`lab/fundamentals_of_programming_2_week07_lab.pdf`](week07/lab/fundamentals_of_programming_2_week07_lab.pdf)<br>[`lab/solution/Question1.java`](week07/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week07/lab/solution/Question2.java)<br>[`lab/solution/files/descriptions.txt`](week07/lab/solution/files/descriptions.txt)<br>[`lab/solution/files/names.txt`](week07/lab/solution/files/names.txt)<br>[`lab/solution/files/passwords.txt`](week07/lab/solution/files/passwords.txt) | <img src=".screenshots/week07/screenshot.png" width="160" alt="Week 7 screenshot"> |
+| [Week 8](week08/) | Formative worksheet: classes and objects (coins) | [`lab/fundamentals_of_programming_2_week08_lab.pdf`](week08/lab/fundamentals_of_programming_2_week08_lab.pdf)<br>[`lab/solution/Coin.java`](week08/lab/solution/Coin.java)<br>[`lab/solution/CoinTest.java`](week08/lab/solution/CoinTest.java) | <img src=".screenshots/week08/screenshot.png" width="160" alt="Week 8 screenshot"> |
+| [Week 9](week09/) | Formative worksheet: collections, composition and inheritance | [`lab/fundamentals_of_programming_2_week09_lab.pdf`](week09/lab/fundamentals_of_programming_2_week09_lab.pdf)<br>[`lab/solution/Person.java`](week09/lab/solution/Person.java)<br>[`lab/solution/Athlete.java`](week09/lab/solution/Athlete.java)<br>[`lab/solution/Employee.java`](week09/lab/solution/Employee.java)<br>[`lab/solution/PersonCollection.java`](week09/lab/solution/PersonCollection.java)<br>[`lab/solution/Main.java`](week09/lab/solution/Main.java) | <img src=".screenshots/week09/screenshot.png" width="160" alt="Week 9 screenshot"> |
+| [Week 10](week10/) | Formative worksheet: sequential binary files | [`lab/fundamentals_of_programming_2_week10_lab.pdf`](week10/lab/fundamentals_of_programming_2_week10_lab.pdf)<br>[`lab/solution/Employee.java`](week10/lab/solution/Employee.java)<br>[`lab/solution/EmployeeWriter.java`](week10/lab/solution/EmployeeWriter.java)<br>[`lab/solution/EmployeeReader.java`](week10/lab/solution/EmployeeReader.java)<br>[`lab/solution/employees.dat`](week10/lab/solution/employees.dat) | <img src=".screenshots/week10/screenshot.png" width="160" alt="Week 10 screenshot"> |
+| Week 11 | MCQ test | None. | — |
+
+## Assessments and other files
+
+| File | What it contains |
+|---|---|
+| [`assessment/01/fundamentals_of_programming_2_assessment.pdf`](assessment/01/) | The Coffee Shop brief (3 pages): a point-of-sale program for a coffee shop, worth 40%, due Sunday 14 April 2024 at 9 pm. The program reads an inventory file of menu items and prices, takes CASH or CARD payments, prints a receipt on screen, keeps a record of transactions and writes them to a transaction file when the program exits. All user input must be validated. |
+| [`assessment/01/submission/project_link.txt`](assessment/01/submission/project_link.txt) | Two lines: the GitHub link to the Coffee Shop project folder, and the branch name. |
+
+---
+
+## Weeks
 - [Weeks](#weeks)
     - [Week 1](#week-1-idk-whats-happed-to-this-lab-but-i-dont-have-it): Idk what's happed to this lab, but I don't have it
-    - [Week 2](#week-2-lab-2-excersise-sheet-2): Excersise Sheet 2
-    - [Week 3](#week-3-lab-3-excersise-sheet-3): Excersise Sheet 3
-    - [Week 4](#week-4-lab-4-excersise-sheet-4): Excersise Sheet 4
-    - [Week 5](#week-5-lab-5-excersise-sheet-5): Excersise Sheet 5
-    - [Week 6](#week-6-lab-6-excersise-sheet-6): Excersise Sheet 6
-    - [Week 7](#week-7-lab-7-excersise-sheet-7): Excersise Sheet 7
+    - [Week 2](#week-2-lab-2-exercise-sheet-2): Exercise Sheet 2
+    - [Week 3](#week-3-lab-3-exercise-sheet-3): Exercise Sheet 3
+    - [Week 4](#week-4-lab-4-exercise-sheet-4): Exercise Sheet 4
+    - [Week 5](#week-5-lab-5-exercise-sheet-5): Exercise Sheet 5
+    - [Week 6](#week-6-lab-6-exercise-sheet-6): Exercise Sheet 6
+    - [Week 7](#week-7-lab-7-exercise-sheet-7): Exercise Sheet 7
     - [Week 8](#week-8-lab-8-formative-worksheet-more-objects): Formative Worksheet (More Objects)
     - [Week 9](#week-9-lab-9-formative-worksheet-collections-composition--inheritance): Formative Worksheet (Collections, Composition & Inheritance)
     - [Week 10](#week-10-lab-10-formative-worksheet-sequential-binary-files): Formative Worksheet (Sequential Binary Files)
-    - [Week 11](#week-11-ca-mcq-test): MCQ Test
+    - [Week 11](#week-11-mcq-test): MCQ Test
 - [Project](#project)
     - [Coffee Shop Application](#coffee-shop)
 
-## Weeks
 
 ### Week 1: Idk what's happed to this lab, but I don't have it
 `null`
 
-### [Week 2 (Lab 2)](./week02/lab/): Excersise Sheet 2
+### [Week 2 (Lab 2)](./week02/lab/): Exercise Sheet 2
 [Task](./week02/lab/fundamentals_of_programming_2_week02_lab.pdf) | [Solution (.java)](./week02/lab/solution/)
 
-This lab introduces the concept of arrays and how to manipulate them. The lab covers how to create arrays, populate them with random numbers, and perform various operations on the array elements. The lab also includes activities for sorting arrays, finding the maximum and minimum values, and calculating the average of the array elements.
+This lab introduces the concept of arrays and how to manipulate them. The lab covers how to create arrays, populate them with random numbers, and perform various operations on the array elements. The lab also includes activities for printing an array, adding up its elements, calculating the average, counting how often a value occurs, and setting every element to zero.
 
-![Week 2, Lab 2 screenshot](./_screenshots/week02/screenshot.png)
+![Week 2, Lab 2 screenshot](./.screenshots/week02/screenshot.png)
 
 #### Questions
 1. Write a Java program called [ProcessArray.java](./week02/lab/solution/ProcessArray.java) that implements **static methods** to carry out the following:
@@ -81,12 +110,12 @@ This lab introduces the concept of arrays and how to manipulate them. The lab co
         }
         ```
 
-### [Week 3 (Lab 3)](./week03/lab/): Excersise Sheet 3
+### [Week 3 (Lab 3)](./week03/lab/): Exercise Sheet 3
 [Task](./week03/lab/fundamentals_of_programming_2_week03_lab.pdf) | [Solution (.java)](./week03/lab/solution/)
 
-This lab introduces the concept of 2D arrays and how to manipulate them. The lab covers how to create 2D arrays, populate them with random numbers, and perform various operations on the array elements. The lab also includes activities for sorting 2D arrays, finding the maximum and minimum values, and calculating the average of the array elements.
+This lab introduces the concept of 2D arrays and how to manipulate them. The lab covers how to create 2D arrays, populate them with random numbers, and perform various operations on the array elements. The lab also includes activities for printing a table of car sales with the total for each month, and calculating the total of each row of a 10 by 12 array.
 
-![Week 3, Lab 3 screenshot](./_screenshots/week03/screenshot.png)
+![Week 3, Lab 3 screenshot](./.screenshots/week03/screenshot.png)
 
 #### Questions
 1. The table below shows the yearly car sales for Murphy’s used cars. The rows in the table show the manufacturer of each car sold and the columns represent the months from January through to December. Write a Java program called [CarSales.java](./week03/lab/solution/CarSales.java) that prints the table as shown along with the total sales for each month.
@@ -100,7 +129,7 @@ This lab introduces the concept of 2D arrays and how to manipulate them. The lab
     ===========================================================================================================================
     Totals    14        27        32        30        32        23        31        20        16        14        11        7
     ```
-    ![Week 3, Lab 3 screenshot_1](./_screenshots/week03/screenshot_1.png)
+    ![Week 3, Lab 3 screenshot_1](./.screenshots/week03/screenshot_1.png)
 2. Write a Java program called [SumRows.java](./week03/lab/solution/SumRows.java) that creates a 2D integer array of size 10x12. Your program should initialise the 2D array with random values between 1-20. It should also calculate the row totals for the 2D array and print them in tabular format. Program **use** parameterised **procedures** and **functions** wherever possible to decompose the problem down into smaller parts.
     ```
     Rows:
@@ -115,14 +144,17 @@ This lab introduces the concept of 2D arrays and how to manipulate them. The lab
     9  5  5 11 15 17 12 20 14 18  8  4  = 138
     14  1 16 16  8  4  9  6 18  8  1  3  = 104
     ```
-    ![Week 3, Lab 3 screenshot_2](./_screenshots/week03/screenshot_2.png)
+    ![Week 3, Lab 3 screenshot_2](./.screenshots/week03/screenshot_2.png)
 
-### [Week 4 (Lab 4)](./week04/lab/): Excersise Sheet 4
+### [Week 4 (Lab 4)](./week04/lab/): Exercise Sheet 4
 [Task](./week04/lab/fundamentals_of_programming_2_week04_lab.pdf) | [Solution (.java)](./week04/lab/solution/)
 
-This lab introduces the concept of searching and sorting algorithms. The lab covers how to implement linear and binary search algorithms to search for a specific value in an array. The lab also includes activities for sorting arrays using the bubble sort algorithm.
+This lab introduces the concept of searching algorithms. The lab covers how to implement linear and binary search algorithms to search for a specific value in an array. The lab also includes an experiment that calculates the average number of steps a binary search takes on sorted random data.
 
-![Week 4, Lab 4 screenshot](./_screenshots/week04/screenshot.png)
+> [!WARNING]
+> [`week04/lab/solution/BinaryExperiment.java`](week04/lab/solution/BinaryExperiment.java): It has a bug: binarySearch starts at index 1 (low = 1), so it never checks index 0. A search for the value at index 0 returns -1 instead of 0. The average is only slightly affected.
+
+![Week 4, Lab 4 screenshot](./.screenshots/week04/screenshot.png)
 
 #### Questions
 1. Write a Java program called [LinearSearch.java](./week04/lab/solution/LinearSearch.java) that uses a static method to search the following String array for the **rightmost** occurrence of the word “hat”.
@@ -137,22 +169,22 @@ This lab introduces the concept of searching and sorting algorithms. The lab cov
     cat hat mat bat hat sat
     Rightmost hat found at index 4.
     ```
-    ![Week 4, Lab 4 screenshot_1](./_screenshots/week04/screenshot_1.png)
-2. Modify the [Binary Search](./week04/lab/solution/BinaryExperiment.java) template code from Nowhere to calculate the average number of steps taken when searching a sorted data set that contains 250 random integer values (between 0 – 765). Your calculated average should be approximately the same as the theoretical average binary search time for a data set of size 250.
+    ![Week 4, Lab 4 screenshot_1](./.screenshots/week04/screenshot_1.png)
+2. Modify the [Binary Search](./week04/lab/solution/BinaryExperiment.java) template code from Moodle to calculate the average number of steps taken when searching a sorted data set that contains 250 random integer values (between 0 – 765). Your calculated average should be approximately the same as the theoretical average binary search time for a data set of size 250.
     ```math
     0(log2(250)) + 1 = 7.96
     ```
-    ![Week 4, Lab 4 screenshot_2](./_screenshots/week04/screenshot_2.png)
+    ![Week 4, Lab 4 screenshot_2](./.screenshots/week04/screenshot_2.png)
 
-### [Week 5 (Lab 5)](./week05/lab/): Excersise Sheet 5
+### [Week 5 (Lab 5)](./week05/lab/): Exercise Sheet 5
 [Task](./week05/lab/fundamentals_of_programming_2_week05_lab.pdf) | [Solution (.java)](./week05/lab/solution/)
 
 This lab introduces the concept of sorting algorithms and how to measure their performance. The lab covers how to implement the bubble sort and selection sort algorithms to sort an integer array. The lab also includes activities for measuring the runtime of the sorting algorithms using the System.nanoTime() method.
 
-![Week 5, Lab 5 screenshot](./_screenshots/week05/screenshot.png)
+![Week 5, Lab 5 screenshot](./.screenshots/week05/screenshot.png)
 
 #### Questions
-1. Download the [SortingExperiment.java](./week05/lab/solution/SortingExperiment.java) file from Nowhere. Read the code and complete the sections marked TODO.
+1. Download the [SortingExperiment.java](./week05/lab/solution/SortingExperiment.java) file from Moodle. Read the code and complete the sections marked TODO.
 2. Java has an in-built library called **Arrays** that has a method called **sort**. The sort method can be used to sort an integer array as follows:
     ```java
     // Import the Arrays library
@@ -160,14 +192,18 @@ This lab introduces the concept of sorting algorithms and how to measure their p
     // Use the Arrays.sort() method to sort an integer array called myArray
     Arrays.sort(myArray);
     ```
-    Modify the [SortExperiment.java](./week05/lab/solution/SortExperiment.java) file to add an additional experiment to test the runtime of the in-built Java Arrays.sort() method.
+    Modify the [SortExperiment.java](./week05/lab/solution/SortingExperiment.java) file to add an additional experiment to test the runtime of the in-built Java Arrays.sort() method.
 
-### [Week 6 (Lab 6)](./week06/lab/): Excersise Sheet 6
+### [Week 6 (Lab 6)](./week06/lab/): Exercise Sheet 6
 [Task](./week06/lab/fundamentals_of_programming_2_week06_lab.pdf) | [Solution (.java)](./week06/lab/solution/)
 
 This lab introduces the concept of classes and objects in Java. The lab covers how to create classes, define instance variables, and implement methods to manipulate the class objects. The lab also includes activities for creating classes to represent books and courses.
 
-![Week 6, Lab 6 screenshot](./_screenshots/week06/screenshot.png)
+> [!CAUTION]
+> - [`week06/lab/solution/TestBook.java`](week06/lab/solution/TestBook.java): The Book class and the TestBook main class are both declared public in one file, so javac rejects it. Running it with java TestBook.java works, because the source-file launcher does not check the file name.
+> - [`week06/lab/solution/TestCourse.java`](week06/lab/solution/TestCourse.java): The Course class and the TestCourse main class are both declared public in one file, so javac rejects it (java TestCourse.java works, as for TestBook.java). The sample courses also differ from the sheet's.
+
+![Week 6, Lab 6 screenshot](./.screenshots/week06/screenshot.png)
 
 #### Questions
 1. Write a Java class called [Book](./week06/lab/solution/TestBook.java) and a main class called [TestBook](./week06/lab/solution/TestBook.java) that implements and tests the following class diagram. You may only include the instance variables and methods shown in the class diagram. Your program should be called [TestBook.java](./week06/lab/solution/TestBook.java).
@@ -197,7 +233,7 @@ This lab introduces the concept of classes and objects in Java. The lab covers h
     Author: Bram Stoker
     Year: 1897
     ```
-    ![Week 6, Lab 6 screenshot_1](./_screenshots/week06/screenshot_1.png)
+    ![Week 6, Lab 6 screenshot_1](./.screenshots/week06/screenshot_1.png)
 2. Write a Java class called [Course](./week06/lab/solution/TestCourse.java) and a main class called [TestCourse](./week06/lab/solution/TestCourse.java) that implements and tests the following class diagram. You may only include the instance variables and methods shown in the class diagram. Your program should be called [TestCourse.java](./week06/lab/solution/TestCourse.java).
     ```
     | Course              |
@@ -224,17 +260,17 @@ This lab introduces the concept of classes and objects in Java. The lab covers h
     Faculty: Informatics
     Duration: 2
     ```
-    ![Week 6, Lab 6 screenshot_2](./_screenshots/week06/screenshot_2.png)
+    ![Week 6, Lab 6 screenshot_2](./.screenshots/week06/screenshot_2.png)
 
-### [Week 7 (Lab 7)](./week07/lab/): Excersise Sheet 7
+### [Week 7 (Lab 7)](./week07/lab/): Exercise Sheet 7
 [Task](./week07/lab/fundamentals_of_programming_2_week07_lab.pdf) | [Solution (.java)](./week07/lab/solution/)
 
-This lab introduces the concept of file handling in Java. The lab covers how to read and write data to files using the FileReader, BufferedReader, FileWriter, and BufferedWriter classes. The lab also includes activities for reading the contents of text files and generating random passwords.
+This lab introduces the concept of file handling in Java. The lab covers how to read data from text files and write data to a file. The lab also includes activities for reading the contents of text files and generating random passwords.
 
-![Week 7, Lab 7 screenshot](./_screenshots/week07/screenshot.png)
+![Week 7, Lab 7 screenshot](./.screenshots/week07/screenshot.png)
 
 #### Questions
-1. Write a [Java program](./week07/lab/solution/Question1.java) that reads the contents of the [names.txt](./week07/lab/solution/files/names.txt) and [descriptions.txt](./week07/lab/solution/files/descriptions.txt) files that can be downloaded from Nowhere. The [names.txt](./week07/lab/solution/files/names.txt) file contains the names of seven computer scientists and the [descriptions.txt](./week07/lab/solution/files/descriptions.txt) file contains a description for each of the seven scientists. Method with the following signature in solution.
+1. Write a [Java program](./week07/lab/solution/Question1.java) that reads the contents of the [names.txt](./week07/lab/solution/files/names.txt) and [descriptions.txt](./week07/lab/solution/files/descriptions.txt) files that can be downloaded from Moodle. The [names.txt](./week07/lab/solution/files/names.txt) file contains the names of seven computer scientists and the [descriptions.txt](./week07/lab/solution/files/descriptions.txt) file contains a description for each of the seven scientists. Method with the following signature in solution.
     ```java
     public static void readFile(String filename, String[] array)
     ```
@@ -247,7 +283,7 @@ This lab introduces the concept of file handling in Java. The lab covers how to 
     Hedy Lamarr - Hedy Lamarr was an Austrian-American actress and inventor who pioneered the technology that would one day form the basis for today?s WiFi, GPS, and Bluetooth communication systems.
     Guido van Rossum - Guido van Rossum is a Dutch programmer best known as the creator of the Python programming language.
     ```
-    ![Week 7, Lab 7 screenshot_1](./_screenshots/week07/screenshot_1.png)
+    ![Week 7, Lab 7 screenshot_1](./.screenshots/week07/screenshot_1.png)
 2. Write a function called [generatePassword](./week07/lab/solution/Question2.java) that generates a random password of length 18 that may contain lowercase, uppercase, digits, and special characters.
     TIP: See lecture 9 from semester 1.
     Your [generatePassword](./week07/lab/solution/Question2.java) function should have the following signature.
@@ -280,17 +316,17 @@ This lab introduces the concept of file handling in Java. The lab covers how to 
     7:IPy5P}v];!GKte!3
     Z3r)gL{QT%?LkXD4]O
     ```
-    ![Week 7, Lab 7 screenshot_2](./_screenshots/week07/screenshot_2.png)
+    ![Week 7, Lab 7 screenshot_2](./.screenshots/week07/screenshot_2.png)
 
 ### [Week 8 (Lab 8)](./week08/lab/): Formative Worksheet (More Objects)
 [Task](./week08/lab/fundamentals_of_programming_2_week08_lab.pdf) | [Solution (.java)](./week08/lab/solution/)
 
 This lab introduces the concept of classes and objects in Java. The lab covers how to create classes, define instance variables, and implement methods to manipulate the class objects. The lab also includes activities for creating classes to represent coins and testing the class methods.
 
-![Week 8, Lab 8 screenshot](./_screenshots/week08/screenshot.png)
+![Week 8, Lab 8 screenshot](./.screenshots/week08/screenshot.png)
 
 #### Questions
-1. Download the [CoinTest.java](./week08/lab/solution/CoinTest.java) program from Nowhere and write a [Coin](./week08/lab/solution/Coin.java) class that will work with the test program. You may not modify the [CoinTest]((./week08/lab/solution/CoinTest.java)) program in any way.
+1. Download the [CoinTest.java](./week08/lab/solution/CoinTest.java) program from Moodle and write a [Coin](./week08/lab/solution/Coin.java) class that will work with the test program. You may not modify the [CoinTest](./week08/lab/solution/CoinTest.java) program in any way.
     ```
     | Coin                |
     |---------------------|
@@ -322,9 +358,9 @@ This lab introduces the concept of classes and objects in Java. The lab covers h
 ### [Week 9 (Lab 9)](./week09/lab/): Formative Worksheet (Collections, Composition & Inheritance)
 [Task](./week09/lab/fundamentals_of_programming_2_week09_lab.pdf) | [Solution (.java)](./week09/lab/solution/)
 
-This lab introduces the concept of collections, composition, and inheritance in Java. The lab covers how to create classes that extend other classes and implement interfaces. The lab also includes activities for creating classes to represent people, athletes, and employees.
+This lab introduces the concept of collections, composition, and inheritance in Java. The lab covers how to create classes that extend other classes, override toString(), and store objects in an ArrayList. The lab also includes activities for creating classes to represent people, athletes, and employees.
 
-![Week 9, Lab 9 screenshot](./_screenshots/week09/screenshot.png)
+![Week 9, Lab 9 screenshot](./.screenshots/week09/screenshot.png)
 
 #### Questions
 1. Implement a class called [Person](./week09/lab/solution/Person.java) with the properties listed below. Your Person class should have a **constructor** method and should implement a **toString()** method that returns a formatted string that contains the person’s name.
@@ -358,7 +394,7 @@ This lab introduces the concept of collections, composition, and inheritance in 
 
 This lab introduces the concept of reading and writing sequential binary files in Java. The lab covers how to create classes to represent employees, write employee data to a binary file, and read employee data from a binary file.
 
-![Week 10, Lab 10 screenshot](./_screenshots/week10/screenshot.png)
+![Week 10, Lab 10 screenshot](./.screenshots/week10/screenshot.png)
 
 #### Questions
 1. Implement a class called [Employee](./week10/lab/solution/Employee.java) with the properties listed in the class diagram below.
@@ -398,9 +434,9 @@ This is have to be the final project for the module.
 
 [Task](./assessment/01/fundamentals_of_programming_2_assessment.pdf) | [Submission](./assessment/01/submission/project_link.txt)
 
-This project is a simple coffee shop that allows the user to view and order drinks. The project uses Java classes to represent the drinks and the coffee shop menu. The project also includes a console-based user interface for interacting with the coffee shop.
+This project is a simple coffee shop that allows the user to view and order drinks. The project uses Java classes to represent the drinks and the coffee shop menu. The project also includes a console-based user interface for interacting with the coffee shop. The brief asks for a number-based, menu-driven point-of-sale program that reads its menu items and prices from an inventory file, takes CASH or CARD payments, shows a receipt on screen, validates all user input, and writes the transactions to a file when the program exits.
 
-![Coffee Shop Screenshot](./_screenshots/assessment/01/screenshot.png)
+![Coffee Shop Screenshot](./.screenshots/assessment/01/screenshot.png)
 
 ---
 

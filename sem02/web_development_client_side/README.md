@@ -1,20 +1,47 @@
-# Web Develenment Client-Side
-**Module:** Web Develenment Client-Side `COMP H1035`  
-**Lectorer:** Orla McMahon  
-**Duration:** Semester 2 (Year 1)  
-**Date:** January - May 2024  
-**Credits:** 5 ECTS
+# Web Development Client-Side
 
-> This module covers the basics of web development and the fundamentals of client-side web development. HTML, CSS, and JavaScript are the primary technologies used in this module. The module covers the structure and design of web pages, the use of CSS for styling, and the use of JavaScript for interactivity. The module includes practical activities to build and test web pages using HTML, CSS, and JavaScript. The primary goal is to develop an understanding of web development and its applications in real-world scenarios.
+**Module:** Web Development Client-Side (`COMP H1035`)  
+**Semester:** 2 (Year 1), folder `sem02`  
+**Lecturer:** Orla McMahon  
+**Date:** January - May 2024  
+**Credits:** 5 ECTS  
+**Matching project branch:** [`project/year01/module-web_development_client_side/atb-market`](https://github.com/DanyilT/projects-in-university/tree/project/year01/module-web_development_client_side/atb-market) (the ATB Market project)
+
+## What this module is for
+
+Web Development Client-Side covers the code that runs in the browser: HTML forms, CSS layout and styling, and JavaScript with jQuery. The labs go from a revision page (week 1) through forms and styling (weeks 2 and 3) and JavaScript (weeks 4 and 5) to a shopping cart and jQuery (week 6). Week 7 is a review week, and week 8 is the MCQ test (Assignment 1, 20%), which is not in the repository. Assignment 2 (50%) is the ATB Market mini-project, a parody of the ATB Market website built to the brief, which asks for a team of two. The project files are on the branch linked above. This folder has the lab sheets, the solutions and screenshots.
 
 ## Grades Breakdown
-| **Assessment Type** | **Weighting** |
-|---------------------|---------------|
+
+| Assessment Type | Weighting |
+|---|---|
 | Weekly Labs | 30% |
 | Assignment 1 (MCQ Test) | 20% |
 | Assignment 2 (Project) | 50% |
 
-## Table of Contents
+## All weeks
+
+| Week | Title | Files | Screenshot |
+|---|---|---|---|
+| [Week 1](week01/) | Lab 1: lab revision | [`lab/web_development_client_side_week01_lab.pdf`](week01/lab/web_development_client_side_week01_lab.pdf)<br>[`lab/solution/index.html`](week01/lab/solution/index.html)<br>[`lab/solution/css/styles.css`](week01/lab/solution/css/styles.css)<br>[`lab/solution/images/kingfisher.jpg`](week01/lab/solution/images/kingfisher.jpg) | <img src=".screenshots/week01/screenshot.png" width="160" alt="Week 1 screenshot"> |
+| [Week 2](week02/) | Lab 2: basic form and styling | [`lab/web_development_client_side_week02_lab.pdf`](week02/lab/web_development_client_side_week02_lab.pdf)<br>[`lab/solution/contactForm.html`](week02/lab/solution/contactForm.html)<br>[`lab/solution/confirm.html`](week02/lab/solution/confirm.html)<br>[`lab/solution/css/contactForm.css`](week02/lab/solution/css/contactForm.css) | <img src=".screenshots/week02/screenshot.png" width="160" alt="Week 2 screenshot"> |
+| [Week 3](week03/) | Lab 3: form and styling | [`lab/web_development_client_side_week03_lab.pdf`](week03/lab/web_development_client_side_week03_lab.pdf)<br>[`lab/solution/index.html`](week03/lab/solution/index.html)<br>[`lab/solution/css/styles.css`](week03/lab/solution/css/styles.css)<br>[`lab/solution/images/image.webp`](week03/lab/solution/images/image.webp) | <img src=".screenshots/week03/screenshot.png" width="160" alt="Week 3 screenshot"> |
+| [Week 4](week04/) | Lab 4: JavaScript | [`lab/web_development_client_side_week04_lab.pdf`](week04/lab/web_development_client_side_week04_lab.pdf)<br>[`lab/solution/console.html`](week04/lab/solution/console.html)<br>[`lab/solution/ifstmt.html`](week04/lab/solution/ifstmt.html)<br>[`lab/solution/forloop.html`](week04/lab/solution/forloop.html) | <img src=".screenshots/week04/screenshot_1.png" width="160" alt="Week 4 screenshot"> |
+| [Week 5](week05/) | Lab 5: JavaScript | [`lab/web_development_client_side_week05_lab.pdf`](week05/lab/web_development_client_side_week05_lab.pdf)<br>[`lab/solution/euroToUSD.html`](week05/lab/solution/euroToUSD.html)<br>[`lab/solution/js/euroToUSD.js`](week05/lab/solution/js/euroToUSD.js)<br>[`lab/solution/euroConverter.html`](week05/lab/solution/euroConverter.html)<br>[`lab/solution/js/euroConverter.js`](week05/lab/solution/js/euroConverter.js)<br>[`lab/solution/waterUsage.html`](week05/lab/solution/waterUsage.html)<br>[`lab/solution/js/waterUsage.js`](week05/lab/solution/js/waterUsage.js) | <img src=".screenshots/week05/screenshot_1.png" width="160" alt="Week 5 screenshot"> |
+| [Week 6](week06/) | Lab 6: JavaScript and jQuery | [`lab/web_development_client_side_week06_lab.pdf`](week06/lab/web_development_client_side_week06_lab.pdf)<br>[`lab/solution/ex1/shopCart.html`](week06/lab/solution/ex1/shopCart.html)<br>[`lab/solution/ex1/js/shopCart.js`](week06/lab/solution/ex1/js/shopCart.js)<br>[`lab/solution/ex1/css/shopCart.css`](week06/lab/solution/ex1/css/shopCart.css)<br>[`lab/solution/ex1/images/Donut.webp`](week06/lab/solution/ex1/images/Donut.webp)<br>[`lab/solution/ex1/images/Coca-Cola.webp`](week06/lab/solution/ex1/images/Coca-Cola.webp)<br>[`lab/solution/ex1/images/Romashka.webp`](week06/lab/solution/ex1/images/Romashka.webp)<br>[`lab/solution/ex2/jQueryexamples.html`](week06/lab/solution/ex2/jQueryexamples.html)<br>[`lab/solution/ex2/images/Trash.png`](week06/lab/solution/ex2/images/Trash.png) | <img src=".screenshots/week06/screenshot_1.png" width="160" alt="Week 6 screenshot"> |
+| Week 7 | Review week | None. | — |
+| Week 8 | CA: MCQ test (Assignment 1, 20%) | None. | — |
+
+## Assessments and other files
+
+| File | What it contains |
+|---|---|
+| [`assessment/01/web_development_client_side_assessment.pdf`](assessment/01/) | The ATB Market mini-project brief (5 pages, 50%): a team of two, all text written by the team, a demonstration in a lab session, and a submission on Tuesday 16 April. It asks for a shopping site with a grid-layout home page, a products page that uses JSON data, a checkout page with jQuery validation of the name, address and email, and a gallery page. At least three pages are required. |
+| [`assessment/01/submission/project_link.txt`](assessment/01/submission/project_link.txt) | Two lines: the GitHub link to the ATB Market project on its branch, and the branch name. |
+
+---
+
+## Weeks
 - [Weeks](#weeks)
     - [Week 1 (Lab 1)](#week-1-lab-1-lab-revision): Lab Revision
     - [Week 2 (Lab 2)](#week-2-lab-2-basic-form-and-styling): Basic Form and Styling
@@ -25,14 +52,13 @@
 - [Project](#project)
     - [ATB Market](#atb-market)
 
-## Weeks
 
 ### [Week 1 (Lab 1)](./week01/lab/): Lab Revision
 [Brief](./week01/lab/web_development_client_side_week01_lab.pdf) | [Solutions (.html & .css)](./week01/lab/solution/)
 
 This laboratory exercise is designed to revise the topics covered in the previous semester. The purpose of this lab session is to create a web page that includes topics for revision, flex boxes, links, and images.
 1. Create html and css files named [index.html](./week01/lab/solution/index.html) and [styles.css](./week01/lab/solution/css/styles.css).
-    ![Week 1, Lab 1 screenshot](./_screenshots/week01/screenshot.png)
+    ![Week 1, Lab 1 screenshot](./.screenshots/week01/screenshot.png)
     - Create a web page with flex box, images, links, and a nav bar.
     - Insert a `<main>` in the body of the HTML document.
     - Insert three flex items using `div` tags.
@@ -79,7 +105,7 @@ This laboratory exercise is designed to revise the topics covered in the previou
 
 This laboratory exercise is designed to create a basic form and style it using CSS.
 1. [contactForm.html](./week02/lab/solution/contactForm.html)
-    ![Week 2, Lab 2 screenshot](./_screenshots/week02/screenshot.png)
+    ![Week 2, Lab 2 screenshot](./.screenshots/week02/screenshot.png)
     - Add the following elements:
         - Title: Contact Us
         - H1: Contact Us
@@ -105,7 +131,7 @@ This laboratory exercise is designed to create a basic form and style it using C
         <input type="checkbox" checked> Ensure this box is checked if you would like to receive email updates
         ```
     - Add submit and reset buttons at the end of the form.
-    - When the person presses the Submit button, they should be sent to a page called [confirm.html](Lab2/confirm.html) that states:
+    - When the person presses the Submit button, they should be sent to a page called [confirm.html](./week02/lab/solution/confirm.html) that states:
         ```html
         Thank you for contacting us. We will email you shortly.
         ```
@@ -128,7 +154,7 @@ This laboratory exercise is designed to create a basic form and style it using C
 
 This laboratory exercise is designed to design and create a form for a local restaurant that is doing take-away meals for customers.
 1. HTML Form [index.html](./week03/lab/solution/index.html)
-    ![Week 3, Lab 3 screenshot](./_screenshots/week03/screenshot.png)
+    ![Week 3, Lab 3 screenshot](./.screenshots/week03/screenshot.png)
     - The form should contain the following details to allow the customer to place an order for collection:
         - Customer Name, email, mobile phone number
         - Details about starters, main courses, desserts, children’s menus, and specials User should be allowed to select more than one starter, main course, etc
@@ -180,7 +206,7 @@ This laboratory exercise is designed to design and create a form for a local res
 
 This laboratory exercise is designed to use HTML and JavaScript to solve given exercises.
 1. [console.html](./week04/lab/solution/console.html)
-    ![Week 4, Lab 4 screenshot_1](./_screenshots/week04/screenshot_1.png)
+    ![Week 4, Lab 4 screenshot_1](./.screenshots/week04/screenshot_1.png)
     - Create a new file called [console.html](./week04/lab/solution/console.html) with a Title “Arithmetic and Concatenation” and a Header “Tom and Mary”.
     - Use a script tag to embed JavaScript in the body of the document.
     - Create 4 variables – tomLN (value Smith), maryLN (value Jacobs), tomAge (value 30), and maryAge (value 25).
@@ -190,7 +216,7 @@ This laboratory exercise is designed to use HTML and JavaScript to solve given e
         3. Their combined age is 55
         4. Their children will have the last name SmithJacobs
 2. [ifstmt.html](./week04/lab/solution/ifstmt.html)
-    ![Week 4, Lab 4 screenshot_2](./_screenshots/week04/screenshot_2.png)
+    ![Week 4, Lab 4 screenshot_2](./.screenshots/week04/screenshot_2.png)
     - Create a file called [ifstmt.html](./week04/lab/solution/ifstmt.html).
     - Add a title ‘Grade Check’.
     - Prompt the user to enter a student score and use an if statement to display a grade in the console based on the following criteria:
@@ -201,7 +227,7 @@ This laboratory exercise is designed to use HTML and JavaScript to solve given e
         - If the score is between 40 and 49, the grade is 'D'.
         - If the score is below 40, the grade is 'F'.
 3. [forloop.html](./week04/lab/solution/forloop.html)
-    ![Week 4, Lab 4 screenshot_3](./_screenshots/week04/screenshot_3.png)
+    ![Week 4, Lab 4 screenshot_3](./.screenshots/week04/screenshot_3.png)
     - Ask the user to input two numbers.
     - Using a for loop, calculate the sum of all numbers within the range defined by these two numbers (inclusive).
     - For example, if the user enters numbers 1 and 10 as the 2 numbers.
@@ -211,9 +237,9 @@ This laboratory exercise is designed to use HTML and JavaScript to solve given e
 ### [Week 5 (Lab 5)](./week05/lab/): JavaScript
 [Brief](./week05/lab/web_development_client_side_week05_lab.pdf) | [Solutions (.html & .js)](./week05/lab/solution/)
 
-This laboratory exercise is designed to create a form that validates the user’s input.
+This laboratory exercise is designed to use JavaScript in external files for a Euro-to-USD conversion form, a currency converter and an average water-usage calculator.
 1. [euroToUSD.html](./week05/lab/solution/euroToUSD.html), [euroToUSD.js](./week05/lab/solution/js/euroToUSD.js)
-    ![Week 5, Lab 5 screenshot_1](./_screenshots/week05/screenshot_1.png)
+    ![Week 5, Lab 5 screenshot_1](./.screenshots/week05/screenshot_1.png)
     - The purpose of this exercise is to convert Euro into US Dollars.
     - Create a form that will allow the user to enter a Euro amount.
     - Incorporate a 'Convert' button within the form. 
@@ -221,13 +247,13 @@ This laboratory exercise is designed to create a form that validates the user’
     - Ensure that the JavaScript is written to an external file and that an input field is used to display the result.
     - The conversion rate is 1.09.
 2. [euroConverter.html](./week05/lab/solution/euroConverter.html), [euroConverter.js](./week05/lab/solution/js/euroConverter.js)
-    ![Week 5, Lab 5 screenshot_2](./_screenshots/week05/screenshot_2.png)
+    ![Week 5, Lab 5 screenshot_2](./.screenshots/week05/screenshot_2.png)
     - Enhance exercise 1 by enabling users to choose the currency for conversion.
         - For instance, if the user opts for GBP and inputs an amount in euros, the corresponding amount in GBP will be presented.
     - Provide users with the option to select from the following currencies: British Pound (GBP), US Dollar (USD), Australian Dollar (AUD), and Japanese Yen (JPY).
     - Retrieve currency rates from Google for accurate conversion.
 3. [waterUsage.html](./week05/lab/solution/waterUsage.html), [waterUsage.js](./week05/lab/solution/js/waterUsage.js)
-    ![Week 5, Lab 5 screenshot_3](./_screenshots/week05/screenshot_3.png)
+    ![Week 5, Lab 5 screenshot_3](./.screenshots/week05/screenshot_3.png)
     - The purpose of this exercise is to calculate the average water usage per day.
     - Create a form that allows the user to enter two numbers, Litres and No. of days.
     - When the user clicks the calculate button the average water usage is displayed.
@@ -239,7 +265,7 @@ This laboratory exercise is designed to create a form that validates the user’
 
 This laboratory exercise is designed to use JavaScript and jQuery to solve given exercises.
 1. [shopCart.html](./week06/lab/solution/ex1/shopCart.html), [shopCart.js](./week06/lab/solution/ex1/js/shopCart.js), [shopCart.css](./week06/lab/solution/ex1/css/shopCart.css)
-    ![Week 6, Lab 6 screenshot_1](./_screenshots/week06/screenshot_1.png)
+    ![Week 6, Lab 6 screenshot_1](./.screenshots/week06/screenshot_1.png)
     - The purpose of this exercise is to allow the user to purchase various items.
     - The images and prices for each item should be displayed on a form.
     - It should also display the total cost of purchase per item and the overall total.
@@ -273,7 +299,7 @@ This laboratory exercise is designed to use JavaScript and jQuery to solve given
         - Create a second function that is called when the user submits the form.
         - This function displays an alert box which states the amount due.
 2. [jQueryexamples.html](./week06/lab/solution/ex2/jQueryexamples.html)
-    ![Week 6, Lab 6 screenshot_2](./_screenshots/week06/screenshot_2.png)
+    ![Week 6, Lab 6 screenshot_2](./.screenshots/week06/screenshot_2.png)
     - The purpose of this exercise is to demonstrate various jQuery selectors, events, and effects.
     - Use jQuery within one HTML file to achieve the following tasks.
     - Create a HTML file with heading text ‘Welcome to my Web Site’.
@@ -306,9 +332,12 @@ This is have to be the final project for the module.
 
 [Brief](./assessment/01/web_development_client_side_assessment.pdf) | [Submission](./assessment/01/submission/project_link.txt)
 
-This is copy real website [ATB Market](https://www.atbmarket.com). It's not actualy the copy, this is just a parody of the website. The website is made using HTML, CSS, and JavaScript.
+This is a parody of the real [ATB Market](https://www.atbmarket.com) website, not a copy of it. The website is made using HTML, CSS, and JavaScript. The brief asks for a shopping website with a home page that uses a grid layout and a responsive menu, a products page that uses JSON data, a checkout page with jQuery validation of the name, address and email, and a gallery page.
 
-![ATB Market screenshot](./_screenshots/assessment/01/screenshot.png)
+> [!WARNING]
+> The brief asks for a checkout page with jQuery validation of the name, address and email. On the project branch there are three HTML pages (index, products and gallery), a Figma design instead of a Word wireframe, and no checkout or jQuery validation page.
+
+![ATB Market screenshot](./.screenshots/assessment/01/screenshot.png)
 
 > [!TIP]  
 > You can visit this website project at the following links:  
