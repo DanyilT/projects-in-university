@@ -1,2 +1,0 @@
-github: https://github.com/DanyilT/projects-in-university/tree/assessment/year02/module-gui_programming/household-cooker-and-mouse-events
-branch: assessment/year02/module-gui_programming/household-cooker-and-mouse-events

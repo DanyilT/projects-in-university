@@ -1,9 +1,0 @@
-# ignore
-.gitkeep
-.DS_Store
-.idea
-.iml
-out
-
-# java
-.class

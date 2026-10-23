@@ -1,4 +1,4 @@
-github: https://github.com/DanyilT/IMM-Project
+github: https://github.com/DanyilT/tu863-imm-webgl-game
 
-alpha:  https://github.com/DanyilT/IMM-Project/tree/alpha
-beta:   https://github.com/DanyilT/IMM-Project/tree/beta
+alpha:  https://github.com/DanyilT/tu863-imm-webgl-game/tree/alpha
+beta:   https://github.com/DanyilT/tu863-imm-webgl-game/tree/beta

@@ -1,2 +1,0 @@
-github: https://github.com/DanyilT/projects-in-university/tree/assessment/year02/module-advanced_programming/musical-instruments-gui
-branch: assessment/year02/module-advanced_programming/musical-instruments-gui
