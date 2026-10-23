@@ -1,99 +1,28 @@
-# Week 04 — Normalization
-**Semester:** 03  
-**Module:** Database Fundamentals
+# Week 04 — Lab 4: ERDs, relational model and normalisation
 
-This folder contains all work completed during **Week 04** of the **Database Fundamentals** module.
+**Module:** Database Fundamentals (`COMP H1029`)  
+**Semester:** 3 (Year 2), folder `sem03`
 
-## 📁 Week Folder Structure
-```
-week04/
-├── lab/
-│	├── database_fundamentals_week04_lab.pdf
-│   ├── teacher_solution/
-│   └── solution/
-│		├── database_fundamentals_week04_lab_solution.pdf
-│       └── diagrams/
-├── resources/
-│   ├── exercises/
-│   └── normalisation.pdf
-└── README.md
-```
+[Module README](../README.md)
 
-> [!NOTE]  
-> Database normalization and normal forms (1NF, 2NF, 3NF).
+## What this week is for
 
----
+Lab 4 goes from a description to an ERD in Workbench, maps it to a relational model and normalises it to third normal form. Exercise 1 is a library with members, books and loans. Exercise 2 is the We Have It general store with items, transactions, staff, suppliers and purchase orders. Exercise 3 normalises a transaction table step by step (1NF, 2NF, 3NF). The lecture was normalisation. The lab 5 sheet allows labs 4 and 5 to be submitted together in one document.
 
-# 💾 Lab 04 — Normalization Exercises
-> 📸 **Lab Screenshot**  
-![Lab Screenshot](../_screenshots/week04/screenshot.png)
-> | ![Screenshot 1](../_screenshots/week04/screenshot_1.png) | ![Screenshot 2](../_screenshots/week04/screenshot_2.png) | ![Screenshot 3](../_screenshots/week04/screenshot_3.png) |
-> | - | - | - |
-> 
-> [View all 4 screenshots](../_screenshots/week04/)
+## Files
 
-**Lab Brief:**  
-This week's lab focuses on:
-- Understanding database normalization
-- Identifying functional dependencies
-- Converting tables to 1NF, 2NF, 3NF
-- Recognizing and eliminating anomalies
-- Creating normalized database schemas
-
-📋 **Lab Brief Source:**  
-[`lab/database_fundamentals_week04_lab.pdf`](./lab/database_fundamentals_week04_lab.pdf)
-
-🧑‍🏫 **Teacher's Solution:**  
-- [`lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_1.pdf`](./lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_1.pdf)
-- [`lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_2.png`](./lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_2.png)
-- [`lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_3.pdf`](./lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_3.pdf)
-
-✔ **My Solution:**  
-[`lab/solution/database_fundamentals_week04_lab_solution.pdf`](./lab/solution/database_fundamentals_week04_lab_solution.pdf)
-
-**Solution Files:**
-- [`lab/solution/`](./lab/solution/) — Complete solution folder
-- [`lab/solution/diagrams/`](./lab/solution/diagrams/) — Normalization diagram files
-  - [`Model.mwb`](./lab/solution/diagrams/Model.mwb) — MySQL Workbench model file
-  - [`Exercise1.pdf`](./lab/solution/diagrams/Exercise1.pdf) — Normalization exercise 1
-  - [`Exercise2.pdf`](./lab/solution/diagrams/Exercise2.pdf) — Normalization exercise 2
-  - [`Exercise3.pdf`](./lab/solution/diagrams/Exercise3.pdf) — Normalization exercise 3
-
-## 📁 Lab Folder Structure
-```
-lab/
-├── database_fundamentals_week04_lab.pdf
-├── teacher_solution/
-│   ├── database_fundamentals_week04_lab_teacher_solution_exercise_1.pdf
-│   ├── database_fundamentals_week04_lab_teacher_solution_exercise_2.png
-│   └── database_fundamentals_week04_lab_teacher_solution_exercise_3.pdf
-└── solution/
-    ├── database_fundamentals_week04_lab_solution.pdf
-    └── diagrams/
-        ├── Model.mwb
-        ├── Exercise1.pdf
-        ├── Exercise2.pdf
-        └── Exercise3.pdf
-```
-
----
-
-# 📚 Resources
-
-## 📁 Resources Folder Structure
-```
-resources/
-├── exercises/
-│   ├── normalization_exercise_1.pdf
-│   └── normalization_exercise_1_solution.pdf
-└── normalisation.pdf
-```
-
-### 📑 Resource Files
-- [`normalisation.pdf`](./resources/normalisation.pdf) — Comprehensive guide to database normalization
-- [`exercises/normalization_exercise_1.pdf`](./resources/exercises/normalization_exercise_1.pdf) — Practice exercise for normalization
-- [`exercises/normalization_exercise_1_solution.pdf`](./resources/exercises/normalization_exercise_1_solution.pdf) — Solution to practice exercise
-
----
-
-_✍️ Copy Dany_
+| File | What it contains | Screenshot |
+|---|---|---|
+| [`README.md`](README.md) | This README. | — |
+| [`lab/database_fundamentals_week04_lab.pdf`](lab/database_fundamentals_week04_lab.pdf) | The lab sheet (3 pages): the objectives and three exercises (library, general store, and a table to take to third normal form). | — |
+| [`lab/solution/database_fundamentals_week04_lab_solution.pdf`](lab/solution/database_fundamentals_week04_lab_solution.pdf) | The solution report (9 pages): for each exercise the tables with column types and keys, the ERD, and the normalisation steps. | <img src="../.screenshots/week04/screenshot.png" alt="Week 04 screenshot" width="400"><br>*The solution report: Exercise 1 with a screenshot of the ERD.* |
+| [`lab/solution/diagrams/Model.mwb`](lab/solution/diagrams/Model.mwb) | The MySQL Workbench model with the three exercise diagrams. | — |
+| [`lab/solution/diagrams/Exercise1.pdf`](lab/solution/diagrams/Exercise1.pdf) | The Exercise 1 diagram exported from Workbench (2 pages). | <img src="../.screenshots/week04/screenshot_1.png" alt="Week 04 screenshot 1" width="400"><br>*Exercise 1 in Workbench: members, loans and books.* |
+| [`lab/solution/diagrams/Exercise2.pdf`](lab/solution/diagrams/Exercise2.pdf) | The Exercise 2 diagram exported from Workbench (2 pages). | <img src="../.screenshots/week04/screenshot_2.png" alt="Week 04 screenshot 2" width="400"><br>*Exercise 2 in Workbench: items, transactions, suppliers, staff and purchase orders.* |
+| [`lab/solution/diagrams/Exercise3.pdf`](lab/solution/diagrams/Exercise3.pdf) | The Exercise 3 diagram exported from Workbench (2 pages). | <img src="../.screenshots/week04/screenshot_3.png" alt="Week 04 screenshot 3" width="400"><br>*Exercise 3 in Workbench: transaction, transaction details and item.* |
+| [`lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_1.pdf`](lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_1.pdf) | Lecturer's solution to Exercise 1 (4 pages): the ERD and the library relations. The sheet header says Lab 8, from an earlier year. | — |
+| [`lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_2.png`](lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_2.png) | Lecturer's solution to Exercise 2: the ERD as an image. | — |
+| [`lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_3.pdf`](lab/teacher_solution/database_fundamentals_week04_lab_teacher_solution_exercise_3.pdf) | Lecturer's solution to Exercise 3 (2 pages): the first, second and third normal form relations. | — |
+| [`resources/normalisation.pdf`](resources/normalisation.pdf) | A normalisation tutorial (4 pages) with a movies rented table: the 1NF rules and primary key rules. | — |
+| [`resources/exercises/normalization_exercise_1.pdf`](resources/exercises/normalization_exercise_1.pdf) | Normalisation exercise 1 (1 page): a pet health history report to take from unnormalised form to 2NF. | — |
+| [`resources/exercises/normalization_exercise_1_solution.pdf`](resources/exercises/normalization_exercise_1_solution.pdf) | Solution to normalisation exercise 1 (1 page): the pet, pet visit and procedure relations. | — |

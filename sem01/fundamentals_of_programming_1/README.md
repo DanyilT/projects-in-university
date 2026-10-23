@@ -1,21 +1,45 @@
 # Fundamentals of Programming 1
-**Module:** Fundamentals of Programming 1 `COMP 1032`  
-**Lectorer:** Stephen Sheridan  
-**Duration:** Semester 1 (Year 1)  
-**Date:** September - December 2023  
-**Credits:** 5 ECTS
 
-> This module introduces the fundamental concepts of programming using Java. The module covers basic syntax, control structures, data types, etc. The module is assessed through a series of lab exercises. Each lab exercise is designed to enhance understanding of various programming concepts and their applications in solving computational problems. The labs include practical tasks such as writing simple programs, using loops and conditionals, working with arrays, and performing calculations. By completing these exercises, students will gain hands-on experience and develop problem-solving skills essential for programming.
+**Module:** Fundamentals of Programming 1 (`COMP 1032`)  
+**Semester:** 1 (Year 1), folder `sem01`  
+**Lecturer:** Stephen Sheridan  
+**Date:** September - December 2023  
+**Credits:** 5 ECTS  
+**Matching project branch:** none
+
+## What this module is for
+
+Fundamentals of Programming 1 is a first Java module. It goes from compiling and running a program from the command line, through variables and arithmetic, input with Scanner, conditions, loops, arrays, strings and characters, to methods (procedures and functions) and command-line arguments. The weekly exercise sheets for weeks 0 to 10 are in this folder, with the Java solutions and screenshots of the programs running. The weekly sheets carry 30% for weeks 1 to 6 and 30% for weeks 7 to 9, and two MCQ tests (weeks 8 and 13) carry 20% each; the MCQ tests are not in the repository. Some solutions have bugs or do not follow the sheet, and each week page says which.
 
 ## Grades Breakdown
-| **Assessment Type** | **Weighting** | **Total** |
-|---------------------|---------------|-----------|
+
+| Assessment Type | Weighting | Total |
+|---|---|---|
 | Weekly Worksheets (1-6) | 5% | 30% |
 | MCQ 1 (Week 8) | 20% | 20% |
 | Weekly Worksheets (7-9) | 10% | 30% |
 | MCQ 2 (Week 13) | 20% | 20% |
 
-## Table of Contents
+## All weeks
+
+| Week | Title | Files | Screenshot |
+|---|---|---|---|
+| [Week 0](week00/) | Exercise sheet 0: HelloWorld, MyName, NewHope and Broken.java | [`lab/fundamentals_of_programming_1_week00_lab.pdf`](week00/lab/fundamentals_of_programming_1_week00_lab.pdf)<br>[`lab/solution/Broken.java`](week00/lab/solution/Broken.java)<br>[`lab/solution/HelloWorld.java`](week00/lab/solution/HelloWorld.java)<br>[`lab/solution/MyName.java`](week00/lab/solution/MyName.java)<br>[`lab/solution/NewHope.java`](week00/lab/solution/NewHope.java) | <img src=".screenshots/week00/screenshot.png" width="160" alt="Week 0 screenshot"> |
+| [Week 1](week01/) | Exercise sheet 1: output, arithmetic, variables and f(x) | [`lab/fundamentals_of_programming_1_week01_lab.pdf`](week01/lab/fundamentals_of_programming_1_week01_lab.pdf)<br>[`lab/solution/Question1.java`](week01/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week01/lab/solution/Question2.java)<br>[`lab/solution/Question3.java`](week01/lab/solution/Question3.java)<br>[`lab/solution/Question4.java`](week01/lab/solution/Question4.java)<br>[`lab/solution/Question5.java`](week01/lab/solution/Question5.java) | <img src=".screenshots/week01/screenshot.png" width="160" alt="Week 1 screenshot"> |
+| [Week 2](week02/) | Exercise sheet 2: division, pay, averages and volume | [`lab/fundamentals_of_programming_1_week02_lab.pdf`](week02/lab/fundamentals_of_programming_1_week02_lab.pdf)<br>[`lab/solution/Question1.java`](week02/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week02/lab/solution/Question2.java)<br>[`lab/solution/Question3.java`](week02/lab/solution/Question3.java)<br>[`lab/solution/Question4.java`](week02/lab/solution/Question4.java) | <img src=".screenshots/week02/screenshot.png" width="160" alt="Week 2 screenshot"> |
+| [Week 3](week03/) | Exercise sheet 3: Boolean values, PASS or FAIL and months | [`lab/fundamentals_of_programming_1_week03_lab.pdf`](week03/lab/fundamentals_of_programming_1_week03_lab.pdf)<br>[`lab/solution/Question1.java`](week03/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week03/lab/solution/Question2.java)<br>[`lab/solution/Question3.java`](week03/lab/solution/Question3.java)<br>[`lab/solution/Question4.java`](week03/lab/solution/Question4.java) | <img src=".screenshots/week03/screenshot.png" width="160" alt="Week 3 screenshot"> |
+| [Week 4](week04/) | Exercise sheet 4: Boolean variables, signs, grades and triangles | [`lab/fundamentals_of_programming_1_week04_lab.pdf`](week04/lab/fundamentals_of_programming_1_week04_lab.pdf)<br>[`lab/solution/Question1.java`](week04/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week04/lab/solution/Question2.java)<br>[`lab/solution/Question3.java`](week04/lab/solution/Question3.java)<br>[`lab/solution/Question4.java`](week04/lab/solution/Question4.java) | <img src=".screenshots/week04/screenshot.png" width="160" alt="Week 4 screenshot"> |
+| [Week 5](week05/) | Exercise sheet 5: numbers in words and triangle types | [`lab/fundamentals_of_programming_1_week05_lab.pdf`](week05/lab/fundamentals_of_programming_1_week05_lab.pdf)<br>[`lab/solution/Question1.java`](week05/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week05/lab/solution/Question2.java) | <img src=".screenshots/week05/screenshot.png" width="160" alt="Week 5 screenshot"> |
+| [Week 6](week06/) | Exercise sheet 6: loops, dice and compound interest | [`lab/fundamentals_of_programming_1_week06_lab.pdf`](week06/lab/fundamentals_of_programming_1_week06_lab.pdf)<br>[`lab/solution/Question1.java`](week06/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week06/lab/solution/Question2.java)<br>[`lab/solution/Question3.java`](week06/lab/solution/Question3.java) | <img src=".screenshots/week06/screenshot.png" width="160" alt="Week 6 screenshot"> |
+| [Week 7](week07/) | Exercise sheet 7: while loops and patterns | [`lab/fundamentals_of_programming_1_week07_lab.pdf`](week07/lab/fundamentals_of_programming_1_week07_lab.pdf)<br>[`lab/solution/Question1.java`](week07/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week07/lab/solution/Question2.java)<br>[`lab/solution/Question3.java`](week07/lab/solution/Question3.java) | <img src=".screenshots/week07/screenshot.png" width="160" alt="Week 7 screenshot"> |
+| [Week 8](week08/) | Exercise sheet 8: arrays | [`lab/fundamentals_of_programming_1_week08_lab.pdf`](week08/lab/fundamentals_of_programming_1_week08_lab.pdf)<br>[`lab/solution/Question1.java`](week08/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week08/lab/solution/Question2.java)<br>[`lab/solution/Question3.java`](week08/lab/solution/Question3.java)<br>[`lab/solution/Question4.java`](week08/lab/solution/Question4.java)<br>MCQ 1 (20%) was also in this week; no files. | <img src=".screenshots/week08/screenshot.png" width="160" alt="Week 8 screenshot"> |
+| [Week 9](week09/) | Exercise sheet 9: ASCII, strings and letters | [`lab/fundamentals_of_programming_1_week09_lab.pdf`](week09/lab/fundamentals_of_programming_1_week09_lab.pdf)<br>[`lab/solution/Question1.java`](week09/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week09/lab/solution/Question2.java)<br>[`lab/solution/Question3.java`](week09/lab/solution/Question3.java)<br>[`lab/solution/Question4.java`](week09/lab/solution/Question4.java) | <img src=".screenshots/week09/screenshot.png" width="160" alt="Week 9 screenshot"> |
+| [Week 10](week10/) | Exercise sheet 10: procedures, ASCII table, arguments and circles | [`lab/fundamentals_of_programming_1_week10_lab.pdf`](week10/lab/fundamentals_of_programming_1_week10_lab.pdf)<br>[`lab/solution/Question1.java`](week10/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week10/lab/solution/Question2.java)<br>[`lab/solution/Question3.java`](week10/lab/solution/Question3.java)<br>[`lab/solution/Question4.java`](week10/lab/solution/Question4.java) | <img src=".screenshots/week10/screenshot.png" width="160" alt="Week 10 screenshot"> |
+| Week 13 | MCQ 2 (20%) | None. | — |
+
+---
+
+## Weeks
 - [Weeks](#weeks)
     - [Week 0](#week-0-lab-0-exercise-sheet-0): Exercise sheet 0
     - [Week 1](#week-1-lab-1-exercise-sheet-1): Exercise sheet 1
@@ -29,14 +53,12 @@
     - [Week 9](#week-9-lab-9-exercise-sheet-9): Exercise sheet 9
     - [Week 10](#week-10-lab-10-exercise-sheet-10): Exercise sheet 10
 
-## Labs
-
 ### [Week 0 (Lab 0)](./week00/lab/): Exercise sheet 0
 [Task](./week00/lab/fundamentals_of_programming_1_week00_lab.pdf) | [Solution (.java)](./week00/lab/solution/)
 
 This lab introduces the basics of Java programming, including setting up the development environment, writing simple programs, and understanding the compilation and execution process.
 
-![Week 0, Lab 0 screenshot](./_screenshots/week00/screenshot.png)
+![Week 0, Lab 0 screenshot](./.screenshots/week00/screenshot.png)
 
 #### Questions
 1. Open a new text file in the TextPad editor and type in the following Java code. Save the file as `HelloWorld.java`. Compile and run your HelloWorld program using the command line `javac` and `java` commands. Program named as [`HelloWorld.java`](./week00/lab/solution//HelloWorld.java).
@@ -47,24 +69,24 @@ This lab introduces the basics of Java programming, including setting up the dev
         }
     }
     ```
-    ![Week 0, Lab 0 screenshot_1](./_screenshots/week00/screenshot_1.png)
+    ![Week 0, Lab 0 screenshot_1](./.screenshots/week00/screenshot_1.png)
 2. Write a new Java program called `MyName.java` that prints your name to the screen. Compile and run this program from the command line using the `javac` and `java` commands. Program named as [`MyName.java`](./week00/lab/solution//MyName.java).
-    ![Week 0, Lab 0 screenshot_2](./_screenshots/week00/screenshot_2.png)
+    ![Week 0, Lab 0 screenshot_2](./.screenshots/week00/screenshot_2.png)
 3. Write a Java program called `NewHope.java` that prints the following text to the screen. Compile and run this program from the command line using the `javac` and `java` commands. Program named as [`NewHope.java`](./week00/lab/solution/NewHope.java).
     ```
     Episode IV, A NEW HOPE
     It is a period of civil war. Rebel spaceships, striking from a hidden base, have won their first victory against the evil Galactic Empire. During the battle, Rebel spies managed to steal secret plans to the Empire’s ultimate weapon, the DEATH STAR, an armoured space station with enough power to destroy an entire planet.
     ```
-    ![Week 0, Lab 0 screenshot_3](./_screenshots/week00/screenshot_3.png)
-4. Download the `Broken.java` source file from nowhere. Compile the program on the command line using the `javac` command. Open the `Broken.java` file in TextPad and try to fix the errors it contains, compile the code with `javac` to check for errors. When you have fixed all the errors in `Broken.java`, run the program using the `java` command. Program named as [`Broken.java`](./week00/lab/solution/Broken.java).
-    ![Week 0, Lab 0 screenshot_4](./_screenshots/week00/screenshot_4.png)
+    ![Week 0, Lab 0 screenshot_3](./.screenshots/week00/screenshot_3.png)
+4. Download the `Broken.java` source file from the Moodle page for this module. Compile the program on the command line using the `javac` command. Open the `Broken.java` file in TextPad and try to fix the errors it contains, compile the code with `javac` to check for errors. When you have fixed all the errors in `Broken.java`, run the program using the `java` command. Program named as [`Broken.java`](./week00/lab/solution/Broken.java).
+    ![Week 0, Lab 0 screenshot_4](./.screenshots/week00/screenshot_4.png)
 
 ### [Week 1 (Lab 1)](./week01/lab/): Exercise sheet 1
 [Task](./week01/lab/fundamentals_of_programming_1_week01_lab.pdf) | [Solution (.java files)](./week01/lab/solution/)
 
 This lab focuses on basic Java programming concepts, including variables, data types, arithmetic operations, and input/output operations.
 
-![Week 1, Lab 1 screenshot](./_screenshots/week01/screenshot.png)
+![Week 1, Lab 1 screenshot](./.screenshots/week01/screenshot.png)
 
 #### Questions
 1. Write a Java program that produces the following output. Program named as [`Question1.java`](./week01/lab/solution/Question1.java).
@@ -72,53 +94,53 @@ This lab focuses on basic Java programming concepts, including variables, data t
     Java Programming
     Rocks
     ```
-    ![Week 1, Lab 1 screenshot_1](./_screenshots/week01/screenshot_1.png)
+    ![Week 1, Lab 1 screenshot_1](./.screenshots/week01/screenshot_1.png)
 2. Write a Java program that prints the answers to the following arithmetic expressions on **separate** lines. Program named as [`Question2.java`](./week01/lab/solution/Question2.java).
     ```
     1. 4 x 4 = result
     2. 3 x 7 + (-2 x -8) = result
     3. (" × %)'( () × *)'+, = result
     ```
-    ![Week 1, Lab 1 screenshot_2](./_screenshots/week01/screenshot_2.png)
+    ![Week 1, Lab 1 screenshot_2](./.screenshots/week01/screenshot_2.png)
 3. Write a Java program that uses two variables **x** and **y** to store the values **71** and **3.14**. Your program should print the values stored in **x** and **y** to the screen. Program named as [`Question3.java`](./week01/lab/solution/Question3.java).
     ```
     x = 71
     y = 3.14
     ```
-    ![Week 1, Lab 1 screenshot_3](./_screenshots/week01/screenshot_3.png)
+    ![Week 1, Lab 1 screenshot_3](./.screenshots/week01/screenshot_3.png)
 4. An employee receives an hourly rate of €9.80 and works 42 hours a week. Write a Java program that calculates the employee's gross weekly wage and prints it to the screen. Program named as [`Question4.java`](./week01/lab/solution/Question4.java).
     ```
     Hourly rate is 9.8
     Hours worked is 42
     Gross weekly is 411.6
     ```
-    ![Week 1, Lab 1 screenshot_4](./_screenshots/week01/screenshot_4.png)
+    ![Week 1, Lab 1 screenshot_4](./.screenshots/week01/screenshot_4.png)
 5. Given the following function `f(x) = x² + 3x - 5`, write a Java program to evaluate **f(x), where x = 4**. Your program should use a variable called x and print the linear arithmetic expression along with the result. Program named as [`Question5.java`](./week01/lab/solution/Question5.java).
     ```
     x² can be written as (x * x)
     ```
-    ![Week 1, Lab 1 screenshot_5](./_screenshots/week01/screenshot_5.png)
+    ![Week 1, Lab 1 screenshot_5](./.screenshots/week01/screenshot_5.png)
 
 ### [Week 2 (Lab 2)](./week02/lab/): Exercise sheet 2
 [Task](./week02/lab/fundamentals_of_programming_1_week02_lab.pdf) | [Solution (.java files)](./week02/lab/solution/)
 
-This lab focuses on more advanced Java programming concepts, including loops, conditionals, and methods.
+This lab focuses on more advanced Java programming concepts, including input, arithmetic and output.
 
-![Week 2, Lab 2 screenshot](./_screenshots/week02/screenshot.png)
+![Week 2, Lab 2 screenshot](./.screenshots/week02/screenshot.png)
 
 #### Questions
 1. Write a Java program that prints the **quotient** and **remainder** on dividing the constant **X** by the constant **Y**. The constant **X** should be initialized to **5** and the constant **Y** should be initialized to **3**. Your program should use two variables called **quotient** and **remainder** to store results and you should use a single `System.out.println` statement to print the result in the format below. Program named as [`Question1.java`](./week02/lab/solution/Question1.java).
     ```
     X / Y = 1 and X % Y = 2
     ```
-    ![Week 2, Lab 2 screenshot_1](./_screenshots/week02/screenshot_1.png)
+    ![Week 2, Lab 2 screenshot_1](./.screenshots/week02/screenshot_1.png)
 2. Write a Java program to calculate an employee’s gross weekly pay. The **input** to the program should be the **number of hours worked** and the **hourly rate of pay**. Your program output should look as follows and you should **test your program using the values shown below**. Program named as [`Question2.java`](./week02/lab/solution/Question2.java).
     ```
     Please input hourly rate: 9.6
     Please input hours worked: 45
     Hours worked = 45.0 hourly rate = 9.6 gross weekly = 432.0
     ```
-    ![Week 2, Lab 2 screenshot_2](./_screenshots/week02/screenshot_2.png)
+    ![Week 2, Lab 2 screenshot_2](./.screenshots/week02/screenshot_2.png)
 3. Write a program that **prompts** the user for **four integer values** (use four separate variables) and prints their average. Your program output should look as follows and you should use the test values shown below. Program named as [`Question3.java`](./week02/lab/solution/Question3.java).
     ```
     Enter number 1: 1
@@ -127,7 +149,7 @@ This lab focuses on more advanced Java programming concepts, including loops, co
     Enter number 4: 4
     Answer = 2.5
     ```
-    ![Week 2, Lab 2 screenshot_3](./_screenshots/week02/screenshot_3.png)
+    ![Week 2, Lab 2 screenshot_3](./.screenshots/week02/screenshot_3.png)
 4. Write a Java program that calculates the volume of a cylinder. Your program should **prompt** the user to enter the **radius** and **height** of the cylinder and should use a combination of **constants** and **variables** to calculate the volume. The following formula should be used to calculate the volume, where V=volume, r=radius and h=height. Program named as [`Question4.java`](./week02/lab/solution/Question4.java).
     ```
     V = π * r² * h
@@ -137,17 +159,17 @@ This lab focuses on more advanced Java programming concepts, including loops, co
     Enter the height: 11.5
     Volume = 225.6875
     ```
-    ![Week 2, Lab 2 screenshot_4](./_screenshots/week02/screenshot_4.png)
+    ![Week 2, Lab 2 screenshot_4](./.screenshots/week02/screenshot_4.png)
 
 ### [Week 3 (Lab 3)](./week03/lab/): Exercise sheet 3
 [Task](./week03/lab/fundamentals_of_programming_1_week03_lab.pdf) | [Solution (.java files)](./week03/lab/solution/)
 
 This lab focuses on evaluating expressions, declaring variables, and using conditional statements.
 
-![Week 3, Lab 3 screenshot](./_screenshots/week03/screenshot.png)
+![Week 3, Lab 3 screenshot](./.screenshots/week03/screenshot.png)
 
 #### Questions
-1. Write a single Java program that evaluates the **truth** or **falsity** of the following expressions using `System.out.println` statements as shown in the program output below. Program named as [`Question1.java`](Lab3/Question1.java).
+1. Write a single Java program that evaluates the **truth** or **falsity** of the following expressions using `System.out.println` statements as shown in the program output below. Program named as [`Question1.java`](./week03/lab/solution/Question1.java).
     ```
     i. 5 – 1 != 3
     ii. 100 % 50 == 0
@@ -158,7 +180,7 @@ This lab focuses on evaluating expressions, declaring variables, and using condi
     100 % 50 == 0 is true
     (21 + 7) / 4 >= 100 is false
     ```
-    ![Week3, Lab 3 screenshot_1](./_screenshots/week03/screenshot_1.png)
+    ![Week3, Lab 3 screenshot_1](./.screenshots/week03/screenshot_1.png)
 2. Write a single Java program that declares two integer variables called x and y. Assign x = 4, y = 10 and write Boolean expressions that represent the statements below. Your program should output the results as shown below. Program named as [`Question2.java`](./week03/lab/solution/Question2.java).
     ```
     a) x is an even number
@@ -172,26 +194,26 @@ This lab focuses on evaluating expressions, declaring variables, and using condi
     y minus x is positive is true
     y cubed is less than 100 is false
     ```
-    ![Week 3, Lab 3 screenshot_2](./_screenshots/week03/screenshot_2.png)
+    ![Week 3, Lab 3 screenshot_2](./.screenshots/week03/screenshot_2.png)
 3. Write a program to read a student’s grade out of 100 from the keyboard. The program should print one of **PASS** or **FAIL**. A pass is any grade of 40% or higher. Program named as [`Question3.java`](./week03/lab/solution/Question3.java).
     ```
     Enter grade: 21
     FAILED
     ```
-    ![Week 3, Lab 3 screenshot_3](./_screenshots/week03/screenshot_3.png)
+    ![Week 3, Lab 3 screenshot_3](./.screenshots/week03/screenshot_3.png)
 4. Write a program to read a month number and print its month name. For example, an input of 10 would result in an output of October. Program named as [`Question4.java`](./week03/lab/solution/Question4.java).
     ```
     Enter month number: 10
     October
     ```
-    ![Week 3, Lab 3 screenshot_4](./_screenshots/week03/screenshot_4.png)
+    ![Week 3, Lab 3 screenshot_4](./.screenshots/week03/screenshot_4.png)
 
 ### [Week 4 (Lab 4)](./week04/lab/): Exercise sheet 4
 [Task](./week04/lab/fundamentals_of_programming_1_week04_lab.pdf) | [Solution (.java files)](./week04/lab/solution/)
 
 This lab focuses on evaluating expressions, using conditionals, and reading input from the keyboard.
 
-![Week 4, Lab 4 screenshot](./_screenshots/week04/screenshot.png)
+![Week 4, Lab 4 screenshot](./.screenshots/week04/screenshot.png)
 
 #### Questions
 1. Write a Java program that evaluates and prints the **truth** or **falsity** of the following expressions; **you should assign the outcome of each expression to a Boolean variable**. Program named as [`Question1.java`](./week04/lab/solution/Question1.java).
@@ -202,13 +224,13 @@ This lab focuses on evaluating expressions, using conditionals, and reading inpu
     iv. !(3 > 10) && 5 != 4
     v. (10 >= 10) && (11 >= 10)
     ```
-    ![Week 4, Lab 4 screenshot_1](./_screenshots/week04/screenshot_1.png)
+    ![Week 4, Lab 4 screenshot_1](./.screenshots/week04/screenshot_1.png)
 2. Write a program that uses the Scanner to **read an integer** from the keyboard and print one of **positive**, **negative**, or **zero**. Your program should use an **if**, **else if**, and an **else**. Program named as [`Question2.java`](./week04/lab/solution/Question2.java).
     ```
     Please enter an integer number: 100
     positive
     ```
-    ![Week 4, Lab 4 screenshot_2](./_screenshots/week04/screenshot_2.png)
+    ![Week 4, Lab 4 screenshot_2](./.screenshots/week04/screenshot_2.png)
 3. Write a program that uses the Scanner to read in a student’s grade (0 – 100) and prints the associated alphabetic grade. Use the table below in your answer and use the test cases below. Program named as [`Question3.java`](./week04/lab/solution/Question3.java).
     ```
     | GRADE | PERCENTAGE BAND |
@@ -226,7 +248,7 @@ This lab focuses on evaluating expressions, using conditionals, and reading inpu
     Please enter your grade (0-100): 81
     A
     ```
-    ![Week 4, Lab 4 screenshot_3](./_screenshots/week04/screenshot_3.png)
+    ![Week 4, Lab 4 screenshot_3](./.screenshots/week04/screenshot_3.png)
 4. Write a program that uses the Scanner to read the lengths of three sides of a triangle (**A**, **B**, and **C**) and prints one of **TRIANGLE** or **NOT A TRIANGLE**. Program named as [`Question4.java`](./week04/lab/solution/Question4.java).
     ```
     Triangle Inequality Theorem: The sum of the two sides must be greater than the longest side.
@@ -239,14 +261,14 @@ This lab focuses on evaluating expressions, using conditionals, and reading inpu
     Enter length of line C: 10
     TRIANGLE
     ```
-    ![Week 4, Lab 4 screenshot_4](./_screenshots/week04/screenshot_4.png)
+    ![Week 4, Lab 4 screenshot_4](./.screenshots/week04/screenshot_4.png)
 
 ### [Week 5 (Lab 5)](./week05/lab/): Exercise sheet 5
 [Task](./week05/lab/fundamentals_of_programming_1_week05_lab.pdf) | [Solution (.java files)](./week05/lab/solution/)
 
 This lab focuses on reading input values, validating ranges, and determining triangle properties.
 
-![Week 5, Lab 5 screenshot](./_screenshots/week05/screenshot.png)
+![Week 5, Lab 5 screenshot](./.screenshots/week05/screenshot.png)
 
 #### Questions
 1. Write a program to read an integer value in the range 1..100 and output its value in words. For example, if the input is **45** then the output is **“forty five”**. If the number entered is not within the valid range the program should print “Invalid number!”. Use the test cases shown below. Program named as [`Question1.java`](./week05/lab/solution/Question1.java).
@@ -254,7 +276,7 @@ This lab focuses on reading input values, validating ranges, and determining tri
     Please enter a number between 1 - 100: 1
     One
     ```
-    ![Week 5, Lab 5 screenshot_1](./_screenshots/week05/screenshot_1.png)
+    ![Week 5, Lab 5 screenshot_1](./.screenshots/week05/screenshot_1.png)
 2. Write a program ([`Question2.java`](./week05/lab/solution/Question2.java)) that reads the length of any three lines a, b, c and prints one of:
     ```
     A) Triangle; followed by either scalene, isosceles or equilateral; followed by either right-angled or not right-angled,
@@ -266,14 +288,14 @@ This lab focuses on reading input values, validating ranges, and determining tri
     Enter length of line C: 5
     Not a triangle
     ```
-    ![Week 5, Lab 5 screenshot_2](./_screenshots/week05/screenshot_2.png)
+    ![Week 5, Lab 5 screenshot_2](./.screenshots/week05/screenshot_2.png)
 
 ### [Week 6 (Lab 6)](./week06/lab/): Exercise sheet 6
 [Task](./week06/lab/fundamentals_of_programming_1_week06_lab.pdf) | [Solution (.java files)](./week06/lab/solution/)
 
 This lab focuses on using loops, generating random numbers, and calculating compound interest.
 
-![Week 6, Lab 6 screenshot](./_screenshots/week06/screenshot.png)
+![Week 6, Lab 6 screenshot](./.screenshots/week06/screenshot.png)
 
 #### Questions
 1. Write a Java program that contains **two separate** for-loops. The first loop should print the numbers from 1 to 50 and the second loop should print the numbers from 50 to 1. Your output should look similar to shown below. Program named as [`Question1.java`](./week06/lab/solution/Question1.java).
@@ -283,7 +305,7 @@ This lab focuses on using loops, generating random numbers, and calculating comp
     Numbers from 50 to 1
     50 49 48 47 46 45 44 43 42 41 40 39 38 37 36 35 34 33 32 31 30 29 28 27 26 25 24 23 22 21 20 19 18 17 16 15 14 13 12 11 10 9 8 7 6 5 4 3 2 1
     ```
-    ![Week 6, Lab 6 screenshot_1](./_screenshots/week06/screenshot_1.png)
+    ![Week 6, Lab 6 screenshot_1](./.screenshots/week06/screenshot_1.png)
 2. Write a Java program to generate and print **6 rolls** of an **eight-sided** dice. Use a **for-loop**, printf statements, and the `Math.random()` function in your answer. Your program output should be similar to the following. Program named as [`Question2.java`](./week06/lab/solution/Question2.java).
     ```
     Roll: 1 You got a 5
@@ -293,7 +315,7 @@ This lab focuses on using loops, generating random numbers, and calculating comp
     Roll: 5 You got a 8
     Roll: 6 You got a 3
     ```
-    ![Week 6, Lab 6 screenshot_2](./_screenshots/week06/screenshot_2.png)
+    ![Week 6, Lab 6 screenshot_2](./.screenshots/week06/screenshot_2.png)
 3. A sum of money is invested for 6 years at 12.5% compound interest (interest is calculated based on the initial sum plus any previous interest earned). Write a program that will print out the following for each year:
     - interest for the year
     - cumulative interest (interest earned so far)
@@ -314,14 +336,14 @@ This lab focuses on using loops, generating random numbers, and calculating comp
         YEAR 6
         Interest = 27.03, Cumulative Interest = 123.27, New Capital = 243.27
         ```
-    ![Week 6, Lab 6 screenshot_3](./_screenshots/week06/screenshot_3.png)
+    ![Week 6, Lab 6 screenshot_3](./.screenshots/week06/screenshot_3.png)
 
 ### [Week 7 (Lab 7)](./week07/lab/): Exercise sheet 7
 [Task](./week07/lab/fundamentals_of_programming_1_week07_lab.pdf) | [Solution (.java files)](./week07/lab/solution/)
 
 This lab focuses on using loops, reading input, and performing calculations.
 
-![Week 7, Lab 7 screenshot](./_screenshots/week07/screenshot.png)
+![Week 7, Lab 7 screenshot](./.screenshots/week07/screenshot.png)
 
 #### Questions
 1. Write a Java program that uses a **while loop** to prompt the user to enter **4 integer numbers**. Your program should print the product of the numbers entered when the loop ends. Use the test case shown below. Program named as [`Question1.java`](./week07/lab/solution/Question1.java).
@@ -333,7 +355,7 @@ This lab focuses on using loops, reading input, and performing calculations.
     Enter number: 8
     Product of numbers: 384
     ```
-    ![Week 7, Lab 7 screenshot_1](./_screenshots/week07/screenshot_1.png)
+    ![Week 7, Lab 7 screenshot_1](./.screenshots/week07/screenshot_1.png)
 2. Write a Java program that uses a **for loop** to complete the first N rows of the following output. The number of rows **N** should be read from the keyboard. Use the test case shown below. Program named as [`Question2.java`](./week07/lab/solution/Question2.java).
     ```
     1
@@ -350,7 +372,7 @@ This lab focuses on using loops, reading input, and performing calculations.
     5 10 15 20 25
     6 12 18 24 30 36
     ```
-    ![Week 7, Lab 7 screenshot_2](./_screenshots/week07/screenshot_2.png)
+    ![Week 7, Lab 7 screenshot_2](./.screenshots/week07/screenshot_2.png)
 3. Write a Java program that continues to read in integer numbers until the user enters the value **-1 (sentinel)**. Your program should **sum** all the **even** values entered and print the result when the loop ends. Use the following program outline as a guide. Program named as [`Question3.java`](./week07/lab/solution/Question3.java).
     ```
     // prompt user to enter list of numbers with a sentinel of -1
@@ -365,14 +387,14 @@ This lab focuses on using loops, reading input, and performing calculations.
     Enter a list of numbers, sentinel -1: 1 2 3 4 5 6 7 8 9 10 -1
     Sum equals 30
     ```
-    ![Week 7, Lab 7 screenshot_3](./_screenshots/week07/screenshot_3.png)
+    ![Week 7, Lab 7 screenshot_3](./.screenshots/week07/screenshot_3.png)
 
 ### [Week 8 (Lab 8)](./week08/lab/): Exercise sheet 8
 [Task](./week08/lab/fundamentals_of_programming_1_week08_lab.pdf) | [Solution (.java files)](./week08/lab/solution/)
 
 This lab focuses on using arrays, loops, and performing calculations on array elements.
 
-![Week 8, Lab 8 screenshot](./_screenshots/week08/screenshot.png)
+![Week 8, Lab 8 screenshot](./.screenshots/week08/screenshot.png)
 
 #### Questions
 1. Write a Java program that declares the array shown below. Your Java program should then print the array using **5 separate `System.out.printf` statements**. Program named as [`Question1.java`](./week08/lab/solution/Question1.java).
@@ -391,7 +413,7 @@ This lab focuses on using arrays, loops, and performing calculations on array el
     numbers[3] = 50
     numbers[4] = 60
     ```
-    ![Week 8, Lab 8 screenshot_1](./_screenshots/week08/screenshot_1.png)
+    ![Week 8, Lab 8 screenshot_1](./.screenshots/week08/screenshot_1.png)
 2. Use the data list given below to declare and initialize an integer array. Then write **individual for loops** to solve each of the following. Program named as [`Question2.java`](./week08/lab/solution/Question2.java).
     ```
     Data list: {2, 4, 6, 9, 5, 4, 5, 7, 12, 15, 21, 32, 45, 5, 6, 7, 12}
@@ -403,13 +425,13 @@ This lab focuses on using arrays, loops, and performing calculations on array el
     ii) Value greater than 11.59
     12 15 21 32 45 12
     ```
-    ![Week 8, Lab 8 screenshot_2](./_screenshots/week08/screenshot_2.png)
+    ![Week 8, Lab 8 screenshot_2](./.screenshots/week08/screenshot_2.png)
 3. Write a program that reads 5 integer values from the keyboard and prints them in reverse order. You should use an **array** and **2 separate for loops** to solve this problem. Program named as [`Question3.java`](./week08/lab/solution/Question3.java).
     ```
     Enter 5 integer values: 1 2 3 4 5
     Numbers in reverse are: 5 4 3 2 1
     ```
-    ![Week 8, Lab 8 screenshot_3](./_screenshots/week08/screenshot_3.png)
+    ![Week 8, Lab 8 screenshot_3](./.screenshots/week08/screenshot_3.png)
 4. Write a program that declares an integer array of size 100. Write for loops to carry out the following operations. Program named as [`Question4.java`](./week08/lab/solution/Question4.java).
     ```
     i. Initialize the array with random values between 1 – 20
@@ -419,28 +441,28 @@ This lab focuses on using arrays, loops, and performing calculations on array el
     Array values are:
     l0 20 2 11 2 3 10 5 99 2 2 15 1 6 1 20 18 1 11 99 4 15 20 3 15 8 10 2 20 19 5 11 l0 19 5 8 5 16 10 20 20 3 19 1 3 8 13 4 11 19 19 5 18 14 15 6 4 16 3 16 20 20 99 317 215 9 13 14 6 18 3 1 5 11 6 3 9 15 59 4 11 2 5 15 18 15 14 18 13 69 8 20 8
     ```
-    ![Week 8, Lab 8 screenshot_4](./_screenshots/week08/screenshot_4.png)
+    ![Week 8, Lab 8 screenshot_4](./.screenshots/week08/screenshot_4.png)
 
 ### [Week 9 (Lab 9)](./week09/lab/): Exercise sheet 9
 [Task](./week09/lab/fundamentals_of_programming_1_week09_lab.pdf) | [Solution (.java files)](./week09/lab/solution/)
 
 This lab focuses on using loops, strings, and character operations.
 
-![Week 9, Lab 9 screenshot](./_screenshots/week09/screenshot.png)
+![Week 9, Lab 9 screenshot](./.screenshots/week09/screenshot.png)
 
 #### Questions
 1. Write a program that uses a loop to print **row 6** of the ASCII table. Your output should look as follows. Program named as [`Question1.java`](./week09/lab/solution/Question1.java).
     ```
     < = > ? @ A B C D E
     ```
-    ![Week 9, Lab 9 screenshot_1](./_screenshots/week09/screenshot_1.png)
+    ![Week 9, Lab 9 screenshot_1](./.screenshots/week09/screenshot_1.png)
 2. Write a program that **reads in** two Strings **s1**, **s2** and prints them in alphabetical order. Program named as [`Question2.java`](./week09/lab/solution/Question2.java).
     ```
     Please enter string 1: Zabba
     Please enter string 2: Abba
     Abba Zabba
     ```
-    ![Week 9, Lab 9 screenshot_2](./_screenshots/week09/screenshot_2.png)
+    ![Week 9, Lab 9 screenshot_2](./.screenshots/week09/screenshot_2.png)
 3. Write a program that uses the following String variables to carry out the following. Program named as [`Question3.java`](./week09/lab/solution/Question3.java).
     ```
     1. Create and print out a String called **s4** that is the **concatenation** of s1, s2 and s3
@@ -459,20 +481,20 @@ This lab focuses on using loops, strings, and character operations.
     e at index 15
     e at index 22
     ```
-    ![Week 9, Lab 9 screenshot_3](./_screenshots/week09/screenshot_3.png)
+    ![Week 9, Lab 9 screenshot_3](./.screenshots/week09/screenshot_3.png)
 4. Write a program that generates 100 **lowercase** characters and computes the frequency of **vowel** letters ‘a’, ‘e’, ‘i’, ‘o’, ‘u’. Program named as [`Question4.java`](./week09/lab/solution/Question4.java).
     ```
     n b y o d g b g n i j i m s b a s a y c k u y l c h f v u g h i f m t x a n c r u t j t h t h c w k b v d a o l o b y d t o z k n c p f p a k w f v y p b e f w o o y o c g f r n i s v q q y p c z f c h
     Frequency of vowels is: 20
     ```
-    ![Week 9, Lab 9 screenshot_4](./_screenshots/week09/screenshot_4.png)
+    ![Week 9, Lab 9 screenshot_4](./.screenshots/week09/screenshot_4.png)
 
 ### [Week 10 (Lab 10)](./week10/lab/): Exercise sheet 10
 [Task](./week10/lab/fundamentals_of_programming_1_week10_lab.pdf) | [Solution (.java files)](./week10/lab/solution/)
 
 This lab focuses on using procedures, command line arguments, and functions.
 
-![Week 10, Lab 10 screenshot](./_screenshots/week10/screenshot.png)
+![Week 10, Lab 10 screenshot](./.screenshots/week10/screenshot.png)
 
 #### Questions
 1. Write a Java program that declares a **procedure** called **menu** which prints the following message to the screen. Program named as [`Question1.java`](./week10/lab/solution/Question1.java).
@@ -486,12 +508,12 @@ This lab focuses on using procedures, command line arguments, and functions.
     *     4) Vent             *
     ***************************
     ```
-    ![Week 10, Lab 10 screenshot_1](./_screenshots/week10/screenshot_1.png)
+    ![Week 10, Lab 10 screenshot_1](./.screenshots/week10/screenshot_1.png)
 2. Write a Java program that declares a **procedure** called **printAscii** that displays the printable characters on the ASCII table to the screen. Program named as [`Question2.java`](./week10/lab/solution/Question2.java).
     ```
     ! " # $ % & ' ( ) * + , - . / 0 1 2 3 4 5 6 7 8 9 : ; < = > ? @ A B C D E F G H I J K L M N O P Q R S T U V W X Y Z [ \ ] ^ _ ` a b c d e f g h i j k l m n o p q r s t u v w x y z { | } ~
     ```
-    ![Week 10, Lab 10 screenshot_2](./_screenshots/week10/screenshot_2.png)
+    ![Week 10, Lab 10 screenshot_2](./.screenshots/week10/screenshot_2.png)
 3. Write a Java program that converts its command line arguments to uppercase and prints them to the screen. Program named as [`Question3.java`](./week10/lab/solution/Question3.java).
     ```
     ~ % java Question3 java programming rocks
@@ -499,7 +521,7 @@ This lab focuses on using procedures, command line arguments, and functions.
     PROGRAMMING
     ROCKS
     ```
-    ![Week 10, Lab 10 screenshot_3](./_screenshots/week10/screenshot_3.png)
+    ![Week 10, Lab 10 screenshot_3](./.screenshots/week10/screenshot_3.png)
 4. Write a Java program that prompts the user to enter the radius of a circle. Your program should calculate the Circumference and Area of the circle using the formulae shown below. Program named as [`Question4.java`](./week10/lab/solution/Question4.java).
     ```
     C = 2πr
@@ -510,4 +532,4 @@ This lab focuses on using procedures, command line arguments, and functions.
     Circumference: 62.80
     Area: 314.00
     ```
-    ![Week 10, Lab 10 screenshot_4](./_screenshots/week10/screenshot_4.png)
+    ![Week 10, Lab 10 screenshot_4](./.screenshots/week10/screenshot_4.png)

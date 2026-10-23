@@ -1,68 +1,20 @@
-# Week 01 — Introduction to Database
-**Semester:** 03  
-**Module:** Database Fundamentals
+# Week 01 — Lab 1: getting started with MySQL
 
-This folder contains all work completed during Week 01 of the Database Fundamentals module
+**Module:** Database Fundamentals (`COMP H1029`)  
+**Semester:** 3 (Year 2), folder `sem03`
 
-## 📁 Week Folder Structure
-```
-week01/
-├── lab/
-│   ├── database_fundamentals_week01_lab.pdf
-│   ├── resources/
-│   │   ├── CreateTablesForMySQL.sql
-│   │   └── sql_server_and_workbench.pdf
-│   └── solution/
-│       ├── queries/
-│       └── database_fundamentals_week01_lab_solution.pdf
-└── README.md
-```
+[Module README](../README.md)
 
-> [!NOTE]  
-> This is the first week of Database Fundamentals - Introduction to databases and SQL basics.
+## What this week is for
 
----
+Lab 1 sets up MySQL Workbench. It creates the tudublin schema and runs the script that builds the emp, dept and salgrade tables, which the labs of weeks 2, 6 and 8 query. The lecture was the introduction to databases and relational database management systems.
 
-# 💾 Lab 01 — Introduction to Database and SQL
-> 📸 **Lab Screenshot**  
-![Lab Screenshot](../_screenshots/week01/screenshot.png)
-> | ![SQL Screenshot](../_screenshots/week01/screenshot_sql.png) |
-> | - |
-> 
-> [View all 2 screenshots](../_screenshots/week01/)
+## Files
 
-**Lab Brief:**  
-This week's lab focuses on:
-- Introduction to database concepts and terminology
-- Setting up MySQL database environment
-- Creating basic database tables
-- Understanding primary keys and data types
-- Writing basic SQL CREATE TABLE statements
-
-📋 **Lab Brief Source:**  
-[`lab/database_fundamentals_week01_lab.pdf`](./lab/database_fundamentals_week01_lab.pdf)
-
-✔ **My Solution:**  
-[`lab/solution/database_fundamentals_week01_lab_solution.pdf`](./lab/solution/database_fundamentals_week01_lab_solution.pdf)
-
-🗃 **Resources:**  
-[`lab/resources/`](./lab/resources/)
-- [`CreateTablesForMySQL.sql`](./lab/resources/CreateTablesForMySQL.sql) — SQL table creation script
-- [`sql_server_and_workbench.pdf`](./lab/resources/sql_server_and_workbench.pdf) — MySQL Server and Workbench setup guide
-
-## 📁 Lab Folder Structure
-```
-lab/
-├── database_fundamentals_week01_lab.pdf
-├── resources/
-│   ├── CreateTablesForMySQL.sql
-│   └── sql_server_and_workbench.pdf
-└── solution/
-    ├── database_fundamentals_week01_lab_solution.pdf
-    └── queries/
-        └── CreateTablesForMySQL.sql
-```
-
----
-
-_✍️ Copy Dany_
+| File | What it contains | Screenshot |
+|---|---|---|
+| [`README.md`](README.md) | This README. | — |
+| [`lab/database_fundamentals_week01_lab.pdf`](lab/database_fundamentals_week01_lab.pdf) | The lab sheet (4 pages): open Workbench, create the tudublin schema, run CreateTablesForMySQL.sql and refresh the schema to see the three tables. | — |
+| [`lab/resources/CreateTablesForMySQL.sql`](lab/resources/CreateTablesForMySQL.sql) | The script from the lab sheet: it drops and creates the DEPT, EMP and SALGRADE tables in tudublin and inserts 4 departments, 14 employees and 5 salary grades. | <img src="../.screenshots/week01/screenshot_sql.png" alt="Week 01 screenshot sql" width="400"><br>*MySQL Workbench with the tudublin schema (DEPT, EMP and SALGRADE tables) and the script that created them.* |
+| [`lab/resources/sql_server_and_workbench.pdf`](lab/resources/sql_server_and_workbench.pdf) | Lecturer's slides for lab 1 (17 pages): what MySQL is, how the client and server work, and installing MySQL Server and Workbench. | — |
+| [`lab/solution/database_fundamentals_week01_lab_solution.pdf`](lab/solution/database_fundamentals_week01_lab_solution.pdf) | The solution report (1 page): a title and one screenshot of the script run in Workbench. | <img src="../.screenshots/week01/screenshot.png" alt="Week 01 screenshot" width="400"><br>*The solution report: the Getting Started with MySQL page with a screenshot of the script in Workbench.* |
