@@ -1,5 +1,18 @@
-Michael is away with Team Ireland for the European Cyber Security Challenge this week so there will be no lecture or labs.
+# Week 04 — No lecture or labs (European Cyber Security Challenge)
 
-No Lecture or Labs for any students
+**Module:** Computer and Network Forensics (`DFCS H3011`)  
+**Semester:** 5 (Year 3), folder `sem05`
 
-https://ecsc.eu/about
+[Module README](../README.md)
+
+## What this week is for
+
+Michael is away with Team Ireland for the European Cyber Security Challenge this week, so there is no lecture or lab for any students.
+
+About the challenge: https://ecsc.eu/about
+
+## Files
+
+| File | What it contains |
+|---|---|
+| [`README.md`](README.md) | This README. |
