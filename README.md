@@ -44,5 +44,5 @@ TU Dublin - Cyber Security
 
 ### [Semester 6](sem06/)
 - [Professional Penetration Testing](sem06/professional_penetration_testing)
-- Network Security
-- Group Project
+- [Network Security](sem06/network_security)
+- [Group Project](sem06/group_project)

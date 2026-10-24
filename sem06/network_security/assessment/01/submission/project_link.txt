@@ -1,0 +1,2 @@
+github: https://github.com/DanyilT/projects-in-university/tree/project/year03/module-network_security/open-source-firewalls
+branch: project/year03/module-network_security/open-source-firewalls
