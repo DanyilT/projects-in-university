@@ -1,7 +1,7 @@
 public class Question4 {
     public static void main(String[] args) {
         // Declare variables
-        float hourlyRate = 9.80f;
+        double hourlyRate = 9.80;
         int hoursWorked = 42;
         double grossWeeklyWage;
 

@@ -9,9 +9,6 @@
 
 Lab 4 uses JavaScript on three pages: console output (console.html), a grade check with if statements (ifstmt.html), and the sum of a range with a for loop (forloop.html).
 
-> [!WARNING]
-> [`lab/solution/console.html`](lab/solution/console.html): The title is "Console Example" and the heading is "Tom Smith", but the sheet asks for "Arithmetic and Concatenation" and "Tom and Mary".
-
 <table>
   <tr valign="top">
     <td width="33%"><img src="../.screenshots/week04/screenshot_1.png" alt="Week 04 screenshot 1"><br><i>console.html output in the browser console.</i></td>
@@ -26,6 +23,6 @@ Lab 4 uses JavaScript on three pages: console output (console.html), a grade che
 |---|---|
 | [`README.md`](README.md) | This README. |
 | [`lab/web_development_client_side_week04_lab.pdf`](lab/web_development_client_side_week04_lab.pdf) | The lab brief (4 pages): JavaScript exercises. |
-| [`lab/solution/console.html`](lab/solution/console.html) | Console page: it logs four statements about Tom and Mary to the console. Its title is "Console Example" and its heading is "Tom Smith". |
+| [`lab/solution/console.html`](lab/solution/console.html) | Console page: it logs four statements about Tom and Mary to the console. Its title is "Arithmetic and Concatenation" and its heading is "Tom and Mary". |
 | [`lab/solution/ifstmt.html`](lab/solution/ifstmt.html) | Prompts for a score and logs the grade (A to F) to the console. |
 | [`lab/solution/forloop.html`](lab/solution/forloop.html) | Prompts for a start and end number and logs their inclusive sum to the console. |

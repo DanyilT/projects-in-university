@@ -18,9 +18,6 @@ The paper has two pages: the title page with the instructions to candidates (an 
 
 The paper was photographed (the diagram page). [`object_oriented_analysis_and_design_assessment.pdf`](object_oriented_analysis_and_design_assessment.pdf) is a recreation of the task page: the diagram is redrawn from the photograph, which is in [`resources/`](resources/); the title page with the instructions to candidates is not recreated. The submission is the code of the two packages and the `Main` class.
 
-> [!WARNING]
-> [`submission/surgery/Pet.java`](submission/surgery/Pet.java#L7): The default value of `details` is `null`, where the diagram has "(none)".
-
 ![Assessment 02 screenshot](../../.screenshots/assessment/02/screenshot.png)
 
 *Lab test 2: the output, with an Owner, a Pet, a Vaccination and the two exceptions.*

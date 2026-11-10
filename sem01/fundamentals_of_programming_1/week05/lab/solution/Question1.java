@@ -28,8 +28,12 @@ public class Question1 {
             int tensPlace = number / 10;
             int onesPlace = number % 10;
 
-            // Output the number in words
-            System.out.println(tens[tensPlace - 2] + " " + ones[onesPlace - 1]);  // Arrays start from 0
+            // Output the number in words (a multiple of ten has no ones word)
+            if (onesPlace == 0) {
+                System.out.println(tens[tensPlace - 2]);
+            } else {
+                System.out.println(tens[tensPlace - 2] + " " + ones[onesPlace - 1]);  // Arrays start from 0
+            }
         } else {
             System.out.println("one hundred");
         }

@@ -9,9 +9,6 @@
 
 Lab 6 uses whisker switches so the bot can feel obstacles. The lab asks for the whisker circuits to be built and tested. The sketches read the whisker states, light an LED when a whisker is pressed, and make the bot back up and turn when it touches something.
 
-> [!WARNING]
-> [`lab/solution/ex3/ex3.ino`](lab/solution/ex3/ex3.ino): A comment says turn right above a turnLeft call, and its whisker pins are the reverse of ex1 and ex2.
-
 ## Files
 
 | File | What it contains | Screenshot |

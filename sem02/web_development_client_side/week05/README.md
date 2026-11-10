@@ -9,9 +9,6 @@
 
 Lab 5 uses JavaScript in external files: a Euro-to-USD form, a currency converter and an average water-usage form.
 
-> [!WARNING]
-> [`lab/solution/js/euroConverter.js`](lab/solution/js/euroConverter.js): The rates are fixed in the file, but the sheet asks for current exchange rates from Google.
-
 <table>
   <tr valign="top">
     <td width="33%"><img src="../.screenshots/week05/screenshot_1.png" alt="Week 05 screenshot 1"><br><i>Euro to USD converter page.</i></td>

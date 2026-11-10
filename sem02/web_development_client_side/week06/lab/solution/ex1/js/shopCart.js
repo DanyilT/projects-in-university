@@ -7,7 +7,10 @@ document.addEventListener('DOMContentLoaded', () => {
         input.addEventListener('change', (e) => {
             const itemRow = e.target.closest('.item');
             const price = parseFloat(itemRow.dataset.price);
-            const qty = parseInt(e.target.value, 10);
+            let qty = parseInt(e.target.value, 10);
+            if (isNaN(qty) || qty < 0) qty = 0;
+            if (qty > 100) qty = 100;
+            e.target.value = qty;
             const total = itemRow.querySelector('.total');
             total.textContent = `€ ${(price * qty).toFixed(2)}`;
             updateGrandTotal();
@@ -22,6 +25,11 @@ document.addEventListener('DOMContentLoaded', () => {
         });
         grandTotal.textContent = `€ ${total.toFixed(2)}`;
     }
+
+    cart.addEventListener('submit', (e) => {
+        e.preventDefault();
+        alert(`The amount due is ${grandTotal.textContent}`);
+    });
 
     cart.addEventListener('reset', () => {
         cart.querySelectorAll('.total').forEach(total => {

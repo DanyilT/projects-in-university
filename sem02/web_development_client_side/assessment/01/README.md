@@ -19,10 +19,7 @@ Assignment 2 is the mini-project of the module (50%), done in a team of two: a w
 The submitted project is ATB Market, a parody of the website of the ATB Market grocery chain, not a copy of it. It has three pages: the home page with a contact form, the products page with product cards that are loaded from a JSON file and added to a cart that is kept in the browser, and a gallery page with a slider. The cart opens as a pop-up with a checkout form, and a hamburger menu serves narrow screens. The screen design is a Figma image.
 
 > [!WARNING]
-> The project has two problems:
->
-> - [`web_development_client_side_assessment.pdf`](web_development_client_side_assessment.pdf): The brief asks for a checkout page with jQuery validation of the name, address and email. On the project branch there are three HTML pages (index, products and gallery), a Figma design instead of a Word wireframe, and no checkout page: the checkout is a pop-up form on each page, and jQuery validates its name, email and address.
-> - [`scripts/script.js`](https://github.com/DanyilT/projects-in-university/blob/project/year01/module-web_development_client_side/atb-market/scripts/script.js#L16) (on the project branch): The fallback that loads the products when the local `data/products.json` cannot be fetched requests `https://danyilt.github.io/WebDev/ATB-Market/data/products.json` (line 16), which answers 404: the `WebDev` repository is archived and has no GitHub Pages site.
+> [`web_development_client_side_assessment.pdf`](web_development_client_side_assessment.pdf): The brief asks for a checkout page with jQuery validation of the name, address and email. On the project branch there are three HTML pages (index, products and gallery), a Figma design instead of a Word wireframe, and no checkout page: the checkout is a pop-up form on each page, and jQuery validates its name, email and address.
 
 ![The home page of the ATB Market website](../../.screenshots/assessment/01/screenshot.png)
 

@@ -9,15 +9,9 @@
 
 Lab 5: structure for the Sport Spider home page, with header, main and footer tags, a navigation bar, and id, class, div and span styling.
 
-> [!WARNING]
-> The solution follows most of the brief, with these exceptions:
->
-> - [`lab/solution/index.html`](lab/solution/index.html): The one bold phrase uses the b tag, but the brief asks for span.
-> - [`lab/solution/css/sport.css`](lab/solution/css/sport.css): The small-caps rule is written as a text-transform value, which is not valid CSS.
-
 ![Week 06 screenshot](../.screenshots/week06/screenshot.png)
 
-*Render of week06 index.html: header with logo and navigation, two-column main with the shop photo, pink headings, cyan paragraphs.*
+*Render of week06 index.html: header with logo and navigation, two-column main with the shop photo, pink small-capital headings, cyan paragraphs.*
 
 ## Files
 

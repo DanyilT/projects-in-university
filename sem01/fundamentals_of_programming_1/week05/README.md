@@ -9,9 +9,6 @@
 
 Exercise sheet 5 (take-home): a number from 1 to 100 in words, and the type of triangle.
 
-> [!CAUTION]
-> [`lab/solution/Question1.java`](lab/solution/Question1.java): It has a bug: it crashes for multiples of ten below 100, such as 20, because the ones digit is zero.
-
 ![Week 05 screenshot](../.screenshots/week05/screenshot.png)
 
 *Terminal capture running both week 5 programs (Question1 with 37, Question2 with 1, 1, 1).*

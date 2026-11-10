@@ -20,6 +20,6 @@ void loop() {
 void pitch(int Hz) {
   Serial.print("Frequency = ");
   Serial.println(Hz);
-  tone(4, Hz, ms);
-  delay(ms);
+  tone(4, Hz, 1000); // Play the tone for 1 second
+  delay(1000); // Delay to finish tone
 }

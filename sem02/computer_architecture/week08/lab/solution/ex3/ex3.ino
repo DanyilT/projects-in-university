@@ -5,8 +5,8 @@ Servo servoLeft;
 Servo servoRight;
 
 void setup() {
-  pinMode(5, INPUT); // Set right whisker pin to input
-  pinMode(7, INPUT); // Set left whisker pin to input
+  pinMode(7, INPUT); // Set right whisker pin to input
+  pinMode(5, INPUT); // Set left whisker pin to input
   
   pinMode(8, OUTPUT); // Left LED indicator -> output
   pinMode(2, OUTPUT); // Right LED indicator -> output
@@ -39,7 +39,7 @@ void loop() {
     digitalWrite(8, LOW); // Left LED off
     digitalWrite(2, HIGH); // Right LED on
     backward(1000); // Back up 1 second
-    turnLeft(400); // Turn right about 60 degrees
+    turnLeft(400); // Turn left about 60 degrees
   } else {
     // Otherwise, no whisker contact
     digitalWrite(8, LOW); // Left LED off

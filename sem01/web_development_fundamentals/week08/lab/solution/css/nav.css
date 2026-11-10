@@ -38,6 +38,11 @@ hr {
     overflow: hidden;
 }
 
+/* no default left padding of the list: the links (and the hamburger icon) are centred in the bar */
+.topnav ul {
+    padding: 0;
+}
+
 .topnav li {
     text-decoration: none;
     display: inline;
@@ -122,6 +127,18 @@ main {
     padding: 10px;
     background-color: rgba(222, 184, 135, 0.4);
     border-radius: 10px;
+}
+
+/***** Small screens: the main content is one column (image above the text) ******/
+@media screen and (max-width: 600px) {
+    .two-column {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .left {
+        width: auto;
+    }
 }
 
 h2.custom-heading {

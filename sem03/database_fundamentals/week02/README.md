@@ -9,9 +9,6 @@
 
 Lab 2 writes 13 SELECT queries on the emp table: choosing columns, filtering with WHERE, comparison operators, BETWEEN, IN and NOT IN, and a date range. The sheet also has a short exercise that creates a student table (student ID, name and date of birth, with the ID as the primary key) in Workbench. Each query is saved as a .sql file and shown with its result in the report. The lecture covered relational concepts (primary and foreign keys) and SQL.
 
-> [!WARNING]
-> [`lab/solution/queries/Question6.sql`](lab/solution/queries/Question6.sql): It uses SAL < 2850 where the sheet says less than 2500.
-
 ![Week 02 screenshot](../.screenshots/week02/screenshot.png)
 
 *The solution report: pages 1 to 8 of 13, Questions 1 to 8, each with a screenshot of the query and its result.*
@@ -29,7 +26,7 @@ Lab 2 writes 13 SELECT queries on the emp table: choosing columns, filtering wit
 | [`lab/solution/queries/Question3.sql`](lab/solution/queries/Question3.sql) | Question 3: employee number and department number. | <img src="../.screenshots/week02/screenshot_3.png" alt="Week 02 screenshot 3" width="400"><br>*Question 3 in Workbench: employee number and department number.* |
 | [`lab/solution/queries/Question4.sql`](lab/solution/queries/Question4.sql) | Question 4: employees employed as clerks. | <img src="../.screenshots/week02/screenshot_4.png" alt="Week 02 screenshot 4" width="400"><br>*Question 4 in Workbench: employees whose job is CLERK.* |
 | [`lab/solution/queries/Question5.sql`](lab/solution/queries/Question5.sql) | Question 5: name and salary of employees earning more than 2850. | <img src="../.screenshots/week02/screenshot_5.png" alt="Week 02 screenshot 5" width="400"><br>*Question 5 in Workbench: salary above 2850.* |
-| [`lab/solution/queries/Question6.sql`](lab/solution/queries/Question6.sql) | Question 6: name and salary of employees earning less than 2850. | <img src="../.screenshots/week02/screenshot_6.png" alt="Week 02 screenshot 6" width="400"><br>*Question 6 in Workbench: salary below 2850.* |
+| [`lab/solution/queries/Question6.sql`](lab/solution/queries/Question6.sql) | Question 6: name and salary of employees earning less than 2500. | <img src="../.screenshots/week02/screenshot_6.png" alt="Week 02 screenshot 6" width="400"><br>*Question 6 in Workbench: the employees below the salary limit.* |
 | [`lab/solution/queries/Question7.sql`](lab/solution/queries/Question7.sql) | Question 7: name and department number of employee 7566. | <img src="../.screenshots/week02/screenshot_7.png" alt="Week 02 screenshot 7" width="400"><br>*Question 7 in Workbench: employee number 7566.* |
 | [`lab/solution/queries/Question8.sql`](lab/solution/queries/Question8.sql) | Question 8: employees whose salary is less than their commission. | <img src="../.screenshots/week02/screenshot_8.png" alt="Week 02 screenshot 8" width="400"><br>*Question 8 in Workbench: salary less than commission.* |
 | [`lab/solution/queries/Question9.sql`](lab/solution/queries/Question9.sql) | Question 9: employees earning between 1500 and 3000. | <img src="../.screenshots/week02/screenshot_9.png" alt="Week 02 screenshot 9" width="400"><br>*Question 9 in Workbench: salary between 1500 and 3000.* |

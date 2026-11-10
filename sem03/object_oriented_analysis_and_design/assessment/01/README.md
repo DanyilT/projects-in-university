@@ -18,9 +18,6 @@ The paper has three pages: the title page (an individual open-book test for pape
 
 The paper was photographed (pages 2 and 3). [`object_oriented_analysis_and_design_assessment.pdf`](object_oriented_analysis_and_design_assessment.pdf) is a recreation of it: the title page is recreated from the title page of the sample paper (the date and the time are as on the sample), and the texts and diagrams of the two questions are redrawn from the photographs, which are in [`resources/`](resources/). The submission is the folder [`question1/`](submission/question1/) (Painting, ValueType and Main) and the folder [`question2/`](submission/question2/) (Exhibit, Painting, Sculpture, ValueType and Main).
 
-> [!WARNING]
-> [`submission/question2/Sculpture.java`](submission/question2/Sculpture.java#L12): `taxRateMessage()` cuts the percentage to a whole number with `(int)`, so the program prints "Tax Rate = 5%" where the paper's expected output is "Tax Rate = 5.5%". The second line, "Tax Rate = 10%", is right.
-
 <table>
   <tr valign="top">
     <td width="50%"><img src="../../.screenshots/assessment/01/screenshot_1.png" alt="Assessment 01 screenshot 1"><br><i>Lab test 1, question 1: the output.</i></td>

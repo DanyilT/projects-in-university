@@ -19,16 +19,27 @@
             <legend>Order Details</legend>
             <p>Here you can make order, we will contact you after you made your choice</p>
             <label for="customerName">Customer Name:</label>
-            <input type="text" id="customerName" name="customerName" required placeholder="Your Name" autofocus autocomplete="name" autofocus size="20" maxlength="50">
+            <input type="text" id="customerName" name="customerName" required placeholder="Your Name" autofocus autocomplete="name" size="20" maxlength="50">
 
             <label for="email">Email:</label>
             <input type="email" id="email" name="email" required placeholder="Your Email" autocomplete="email" size="20" maxlength="50">
 
-            <label for="mobile">Mobile Phone Number:</label>
+            <label for="phone">Mobile Phone Number:</label>
             <input type="tel" id="phone" name="phone" required placeholder="123-456-7890" autocomplete="tel" size="20" pattern="[0-9]{3}[0-9]{3}[0-9]{4}" title="Phone number should be in the format: 123-456-7890" maxlength="10">
             
             <label for="preferredTime">Select Time:</label>
             <input type="time" id="preferredTime" name="preferredTime" required>
+
+            <label for="drink">Drink With Your Meal:</label>
+            <input type="text" id="drink" name="drink" list="drinks" placeholder="Choose or type a drink" autocomplete="off" size="20" maxlength="30">
+            <datalist id="drinks">
+                <option value="Water"></option>
+                <option value="Cola"></option>
+                <option value="Orange juice"></option>
+                <option value="Green tea"></option>
+                <option value="Coffee"></option>
+            </datalist>
+
             <fieldset>
                 <legend>Meal Selection</legend>
 
@@ -53,6 +64,16 @@
                 <input type="checkbox" name="meal" value="dessert2">Ice Cream Sundae: <span>With Vanilla Ice Cream And Either Caramel Or Chocolate Sauce.</span><br>
                 <input type="checkbox" name="meal" value="dessert3">Strawberry Cheese Cake: <span>With Vanilla Ice Cream Or Whipped Cream.</span><br>
                 
+                <label>Children's menu:</label>
+                <input type="checkbox" name="meal" value="child1">Chicken Nuggets: <span>With Chips And Peas.</span><br>
+                <input type="checkbox" name="meal" value="child2">Mini Cheese Burger: <span>With Chips And Ketchup.</span><br>
+                <input type="checkbox" name="meal" value="child3">Pasta In Tomato Sauce: <span>With Grated Cheese.</span><br>
+
+                <label>Specials:</label>
+                <input type="checkbox" name="meal" value="special1">Chef's Seafood Platter: <span>Prawns, Squid And Mussels In Garlic Butter.</span><br>
+                <input type="checkbox" name="meal" value="special2">Slow Roast Lamb Shank: <span>With Rosemary Gravy And Mash.</span><br>
+                <input type="checkbox" name="meal" value="special3">Vegetable Wellington: <span>With Roast Potatoes And Seasonal Vegetables.</span><br>
+
                 <label>Additional comments:</label>
                 <textarea id="comments" name="comments" rows="10" required placeholder="Any special requests, e.g., not too spicy" minlength="10" maxlength="1000"></textarea>
             </fieldset>

@@ -9,12 +9,9 @@
 
 Exercise sheet 5: finish the TODO sections of the SortExperiment template, which times selection sort and bubble sort on the same random data, and add a timing experiment for Java's Arrays.sort().
 
-> [!WARNING]
-> [`lab/solution/SortingExperiment.java`](lab/solution/SortingExperiment.java): The file is called SortingExperiment.java, but the sheet asks for SortExperiment.java.
-
 ![Week 05 screenshot](../.screenshots/week05/screenshot.png)
 
-*SortingExperiment output: the end of the printed array (the two arrays have 10 000 numbers each, the window shows only the last lines) and the runtimes for selection sort, bubble sort and Arrays.sort().*
+*SortExperiment output: the end of the printed array (the two arrays have 10 000 numbers each, the window shows only the last lines) and the runtimes for selection sort, bubble sort and Arrays.sort().*
 
 ## Files
 
@@ -22,4 +19,4 @@ Exercise sheet 5: finish the TODO sections of the SortExperiment template, which
 |---|---|
 | [`README.md`](README.md) | This README. |
 | [`lab/fundamentals_of_programming_2_week05_lab.pdf`](lab/fundamentals_of_programming_2_week05_lab.pdf) | The exercise sheet (1 page): the sorting experiments. |
-| [`lab/solution/SortingExperiment.java`](lab/solution/SortingExperiment.java) | Solution: selection sort, bubble sort and Arrays.sort() on the same seeded random array of 10,000 values, with the runtime of each in nanoseconds. |
+| [`lab/solution/SortExperiment.java`](lab/solution/SortExperiment.java) | Solution: selection sort, bubble sort and Arrays.sort() on the same seeded random array of 10,000 values, with the runtime of each in nanoseconds. |

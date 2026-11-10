@@ -9,10 +9,6 @@
 
 Exercise sheet 6: two classes, Book and Course, each with a test program (TestBook and TestCourse). The solution files contain the classes and the tests.
 
-> [!CAUTION]
-> - [`lab/solution/TestBook.java`](lab/solution/TestBook.java): The Book class and the TestBook main class are both declared public in one file, so javac rejects it. Running it with java TestBook.java works, because the source-file launcher does not check the file name.
-> - [`lab/solution/TestCourse.java`](lab/solution/TestCourse.java): The Course class and the TestCourse main class are both declared public in one file, so javac rejects it (java TestCourse.java works, as for TestBook.java). The sample courses also differ from the sheet's.
-
 ![Week 06 screenshot](../.screenshots/week06/screenshot.png)
 
 *TestBook and TestCourse run with java followed by the file name.*

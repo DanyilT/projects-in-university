@@ -35,7 +35,7 @@ Fundamentals of Programming 2 is a second Java module. It goes from arrays and t
 | [Week 2](week02/) | Exercise sheet 2: arrays | [`lab/fundamentals_of_programming_2_week02_lab.pdf`](week02/lab/fundamentals_of_programming_2_week02_lab.pdf)<br>[`lab/solution/ProcessArray.java`](week02/lab/solution/ProcessArray.java) | <img src=".screenshots/week02/screenshot.png" width="160" alt="Week 2 screenshot"> |
 | [Week 3](week03/) | Exercise sheet 3: 2D arrays | [`lab/fundamentals_of_programming_2_week03_lab.pdf`](week03/lab/fundamentals_of_programming_2_week03_lab.pdf)<br>[`lab/solution/CarSales.java`](week03/lab/solution/CarSales.java)<br>[`lab/solution/SumRows.java`](week03/lab/solution/SumRows.java) | <img src=".screenshots/week03/screenshot.png" width="160" alt="Week 3 screenshot"> |
 | [Week 4](week04/) | Exercise sheet 4: searching | [`lab/fundamentals_of_programming_2_week04_lab.pdf`](week04/lab/fundamentals_of_programming_2_week04_lab.pdf)<br>[`lab/solution/LinearSearch.java`](week04/lab/solution/LinearSearch.java)<br>[`lab/solution/BinaryExperiment.java`](week04/lab/solution/BinaryExperiment.java) | <img src=".screenshots/week04/screenshot.png" width="160" alt="Week 4 screenshot"> |
-| [Week 5](week05/) | Exercise sheet 5: sorting and timing | [`lab/fundamentals_of_programming_2_week05_lab.pdf`](week05/lab/fundamentals_of_programming_2_week05_lab.pdf)<br>[`lab/solution/SortingExperiment.java`](week05/lab/solution/SortingExperiment.java) | <img src=".screenshots/week05/screenshot.png" width="160" alt="Week 5 screenshot"> |
+| [Week 5](week05/) | Exercise sheet 5: sorting and timing | [`lab/fundamentals_of_programming_2_week05_lab.pdf`](week05/lab/fundamentals_of_programming_2_week05_lab.pdf)<br>[`lab/solution/SortExperiment.java`](week05/lab/solution/SortExperiment.java) | <img src=".screenshots/week05/screenshot.png" width="160" alt="Week 5 screenshot"> |
 | [Week 6](week06/) | Exercise sheet 6: classes and objects | [`lab/fundamentals_of_programming_2_week06_lab.pdf`](week06/lab/fundamentals_of_programming_2_week06_lab.pdf)<br>[`lab/solution/TestBook.java`](week06/lab/solution/TestBook.java)<br>[`lab/solution/TestCourse.java`](week06/lab/solution/TestCourse.java) | <img src=".screenshots/week06/screenshot.png" width="160" alt="Week 6 screenshot"> |
 | [Week 7](week07/) | Exercise sheet 7: file handling | [`lab/fundamentals_of_programming_2_week07_lab.pdf`](week07/lab/fundamentals_of_programming_2_week07_lab.pdf)<br>[`lab/solution/Question1.java`](week07/lab/solution/Question1.java)<br>[`lab/solution/Question2.java`](week07/lab/solution/Question2.java)<br>[`lab/solution/files/descriptions.txt`](week07/lab/solution/files/descriptions.txt)<br>[`lab/solution/files/names.txt`](week07/lab/solution/files/names.txt)<br>[`lab/solution/files/passwords.txt`](week07/lab/solution/files/passwords.txt) | <img src=".screenshots/week07/screenshot.png" width="160" alt="Week 7 screenshot"> |
 | [Week 8](week08/) | Formative worksheet: classes and objects (coins) | [`lab/fundamentals_of_programming_2_week08_lab.pdf`](week08/lab/fundamentals_of_programming_2_week08_lab.pdf)<br>[`lab/solution/Coin.java`](week08/lab/solution/Coin.java)<br>[`lab/solution/CoinTest.java`](week08/lab/solution/CoinTest.java) | <img src=".screenshots/week08/screenshot.png" width="160" alt="Week 8 screenshot"> |
@@ -152,9 +152,6 @@ This lab introduces the concept of 2D arrays and how to manipulate them. The lab
 
 This lab introduces the concept of searching algorithms. The lab covers how to implement linear and binary search algorithms to search for a specific value in an array. The lab also includes an experiment that calculates the average number of steps a binary search takes on sorted random data.
 
-> [!WARNING]
-> [`week04/lab/solution/BinaryExperiment.java`](week04/lab/solution/BinaryExperiment.java): It has a bug: binarySearch starts at index 1 (low = 1), so it never checks index 0. A search for the value at index 0 returns -1 instead of 0. The average is only slightly affected.
-
 ![Week 4, Lab 4 screenshot](./.screenshots/week04/screenshot.png)
 
 #### Questions
@@ -185,7 +182,7 @@ This lab introduces the concept of sorting algorithms and how to measure their p
 ![Week 5, Lab 5 screenshot](./.screenshots/week05/screenshot.png)
 
 #### Questions
-1. Download the [SortingExperiment.java](./week05/lab/solution/SortingExperiment.java) file from Moodle. Read the code and complete the sections marked TODO.
+1. Download the [SortExperiment.java](./week05/lab/solution/SortExperiment.java) file from Moodle. Read the code and complete the sections marked TODO.
 2. Java has an in-built library called **Arrays** that has a method called **sort**. The sort method can be used to sort an integer array as follows:
     ```java
     // Import the Arrays library
@@ -193,16 +190,12 @@ This lab introduces the concept of sorting algorithms and how to measure their p
     // Use the Arrays.sort() method to sort an integer array called myArray
     Arrays.sort(myArray);
     ```
-    Modify the [SortExperiment.java](./week05/lab/solution/SortingExperiment.java) file to add an additional experiment to test the runtime of the in-built Java Arrays.sort() method.
+    Modify the [SortExperiment.java](./week05/lab/solution/SortExperiment.java) file to add an additional experiment to test the runtime of the in-built Java Arrays.sort() method.
 
 ### [Week 6 (Lab 6)](./week06/lab/): Exercise Sheet 6
 [Task](./week06/lab/fundamentals_of_programming_2_week06_lab.pdf) | [Solution (.java)](./week06/lab/solution/)
 
 This lab introduces the concept of classes and objects in Java. The lab covers how to create classes, define instance variables, and implement methods to manipulate the class objects. The lab also includes activities for creating classes to represent books and courses.
-
-> [!CAUTION]
-> - [`week06/lab/solution/TestBook.java`](week06/lab/solution/TestBook.java): The Book class and the TestBook main class are both declared public in one file, so javac rejects it. Running it with java TestBook.java works, because the source-file launcher does not check the file name.
-> - [`week06/lab/solution/TestCourse.java`](week06/lab/solution/TestCourse.java): The Course class and the TestCourse main class are both declared public in one file, so javac rejects it (java TestCourse.java works, as for TestBook.java). The sample courses also differ from the sheet's.
 
 ![Week 6, Lab 6 screenshot](./.screenshots/week06/screenshot.png)
 
@@ -436,12 +429,6 @@ This is have to be the final project for the module.
 [Task](./assessment/01/fundamentals_of_programming_2_assessment.pdf) | [Submission](./assessment/01/submission/project_link.txt)
 
 This project is a simple coffee shop that allows the user to view and order drinks. The project uses Java classes to represent the drinks and the coffee shop menu. The project also includes a console-based user interface for interacting with the coffee shop. The brief asks for a number-based, menu-driven point-of-sale program that reads its menu items and prices from an inventory file, takes CASH or CARD payments, shows a receipt on screen, validates all user input, and writes the transactions to a file when the program exits.
-
-> [!CAUTION]
-> [`src/Main.java`](https://github.com/DanyilT/projects-in-university/blob/project/year01/module-fundamentals_of_programming_2/coffee-shop/src/Main.java#L93) (on the project branch): An item name that is not on the menu ends the program with a NullPointerException (line 93). A name of two words, such as Flat White or Iced Coffee, is not found either, because only the first word is read, so these two items cannot be ordered. Letters where a number is expected (the menu choice, the payment method, the card type) end the program with an InputMismatchException. The brief asks for all user input to be validated.
-
-> [!WARNING]
-> [`src/Main.java`](https://github.com/DanyilT/projects-in-university/blob/project/year01/module-fundamentals_of_programming_2/coffee-shop/src/Main.java#L121) (on the project branch): The transactions are written to the transaction file after every order, not when the program exits, and each time the whole list of the session is appended, so earlier transactions are written again (two orders give three rows). The brief asks for the transactions to be written when the user exits.
 
 ![Coffee Shop Screenshot](./.screenshots/assessment/01/screenshot.png)
 

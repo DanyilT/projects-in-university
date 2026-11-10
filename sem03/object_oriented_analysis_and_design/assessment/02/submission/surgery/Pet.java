@@ -4,7 +4,7 @@ import people.Owner;
 
 public class Pet {
     private String name;
-    private String details = null;
+    private String details = "(none)";
     public Owner owner;
 
     public String getName() {

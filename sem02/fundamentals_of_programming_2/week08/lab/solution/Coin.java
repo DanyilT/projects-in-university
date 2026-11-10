@@ -5,13 +5,13 @@ public class Coin {
     private int state; // current state of the coin
 
     // No-arg constructor
-    public Coin() {
+    Coin() {
         // Simulate a fair coin flip
         flip();
     }
 
     // Constructor with state argument
-    public Coin(int state) {
+    Coin(int state) {
         this.state = state;
     }
 

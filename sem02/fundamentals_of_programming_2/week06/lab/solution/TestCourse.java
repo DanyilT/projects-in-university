@@ -5,19 +5,19 @@ public class TestCourse {
         Course course2 = new Course("B.Sc. in Bioinformatics", "Biology", 4);
         Course course3 = new Course("M.Sc. in Applied Artificial Intelligence", "Informatics", 2);
 
-        System.out.println("\nCourse Object 1");
+        System.out.println("Course Object 1");
         course1.display();
         
-        System.out.println("\nCourse Object 2");
+        System.out.println("Course Object 2");
         course2.display();
         
-        System.out.println("\nCourse Object 3");
+        System.out.println("Course Object 3");
         course3.display();
     }
 }
 
 // Course class
-public class Course {
+class Course {
     // Instance variables
     private String courseTitle;
     private String faculty;

@@ -18,12 +18,6 @@ The Coffee Shop mini-project (40%) is a point-of-sale program for a coffee shop,
 
 The submitted project is a console program in five classes: `Main` (the main menu, ordering and the admin panel with a password), `InventoryManager` (reads, prints, adds and removes items of `inventory.csv`), `MenuItem` (a name and a price), `Transaction` (one sale, with its CSV line) and `TransactionManager` (appends the transactions to `transactions.csv`). The inventory has nine coffees, from Espresso at 2.00 to Latte at 4.00. The menu uses colours and emojis.
 
-> [!CAUTION]
-> [`src/Main.java`](https://github.com/DanyilT/projects-in-university/blob/project/year01/module-fundamentals_of_programming_2/coffee-shop/src/Main.java#L93) (on the project branch): An item name that is not on the menu ends the program with a NullPointerException (line 93). A name of two words, such as Flat White or Iced Coffee, is not found either, because only the first word is read, so these two items cannot be ordered. Letters where a number is expected (the menu choice, the payment method, the card type) end the program with an InputMismatchException. The brief asks for all user input to be validated.
-
-> [!WARNING]
-> [`src/Main.java`](https://github.com/DanyilT/projects-in-university/blob/project/year01/module-fundamentals_of_programming_2/coffee-shop/src/Main.java#L121) (on the project branch): The transactions are written to the transaction file after every order, not when the program exits, and each time the whole list of the session is appended, so earlier transactions are written again (two orders give three rows). The brief asks for the transactions to be written when the user exits.
-
 ![The Coffee Shop in the terminal: the main menu, the items, an order paid by card and the receipt](../../.screenshots/assessment/01/screenshot.png)
 
 *The Coffee Shop in the terminal: the main menu, the list of items, an order of one Espresso paid by Visa and the receipt.*

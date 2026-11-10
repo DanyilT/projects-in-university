@@ -19,7 +19,7 @@ Assignment 2 is the project of the module (50%): a themed website of at least ni
 The submitted project is a personal portfolio in HTML and CSS with JavaScript that loads the header, the sidebar and the footer into every page. It has six pages (home, about, projects, resume, contact and a site map) and a separate resume site that the resume page shows in a frame. The layout is planned in a Figma design.
 
 > [!WARNING]
-> [`web_development_fundamentals_assessment.pdf`](web_development_fundamentals_assessment.pdf): The brief asks for a themed website of at least nine pages (home, site map, contact, characters or staff, and merchandise) on one of five themes: hobby, holiday destination, local company, charity and TV series. The project is a personal portfolio, which is not one of the five themes, and it has six pages: home, about, projects, resume, contact and a site map.
+> [`web_development_fundamentals_assessment.pdf`](web_development_fundamentals_assessment.pdf): The brief asks for a website of at least nine pages (home, site map, contact, characters or staff, and merchandise). The project has six pages: home, about, projects, resume, contact and a site map.
 
 ![The home page of the personal portfolio](../../.screenshots/assessment/01/screenshot.png)
 

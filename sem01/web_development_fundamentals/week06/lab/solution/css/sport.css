@@ -84,7 +84,7 @@ h2.custom-heading {
     color: black;
     text-align: center;
     font-style: oblique;
-    text-transform: small-caps;
+    font-variant: small-caps;
     text-decoration: underline;
 }
 
@@ -100,6 +100,11 @@ h2 {
 
 span {
     font-style: italic;
+}
+
+span.bold {
+    font-weight: bold;
+    font-style: normal;
 }
 
 a:link {

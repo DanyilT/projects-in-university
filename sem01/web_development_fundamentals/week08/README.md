@@ -9,13 +9,10 @@
 
 Lab 6: a navigation bar. A horizontal menu with pink links on purple and a cyan border, a responsive version that shows a hamburger icon on small screens, and linked pages for About Us, Gallery and Order Online. The menu uses a short JavaScript function to show and hide the links.
 
-> [!WARNING]
-> [`lab/solution/contact.html`](lab/solution/contact.html): A second header is nested inside the first, which is invalid HTML.
-
 <table>
   <tr valign="top">
     <td><img src="../.screenshots/week08/screenshot_1.png" alt="Week 08 screenshot 1"><br><i>Render of week08 index.html: horizontal navigation bar (Home, About, Order, Gallery, Contact) with pink text, purple background and cyan borders.</i></td>
-    <td><img src="../.screenshots/week08/screenshot_2.png" alt="Week 08 screenshot 2"><br><i>Phone-size view (414 × 896) of week08 index.html: the navigation collapses to a hamburger icon.</i></td>
+    <td><img src="../.screenshots/week08/screenshot_2.png" alt="Week 08 screenshot 2"><br><i>Two phone-size views (414 × 864) of week08 index.html: on the left the navigation is collapsed to a hamburger icon, on the right the menu is open after a click on the icon. In both the main content is one column, with the shop photo above the text.</i></td>
   </tr>
 </table>
 
@@ -30,7 +27,7 @@ Lab 6: a navigation bar. A horizontal menu with pink links on purple and a cyan 
 | [`lab/solution/contact.html`](lab/solution/contact.html) | Contact page: navigation, the shop text and the contact details. |
 | [`lab/solution/gallery.html`](lab/solution/gallery.html) | Gallery page: navigation and placeholder text ("This is the Gallery page..."). |
 | [`lab/solution/order.html`](lab/solution/order.html) | Order Online page: navigation and placeholder text ("This is the Order Online page..."). |
-| [`lab/solution/css/nav.css`](lab/solution/css/nav.css) | Navigation styles: centred horizontal links (pink on purple, with a cyan 2px border), colours swapped on hover and when active, and a media query that shows a hamburger menu below 600 px. |
+| [`lab/solution/css/nav.css`](lab/solution/css/nav.css) | Navigation styles: centred horizontal links (pink on purple, with a cyan 2px border), colours swapped on hover and when active, and media queries below 600 px that show a hamburger menu and stack the two columns of the home page (the shop photo above the text). |
 | [`lab/solution/script.js`](lab/solution/script.js) | One function, myFunction(), which toggles the responsive class on the navigation bar. |
 | [`lab/solution/images/banner.jpg`](lab/solution/images/banner.jpg) | The same banner as week 5 (an identical file). |
 | [`lab/solution/images/shop.jpg`](lab/solution/images/shop.jpg) | The same shop photo as week 6 (an identical file). |

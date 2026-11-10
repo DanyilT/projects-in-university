@@ -1,7 +1,7 @@
 import java.util.Random;
 import java.util.Arrays;
 
-public class SortingExperiment{
+public class SortExperiment{
 	
 	// Method to generate a random array with a seed value
 	public static int[] makeRandomArray(int size, int min, int max, int seed){

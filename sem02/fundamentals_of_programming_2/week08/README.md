@@ -9,9 +9,6 @@
 
 Formative worksheet 8: a Coin class that works with the CoinTest program, which the sheet provides. The class has HEADS and TAILS constants, a fair and a biased flip, and a toString method.
 
-> [!WARNING]
-> [`lab/solution/Coin.java`](lab/solution/Coin.java): The field is called state, but the sheet asks for face.
-
 ![Week 08 screenshot](../.screenshots/week08/screenshot.png)
 
 *CoinTest output: head and tail counts for the fair and biased flips.*

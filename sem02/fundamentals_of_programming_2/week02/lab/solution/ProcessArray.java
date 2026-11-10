@@ -19,7 +19,7 @@ public class ProcessArray {
         System.out.printf("Array average %f\n", averageArray(myData));
 
         // Find frequency of 10 and print the result
-        System.out.printf("Frequency of 10 is %d\n", frequency(myData, 10));
+        System.out.printf("Frequency of 10 is %d\n", frequency(10, myData));
 
         // Zero the array
         zeroArray(myData);
@@ -61,7 +61,7 @@ public class ProcessArray {
     }
     
     // Counts and returns the frequency of a given value in the array
-    public static int frequency(int[] array, int value) {
+    public static int frequency(int value, int[] array) {
         int count = 0;
         for (int i : array) {
             if (i == value) {

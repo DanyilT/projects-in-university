@@ -1,9 +1,9 @@
 class Car {
-    String name;
+    String make;
     String colour;
 
-    Car(String name, String colour) {
-        this.name = name;
+    Car(String make, String colour) {
+        this.make = make;
         this.colour = colour;
     }
 }

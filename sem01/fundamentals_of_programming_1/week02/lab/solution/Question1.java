@@ -13,6 +13,6 @@ public class Question1 {
         remainder = X % Y;
         
         // Print the result
-        System.out.println("Quotient (X / Y): " + quotient + "; Remainder (X % Y): " + remainder);
+        System.out.println("X / Y = " + quotient + " and X % Y = " + remainder);
     }
 }

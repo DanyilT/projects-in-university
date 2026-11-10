@@ -18,7 +18,7 @@ public class TestBook {
         book2.setYear(1897);
 
         // Print book's properties
-        System.out.println("\nBook Object 1");
+        System.out.println("Book Object 1");
         System.out.println("Title: " + book1.getTitle());
         System.out.println("Author: " + book1.getAuthor());
         System.out.println("Year: " + book1.getYear());
@@ -31,7 +31,7 @@ public class TestBook {
 }
 
 // Book class
-public class Book {
+class Book {
     // Instance variables
     private String title;
     private String author;

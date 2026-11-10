@@ -35,7 +35,7 @@ public class BinaryExperiment{
 	// second value is the number of loop steps taken
 	public static int[] binarySearch(int[] array, int k){
 		// Set the initial high and low
-		int low = 1;
+		int low = 0;
 		int high = array.length - 1;
 		// Loop until low > high
         int steps = 0;

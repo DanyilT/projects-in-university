@@ -44,9 +44,6 @@ The notes for labs 1 to 3 are in [`SymfonyCastsPHPTrack.md`](SymfonyCastsPHPTrac
 | [Week 6](week06/) | Lab 6: login with sessions | [`lab/login_with_sessions.pdf`](week06/lab/login_with_sessions.pdf)<br>[`lab/resources/php_login_master_start.zip`](week06/lab/resources/php_login_master_start.zip) | <img src=".screenshots/week06/screenshot.png" width="160" alt="Week 6 screenshot"> |
 | Week 11 | Project work (weeks 11 to 13) and project demos (70%) | None. The project is in [`assessment/01/`](assessment/01/). | — |
 
-> [!WARNING]
-> Lab 6 (Login with Sessions) was marked 9 out of 10. The feedback: the solution deviates from the learning materials of the lab sheet (for example `if ($_SERVER["REQUEST_METHOD"] == "POST")` in [`register.php`](https://github.com/DanyilT/projects-in-university/blob/assessment/year02/module-web_development_server_side/login-with-sessions/public/register.php), where the sheet uses `if(isset($_POST['Submit']))`), the user input from the `$_POST` array is not cleaned with the method from the lecture, and JavaScript, which the solution uses for the client-side validation, is not to be used in this module. The details are in [`week06/README.md`](week06/README.md).
-
 ## Resources
 
 ### Schedule
