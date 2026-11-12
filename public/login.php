@@ -1,16 +1,20 @@
 <!-- Part 6: Connect to the Database -->
 <?php
 require_once ('../src/DBconnect.php');
+require_once ('../src/common.php');
 session_start();
 
 /* Check if login form has been submitted */
 /* isset — Determine if a variable is declared and is different than NULL */
 if (isset($_POST['Submit'])) {
-    $Username = $_POST['Username'];
-    $Password = $_POST['Password'];
-    // Part 6: Server-Side Validation
-    if (empty($_POST['Username']) || empty($_POST['Password'])) {
+    // the user input is cleaned with the escape function of the lecture
+    $Username = escape($_POST['Username']);
+    $Password = escape($_POST['Password']);
+    // Part 6: Server-Side Validation (the same rules as the attributes of the form below)
+    if (empty($Username) || empty($Password)) {
         echo "Both fields are required.";
+    } elseif (strlen($Username) > 50 || strlen($Password) > 72) {
+        echo "The username can have 50 characters and the password 72.";
     } else {
         /* Check if the form's username and password matches */
         // Database connection
@@ -57,27 +61,16 @@ if (isset($_POST['Submit'])) {
             <h3 class="text-muted">PHP Login exercise - Home page</h3>
         </div>
 
-        <form id="loginForm" onsubmit="return validateLoginForm()" action="" method="post" name="Login_Form" class="form-signin">
+        <!-- Part 6: Client-Side Validation with the HTML attributes required and maxlength (no JavaScript) -->
+        <form id="loginForm" action="" method="post" name="Login_Form" class="form-signin">
             <h2 class="form-signin-heading">Please sign in</h2>
             <label for="inputUsername" >Username</label>
-            <input name="Username" type="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+            <input name="Username" type="username" id="inputUsername" class="form-control" placeholder="Username" required maxlength="50" autofocus>
             <label for="inputPassword">Password</label>
-            <input name="Password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <input name="Password" type="password" id="inputPassword" class="form-control" placeholder="Password" required maxlength="72">
             <div class="checkbox"><label><input type="checkbox" value="remember-me">Remember me</label></div>
             <button name="Submit" value="Login" class="button" type="submit">Sign in</button>
         </form>
-        <script>
-            // Part 6: Client-Side Validation
-            function validateLoginForm() {
-                var username = document.getElementById('inputUsername').value;
-                var password = document.getElementById('inputPassword').value;
-                if (username === '' || password === '') {
-                    alert('Both fields are required.');
-                    return false;
-                }
-                return true;
-            }
-        </script>
     </div>
 </body>
 </html>

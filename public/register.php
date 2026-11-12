@@ -1,14 +1,21 @@
 <!-- Part 6: Create Registration Form & Save Registration Data to Database -->
 <?php
 require_once ('../src/DBconnect.php');
+require_once ('../src/common.php');
 session_start();
 
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    $Username = $_POST['Username'];
-    $Password = $_POST['Password'];
-    // Part 6: Server-Side Validation
+/* Check if the registration form has been submitted (as in the lab sheet) */
+if (isset($_POST['Submit'])) {
+    // the user input is cleaned with the escape function of the lecture
+    $Username = escape($_POST['Username']);
+    $Password = escape($_POST['Password']);
+    // Part 6: Server-Side Validation (the same rules as the attributes of the form below)
     if (empty($Username) || empty($Password)) {
         echo "Both fields are required.";
+    } elseif (!preg_match('/^[A-Za-z0-9_.-]{3,50}$/', $Username)) {
+        echo "The username must have 3 to 50 letters, numbers, dots, dashes or underscores.";
+    } elseif (strlen($Password) < 4 || strlen($Password) > 72) {
+        echo "The password must have 4 to 72 characters.";
     } else {
         $hashed_password = password_hash($Password, PASSWORD_DEFAULT);
         $statement = $connection->prepare("INSERT INTO users (username, password) VALUES (:username, :password)");
@@ -50,26 +57,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             <h3 class="text-muted">PHP Login exercise - Home page</h3>
         </div>
 
-        <form id="registrationForm" onsubmit="return validateRegistrationForm()" action="" method="post" name="Login_Form" class="form-signin">
+        <!-- Part 6: Client-Side Validation with the HTML attributes required, minlength, maxlength and pattern (no JavaScript) -->
+        <form id="registrationForm" action="" method="post" name="Login_Form" class="form-signin">
             <h2 class="form-signin-heading">Please register</h2>
             <label for="inputUsername" >Username</label>
-            <input name="Username" type="username" id="inputUsername" class="form-control" placeholder="Username" required autofocus>
+            <input name="Username" type="username" id="inputUsername" class="form-control" placeholder="Username" required minlength="3" maxlength="50" pattern="[A-Za-z0-9_.\-]+" title="3 to 50 letters, numbers, dots, dashes or underscores" autofocus>
             <label for="inputPassword">Password</label>
-            <input name="Password" type="password" id="inputPassword" class="form-control" placeholder="Password" required>
+            <input name="Password" type="password" id="inputPassword" class="form-control" placeholder="Password" required minlength="4" maxlength="72" title="4 to 72 characters">
             <button name="Submit" value="Login" class="button" type="submit">Register</button>
         </form>
-        <script>
-            // Part 6: Client-Side Validation
-            function validateRegistrationForm() {
-                var username = document.getElementById('inputUsername').value;
-                var password = document.getElementById('inputPassword').value;
-                if (username === '' || password === '') {
-                    alert('Both fields are required.');
-                    return false;
-                }
-                return true;
-            }
-        </script>
     </div>
 </body>
 </html>
